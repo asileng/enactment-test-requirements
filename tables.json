@@ -1,0 +1,286 @@
+[
+  {
+    "table_id": "table_1_vla_evaluation_studies",
+    "title": "表1 VLA测评研究语言理解能力考察总结",
+    "description": "对先前18篇VLA测评研究的语言理解能力考察情况总结",
+    "columns": [
+      "测试名称",
+      "意图理解",
+      "感知推理",
+      "动作语义分析",
+      "形式逻辑",
+      "视觉感知",
+      "任务拆分与重述",
+      "跨具身硬件",
+      "评价指标"
+    ],
+    "data": [
+      {
+        "测试名称": "RoboVQA (2024)",
+        "意图理解": "✓",
+        "感知推理": "×",
+        "动作语义分析": "×",
+        "形式逻辑": "√",
+        "视觉感知": "×",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "√",
+        "评价指标": "BLEU"
+      },
+      {
+        "测试名称": "EgoPlanBench (2024a)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "多选题"
+      },
+      {
+        "测试名称": "MMRo (2024c)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "LLM打分"
+      },
+      {
+        "测试名称": "EAI (2024d)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "成功率"
+      },
+      {
+        "测试名称": "OpenEQA (2024)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "LLM打分"
+      },
+      {
+        "测试名称": "EgoThink (2024b)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "LLM打分"
+      },
+      {
+        "测试名称": "VideoEgoThink (2024a)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "LLM打分"
+      },
+      {
+        "测试名称": "EmbodiedEval (2025)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "多选"
+      },
+      {
+        "测试名称": "EmbodiedBench (2025)",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "√",
+        "评价指标": "正确率"
+      },
+      {
+        "测试名称": "VLABench (2024a)",
+        "意图理解": "✓",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "×",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "√",
+        "评价指标": "正确率"
+      },
+      {
+        "测试名称": "Robobench（2025）",
+        "意图理解": "✓",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "✓",
+        "视觉感知": "✓",
+        "任务拆分与重述": "✓",
+        "跨具身硬件": "✓",
+        "评价指标": "模拟器"
+      },
+      {
+        "测试名称": "MMSI-Bench（2025）",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "✓",
+        "视觉感知": "√",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "模拟器"
+      },
+      {
+        "测试名称": "ROBOMIND（2024）",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "✓",
+        "视觉感知": "✓",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "✓",
+        "评价指标": "正确率"
+      },
+      {
+        "测试名称": "EmbSpatial-Bench（2024）",
+        "意图理解": "×",
+        "感知推理": "√",
+        "动作语义分析": "×",
+        "形式逻辑": "✓",
+        "视觉感知": "",
+        "任务拆分与重述": "√",
+        "跨具身硬件": "×",
+        "评价指标": "多选题"
+      }
+    ]
+  },
+  {
+    "table_id": "table_2_throw_verb_characteristics",
+    "title": "表2 丢类动词的描述性特征（Gao, 2016）",
+    "description": "汉语和英语投掷类动词在五个运动维度上的描述性统计数据",
+    "dimensions": {
+      "force": "力度，五点李克特量表，5=极强，1=极轻",
+      "hand_height": "手部高度，以脚部地面为0，头顶为10的相对高度",
+      "arm_posture": "手臂姿态，弯曲:伸直的频率比",
+      "horizontal_direction": "水平方向，向前:向侧的频率比",
+      "vertical_trajectory": "垂直轨迹，向上:向下的频率比"
+    },
+    "chinese_verbs": [
+      {
+        "verb": "扔 (rēng)",
+        "force_mean_sd": "3.05 (0.51)",
+        "hand_height_mean_sd": "5.43 (1.82)",
+        "arm_bent_straight": "11 : 18",
+        "horizontal_direction": "21 : 8",
+        "vertical_trajectory": "21 : 8"
+      },
+      {
+        "verb": "丢 (diū)",
+        "force_mean_sd": "2.33 (0.83)",
+        "hand_height_mean_sd": "4.63 (1.08)",
+        "arm_bent_straight": "6 : 24",
+        "horizontal_direction": "16 : 12",
+        "vertical_trajectory": "23 : 5"
+      },
+      {
+        "verb": "抛 (pāo)",
+        "force_mean_sd": "3.16 (0.45)",
+        "hand_height_mean_sd": "6.65 (2.52)",
+        "arm_bent_straight": "14 : 15",
+        "horizontal_direction": "29 : 1",
+        "vertical_trajectory": "30 : 0"
+      },
+      {
+        "verb": "投 (tóu)",
+        "force_mean_sd": "3.21 (0.52)",
+        "hand_height_mean_sd": "9.13 (0.79)",
+        "arm_bent_straight": "30 : 0",
+        "horizontal_direction": "30 : 0",
+        "vertical_trajectory": "29 : 1"
+      },
+      {
+        "verb": "摔 (shuāi)",
+        "force_mean_sd": "4.55 (0.56)",
+        "hand_height_mean_sd": "8.51 (1.11)",
+        "arm_bent_straight": "29 : 0",
+        "horizontal_direction": "25 : 4",
+        "vertical_trajectory": "0 : 29"
+      },
+      {
+        "verb": "甩 (shuǎi)",
+        "force_mean_sd": "3.74 (0.68)",
+        "hand_height_mean_sd": "6.27 (1.49)",
+        "arm_bent_straight": "21 : 8",
+        "horizontal_direction": "9 : 20",
+        "vertical_trajectory": "14 : 15"
+      }
+    ],
+    "english_verbs": [
+      {
+        "verb": "throw",
+        "force_mean_sd": "3.62 (0.64)",
+        "hand_height_mean_sd": "8.58 (1.91)",
+        "arm_bent_straight": "24 : 5",
+        "horizontal_direction": "29 : 0",
+        "vertical_trajectory": "26 : 3"
+      },
+      {
+        "verb": "fling",
+        "force_mean_sd": "3.44 (0.70)",
+        "hand_height_mean_sd": "6.41 (1.62)",
+        "arm_bent_straight": "17 : 11",
+        "horizontal_direction": "25 : 4",
+        "vertical_trajectory": "27 : 2"
+      },
+      {
+        "verb": "chuck",
+        "force_mean_sd": "3.91 (0.68)",
+        "hand_height_mean_sd": "7.06 (2.18)",
+        "arm_bent_straight": "19 : 10",
+        "horizontal_direction": "27 : 2",
+        "vertical_trajectory": "21 : 8"
+      },
+      {
+        "verb": "cast",
+        "force_mean_sd": "3.01 (0.47)",
+        "hand_height_mean_sd": "6.18 (2.30)",
+        "arm_bent_straight": "15 : 14",
+        "horizontal_direction": "27 : 2",
+        "vertical_trajectory": "28 : 1"
+      },
+      {
+        "verb": "hurl",
+        "force_mean_sd": "4.39 (0.74)",
+        "hand_height_mean_sd": "8.00 (2.07)",
+        "arm_bent_straight": "21 : 8",
+        "horizontal_direction": "28 : 1",
+        "vertical_trajectory": "24 : 5"
+      },
+      {
+        "verb": "toss",
+        "force_mean_sd": "3.01 (0.22)",
+        "hand_height_mean_sd": "4.50 (1.63)",
+        "arm_bent_straight": "3 : 26",
+        "horizontal_direction": "29 : 0",
+        "vertical_trajectory": "29 : 0"
+      }
+    ]
+  }
+]
