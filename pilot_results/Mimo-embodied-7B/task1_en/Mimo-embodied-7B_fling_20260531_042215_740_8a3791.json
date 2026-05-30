@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+  "verb": "fling",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T04:22:15.740184",
+  "duration_seconds": 0.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 5,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```"
+}

@@ -1,0 +1,233 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T05:04:23.357982",
+  "experiment_time": {
+    "start_time": "2026-05-31T05:04:18.424979",
+    "end_time": "2026-05-31T05:04:23.357797",
+    "duration_seconds": 4.932818
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-VL-7B-SFT-2508": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.82,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-VL-7B-SFT-2508": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.93,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 10,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "ARM": 1,
+            "HAND": 10,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.78,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:19.361617",
+      "duration_seconds": 0.93,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:20.166193",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:20.966819",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 10,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:21.770780",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:22.569670",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "ARM": 1,
+        "HAND": 10,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 10,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:23.355768",
+      "duration_seconds": 0.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+    }
+  ]
+}

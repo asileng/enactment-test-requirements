@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+  "verb": "toss",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T04:22:19.095799",
+  "duration_seconds": 0.34,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "Moderate force, arm extended, chest height, upward, forward"
+}

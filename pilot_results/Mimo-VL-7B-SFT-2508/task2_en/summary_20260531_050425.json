@@ -1,0 +1,233 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T05:04:25.891011",
+  "experiment_time": {
+    "start_time": "2026-05-31T05:04:23.547262",
+    "end_time": "2026-05-31T05:04:25.890829",
+    "duration_seconds": 2.343567
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-VL-7B-SFT-2508": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.39,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-VL-7B-SFT-2508": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.41,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.45,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.34,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.42,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.35,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.35,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:23.965004",
+      "duration_seconds": 0.41,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "Arm extended at shoulder height, moderate force, forward horizontal direction, upward vertical direction."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:24.420327",
+      "duration_seconds": 0.45,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "arm bent at shoulder height with moderate force, hand moves forward and downward while flinging the object."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:24.767198",
+      "duration_seconds": 0.34,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "Arm extended at shoulder height, moderate force, forward, downward."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:25.191721",
+      "duration_seconds": 0.42,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "cast with arm extended at chest height, moderate force, forward horizontal direction, downward vertical direction"
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:25.540279",
+      "duration_seconds": 0.35,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "Arm bent at chest height, moderate force, forward, downward."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:04:25.888856",
+      "duration_seconds": 0.35,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "Arm extended at chest height, moderate force, forward, downward."
+    }
+  ]
+}

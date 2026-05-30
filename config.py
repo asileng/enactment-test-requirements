@@ -8,13 +8,7 @@
 # vllm本地模型配置
 # 模型路径或名称（用于vllm加载）
 MODELS = [
-    # 本地模型路径示例
-    "/path/to/your/model1",
-    "/path/to/your/model2",
-    # 或使用Hugging Face模型名称
-    "meta-llama/Llama-2-7b-chat-hf",
-    "Qwen/Qwen-7B-Chat",
-    # 添加更多模型...
+    "/root/autodl-fs/model/Mimo-7B-SFT",
 ]
 
 # vllm服务配置
@@ -98,9 +92,9 @@ USE_LATIN_SQUARE = True
 # ==================== vllm推理参数 ====================
 INFERENCE_PARAMS = {
     "temperature": 0.7,
-    "top_p": 0.9,
-    "max_tokens": 500,
-    "stop": ["\n\n", "Human:", "Assistant:"],
+    "top_p": 0.95,
+    "max_tokens": 2048,
+    "stop": [],
 }
 
 # ==================== 任务1编码维度说明 ====================

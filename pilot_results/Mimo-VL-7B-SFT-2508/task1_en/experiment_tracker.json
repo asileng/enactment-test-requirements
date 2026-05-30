@@ -1,11 +1,17 @@
 {
   "completed": [
-    "Mimo-VL-7B-SFT-2508_丢_0",
-    "Mimo-VL-7B-SFT-2508_扔_0",
-    "Mimo-VL-7B-SFT-2508_甩_0",
     "Mimo-VL-7B-SFT-2508_投_0",
     "Mimo-VL-7B-SFT-2508_摔_0",
-    "Mimo-VL-7B-SFT-2508_抛_0"
+    "Mimo-VL-7B-SFT-2508_抛_0",
+    "Mimo-VL-7B-SFT-2508_toss_0",
+    "Mimo-VL-7B-SFT-2508_cast_0",
+    "Mimo-VL-7B-SFT-2508_fling_0",
+    "Mimo-VL-7B-SFT-2508_throw_0",
+    "Mimo-VL-7B-SFT-2508_甩_0",
+    "Mimo-VL-7B-SFT-2508_chuck_0",
+    "Mimo-VL-7B-SFT-2508_hurl_0",
+    "Mimo-VL-7B-SFT-2508_丢_0",
+    "Mimo-VL-7B-SFT-2508_扔_0"
   ],
-  "last_updated": "2026-05-31T01:33:12.820917"
+  "last_updated": "2026-05-31T05:04:23.356878"
 }

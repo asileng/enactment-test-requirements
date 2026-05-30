@@ -1,0 +1,240 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T05:51:26.741798",
+  "experiment_time": {
+    "start_time": "2026-05-31T05:49:13.431027",
+    "end_time": "2026-05-31T05:51:26.741599",
+    "duration_seconds": 133.310572
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 5,
+  "invalid_count": 1,
+  "valid_rate": 83.3,
+  "model_statistics": {
+    "Mimo-7B-SFT": {
+      "total": 6,
+      "valid": 5,
+      "invalid": 1,
+      "errors": {
+        "E101": 1
+      },
+      "avg_duration": 22.22,
+      "valid_rate": 83.3
+    }
+  },
+  "error_statistics": {
+    "E101": {
+      "count": 1,
+      "description": "JSON解析失败",
+      "examples": [
+        {
+          "model": "Mimo-7B-SFT",
+          "verb": "throw",
+          "raw_response": "<think>\nOkay, let's see. I need to figure out how a right-handed native English speaker would throw "
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Mimo-7B-SFT": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 3,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 19.19,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 20.13,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 22.3,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 21.19,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": null,
+          "is_valid": false,
+          "duration_seconds": 32.01,
+          "error_type": "E101"
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "ARM": 0,
+            "HAND": 3,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 18.48,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:49:32.625597",
+      "duration_seconds": 19.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 3,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. I need to figure out how a right-handed native English speaker would toss a palm-sized object in the most natural and typical way, then encode it according to the given standards.\n\nFirst, FORCE. Tossing something usually doesn't require very strong force. Maybe moderate? Like a gentle toss. So 3 for moderate?\n\nARM. Before the action, the arm is bent. Because when you're about to toss, you probably start with the arm relaxed, bent at the elbow. So ARM would be 0 (arm bent).\n\nHAND. The initial height where the hand rests. If it's on a table, the hand is at table level. The table is placed on the surface, so the hand is at ground level? Wait, the table is in the room, so the object is on the table. So the hand would be at table height. But the encoding for HAND is relative to the performer's height. Let me check the encoding again. The HAND codes are 0 = ground level, 1–9 = relative height (like 1 is a little above ground, up to 9 which is very high), and 10 is performer's height. If the table is standard table height, which is about 0.75 meters. If the person is, say, 1.7 meters tall, then the table height is about 0.75/1.7 ≈ 0.44 times their height. So maybe code 3 or 4? But the options are 1–9. But the problem states the object is on the table surface. So when the hand is on the table, the height would be table height. However, the encoding's HAND is relative to the performer's height. Let's say the table is at a height where the hand is about halfway up the arm. Maybe code 3 or 4. But the problem might be considering the hand starting at the table level. Wait, the table is in the room, so the hand is on the table, which is elevated. So the initial hand position is at the table's height. If the table is at, say, 30% of the person's height, then code 3. But standard tables are around 36-48 inches. If the person is 6 feet (1.83m), then 36 inches is 0.91m, which is about 50% of their height. So maybe code 5? But the exact code might vary. Alternatively, maybe the problem simplifies it as the table being at a standard height, which is considered as code 3 or 4. Alternatively, maybe the user expects HAND to be 0 (ground level) if the hand starts on the table which is at ground level? No, tables are elevated. So perhaps the correct code is 3. But I need to think about what's typical. When you pick up something from a table, your hand is at table height, which is higher than ground. So maybe code 3, 4, 5. Let me check the encoding again. The options are 0 = ground, 1-9 = relative (1 is a little above ground, 9 very high). So if the table is at a standard height, maybe code 3. But maybe the answer expects 3 for moderate height. Alternatively, if the table is at a height that's similar to the performer's height, but no, tables are lower. Let's say code 3.\n\nVD is the primary vertical direction during movement. When you toss something, the hand moves downward as you throw it. Wait, no. When you toss, you lift the object and then throw it downward. So during the action, the hand moves upward first, then downward. But the primary direction? The main movement is downward. Or is it upward? Wait, when you pick up the object, you lift it (upward), then when you toss, you move it forward and downward. So the vertical direction during the action would be downward. So VD is 1 (downward).\n\nHD is the primary horizontal direction. Since it's a toss, the main direction is forward. So HD is 1 (forward).\n\nPutting it all together:\n\nFORCE: 3 (moderate)\nARM: 0 (arm bent)\nHAND: 3 (table height, which is a few units above ground)\nVD: 1 (downward)\nHD: 1 (forward)\n\nWait, but wait, the arm starts bent. So when you start, arm is bent (ARM=0), then during the toss, you extend the arm. But the ARM encoding is the initial state before the action. So yes, ARM is 0. The movement phases: picking up (bent arm), then extending. But the encoding is based on the initial state. So ARM=0 is correct.\n\nHAND: initial position is on the table. Let's say the table is at a height that's about 1/3 of the performer's height. Then code 3. If it's higher, maybe 4. But the problem says \"palm-sized object on the table surface\". So the hand is on the table, which is elevated. Let's assume code 3.\n\nSo the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\nBut wait, maybe the force is stronger. If it's a typical toss, maybe moderate force. But if it's a strong toss, maybe 4. But the problem says \"most natural and typical\". A typical gentle toss would be moderate. So 3."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:49:52.752909",
+      "duration_seconds": 20.13,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Alright, let's tackle this problem. The user wants me to imagine a scenario where I'm a right-handed native English speaker in an empty room, with a table in front and a palm-sized object on it. The action to perform is \"fling.\" I need to encode this action into a JSON object based on the five dimensions: FORCE, ARM, HAND, VD, and HD.\n\nFirst, let's break down each dimension:\n\n1. **FORCE**: This is about the amount of force applied. A fling usually involves a quick, sharp motion. Since it's palm-sized, probably moderate force. But maybe a bit stronger than just a gentle toss. Maybe 3 (moderate) or 4 (strong). I need to think about what's typical for a fling. Maybe 3 because it's not extremely strong but enough to make the object fly a short distance.\n\n2. **ARM**: The initial state of the arm. If I'm about to fling, I probably start with the arm bent. So ARM would be 0 (arm bent). Wait, the standard says 1 is arm extended, 0 is arm bent. So yes, 0 here.\n\n3. **HAND**: The initial height of the hand before the action. The hand is on the table. The table's surface is in front, so the hand is at ground level. But the options for HAND are 0 = ground level, 1–9 relative height, up to 12. Since the hand is on the table, which is at ground level, HAND should be 0.\n\n4. **VD**: The primary vertical direction during the action. Fling usually involves moving the hand downward to fling the object. So VD is 1 (downward). Wait, but when you fling, you might lift the object first. Hmm. Wait, the primary direction. If you're fling forward, maybe the vertical movement is downward. Like a quick downward motion to throw it. Or maybe upward? Let me think. If you cup your hand and then fling it forward, the main vertical movement might be downward as you snap your hand down. So VD would be 1.\n\n5. **HD**: The primary horizontal direction. Since the object is on the table in front of me, flinging it would likely be forward. So HD is 1 (forward).\n\nWait, but let me double-check. When you fling something, you might push it forward. So the horizontal direction is forward. So HD=1.\n\nPutting it all together:\n\nFORCE: 3 (moderate). But wait, maybe a fling is stronger. If it's a quick, forceful motion, maybe 4 (strong). But palm-sized object—maybe moderate is enough. Let's see. For example, if you flick something, that's maybe 3. If you heave it, that's 5. Fling is somewhere in between. Maybe 3 or 4. Let me think of typical examples. A fling like throwing a ball across the room would be stronger, but since it's palm-sized, maybe a moderate force. Hmm. Maybe 3.\n\nARM: 0 (arm bent) because you start with the arm bent to fling.\n\nHAND: 0 (ground level) since the hand is on the table.\n\nVD: 1 (downward) because the motion is quick downward to fling the object forward.\n\nHD: 1 (forward) as the object is thrown towards the front.\n\nSo the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\nWait, but another thought: when you fling, you might lift the object slightly before snapping your hand downward. So the vertical movement could be upward first, then downward. But the primary vertical direction during the action—maybe the main part is downward. Alternatively, if the object is lifted a bit, the vertical movement might be upward. But the encoding is about the direction of the hand's movement. If the hand moves upward to lift and then downward to fling, which direction is dominant? The fling is the main part. So maybe the primary vertical direction is downward (VD=1). Alternatively, if lifting is part of it, maybe upward. Hmm.\n\nWait, the problem says \"the primary vertical direction of hand movement during the action.\" So if the main movement is downward, then VD=1. If upward, then VD=0. Let me visualize: when you fling something forward with your hand, you might start by lifting the object slightly (upward) and then fling it forward with a downward snap. But the dominant movement—maybe the actual fling is the downward motion. So VD=1.\n\nAlternatively, if the object is already on the table, and you just push it forward, the hand might not move much vertically. Wait, but to fling, you need to cup the object and then release it with a force. So the hand would move downward from a slightly higher position. For example, if the hand is at table level (HAND=0), but then you lift the object slightly (so the hand moves upward a bit) and then push it downward forward. But the main vertical movement during the fling would be downward. So VD=1.\n\nTherefore, the encoding should be as above. Let me check again:\n\nFORCE: 3 (moderate) or 4 (strong). Maybe a fling is stronger. For example, if you're throwing a heavy object, force would be higher. But it's palm-sized. Let's say it's a moderate force. Maybe 3.\n\nARM: 0 (arm bent) because you start with the arm bent to fling.\n\nHAND: 0 (ground level) since the hand is on the table.\n\nVD: 1 (downward) as the main vertical movement.\n\nHD: 1 (forward).\n\nSo the JSON is correct."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:50:15.051994",
+      "duration_seconds": 22.3,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to imagine being a right-handed native English speaker performing the action of \"chuck\" on an object in a specific setup. I need to encode this action into the given JSON format based on the five dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, breaking down the action \"chuck.\" When someone chuckles, it's usually a light, playful action. So the force here isn't very strong. Probably moderate or even weak. Let me think. If I pick up a palm-sized object and chuck it, maybe I don't use a lot of force. Maybe a 3 or 2? But \"chuck\" can sometimes be a bit more forceful, but not super strong. Hmm.\n\nNext, ARM. The arm starts in a bent or extended position. If I'm about to chuck an object, my arm might be bent slightly, like a准备姿势. So ARM would be 0 (arm bent). Wait, but sometimes when you reach out, the arm is extended. Wait, maybe when you start, the arm is bent. Let me visualize. If the object is on the table, and I'm about to pick it up and chuck it, my arm would start bent, then extend during the motion. So initial state is bent, so ARM is 0.\n\nHAND's initial height. The hand is resting on the ground level before the action. So HAND is 0.\n\nVD is the vertical direction during movement. Chucking involves moving the object downward, maybe tossing it. So VD is 1 (downward). But wait, when you toss something upward, it's 0. Wait, the primary vertical direction during the action. If you chuck it, you throw it up, but the main movement might be upward. Wait, but when you release it, it goes down. Hmm. The action's primary vertical direction. Let me think. The motion to chuck would be lifting the object up and then letting it go, so maybe upward? Wait, the user said \"if the action involves multiple movement phases, judge based on the most dominant phase.\" So the dominant phase is when you throw it up. Then VD would be 0 (upward). Wait, but chucking can be a quick motion. Alternatively, maybe the movement is downward. Wait, when you pick up the object, you lift it (upward), then throw it forward or downward. So the main vertical movement during the action would be upward first, then downward. But the dominant phase might be the upward part when you lift it. Wait, but the action is to chuck, which is more like a quick toss. Maybe the primary vertical direction is upward. Or maybe downward. Hmm. Let me think again. If you pick up the object, you lift it up (upward), then move it forward and let it drop. So during the action, the main vertical movement when you lift it is upward. So VD would be 0 (upward). But if the chuck involves moving it downward, like a slight drop, maybe VD is 1. Wait, the problem says \"primary vertical direction of hand movement during the action.\" So when you chuck, the hand moves upward to pick up and then maybe downward to release. Which is the primary? Maybe the initial movement is upward. But maybe the action is more about the downward movement. I'm a bit confused here. Let's think of common chucking actions. Like when someone chuckles an object, they might pick it up quickly and let it go, so the main movement is upward. So VD would be 0 (upward). Or maybe the dominant phase is when it's moving downward. Wait, the problem says to consider the most dominant phase. If there are multiple phases, pick the main one. So if the action has lifting (upward) and then releasing (downward), which is more dominant? The lifting is part of the action, but the releasing is part of the motion. Maybe the upward is the primary. Hmm. Alternatively, maybe the action is more about the downward motion. I'm not sure. Maybe I should look for examples. For instance, if you toss a ball upwards, the primary vertical direction during the toss is upward. But when it's released, it goes down. But the action itself is the upward toss. So maybe VD is 0 (upward). But the user's example might have a different take. Alternatively, maybe the movement is downward. Wait, the object is on the table. To chuck it, you pick it up (upward) and then maybe drop it (downward). So the vertical movement during the action would be both up and down. But the dominant phase is probably the upward part when you lift it. So VD would be 0. But I'm not 100% sure. Let me check the possible options again. VD is 1 for downward and 0 for upward. So if the main movement is upward, 0; if downward, 1. Maybe the answer expects VD to be 0 here.\n\nHD is the horizontal direction. Chucking would involve moving the object forward, so HD is 1 (forward).\n\nNow, FORCE. If \"chuck\" is a light action, maybe moderate force. So FORCE 3. But maybe it's a bit stronger. Let's think. If you're chucking something, you might use moderate force. So 3. But sometimes \"chuck\" can be a bit more forceful. Hmm. Alternatively, maybe weak (2). Let me think. If it's a playful chuck, maybe weak. But if it's a more forceful chuck, maybe moderate. The problem says \"most natural and typical.\" So perhaps moderate force. So FORCE 3.\n\nPutting it all together:\n\nFORCE: 3\n\nARM: 0 (arm starts bent)\n\nHAND: 0 (ground level)\n\nVD: 0 (upward)\n\nHD: 1 (forward)\n\nWait, but wait. If the object is being tossed forward, the vertical movement during the action might be upward. So VD 0. HD 1. That makes sense. So the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\nBut let me double-check. Another angle: when you chuck something, you might quickly move your hand up and then forward, releasing the object. So the vertical movement is upward. So VD 0. HD 1. Force is moderate. ARM starts bent. Hand starts at ground level. So yes, that seems right."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:50:36.245223",
+      "duration_seconds": 21.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Alright, let's tackle this problem step by step. The user wants me to imagine a scenario where I'm a right-handed native English speaker in an empty room, with a table in front and a palm-sized object on it. The action to perform is \"cast.\" I need to determine the encoding based on the five dimensions: FORCE, ARM, HAND, VD, and HD.\n\nFirst, understanding the action \"cast.\" When someone casts a spell or an object, they typically move their hand in a specific way. Since I'm right-handed, the dominant hand is involved. The arm would probably start bent because I'm about to move the hand. The hand's initial height is likely at ground level if I'm starting from my side.\n\nFor FORCE, casting might not require very strong force, just enough to propel the object. Maybe a moderate force (3) or slightly less. But since it's a spell, maybe even weaker? Wait, the object is palm-sized, so maybe a moderate force. Hmm, but spells are more about motion than physical force. Maybe 3 is appropriate.\n\nARM: Before the action, the arm is bent. So ARM would be 0 (arm bent).\n\nHAND: Starting position. If the hand is on the table, the initial height is ground level (0). But if the hand is in the air, maybe relative height. Wait, the object is on the table. If I'm casting, maybe the hand is above the table. Wait, the user said the object is on the table. So if I'm casting it, maybe the hand starts at the table level (HAND 0). Or maybe slightly above. But according to the encoding, 0 is ground level. If the table is at ground level, then the hand is at 0. So HAND is 0.\n\nVD: The vertical direction. Casting might involve moving the hand downward, like pushing the object off the table. Or upward? If it's a spell, maybe the hand moves upward. Wait, but the object is on the table. If I'm casting a spell, I might move my hand in a circular motion or upward. But the primary vertical direction. If the hand moves from the table upward, then VD is 0 (upward). If it's pushing downward, then VD 1. But spells often involve upward motion, like raising the hand. So VD 0.\n\nHD: Horizontal direction. If the hand moves forward, like pushing the object off the table towards the front. Since the table is in front, moving forward would be HD 1. But if the movement is circular, maybe sideways. But the primary direction. If the object is being cast forward, then HD 1. But if it's a spell, maybe more of a sweeping motion, which could be sideways. Hmm. Wait, the problem says if multiple phases, use the dominant one. If casting a spell, maybe the hand moves in a semi-circular path upwards and forward. The primary horizontal direction would be forward (HD 1). But I need to think about typical casting movements. In movies, casting a spell often involves a hand moving in a circular or upward motion, not necessarily forward. So maybe HD 0 (sideways) if the movement is circular. But the table is in front, so if the object is on the table, moving forward would send it off the table. If the action is to cast the object, like throwing it forward, then HD 1. But if it's a spell, maybe the hand moves in a different direction. This is a bit confusing.\n\nWait, the target action is \"cast.\" If it's casting an object, like throwing it, then HD would be forward (1). If it's a spell, the direction might not be as straightforward. But the object is palm-sized on the table. So maybe the intended action is to cast the object, like throwing it. In that case, the hand moves forward. So HD 1. But the encoding requires the primary horizontal direction. If the hand moves from the table up and forward, the horizontal direction is forward. So HD 1. But if the movement is more vertical, then HD 0. Hmm.\n\nAlternatively, if the cast is a spell, the hand might move in a circular or lateral motion. For example, making a gesture that's more sideways. But I'm not sure. The problem says to base it on a native speaker's understanding. In English, \"cast\" can mean throwing, so maybe the horizontal direction is forward. So HD 1.\n\nPutting it all together:\n\nFORCE: 3 (moderate, as it's throwing a small object)\n\nARM: 0 (arm bent initially)\n\nHAND: 0 (starting at ground level)\n\nVD: 0 (upward motion if throwing, but throwing forward would have downward? Wait, when you throw something forward, the hand moves from lower to higher position? No, when you throw, the arm accelerates upward. Wait, the vertical direction during the action. If you're throwing forward, the hand starts at a lower position (on the table) and moves upward as you throw. So VD would be 0 (upward). But the primary vertical direction during the action. Let's think: when you throw, the arm bends (ARM 0), hand starts at table level (HAND 0). The hand moves upward (VD 0) and forward (HD 1). So VD is 0, HD is 1. FORCE is 3 (moderate force to throw the object). \n\nBut wait, if the object is on the table and you cast it, maybe you push it forward with a slight upward motion. So VD could be 0 (upward) and HD 1 (forward). That makes sense. So encoding would be:\n\nFORCE:3, ARM:0, HAND:0, VD:0, HD:1\n\nBut let me check again. The problem says to assume the most natural and typical way. If you're in a room, and you cast a palm-sized object on a table, you'd probably flick it forward with a moderate force. So the hand starts at the table (HAND 0), arm is bent (ARM 0). The hand moves upward (VD 0) as you flick it forward (HD 1). The force is moderate (3). That seems right."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:51:08.260162",
+      "duration_seconds": 32.01,
+      "is_valid": false,
+      "parsed_result": null,
+      "error_type": "E101",
+      "raw_response": "<think>\nOkay, let's see. I need to figure out how a right-handed native English speaker would throw a palm-sized object in the most natural and typical way. The action coding standard has five dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, FORCE. When throwing something, you probably use moderate force. Not too strong (like 5 or 4) and not too weak (1 or 2). So maybe 3 for moderate.\n\nARM: The arm starts bent. When you're about to throw, your arm is usually bent. So ARM would be 0 (arm bent).\n\nHAND: The initial height where the hand is. If it's on the table, the hand starts at ground level. Wait, no. Wait, the object is on the table. So when you pick it up, your hand is above the ground. But the table's surface is at a height that's between ground and the performer's height. Let's say the table is at a standard height, maybe around hip level. But the problem says to encode HAND as 0–9 relative to ground up to 10 ( performer's height). If the hand is on the table, which is elevated, then HAND would be, say, 5 or something. Wait, but the problem says the initial height before the action. If the hand is already holding the object on the table, then the hand's initial position is at the table level. Let me think. If the table is at a height that's, say, halfway up the person's height, then HAND would be 5. But maybe the exact value isn't critical here. Wait, the standard says 0 is ground, 1-9 relative between ground and performer's height, 10 is performer's height. So if the table is at, say, waist level, which is about halfway, then HAND would be 5. But maybe the answer expects that when you're about to throw, the hand is at a height above the table. Wait, no. The object is on the table, so when you grab it, your hand is at the table's level. So the initial hand position is at the table, which is elevated. So if the person's height is 7 feet (for example), the table might be at 3.5 feet, which would be 5 relative (since 3.5 is half of 7). But the problem doesn't give specific measurements, so maybe the answer is that the hand starts at a medium height. But maybe the correct answer is that the hand is at ground level? No, because the object is on the table. Wait, no. If the object is on the table, the hand is at the table's height when starting. So the HAND value would be between 1 and 9, depending on the table's height relative to the person. But since the problem doesn't specify, maybe the most typical scenario is that the table is at a standard height, say, around knee level. So maybe HAND is 3 (if performer's height is, say, 7 feet, knee level is around 2.5-3 feet, which would be 3.75 relative, so rounded to 4? Hmm, but maybe the exact number isn't critical here. Wait, the standard says to use 0 = ground, 1–9 relative between ground and performer's height, 10 is performer's height. So if the table is at, say, 180 cm (about 5'11\") for a person who is 200 cm (6'6\"), then the relative height would be 180/200 = 0.9, which would be 9. So maybe HAND is 9. But that seems high. Alternatively, maybe the table is at a lower height. Wait, typical tables are around 75-80 cm (30-32 inches) high. For a person who is, say, 180 cm (5'11\"), their height is about 180 cm. The table height is 75 cm. So 75/180 = 0.416, which would be around 4. So maybe HAND is 4. But I'm not sure. The problem states that the object is on the table surface. So when you're about to throw it, your hand is at the table's height. So the initial hand position is elevated. Therefore, HAND should be a value between 1 and 9, depending on the table's height relative to the person. But since the problem doesn't specify, maybe the answer assumes that the hand is at a standard height. Alternatively, maybe the problem expects that when you throw, you lift the object up first. Wait, no. If the object is already on the table, you just pick it up. Wait, but throwing usually involves lifting the object slightly before throwing. Hmm. Maybe the initial hand position is at the table level. So the hand is at, say, 4 (assuming the table is a quarter of the person's height). But I'm not sure. Maybe the answer expects that the hand starts at ground level, but that doesn't make sense because the object is on the table. So I think HAND should be a value between 1 and 9, but the exact number might be 5 as a middle value. But maybe the problem expects that the hand is at ground level. Wait, no. The object is on the table, so the hand is at the table's height when starting. So I'll go with HAND as 5 (assuming the table is halfway up the person's height).\n\nVD is the primary vertical direction during the action. When throwing, the hand moves upward to throw the object. So VD is 0 (upward).\n\nHD is the primary horizontal direction. Since you're throwing the object forward, HD is 1 (forward).\n\nARM: The arm starts bent. So ARM is 0.\n\nFORCE: Moderate force, so 3.\n\nPutting it all together:\n\nFORCE: 3\n\nARM: 0\n\nHAND: 5 (assuming the table is at mid-height)\n\nVD: 0 (upward)\n\nHD: 1 (forward)\n\nWait, but maybe the hand movement during throwing is upward (VD=0) and forward (HD=1). But when you throw, you lift the object slightly (upward) and then throw it forward. So VD is 0, HD is 1.\n\nBut what about the arm? The arm starts bent, so ARM is 0.\n\nHAND: The initial height is the table's level. If the table is at, say, 3 feet for a 6-foot person, that's 0.5, which would be 5 (since 3/6=0.5, so 5 if 1-9 scales as 0.5 to 1). Wait, no. The HAND encoding is 0 = ground, 1–9 = relative between ground and performer's height, and 10 = performer's height. So if the table is at half the performer's height, then HAND would be 5. If it's a third, then 3. But without specific info, maybe the answer assumes that the table is at a standard height, so maybe HAND is 5.\n\nBut maybe the answer expects that when you throw, you lift the object up first. So the initial hand position is higher. For example, if the object is on the table, you might lift it slightly before throwing. But the problem states that the object is placed on the table, so the initial position is on the table. Therefore, the hand starts at the table's height. So if the table is at, say, knee level, then HAND is 3 (if performer's height is 7 feet, knee level is around 2.5 feet, which is 2.5/7 ≈ 0.357, so 4). But this is getting too detailed. Since the problem doesn't give specifics, maybe the answer expects a moderate height. So HAND=5.\n\nAlternatively, maybe the problem expects that the hand starts at ground level. But that can't be because the object is on the table. So the hand must be at the table's height. Therefore, HAND should be between 1 and 9. But the exact value is unclear. However, the action coding standard says to choose the most typical. In typical scenarios, a table is about waist level, which is around hip height. For a person of average height (say 5'7\" or 170 cm), a table is about 30-36 inches (76-91 cm) high. So 36 inches for a 170 cm person (5'7\") is about 0.6 of their height (since 170 cm is about 5'7\", so 36 inches is 91 cm, 91/170 ≈ 0.535). So relative to their height, that's about 5.35, so rounded to 5. So HAND=5.\n\nTherefore, the final encoding would be:\n\nFORCE: 3\n\nARM: 0\n\nHAND: 5\n\nVD: 0 (upward)\n\nHD: 1 (forward)\n\nBut wait, when you throw, the hand moves upward (VD=0) and forward (HD=1). Yes.\n\nAlternatively, maybe the force is stronger. If you're throwing something, maybe you use a moderate force. But depending on the object. Since it's palm-sized, like a ball, maybe moderate force (3). If it's a heavy object, maybe higher. But the problem says \"palm-sized object,\" so probably moderate. So"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:51:26.739691",
+      "duration_seconds": 18.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "ARM": 0,
+        "HAND": 3,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to imagine a scenario where I'm a right-handed native English speaker in an empty room. There's a table in front with a palm-sized object. The action is to hurl the object. I need to encode this into the given dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, FORCE. Hurling implies throwing something with force. So probably a strong throw. The options are 5 (very strong) to 1 (very weak). Since it's a typical hurl, maybe 4 (strong) or 5. But maybe moderate? Wait, when you hurl, you might throw it as far as possible, so maybe stronger. Let's go with 4 as strong but not the strongest possible.\n\nARM: The initial state of the arm before the action. The arm starts bent or extended. When you're about to throw, you usually bend the arm to accelerate. So ARM would be 0 (arm bent). Wait, the ARM encoding is 1= extended, 0= bent. So if the arm is bent initially, that's 0. Makes sense.\n\nHAND: The initial height where the hand rests. The object is on the table. So the hand is probably at table level. The table's height relative to the ground. If the table is at, say, waist level, then maybe 1–9. But the encoding for HAND is 0 = ground level, 1–9 relative to ground, up to 10= performer's height. So if the table is in front, maybe the hand is at a medium height. Wait, but the object is on the table. So the hand is holding the object at the table level. Let's say the table is at a standard height, maybe around hip level. So if the performer's height is, say, 6 feet, the table might be at 3 feet. So relative to the ground, that's 3, which is between 1–9. So HAND would be 3? But the problem says to choose the most typical. Maybe the table is at a lower height, like knee level. But the exact number might not matter as long as it's between 1–9. Alternatively, maybe the hand is at ground level if the object is very low. Wait, the object is palm-sized on the table. So the table's height is standard. Let's assume the table is at a height where the hand is at, say, 4 units above ground. So HAND would be 4. But the exact number might not be critical here. The key is that it's not at the performer's height (10) or above. So probably 1–9. Let's pick a value in that range. Maybe 3? Or 5? Hmm. The standard might be to take the average. Maybe 3 or 4. Let's go with 3 for simplicity.\n\nVD: The primary vertical direction during the action. When you throw something, you usually move it upward. So VD is 0 (upward). Wait, the options are 1=downward, 0=upward. So throwing would be upward, so VD=0.\n\nHD: The primary horizontal direction. Hurling forward, so HD=1 (forward).\n\nWait, but when you throw something, you might first move it upward and then forward. So the dominant horizontal direction is forward. So HD=1.\n\nPutting it all together:\n\nFORCE: 4 (strong)\n\nARM: 0 (bent)\n\nHAND: 3 (assuming table is at a medium height, 3 units above ground)\n\nVD: 0 (upward)\n\nHD: 1 (forward)\n\nWait, but the user said to output the most dominant phase if there are multiple phases. The main motion is upward and forward. So VD=0, HD=1.\n\nBut let me check again. When you hurl, you might start with the arm bent (ARM=0), then swing the arm upward (VD=0) and throw it forward (HD=1). Force is strong, so 4. Hand initial position is on the table, which is at some height. If the table is, say, waist level, that's maybe around 5 feet. If the performer is 6 feet tall, then 5 is 5/6 of their height. But the encoding for HAND is 1–9 as relative to ground level. So 5 would be 5. But maybe the table is lower. Let's say 3 units. So HAND=3. But maybe the exact number isn't as important as the range. So 3 is okay.\n\nSo the JSON would be:\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\nWait, but the user said to output only the JSON. Let me confirm each dimension again.\n\nFORCE: Strong, so 4.\n\nARM: Before action, arm is bent. So 0.\n\nHAND: Initial hand position is on the table. If the table is at, say, 3 feet, and the performer is 6 feet tall, then 3 is half their height. But the encoding for HAND is 1–9 as relative to ground, not relative to the performer. So 3 is correct.\n\nVD: Upward, so 0.\n\nHD: Forward, so 1.\n\nYes, that seems right."
+    }
+  ]
+}

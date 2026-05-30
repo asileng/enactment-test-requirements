@@ -1,0 +1,224 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T05:29:48.473384",
+  "experiment_time": {
+    "start_time": "2026-05-31T05:27:18.512851",
+    "end_time": "2026-05-31T05:29:48.473319",
+    "duration_seconds": 149.960468
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 3,
+  "invalid_count": 3,
+  "valid_rate": 50.0,
+  "model_statistics": {
+    "Mimo-7B-SFT": {
+      "total": 6,
+      "valid": 3,
+      "invalid": 3,
+      "errors": {
+        "E101": 3
+      },
+      "avg_duration": 24.99,
+      "valid_rate": 50.0
+    }
+  },
+  "error_statistics": {
+    "E101": {
+      "count": 3,
+      "description": "JSON解析失败",
+      "examples": [
+        {
+          "model": "Mimo-7B-SFT",
+          "verb": "toss",
+          "raw_response": "<think>\nOkay, let's tackle this problem. The user wants a simple judgment based on a native English "
+        },
+        {
+          "model": "Mimo-7B-SFT",
+          "verb": "chuck",
+          "raw_response": "<think>\nOkay, let's see. The user wants me to imagine being a right-handed native English speaker in"
+        },
+        {
+          "model": "Mimo-7B-SFT",
+          "verb": "hurl",
+          "raw_response": "<think>\nOkay, let's see. The user wants me to imagine being a right-handed native English speaker in"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Mimo-7B-SFT": {
+      "toss": [
+        {
+          "parsed_result": null,
+          "is_valid": false,
+          "duration_seconds": 32.01,
+          "error_type": "E101"
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 19.59,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": null,
+          "is_valid": false,
+          "duration_seconds": 32.01,
+          "error_type": "E101"
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 7.86,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 4,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 26.49,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": null,
+          "is_valid": false,
+          "duration_seconds": 32.0,
+          "error_type": "E101"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:27:50.525340",
+      "duration_seconds": 32.01,
+      "is_valid": false,
+      "parsed_result": null,
+      "error_type": "E101",
+      "raw_response": "<think>\nOkay, let's tackle this problem. The user wants a simple judgment based on a native English speaker's understanding of the action \"toss\" in the given scenario. I need to encode the action into the specified dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, the scenario: I'm in an empty room, there's a table with a palm-sized object. The action is to toss it. Since I'm a right-handed native English speaker, the most natural way to toss something would likely involve my dominant hand. \n\nStarting with FORCE. Tossing isn't extremely strong, so probably moderate. But maybe a bit stronger than just a gentle touch. Let's think, when you toss something, you might use moderate force. So maybe 3 or 4. But \"toss\" could vary. If it's a typical toss, maybe 3 (moderate). \n\nARM: Before the action, the arm is bent. Because when you're about to toss, you start by having your arm bent, then extend it. So ARM would be 0 (arm bent) initially. Wait, the ARM dimension is the initial state before the action begins. So before the action starts, the arm is bent. So ARM is 0. Then during the action, the arm extends. But the ARM code is about the initial state. So yes, ARM is 0.\n\nHAND: The initial height where the hand rests. The object is on the table. The table is at ground level, but how high is the hand before starting the toss? If I pick up the object, maybe the hand is at ground level (0) when placing it, but when starting to toss, perhaps the hand is at a lower point. Wait, the HAND dimension is the initial height before the action. If the action is to toss, the initial position would be the hand holding the object at a certain height. If the object is on the table, which is at ground level, then the hand is at ground level (0) when picking it up. But maybe when starting to toss, the hand is already slightly above the table. Hmm. The table's height might be standard, like a coffee table. If the average table height is around 40-50 inches, and a person's height is about 6 feet (72 inches), then relative to the performer's height, that's about 0.8 to 1.1 units. So maybe HAND would be 1–9, but the exact code depends on the relative height. Wait, the options are 0 = ground level, then 1–9 as relative height between ground and performer's height, 10 is performer's height, 11 one above, etc. So if the table is, say, 30 inches tall and the performer is 72 inches, the relative height is 30/72 ≈ 0.416, which would be considered 0. But since the options are 0=ground, then 1–9 are the relative heights. Wait, the description says 1–9 = relative height between ground level and the performer's height. So maybe the actual height in units is calculated as (table height / performer height) and then rounded? Or is it a ratio? For example, if the table is at half the performer's height, that would be 1 (since 0.5 is between 0 and 1). But the exact code isn't specified. Alternatively, perhaps the user is supposed to consider the table's height relative to the person. If the table is standard height, maybe around 30-36 inches. If the performer is 72 inches tall, then 30 inches is 0.416 of the performer's height. Since the options are 1–9 for relative, maybe 0.4 would be considered 1 (as the closest integer). But the problem states \"relative height between ground level and the performer's height\". Wait, the table's height is the relative to the performer's height. So if the table is, say, 30 inches and the performer is 72 inches, then 30/72 = 0.416, which would be 1 (since 1 is the first integer in the 1–9 range). So HAND would be 1 in this case. But wait, the initial hand position is when starting the action. If the object is on the table, and the hand is picking it up, then the hand starts at the table level, which is relative to the performer's height. So if the table is 30 inches, then relative to 72 inches, that's 0.416, which is less than 1. But the options for HAND are 0=ground, then 1–9 as relative. So maybe 0.416 is considered 1? Or is there a different way? This is a bit confusing. Alternatively, maybe the table is considered at ground level, but the hand is at a height above the table. Wait, no. The problem states that the object is on the table surface. So the hand is at the table level. But the table's height relative to the performer. If the table is at a standard height, perhaps the code would be 1 (assuming that the table is about a third of the performer's height, so 30/72 is 0.416, which would be 1 in the 1–9 scale). So HAND would be 1. But I'm not entirely sure. Maybe the table is considered at ground level, but the hand is above the table. Wait, no. The table is an object in the room. The table's height is separate from the hand's initial position. If the hand is on the table, then the initial height is the table's height. So if the table is at, say, 30 inches, then relative to the performer's height (72 inches), that's 0.416. Since the options for relative height are 1–9, then 0.416 would be 1 (as it's the first unit). So HAND would be 1. But maybe the table is considered to be at ground level? No, the table is in the room, so it's elevated. Therefore, the initial hand position (before the toss) is at the table's height, which is relative to the performer. So HAND would be 1. But I'm not 100% certain. Maybe the answer expects 0 (ground level) because the table's surface is at ground level? That doesn't make sense. The table is an elevated surface. So the hand is at the table's height. So HAND would be 1 (if the table is 0.416 of the performer's height) or another code. Alternatively, maybe the table's height isn't considered here, and the hand starts at ground level. But that doesn't make sense because the object is on the table. So the hand has to be at the table's height when starting the toss. So I think HAND should be 1. But this is a bit ambiguous. Let me check the coding standard again. The HAND dimension is \"The initial height where the hand rests before the action begins\". So if the hand is on the table, which is elevated above the ground, then the initial height is the table's height relative to the performer. If the table is, say, 30 inches and the performer is 72 inches, then 30/72 = 0.416, which would be 1 in the 1–9 scale (since 1 is the first unit). So HAND would be 1. But maybe the code expects 0 if it's ground level, but the table isn't at ground level. So this is a bit tricky. Maybe the answer expects 0 here. Alternatively, maybe the table's height is considered part of the environment, so the hand starts at the table level, which is above ground. So HAND would be 1. Hmm.\n\nVD: The primary vertical direction of hand movement during the action. When tossing, the hand moves upward to throw the object. So VD would be 0 (upward). Wait, the options are 1=downward, 0=upward. So if the hand moves upward, VD is 0. Yes. So VD is 0.\n\nHD: The primary horizontal direction. Tossing forward, towards where the person is facing. So HD is 1 (forward). \n\nNow, putting it all together. FORCE: moderate (3), ARM: 0 (arm bent initially), HAND: 1 (table height relative to performer's height), VD: 0 (upward), HD: 1 (forward). \n\nWait, but when you toss something, you start with the arm bent (ARM=0), then extend it (ARM=1 during action), but the ARM dimension is the initial state before the action, so it's 0. So ARM=0. \n\nBut wait, when you start the toss, the arm is bent. So ARM=0. Then during the action, the arm extends. But the ARM dimension is the initial state, so it's 0. \n\nSo the final encoding would be:\n\nFORCE: 3 (moderate), ARM: 0, HAND: 1, VD: 0, HD: 1.\n\nBut wait, maybe the force is stronger. If you're tossing something, you might use a bit more force. Let me think again. Tossing can vary, but the most typical toss might be moderate. So 3. \n\nAlternatively, maybe 4 (strong). But \"toss\""
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:28:10.111586",
+      "duration_seconds": 19.59,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's tackle this problem. So, the task is to encode the action of \"fling\" according to the given dimensions. First, I need to understand what \"fling\" typically means. A fling is a quick, sharp movement to throw something. Since the user is a right-handed native English speaker, I should consider the most common way to fling an object in that context.\n\nStarting with FORCE. Flinging usually uses moderate force, not very strong but enough to get the object moving. So maybe a 3? But sometimes flings can be stronger. Hmm, but the standard says 3 is moderate, 4 is strong. Let me think. If you fling something, you might not use extremely strong force, but more than just a gentle nudge. Maybe 3 or 4. I need to decide which is more typical.\n\nNext, ARM. The arm starts in a bent position before moving. Wait, when you're about to fling something, your arm is probably bent, like a cocked back position. So ARM would be 0 (arm bent). Wait, the ARM encoding is 1 for extended and 0 for bent. So initial arm state is bent, so ARM is 0.\n\nHAND. The initial height of the hand before the action. If you're picking up the object to fling, you might start with your hand at ground level. So HAND 0. But if you're already holding it at a higher position, maybe higher. But the scenario says the object is on the table. So the hand would start at the table level, which is ground level (0). So HAND 0.\n\nVD is the vertical direction during the action. Flinging would involve moving the hand downward to throw the object. Wait, no. Wait, when you fling, you move the object upward and forward. So the hand's primary vertical direction would be upward (0) because you lift it up. Wait, but the movement during the fling is a downward force to throw it. Wait, maybe I'm confused. Let me think again. When you fling something, you push it away. So the hand moves downward relative to the object. For example, if you're throwing a ball, you push it downward to send it forward. So the primary vertical direction of the hand's movement would be downward (VD 1). Because the hand is moving down to propel the object forward. But I need to confirm. Let's see: when you throw something, you lift it up and then push it down. So the upward part is part of the movement, but the actual fling is the downward push. So VD is 1 (downward).\n\nHD is the horizontal direction. Fling is primarily forward, so HD 1.\n\nPutting it all together: FORCE? If the force is moderate, 3. But maybe a fling is stronger, like 4. Wait, when you fling something, you might use a stronger force than a gentle throw. Let me think. A fling is more of a sudden, forceful movement. So maybe FORCE 4. But I'm not sure. Let me check examples. If you fling a magazine off a table, you might push it downward and forward with a moderate force. But maybe it's stronger. Hmm. Alternatively, maybe the force is moderate (3) because it's not as strong as a full throw. But the problem says to choose the most typical. I think in common terms, a fling is a moderate force. Wait, but the standard defines 3 as moderate, 4 as strong. So if a fling is a quick, sharp movement, maybe it's stronger. Maybe 4. But I'm not entirely sure. Let me think again. If you fling something, you don't need a very strong force. Maybe 3. I'm a bit torn here. Let's see: the action is to fling, which is more forceful than just a gentle touch but not as strong as a heave. So perhaps 3 or 4. The answer might depend on cultural context. Since the user is a right-handed native English speaker, maybe in their experience, a fling is moderate force. So I'll go with 3 for FORCE.\n\nARM: 0 (bent) because the arm starts bent.\n\nHAND: 0 (ground level) since the object is on the table.\n\nVD: 1 (downward) because the hand moves down to fling the object.\n\nHD: 1 (forward) as the primary horizontal direction.\n\nSo the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\nWait, but maybe the force is higher. Let me check again. When you fling, you might use a stronger force. For example, \"fling open the window\" requires a stronger push. So maybe FORCE 4. Let me adjust that. If the action is to fling the object (like pushing it away), the force might be stronger. So FORCE 4. Then the encoding becomes:\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\nHmm. Now I'm more confused. Which is more typical? I think the answer depends on the typical force. Maybe in most cases, a fling is moderate. But perhaps in common usage, it's stronger. Let's think of examples. If you fling a pen across the table, you don't need a very strong force. So maybe 3. But if you're flinging something heavier, maybe more force. Since the object is palm-sized, maybe a moderate force. So I'll stick with 3."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:28:42.121871",
+      "duration_seconds": 32.01,
+      "is_valid": false,
+      "parsed_result": null,
+      "error_type": "E101",
+      "raw_response": "<think>\nOkay, let's see. The user wants me to imagine being a right-handed native English speaker in a room with a table and a palm-sized object. The action to perform is \"chuck.\" I need to encode this into the specified JSON format with five dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, I need to understand what \"chuck\" means in this context. \"Chuck\" can mean to throw or to hit something quickly. Since it's a palm-sized object on a table, probably the action is like slapping the object off the table. \n\nStarting with FORCE. The force applied would depend on how hard someone throws or slaps. If it's a typical chuck, maybe moderate force. The options are 5 to 1. Moderate is 3, but maybe a bit stronger since you're throwing an object off a table. Maybe 3 or 4. Let me think. If you're chucking something, you might not use very strong force, but enough to make it fly off. Maybe 3 or 4. Hmm.\n\nARM. The initial state of the arm. Before the action, the arm is probably bent because you're about to make a quick movement. So ARM is 0 (arm bent).\n\nHAND. The initial height where the hand rests. Since the object is on the table, the hand would be at ground level (0) before moving. Wait, but if you're reaching for the object on the table, maybe the hand starts at a lower position. Wait, the table's height is standard, maybe around knee level. But the encoding for HAND is relative to the performer's height. Wait, the HAND dimension is the initial height before the action. The options are 0 for ground level, then 1-9 relative, 10 is performer's height, etc. If the table is in front, and the hand is on the table, then the hand's initial height would be the table's height relative to the performer. But the encoding uses the performer's height as a reference. Let's say the table is at a standard height, maybe around 80-90 cm. If the performer's height is say 170 cm, then the table is about 0.47 to 0.53 units below the performer's height. But the encoding for HAND is 0 (ground), 1-9 (relative), 10= performer's height. Wait, maybe the table is considered at a certain relative height. If the table is at a standard height, maybe around 1-2 units below the performer's height. But the exact encoding might be that the hand is on the table, so the initial height is the table's height. But the problem says \"relative height between ground level and the performer's height.\" So if the table is, say, 2 units below the performer's height (assuming performer's height is 10 units, table is at 8 units), then HAND would be 8? But maybe the table is at ground level? No, tables are usually elevated. Wait, maybe the table's height is considered as 1 unit (relative) above ground. But this is getting confusing. The user says \"On the table surface is placed a palm-sized object.\" So the hand is on the table. If the table is at a standard height, perhaps the initial hand position is at a height that's, say, 1-2 units below the performer's height. But the encoding for HAND is 0 = ground, 1-9 relative, 10= performer's height. Let's say the table is 0.5 units below the performer's height. Then relative to the performer's height, it's 9.5, but since we have to pick an integer, maybe 9. But if the table is considered at a standard height, maybe around 1.5 units (if the performer is 10 units tall). But this is getting too ambiguous. Wait, maybe the table's height is considered as part of the environment, and the hand is at the table's height. But according to the encoding standard, the HAND is the initial height where the hand rests before the action. If the hand is on the table, then the table's height is the initial hand position. But how to encode that relative to the performer's height? Let's assume that the table is at a height that's, say, 1 unit below the performer's height. So if the performer's height is 10, the table is at 9. Then HAND would be 9. But maybe the table is at ground level? No, that's not possible. Wait, the problem states the table is in front of the user in an empty room. So the table is elevated above the ground. Therefore, the hand's initial position is at the table's height. Assuming the table is, say, 1 unit (relative) above ground level. Wait, the encoding for HAND is 0 for ground level, 1-9 for relative between ground and performer's height. So if the table is, say, 1.2 meters high (about knee level), and the performer is 1.7 meters tall, then the table is 0.5 units (in 10 units total) from the ground. But this is getting too complicated. Maybe the standard encoding for a table height is considered as 1 unit above ground level. Wait, but the encoding options for HAND are 0 = ground level, 1–9 = relative height between ground and performer's height. So if the table is at, say, half the performer's height, then the relative height would be 5. But perhaps the table is at a standard height that's considered as 1 unit (relative) above ground. Wait, maybe the table is at a height that's 1 unit (relative) above ground. So the hand is at 1. But the problem says \"on the table surface,\" so the initial hand position is at the table's height. If the table is at a standard height, perhaps the relative height is 1. So HAND would be 1. Alternatively, maybe the table is at the same level as the performer's hand when bent. Hmm. This is tricky. Maybe I should think about typical scenarios. When you pick up an object from a table, your hand is at the table's height. If the table is at a standard height, say, 80 cm, and the performer is 170 cm, then the table is about 0.47 units below the performer's height (if 1 unit is the total height). Wait, the encoding says 1–9 is the relative height between ground and performer's height. So if the table is 80 cm (assuming 1 unit is 170 cm), then 80 cm is about 0.47 units. But the encoding options are 1-9, which are integers. So maybe the table's height is considered as 1 unit (relative) above ground. Then the hand's initial position is 1. But I'm not sure. Alternatively, maybe the table is at a height that's 2 units (relative) above ground. But without specific information, maybe the standard is that the table is at a height where the hand is at 1 unit (relative) above ground. Wait, but that's not typical. Tables are usually higher than that. Maybe the table is at 8 units (if the performer's height is 10 units). But this is unclear. The problem states that the user is a right-handed speaker, so perhaps the table is at a standard height where the hand can reach without bending. Maybe the hand is at a height that's, say, 7 units (if 10 units is the performer's height). But this is all guesswork. Maybe the safest assumption is that the hand starts at ground level (0) because the action is to chuck the object, which might involve lifting it from the table. Wait, but if the object is on the table, the hand would start at the table's height. So if the table is at, say, 1 unit (relative) above ground, then HAND is 1. But I'm not sure. Alternatively, if the table is at the same height as the hand when the arm is bent, maybe the hand is at 1 unit. But this is unclear. Maybe I should look for similar examples. For example, if someone is picking up a cup from a table, the hand's initial position would be at the table's height. So if the table is at, say, 0.5 units (relative to performer's height), then HAND is 0.5, but since we have to pick an integer, maybe 1. But the encoding allows 1-9 as relative. So perhaps the table is considered 1 unit above ground, making the hand's initial position 1. But I'm not certain. Let's tentatively go with HAND being 1. Alternatively, maybe the hand is at ground level (0) if the action is lowering the object. Wait, no. The object is on the table, so the hand must be at the table's height to pick it up or push it off. So perhaps the initial hand position is at the table's height. If the table is at a standard height, maybe 1 unit (relative) above ground. So HAND is 1. But I'm not sure. Maybe it's better to assume that the hand starts at ground level (0) because the action is to chuck the object, which might involve moving it downward. Wait, no. If you chuck an object off the table, you would probably lift it up a bit and then throw it downward. So the initial hand position is at the table's height. So if"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:28:49.978786",
+      "duration_seconds": 7.86,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Alright, let's tackle this problem step by step. The user wants me to encode the action of \"cast\" based on the given dimensions. First, I need to understand what \"cast\" means in this context. Casting usually involves throwing or hurling something, but since it's a palm-sized object on a table, maybe it's more about releasing it.\n\nStarting with FORCE. Since casting isn't extremely strong, maybe a moderate force. But wait, if you're casting something from a table, you might not use a lot of force. Maybe 3? Or is it weaker? Let me think. If you just let go gently, maybe 2 (weak). But if you're casting it towards someone, maybe a bit more. Hmm, the user is a right-handed native English speaker, so the typical way might be a moderate force. I'll go with 3.\n\nARM state before the action. If the arm is extended, that's 1. If it's bent, 0. When casting, the arm might be extended initially, ready to throw. So ARM: 1.\n\nHAND initial height. The hand is on the table, which is at ground level. So HAND: 0.\n\nVD is the vertical direction. Casting would involve moving the hand downward as you release the object. So VD: 1.\n\nHD is the horizontal direction. If you're casting forward, like throwing something ahead, then HD: 1. But if it's just off the table sideways, maybe 0. The problem says \"most dominant phase.\" The main movement is forward, so HD: 1.\n\nPutting it all together: FORCE 3, ARM 1, HAND 0, VD 1, HD 1. Wait, but let me double-check. If the arm is extended (1), hand at ground level (0), moving down (1) and forward (1). Force moderate (3). That seems right. Alternatively, maybe the force is weaker if it's just a gentle cast. But \"cast\" can vary. Maybe 2? I'm a bit unsure. Let me think again. If you cast a heavy object, more force, but it's palm-sized. Maybe moderate. Yeah, 3 is safer."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:29:16.468163",
+      "duration_seconds": 26.49,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 4,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 4,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to describe how a native English speaker would perform the action of throwing a palm-sized object in the most typical way. I need to encode this into the specified dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, FORCE. When throwing something, you need enough force to get it through the air. Moderate force makes sense here because it's a palm-sized object. So maybe 3 for moderate.\n\nARM. The arm starts bent before throwing. So ARM would be 0 (arm bent). That's the initial position before the action starts.\n\nHAND. The hand's initial height before the action. If the person is standing, the hand is at waist level. Let's say that's around 3 or 4. But the options go up to 9, which is relative to the performer's height. Wait, the encoding for HAND is 0 = ground level, 1–9 = relative height between ground and performer's height, 10 = performer's height, etc. So if the hand is at waist level, that's maybe around 3 or 4. But the most typical might be a bit higher, maybe around 4? Or maybe 5? Hmm. Alternatively, if the person is holding the object at chest level, that's higher. But for a table, maybe the object is at a lower height. Wait, the object is on a table. So the hand is probably at a height higher than ground level but not up to the chest. Let's say the table is at a standard height, around 30-36 inches. If the performer's height is, say, 6 feet (72 inches), then the table height is about half their height. So relative to their height, that's around 3-4 units. So HAND would be 3 or 4. But the most typical might be 4. Let's go with 4 for moderate height above ground.\n\nVD is the vertical direction during movement. Throwing forward would involve moving the hand downward to throw the object overhand. So VD is 1 (downward).\n\nHD is the horizontal direction. The primary direction is forward, so HD is 1.\n\nPutting it all together:\n\nFORCE: 3 (moderate)\nARM: 0 (bent initially)\nHAND: 4 (moderate height above ground)\nVD: 1 (downward)\nHD: 1 (forward)\n\nWait, but when you throw, you start with the arm bent, then extend it. So ARM is the initial state, which is bent, so 0. Correct.\n\nHAND's initial height: if the object is on a table, the hand is probably at a height higher than ground. Let's say the table is at hip level, so maybe 3. But if the person is holding it higher, maybe chest level (around 5 or 6). But standard table height is about 30-36 inches. If the person is 6 feet tall, 36 inches is 0.5 of their height. So relative to their height, that's 5 (since 10 is full height). Wait, no. The HAND encoding is 1–9 as the relative height between ground and performer's height. So if the table is at, say, 30 inches and the performer is 72 inches, then the table is 30/72 = 0.416 of the performer's height. But the encoding is 1–9 for the relative height. Wait, how is that mapped? The description says \"relative height between ground level and the performer's height\". So if the hand is at the same height as the table, which is, say, 30 inches, and the performer is 72 inches, then 30/72 is 0.416. But the encoding is 1–9, which probably corresponds to 1 being 1/10th up to 9 being 9/10th. Wait, maybe it's 1 for 1 unit, up to 9 for 9 units, but the performer's height is the total. Wait, the description is a bit unclear. Let me re-read:\n\nHAND: 0 = ground level\n\n1–9 = relative height between ground level and the performer's height\n\n10 = performer's height\n\n11 = one unit above the performer's height\n\n12 = two units above.\n\nWait, that's confusing. So if the performer's height is, say, 72 inches, then:\n\nHAND 1 would be 1 inch above ground.\n\nBut that's probably not. Maybe 1–9 are relative to the performer's height. So 1 is 1/10th of the performer's height, 2 is 2/10, up to 9 being 9/10. Then 10 is equal to the performer's height. So if the table is at 30 inches (half of 72), that's 5 units (since 5/10 = 0.5). So HAND would be 5. But maybe the standard table height is around 36 inches, which would be 6 units (since 6/10 of 72 is 43.2, which is higher than 36). Wait, this is getting confusing. Maybe the actual height in inches isn't the right way to think. The encoding is 1–9 as the relative height compared to the performer's height. So if the table is at waist level, that's maybe around 4/10th of the performer's height. So HAND would be 4. But if the object is placed on the table, the hand is holding it at that height. So perhaps the initial hand position is at table height, which is a standard height. So if the performer is holding it at, say, chest level, that's higher. But standard table height is lower. Let's assume that the table is at a height that's around 4/10 of the performer's height. So HAND would be 4. Alternatively, maybe the hand is at a lower height, like 3. But I'm not sure. The exact number might not be critical as long as it's a typical position. Let's go with 4 for moderate height above ground, which would be a common position for a table.\n\nSo:\n\nFORCE: 3\n\nARM: 0 (bent initially)\n\nHAND: 4\n\nVD: 1 (downward)\n\nHD: 1 (forward)\n\nWait, but when you throw something overhand, you move your hand downward as you throw. For example, holding the object at chest level and moving it down and forward. So VD is 1 (downward). HD is 1 (forward). That makes sense. The force is moderate because it's a palm-sized object. The arm starts bent (0). The hand is at a moderate height (4). So the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 4,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\nBut wait, maybe the hand starts at a higher position. If the object is on a table, maybe the hand is at a height higher than chest level. Wait, no, a table is usually waist to chest height. So maybe 4 or 5. Let me think again. If the table is counter height, it could be higher, but the problem says it's an empty room, and the object is palm-sized. Maybe the table is a standard dining table, around 28-30 inches. If the person is 6 feet (72 inches), then 30 inches is 4/10 of their height. So HAND would be 4. That seems reasonable. So the encoding is correct."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T05:29:48.472565",
+      "duration_seconds": 32.0,
+      "is_valid": false,
+      "parsed_result": null,
+      "error_type": "E101",
+      "raw_response": "<think>\nOkay, let's see. The user wants me to imagine being a right-handed native English speaker in a scenario where I hurl a palm-sized object. The task is to encode the action into a JSON based on five dimensions: FORCE, ARM, HAND, VD, HD.\n\nFirst, FORCE. Hurling implies throwing something with some force. Moderate force seems typical. So maybe 3? But if it's a strong throw, maybe 4. But the problem says \"most natural and typical.\" A moderate throw makes sense here.\n\nARM. The initial state before the action. If I'm about to throw, my arm would be bent initially. So ARM would be 0 (arm bent).\n\nHAND. The initial height where the hand rests. Since it's a table, the object is on the table. The hand is probably at ground level when starting, but wait, if the object is on the table, maybe the hand is at table height. Wait, the HAND encoding is relative. The options are 0 = ground level, 1–9 relative, 10= performer's height, etc. If the table is at a standard height, maybe around knee level. But the problem says \"on the table surface.\" If I'm holding the object on the table, the hand's initial height would be at the table level. But how does that translate to the encoding? Since the table is in front of me, and the hand is on the table, perhaps the initial height is relative. If the table is, say, 30 inches tall, and the performer's height is 6 feet (72 inches), then the table is about 0.42 units above the performer's height (30/72). But the options for HAND are 1–9 as relative to ground and performer's height. Wait, the encoding for HAND is 0 = ground level, 1–9 = relative between ground and performer's height. So 1 is a small fraction, up to 9 being almost the performer's height. So if the table is at a standard height, maybe around 3 units (since 30 inches is roughly 1/2 of 72, but maybe that's not the right approach). Alternatively, maybe the hand is at the table level, which is ground level plus the table height. But since the exact height isn't given, perhaps it's safer to assume the hand starts at ground level? Wait, no. If the object is on the table, the hand would be holding it at the table's height. So the initial hand position is at the table level. But how to encode that. The options for HAND are 0=ground, 1–9 relative. Let's say the table is at about knee level. If the performer's height is 72 inches, knee level might be around 24-36 inches. So 36/72 = 0.5 units. But the encoding for 1–9 is relative between ground and performer's height. So 1 would be 1 unit, 9 would be almost the full height. So maybe if the table is at 30 inches, that's 0.42 units. But since the encoding uses integers 1-9, perhaps we round to 1 or 2? Alternatively, maybe the problem expects the hand to start at ground level. Wait, but the object is on the table. If I'm picking it up to throw, the hand would move from the table height. But maybe the initial position is holding it at the table, so HAND is the table's height relative to ground. But without specific numbers, perhaps the most typical way is to start with the hand at ground level? No, that doesn't make sense. The object is on the table, so the hand would be at the table level. So maybe the HAND is 3 (assuming the table is around 3 units high relative to the performer's height). Wait, but the encoding for 1–9 is the relative height between ground and performer's height. So 1 would be 1/10th, 9 would be 9/10th. So if the table is at, say, 3 units (30 inches) in a 72-inch tall performer, that's 3/72 = 1/24, which is about 0.04 units. But the encoding options are 1-9. Hmm, this is confusing. Maybe the problem expects a simpler approach. Since the object is on the table, and the hand is on the table, perhaps the initial height is at ground level plus the table height. But without specific numbers, maybe the intended answer is that the hand starts at ground level. Wait, but that's not correct. The hand would be on the table. So maybe the answer expects that the hand is at the table's height. But how to encode that. Alternatively, perhaps the hand starts at ground level, then moves upward. Wait, but the action is hurling, which would involve picking up the object and throwing it. So maybe the hand starts at ground level, picks up the object (which is on the table), then moves. But the problem states that the object is already on the table. Wait, the target action is \"hurl\", which is to throw. So if the object is on the table, the action would be to pick it up and throw it. So the initial hand position would be at the table level. Therefore, the HAND encoding would be relative. Let's say the table is at a standard height of about 30 inches (0.42 units when the performer is 72 inches tall). Since the encoding for HAND is 1–9 as relative, maybe 3 or 4? But without specific info, perhaps the answer expects 3. Alternatively, maybe the problem simplifies it to 0 (ground level) if the hand starts at ground level, but that's not correct. This is a bit ambiguous, but I need to make a choice. Maybe the intended answer is that the hand starts at ground level (0) because the object is on the table, and the speaker would bend down to pick it up. Wait, but if the object is on the table, the hand is on the table. So maybe the hand's initial position is at the table height. Let's assume the table is at a height of 30 inches. If the performer is 72 inches tall, then 30 inches is 0.4167 of the performer's height. So relative to the performer's height, that's 0.4167, which would be around 0.4 units. But the encoding for HAND is 1–9 as relative between ground and performer's height. So 1 is 1/10th, 2 is 2/10th, etc. So 0.4 units would be 4. So maybe HAND is 4? But I'm not sure. Alternatively, maybe the problem expects that the hand starts at ground level. But that doesn't make sense because the object is on the table. Hmm.\n\nNext, VD (vertical direction). When hurling the object, the primary vertical direction. If you throw something, the hand moves upward to throw it. So VD would be 0 (upward). But wait, if you're throwing it forward, you might also have an upward component. But the primary direction. For example, throwing straight forward would have upward movement. So VD is 0 (upward). Or maybe the dominant phase is upward. So VD is 0.\n\nHD (horizontal direction). The primary horizontal direction. Since it's thrown forward, HD is 1 (forward).\n\nNow, putting it all together. Let's re-examine each dimension:\n\nFORCE: Hurling implies moderate force. So 3?\n\nARM: Before the action, the arm is bent. So 0.\n\nHAND: Initial hand position. If the object is on the table, the hand is at table height. Assuming standard table height, perhaps around 30 inches. If the performer is 72 inches, 30/72 = 0.4167. Since the encoding for HAND is 1-9 as relative (1 is 1/10th, 9 is 9/10th), 0.4167 is approximately 4. So HAND is 4. But maybe the problem expects a simpler answer. Alternatively, maybe the hand starts at ground level (0) because the speaker is bending down to pick up the object. Wait, but the object is already on the table. So the hand is on the table. So the initial hand height is table height. But without specific numbers, perhaps the answer expects that the hand is at ground level. This is confusing. Maybe the answer is HAND=3. Alternatively, maybe the problem expects that the hand starts at the table level, which is 3 (assuming the table is at knee level, which is around 3 units). But I'm not sure. Let's think again. If the hand is on the table, and the table is at a standard height, how is that encoded? The options are 0=ground, 1-9 relative. Let's say the table is at 30 inches, performer is 72 inches. So 30/72 = 0.4167. So relative to performer's height, that's 0.4167. But the encoding is 1-9 as a scale between ground and performer's height. So 1 would be 1/10th, 9 would be 9/10th. So 0.4167 would be approximately 4. So HAND"
+    }
+  ]
+}

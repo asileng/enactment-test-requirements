@@ -63,3 +63,4 @@ The description must clearly reflect, and only reflect, all of the following dim
 All descriptions must directly use the terms from the options above; do not create new descriptive phrases.
 
 Do not output any content other than this one sentence.
+/no_think

@@ -1,11 +1,17 @@
 {
   "completed": [
     "Mimo-7B-SFT_摔_0",
+    "Mimo-7B-SFT_甩_0",
+    "Mimo-7B-SFT_fling_0",
+    "Mimo-7B-SFT_chuck_0",
+    "Mimo-7B-SFT_扔_0",
+    "Mimo-7B-SFT_cast_0",
+    "Mimo-7B-SFT_hurl_0",
     "Mimo-7B-SFT_抛_0",
     "Mimo-7B-SFT_丢_0",
-    "Mimo-7B-SFT_扔_0",
+    "Mimo-7B-SFT_throw_0",
     "Mimo-7B-SFT_投_0",
-    "Mimo-7B-SFT_甩_0"
+    "Mimo-7B-SFT_toss_0"
   ],
-  "last_updated": "2026-05-31T03:25:55.364141"
+  "last_updated": "2026-05-31T05:58:18.151893"
 }

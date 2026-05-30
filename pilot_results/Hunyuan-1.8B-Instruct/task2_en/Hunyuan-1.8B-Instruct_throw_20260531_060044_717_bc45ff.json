@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "throw",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:00:44.717348",
+  "duration_seconds": 0.26,
+  "is_valid": false,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": null,
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": null
+  },
+  "error_type": "E104",
+  "raw_response": "<answer>\nIn a typical way, I would extend my right arm, bend it slightly, lift a small object with my hand, apply moderate force, then move it downward while keeping my hand near the chest height.\n</answer>"
+}

@@ -344,25 +344,52 @@ def generate_prompt(template: str, verb: str) -> str:
     return template.replace("{verb}", verb)
 
 
-def get_verb_order(participant_id: int = None) -> List[str]:
+def get_verb_order(participant_id: int = None, language: str = None) -> List[str]:
     """获取动词顺序（支持拉丁方平衡）"""
-    if USE_LATIN_SQUARE and LATIN_SQUARE_ORDERS:
-        if participant_id is not None:
-            order_index = participant_id % len(LATIN_SQUARE_ORDERS)
-        else:
-            order_index = random.randint(0, len(LATIN_SQUARE_ORDERS) - 1)
-        return LATIN_SQUARE_ORDERS[order_index]
+    language = language or LANGUAGE
+    
+    # 根据语言加载正确的动词和拉丁方配置
+    if language == "en":
+        from config_en import VERBS as lang_verbs, LATIN_SQUARE_ORDERS as lang_orders
     else:
-        return VERBS.copy()
+        from config import VERBS as lang_verbs, LATIN_SQUARE_ORDERS as lang_orders
+    
+    if USE_LATIN_SQUARE and lang_orders:
+        if participant_id is not None:
+            order_index = participant_id % len(lang_orders)
+        else:
+            order_index = random.randint(0, len(lang_orders) - 1)
+        return lang_orders[order_index]
+    else:
+        return lang_verbs.copy()
 
 
 # ==================== 响应解析 ====================
+def extract_thinking(response: str) -> Tuple[str, Optional[str]]:
+    """提取模型响应中的 <think> 内容，返回 (清理后的响应, 思考内容)
+    
+    Returns:
+        Tuple[str, Optional[str]]: (cleaned_response, thinking_content)
+    """
+    thinking_match = re.search(r'<think>(.*?)</think>', response, flags=re.DOTALL)
+    thinking_content = thinking_match.group(1).strip() if thinking_match else None
+    
+    # 去除 <think>...</think> 标签及其内容
+    cleaned = re.sub(r'<think>.*?</think>', '', response, flags=re.DOTALL)
+    cleaned = cleaned.strip()
+    
+    return cleaned, thinking_content
+
+
 def parse_task1_response(response: str) -> Tuple[Optional[Dict], Optional[str]]:
     """解析任务1的模型响应，提取JSON对象
     
     Returns:
         Tuple[Optional[Dict], Optional[str]]: (解析结果, 错误类型)
     """
+    # 先去除 thinking 标签
+    response, _ = extract_thinking(response)
+    
     try:
         return json.loads(response), None
     except json.JSONDecodeError:
@@ -416,16 +443,28 @@ def parse_task2_response(response: str, language: str = None) -> Tuple[Optional[
     Returns:
         Tuple[Optional[Dict], Optional[str]]: (解析结果, 错误类型)
     """
+    # 先去除 thinking 标签
+    response, _ = extract_thinking(response)
+    
     language = language or LANGUAGE
-    dimensions = DESCRIPTION_DIMENSIONS
+    
+    # 根据语言加载对应的维度配置
+    if language == "en":
+        from config_en import DESCRIPTION_DIMENSIONS as dimensions
+    else:
+        dimensions = DESCRIPTION_DIMENSIONS
 
     result = {}
     response_lower = response.lower()
+    # 去除标点符号后分词，用于模糊匹配
+    response_clean = re.sub(r'[^\w\s]', ' ', response_lower)
+    response_words = set(response_clean.split())
 
     for dim_name, dim_config in dimensions.items():
         options = dim_config["options"]
         found = False
 
+        # 第一轮：精确子串匹配
         for option in options:
             if language == "en":
                 if option.lower() in response_lower:
@@ -434,6 +473,15 @@ def parse_task2_response(response: str, language: str = None) -> Tuple[Optional[
                     break
             else:
                 if option in response:
+                    result[dim_name] = option
+                    found = True
+                    break
+
+        # 第二轮：模糊匹配（单词级别，忽略顺序）
+        if not found and language == "en":
+            for option in options:
+                option_words = set(option.lower().split())
+                if option_words.issubset(response_words):
                     result[dim_name] = option
                     found = True
                     break
@@ -534,7 +582,10 @@ def run_single_experiment(
     }
 
     if SAVE_RAW_RESPONSE:
-        experiment_result["raw_response"] = raw_response
+        cleaned_response, thinking_content = extract_thinking(raw_response)
+        experiment_result["raw_response"] = cleaned_response
+        if thinking_content:
+            experiment_result["thinking"] = thinking_content
 
     if logger:
         status = "有效" if is_valid else "无效"
@@ -712,7 +763,7 @@ def run_experiment(
         return []
 
     # 获取动词顺序（支持拉丁方）
-    verb_order = get_verb_order(participant_id)
+    verb_order = get_verb_order(participant_id, language)
 
     template = load_prompt_template(task_id, language)
     all_results = []
@@ -913,6 +964,7 @@ def save_summary(
 
 # ==================== 命令行入口 ====================
 def main():
+    global REPEAT_COUNT, VLLM_CONFIG
     parser = argparse.ArgumentParser(description="大模型测评任务执行脚本（支持vllm）")
     parser.add_argument(
         "--models",
@@ -996,11 +1048,9 @@ def main():
     args = parser.parse_args()
 
     # 更新重复次数
-    global REPEAT_COUNT
     REPEAT_COUNT = args.repeat
 
     # 更新vllm配置
-    global VLLM_CONFIG
     VLLM_CONFIG["host"] = args.host
     VLLM_CONFIG["port"] = args.port
 

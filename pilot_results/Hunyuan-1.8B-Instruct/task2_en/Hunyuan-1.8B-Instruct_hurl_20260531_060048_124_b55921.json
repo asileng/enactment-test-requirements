@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "hurl",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:00:48.123723",
+  "duration_seconds": 0.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "sideways"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nIn my hand, I grip the palm-sized object firmly and place it on the table, lurching it backward while applying moderate force. My hand rests near the ground, with the arm slightly extended but not fully outstretched. The primary movement is downward, and the main horizontal direction is sideways.\n</answer>"
+}

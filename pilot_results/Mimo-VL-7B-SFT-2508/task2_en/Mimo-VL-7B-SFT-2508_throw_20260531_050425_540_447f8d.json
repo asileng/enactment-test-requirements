@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+  "verb": "throw",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T05:04:25.540279",
+  "duration_seconds": 0.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "Arm bent at chest height, moderate force, forward, downward."
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "cast",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:00:49.162795",
+  "duration_seconds": 0.29,
+  "is_valid": false,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": null,
+    "HAND": "knee height",
+    "VD": "downward",
+    "HD": "sideways"
+  },
+  "error_type": "E104",
+  "raw_response": "<answer>\nThe action begins with my hand resting near the ground at knee height. I extend my right arm and use moderate force to cast a palm-sized object downward onto the table, moving my hand sideways for a brief period while maintaining a vertical downward movement.\n</answer>"
+}

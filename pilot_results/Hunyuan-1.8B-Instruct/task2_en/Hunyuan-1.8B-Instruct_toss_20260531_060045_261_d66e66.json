@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "toss",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:00:45.261392",
+  "duration_seconds": 0.16,
+  "is_valid": false,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": null,
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": "E104",
+  "raw_response": "<answer>\nThe hand rests near the ground, extended, with moderate force applied downward while moving the palm size object forward.\n</answer>"
+}

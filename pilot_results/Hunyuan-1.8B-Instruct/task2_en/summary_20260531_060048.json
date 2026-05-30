@@ -1,0 +1,257 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T06:00:48.124881",
+  "experiment_time": {
+    "start_time": "2026-05-31T06:00:46.745507",
+    "end_time": "2026-05-31T06:00:48.124748",
+    "duration_seconds": 1.379241
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 2,
+  "invalid_count": 4,
+  "valid_rate": 33.3,
+  "model_statistics": {
+    "Hunyuan-1.8B-Instruct": {
+      "total": 6,
+      "valid": 2,
+      "invalid": 4,
+      "errors": {
+        "E104": 4
+      },
+      "avg_duration": 0.23,
+      "valid_rate": 33.3
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 4,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "fling",
+          "raw_response": "<answer>\nIn a crowded room, reach forward with your right hand, grip the object firmly, then flick i"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "chuck",
+          "raw_response": "<answer>\nWith my hands extended and shoulder raised, I grip the palm-sized object firmly with modera"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "cast",
+          "raw_response": "<answer>\nIn front of me is a table with a small object on it. I raise my right hand to the near grou"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Hunyuan-1.8B-Instruct": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "near ground",
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.21,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.18,
+          "error_type": "E104"
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "downward",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.2,
+          "error_type": "E104"
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "near ground",
+            "VD": null,
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.25,
+          "error_type": "E104"
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "near ground",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.18,
+          "error_type": "E104"
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "near ground",
+            "VD": "downward",
+            "HD": "sideways"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.35,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:46.966705",
+      "duration_seconds": 0.21,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "near ground",
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>\nInitially, the hand rests near the ground, with the arm extended. A moderate force is applied to toss the palm-sized object upward while moving the hand sideways forward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:47.146819",
+      "duration_seconds": 0.18,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nIn a crowded room, reach forward with your right hand, grip the object firmly, then flick it outward in a downward direction.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:47.346135",
+      "duration_seconds": 0.2,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "downward",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWith my hands extended and shoulder raised, I grip the palm-sized object firmly with moderate force, move it downward, and perform the chuck action.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:47.594260",
+      "duration_seconds": 0.25,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "near ground",
+        "VD": null,
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nIn front of me is a table with a small object on it. I raise my right hand to the near ground height, then gently press it down with moderate force while moving my hand sideways forward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:47.775826",
+      "duration_seconds": 0.18,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "near ground",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nThe hand rests near the ground, the arm extends forward, with moderate force applied, moving downward while the hand moves sideways.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:00:48.123723",
+      "duration_seconds": 0.35,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "near ground",
+        "VD": "downward",
+        "HD": "sideways"
+      },
+      "error_type": null,
+      "raw_response": "<answer>\nIn my hand, I grip the palm-sized object firmly and place it on the table, lurching it backward while applying moderate force. My hand rests near the ground, with the arm slightly extended but not fully outstretched. The primary movement is downward, and the main horizontal direction is sideways.\n</answer>"
+    }
+  ]
+}

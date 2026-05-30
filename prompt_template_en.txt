@@ -1,3 +1,5 @@
+Do not use <think> tags. Output only the final JSON.
+
 Please make a simple judgment based on the native English speaker's understanding of this action, assuming you are a right-handed native English speaker.
 
 Imagine you are in an empty room.
@@ -77,3 +79,4 @@ Format as follows:
 }
 
 Do not output any content other than the JSON object.
+/no_think

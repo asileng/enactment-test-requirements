@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "throw",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:00:47.775826",
+  "duration_seconds": 0.18,
+  "is_valid": false,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": null,
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": "E104",
+  "raw_response": "<answer>\nThe hand rests near the ground, the arm extends forward, with moderate force applied, moving downward while the hand moves sideways.\n</answer>"
+}

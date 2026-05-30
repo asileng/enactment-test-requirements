@@ -1,11 +1,17 @@
 {
   "completed": [
-    "Hunyuan-1.8B-Instruct_投_0",
-    "Hunyuan-1.8B-Instruct_甩_0",
     "Hunyuan-1.8B-Instruct_扔_0",
-    "Hunyuan-1.8B-Instruct_摔_0",
     "Hunyuan-1.8B-Instruct_丢_0",
-    "Hunyuan-1.8B-Instruct_抛_0"
+    "Hunyuan-1.8B-Instruct_抛_0",
+    "Hunyuan-1.8B-Instruct_cast_0",
+    "Hunyuan-1.8B-Instruct_摔_0",
+    "Hunyuan-1.8B-Instruct_toss_0",
+    "Hunyuan-1.8B-Instruct_throw_0",
+    "Hunyuan-1.8B-Instruct_chuck_0",
+    "Hunyuan-1.8B-Instruct_投_0",
+    "Hunyuan-1.8B-Instruct_fling_0",
+    "Hunyuan-1.8B-Instruct_hurl_0",
+    "Hunyuan-1.8B-Instruct_甩_0"
   ],
-  "last_updated": "2026-05-30T20:59:32.992120"
+  "last_updated": "2026-05-31T06:00:43.474294"
 }

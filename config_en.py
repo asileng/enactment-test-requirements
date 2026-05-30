@@ -98,9 +98,9 @@ USE_LATIN_SQUARE = True
 # ==================== vllm Inference Parameters ====================
 INFERENCE_PARAMS = {
     "temperature": 0.7,
-    "top_p": 0.9,
-    "max_tokens": 500,
-    "stop": ["\n\n", "Human:", "Assistant:"],
+    "top_p": 0.95,
+    "max_tokens": 3072,
+    "stop": [],
 }
 
 # ==================== Task 1 Coding Dimensions Description ====================
