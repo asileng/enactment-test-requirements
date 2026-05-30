@@ -1,0 +1,65 @@
+Please make a judgment based on the typical native English speaker's understanding of this action.
+
+Assume you are right-handed.
+
+Imagine you are in an empty room.
+
+In front of you is a table.
+
+On the table surface is placed a palm-sized object.
+
+Target action:
+
+{verb}
+
+Please perform this action in the way you consider most natural and typical.
+
+If there are multiple possible ways to perform the action, choose the most typical one.
+
+Please describe this action according to the following dimensions.
+
+FORCE
+Describe the amount of force applied to the object when performing the action.
+
+Options:
+very strong, strong, moderate, weak, very weak
+
+ARM
+Describe the initial state of the arm before the action begins.
+
+Options:
+arm extended, arm bent
+
+HAND
+Describe the approximate relative height where the hand rests before the action begins.
+
+Options:
+near ground, knee height, waist height, chest height, shoulder height, head height, above head
+
+VD
+Describe the primary vertical direction of hand movement during the action.
+
+Options:
+downward, upward
+
+HD
+Describe the primary horizontal direction of hand movement during the action.
+
+Options:
+forward, sideways
+
+If the action involves multiple movement phases, judge based on the most dominant phase.
+
+Please describe this action in one concise sentence.
+
+The description must clearly reflect, and only reflect, all of the following dimensions:
+
+- Initial hand height
+- Arm state
+- Force level
+- Horizontal direction
+- Vertical direction
+
+All descriptions must directly use the terms from the options above; do not create new descriptive phrases.
+
+Do not output any content other than this one sentence.

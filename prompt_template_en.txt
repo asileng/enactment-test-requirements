@@ -1,0 +1,79 @@
+Please make a simple judgment based on the native English speaker's understanding of this action, assuming you are a right-handed native English speaker.
+
+Imagine you are in an empty room.
+
+In front of you is a table.
+
+On the table surface is placed a palm-sized object.
+
+Target action:
+
+{verb}
+
+Please perform this action in the way you consider most natural and typical.
+
+If there are multiple possible ways to perform the action, choose the most typical one.
+
+Please encode this action according to the following action coding standard.
+
+Action coding standard:
+
+Please output the encoding according to five dimensions: FORCE, ARM, HAND, VD, HD
+
+FORCE
+The amount of force applied to the object when performing the action
+
+5 = very strong
+4 = strong
+3 = moderate
+2 = weak
+1 = very weak
+
+ARM
+The initial state of the arm before the action begins
+
+1 = arm extended
+0 = arm bent
+
+HAND
+The initial height where the hand rests before the action begins
+
+0 = ground level
+
+1–9 = relative height between ground level and the performer's height
+
+10 = performer's height
+
+11 = one unit above the performer's height
+
+12 = two units above the performer's height
+
+VD
+The primary vertical direction of hand movement during the action
+
+1 = downward
+0 = upward
+
+HD
+The primary horizontal direction of hand movement during the action
+
+1 = forward
+0 = sideways
+
+If the action involves multiple movement phases, judge based on the most dominant phase.
+
+All variables must output integer encoding values.
+
+Output only a single JSON object.
+
+Format as follows:
+
+{
+  "FORCE": 0,
+  "HAND": 0,
+  "ARM": 0,
+  "VD": 0,
+  "HD": 0
+}
+
+Do not output any content other than the JSON object.
