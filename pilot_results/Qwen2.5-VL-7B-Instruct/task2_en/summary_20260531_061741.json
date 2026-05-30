@@ -1,0 +1,247 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T06:17:41.959074",
+  "experiment_time": {
+    "start_time": "2026-05-31T06:17:40.394087",
+    "end_time": "2026-05-31T06:17:41.958801",
+    "duration_seconds": 1.564714
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 5,
+  "invalid_count": 1,
+  "valid_rate": 83.3,
+  "model_statistics": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "total": 6,
+      "valid": 5,
+      "invalid": 1,
+      "errors": {
+        "E104": 1
+      },
+      "avg_duration": 0.26,
+      "valid_rate": 83.3
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 1,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Qwen2.5-VL-7B-Instruct",
+          "verb": "toss",
+          "raw_response": "Arm extended, arm bent, moderate, upward, forward"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": null,
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.2,
+          "error_type": "E104"
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": "very strong",
+            "ARM": "arm extended",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.43,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.2,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": "weak",
+            "ARM": "arm bent",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.31,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": "strong",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.2,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": "strong",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.2,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:40.602489",
+      "duration_seconds": 0.2,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": null,
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "Arm extended, arm bent, moderate, upward, forward"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:41.035244",
+      "duration_seconds": 0.43,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "very strong",
+        "ARM": "arm extended",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "Arm extended, arm bent, force level: very strong, hand height: chest height, VD: downward, HD: forward"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:41.238952",
+      "duration_seconds": 0.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "arm extended, moderate, shoulder height, downward, forward"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:41.549507",
+      "duration_seconds": 0.31,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "weak",
+        "ARM": "arm bent",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "arm bent, hand at shoulder height, force level weak, HD forward, VD downward"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:41.753045",
+      "duration_seconds": 0.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "strong",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "arm extended, strong, shoulder height, downward, forward"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:17:41.957073",
+      "duration_seconds": 0.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "strong",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "arm extended, strong, shoulder height, downward, forward"
+    }
+  ]
+}

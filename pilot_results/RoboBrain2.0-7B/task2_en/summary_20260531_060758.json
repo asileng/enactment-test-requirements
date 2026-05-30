@@ -1,0 +1,252 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T06:07:58.747869",
+  "experiment_time": {
+    "start_time": "2026-05-31T06:07:55.793644",
+    "end_time": "2026-05-31T06:07:58.747667",
+    "duration_seconds": 2.954023
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 4,
+  "invalid_count": 2,
+  "valid_rate": 66.7,
+  "model_statistics": {
+    "RoboBrain2.0-7B": {
+      "total": 6,
+      "valid": 4,
+      "invalid": 2,
+      "errors": {
+        "E104": 2
+      },
+      "avg_duration": 0.49,
+      "valid_rate": 66.7
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 2,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "RoboBrain2.0-7B",
+          "verb": "chuck",
+          "raw_response": "<answer>extend arm with hand at shoulder height, apply moderate force, move hand forward and downwar"
+        },
+        {
+          "model": "RoboBrain2.0-7B",
+          "verb": "throw",
+          "raw_response": "<answer>With arm bent and hand at shoulder height, apply moderate force for a forward throw.</answer"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "RoboBrain2.0-7B": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.57,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": "strong",
+            "ARM": "arm bent",
+            "HAND": "shoulder height",
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.57,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.45,
+          "error_type": "E104"
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.4,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "shoulder height",
+            "VD": null,
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.43,
+          "error_type": "E104"
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": "very strong",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.51,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:56.372567",
+      "duration_seconds": 0.57,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>With arm extended and hand at shoulder height, I apply moderate force for a forward toss, moving my hand upward and slightly downward.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:56.945514",
+      "duration_seconds": 0.57,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "strong",
+        "ARM": "arm bent",
+        "HAND": "shoulder height",
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>With arm bent and hand at shoulder height, I apply strong force with an upward motion to fling the palm-sized object forward.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:57.395499",
+      "duration_seconds": 0.45,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>extend arm with hand at shoulder height, apply moderate force, move hand forward and downward.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:57.798963",
+      "duration_seconds": 0.4,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>arm bent, chest height, moderate force, forward direction, downward direction.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:58.233527",
+      "duration_seconds": 0.43,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "shoulder height",
+        "VD": null,
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>With arm bent and hand at shoulder height, apply moderate force for a forward throw.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:58.746154",
+      "duration_seconds": 0.51,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "very strong",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>Arm extended, hand at shoulder height, using very strong force, moving downward and forward to hurl the object.</answer>"
+    }
+  ]
+}

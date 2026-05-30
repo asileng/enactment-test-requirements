@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+  "verb": "toss",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:17:16.646432",
+  "duration_seconds": 0.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}"
+}

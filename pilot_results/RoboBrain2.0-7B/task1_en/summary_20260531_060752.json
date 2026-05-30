@@ -1,0 +1,233 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T06:07:52.691253",
+  "experiment_time": {
+    "start_time": "2026-05-31T06:07:48.397608",
+    "end_time": "2026-05-31T06:07:52.691086",
+    "duration_seconds": 4.293478
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "RoboBrain2.0-7B": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.71,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "RoboBrain2.0-7B": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.84,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.69,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.7,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.68,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.68,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.68,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:49.246967",
+      "duration_seconds": 0.84,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:49.935107",
+      "duration_seconds": 0.69,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 9,\n    \"ARM\": 1,\n    \"VD\": 1,\n    \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:50.634610",
+      "duration_seconds": 0.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:51.319087",
+      "duration_seconds": 0.68,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 9,\n    \"ARM\": 0,\n    \"VD\": 1,\n    \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:52.003301",
+      "duration_seconds": 0.68,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n    \"FORCE\": 2,\n    \"HAND\": 6,\n    \"ARM\": 1,\n    \"VD\": 1,\n    \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:07:52.688520",
+      "duration_seconds": 0.68,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 0,\n    \"ARM\": 1,\n    \"VD\": 1,\n    \"HD\": 0\n}\n```"
+    }
+  ]
+}

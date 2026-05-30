@@ -1,0 +1,247 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T06:15:37.558623",
+  "experiment_time": {
+    "start_time": "2026-05-31T06:15:33.629563",
+    "end_time": "2026-05-31T06:15:37.558431",
+    "duration_seconds": 3.928868
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 5,
+  "invalid_count": 1,
+  "valid_rate": 83.3,
+  "model_statistics": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "total": 6,
+      "valid": 5,
+      "invalid": 1,
+      "errors": {
+        "E103": 1
+      },
+      "avg_duration": 0.65,
+      "valid_rate": 83.3
+    }
+  },
+  "error_statistics": {
+    "E103": {
+      "count": 1,
+      "description": "编码值超出范围",
+      "examples": [
+        {
+          "model": "Qwen2.5-VL-7B-Instruct",
+          "verb": "cast",
+          "raw_response": "{\n  \"FORCE\": 0,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.77,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.63,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.64,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 0,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": false,
+          "duration_seconds": 0.62,
+          "error_type": "E103"
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.64,
+          "error_type": null
+        }
+      ],
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 5,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.62,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:34.404128",
+      "duration_seconds": 0.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:35.031431",
+      "duration_seconds": 0.63,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:35.671882",
+      "duration_seconds": 0.64,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:36.294102",
+      "duration_seconds": 0.62,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": 0,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": "E103",
+      "raw_response": "{\n  \"FORCE\": 0,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:36.933434",
+      "duration_seconds": 0.64,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T06:15:37.556528",
+      "duration_seconds": 0.62,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 5,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    }
+  ]
+}

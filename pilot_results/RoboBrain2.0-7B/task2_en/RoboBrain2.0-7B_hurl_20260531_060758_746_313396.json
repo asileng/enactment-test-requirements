@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+  "verb": "hurl",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:07:58.746154",
+  "duration_seconds": 0.51,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "very strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>Arm extended, hand at shoulder height, using very strong force, moving downward and forward to hurl the object.</answer>"
+}

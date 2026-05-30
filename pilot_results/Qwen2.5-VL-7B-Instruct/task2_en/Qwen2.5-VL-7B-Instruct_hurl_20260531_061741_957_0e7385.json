@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+  "verb": "hurl",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:17:41.957073",
+  "duration_seconds": 0.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "arm extended, strong, shoulder height, downward, forward"
+}

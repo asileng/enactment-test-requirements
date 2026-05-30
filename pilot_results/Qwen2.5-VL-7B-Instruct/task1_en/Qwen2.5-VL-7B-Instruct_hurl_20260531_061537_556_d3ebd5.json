@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-VL-7B-Instruct",
+  "verb": "hurl",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T06:15:37.556528",
+  "duration_seconds": 0.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+}
