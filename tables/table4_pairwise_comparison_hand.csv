@@ -1,0 +1,18 @@
+Language,Verb,reng 掷,diu 丢,pao 抛,tou 投,shuai 摔,shuai 甩
+Chinese,diu 丢,,,,
+Chinese,pao 抛,,**,,
+Chinese,tou 投,***,***,***,,
+Chinese,shuai 摔,***,***,*,,
+Chinese,shuai 甩,,***,,***,***
+Language,Verb,throw,fling,chuck,cast,hurl,toss
+English,fling,**,,,,,
+English,chuck,,,,,,
+English,cast,**,,,,,
+English,hurl,,,,*,,
+English,toss,***,**,***,*,***,
+Language,Verb,werfen,stossen,schleudern,schmeissen,schmettern,pfeffern
+German,stossen,,,,,,
+German,schleudern,,,,,,
+German,schmeissen,,,,,,
+German,schmettern,,***,**,,,
+German,pfeffern,,,,,,

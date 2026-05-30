@@ -1,0 +1,19 @@
+Verb,VD value,VD sig.,VD effect size,HD value,HD sig.,HD effect size,ARM value,ARM sig.,ARM effect size
+reng 掷,upward,*,.390,forward,**,.390,N.A.,,
+diu 丢,upward,***,.600,forward,*,.267,straight,***,.567
+pao 抛,upward,all,,forward,***,.967,N.A.,,
+tou 投,upward,***,.933,forward,all,,bend,***,.967
+shuai 摔,downward,all,,forward,***,.593,bend,all,
+shuai 甩,N.A.,,,sidewise,**,.356,bend,***,.593
+throw,upward,***,.793,forward,all,,bend,***,.607
+fling,upward,***,.862,forward,***,.828,bend,*,.350
+chuck,upward,***,.655,forward,***,.862,bend,**,.434
+cast,upward,***,.931,forward,***,.828,N.A.,,
+hurl,upward,***,.621,forward,***,.931,bend,***,.509
+toss,upward,***,.966,forward,all,,straight,***,.759
+werfen,upward,***,.932,forward,all,,bend,***,.767
+stossen,upward,***,.500,forward,all,,bend,***,.928
+schleudern,upward,***,.600,forward,all,,bend,***,.481
+schmeissen,upward,**,.400,forward,all,,bend,***,.800
+schmettern,downward,***,.684,forward,all,,bend,***,.960
+pfeffern,downward,**,.433,forward,all,,bend,***,.966

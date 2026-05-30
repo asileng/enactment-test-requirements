@@ -1,0 +1,76 @@
+pair_idx,pair,verb1,verb2,parameter,significance
+0,reng vs diu,reng,diu,FORCE,2
+0,reng vs diu,reng,diu,HAND,0
+0,reng vs diu,reng,diu,ARM,0
+0,reng vs diu,reng,diu,HD,0
+0,reng vs diu,reng,diu,VD,0
+1,reng vs pao,reng,pao,FORCE,0
+1,reng vs pao,reng,pao,HAND,0
+1,reng vs pao,reng,pao,ARM,0
+1,reng vs pao,reng,pao,HD,0
+1,reng vs pao,reng,pao,VD,0
+2,reng vs tou,reng,tou,FORCE,0
+2,reng vs tou,reng,tou,HAND,3
+2,reng vs tou,reng,tou,ARM,0
+2,reng vs tou,reng,tou,HD,0
+2,reng vs tou,reng,tou,VD,0
+3,reng vs shuai 摔,reng,shuai 摔,FORCE,3
+3,reng vs shuai 摔,reng,shuai 摔,HAND,3
+3,reng vs shuai 摔,reng,shuai 摔,ARM,0
+3,reng vs shuai 摔,reng,shuai 摔,HD,0
+3,reng vs shuai 摔,reng,shuai 摔,VD,3
+4,reng vs shuai 甩,reng,shuai 甩,FORCE,1
+4,reng vs shuai 甩,reng,shuai 甩,HAND,0
+4,reng vs shuai 甩,reng,shuai 甩,ARM,0
+4,reng vs shuai 甩,reng,shuai 甩,HD,2
+4,reng vs shuai 甩,reng,shuai 甩,VD,0
+5,diu vs pao,diu,pao,FORCE,3
+5,diu vs pao,diu,pao,HAND,2
+5,diu vs pao,diu,pao,ARM,0
+5,diu vs pao,diu,pao,HD,0
+5,diu vs pao,diu,pao,VD,0
+6,diu vs tou,diu,tou,FORCE,3
+6,diu vs tou,diu,tou,HAND,3
+6,diu vs tou,diu,tou,ARM,3
+6,diu vs tou,diu,tou,HD,0
+6,diu vs tou,diu,tou,VD,0
+7,diu vs shuai 摔,diu,shuai 摔,FORCE,3
+7,diu vs shuai 摔,diu,shuai 摔,HAND,3
+7,diu vs shuai 摔,diu,shuai 摔,ARM,3
+7,diu vs shuai 摔,diu,shuai 摔,HD,0
+7,diu vs shuai 摔,diu,shuai 摔,VD,3
+8,diu vs shuai 甩,diu,shuai 甩,FORCE,3
+8,diu vs shuai 甩,diu,shuai 甩,HAND,3
+8,diu vs shuai 甩,diu,shuai 甩,ARM,3
+8,diu vs shuai 甩,diu,shuai 甩,HD,2
+8,diu vs shuai 甩,diu,shuai 甩,VD,0
+9,pao vs tou,pao,tou,FORCE,0
+9,pao vs tou,pao,tou,HAND,3
+9,pao vs tou,pao,tou,ARM,0
+9,pao vs tou,pao,tou,HD,0
+9,pao vs tou,pao,tou,VD,0
+10,pao vs shuai 摔,pao,shuai 摔,FORCE,3
+10,pao vs shuai 摔,pao,shuai 摔,HAND,1
+10,pao vs shuai 摔,pao,shuai 摔,ARM,0
+10,pao vs shuai 摔,pao,shuai 摔,HD,0
+10,pao vs shuai 摔,pao,shuai 摔,VD,3
+11,pao vs shuai 甩,pao,shuai 甩,FORCE,2
+11,pao vs shuai 甩,pao,shuai 甩,HAND,0
+11,pao vs shuai 甩,pao,shuai 甩,ARM,0
+11,pao vs shuai 甩,pao,shuai 甩,HD,2
+11,pao vs shuai 甩,pao,shuai 甩,VD,0
+12,tou vs shuai 摔,tou,shuai 摔,FORCE,3
+12,tou vs shuai 摔,tou,shuai 摔,HAND,0
+12,tou vs shuai 摔,tou,shuai 摔,ARM,0
+12,tou vs shuai 摔,tou,shuai 摔,HD,0
+12,tou vs shuai 摔,tou,shuai 摔,VD,3
+13,tou vs shuai 甩,tou,shuai 甩,FORCE,1
+13,tou vs shuai 甩,tou,shuai 甩,HAND,3
+13,tou vs shuai 甩,tou,shuai 甩,ARM,3
+13,tou vs shuai 甩,tou,shuai 甩,HD,2
+13,tou vs shuai 甩,tou,shuai 甩,VD,0
+14,shuai 摔 vs shuai 甩,shuai 摔,shuai 甩,FORCE,3
+14,shuai 摔 vs shuai 甩,shuai 摔,shuai 甩,HAND,3
+14,shuai 摔 vs shuai 甩,shuai 摔,shuai 甩,ARM,3
+14,shuai 摔 vs shuai 甩,shuai 摔,shuai 甩,HD,2
+14,shuai 摔 vs shuai 甩,shuai 摔,shuai 甩,VD,3
