@@ -1,0 +1,14 @@
+{
+  "task_id": "task3",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+  "language": "en",
+  "expected_verb": "throw",
+  "parsed_verb": "throw",
+  "is_correct": true,
+  "is_valid": true,
+  "error_type": null,
+  "raw_response": "<think>\n</think>\n\nthrow",
+  "duration_seconds": 0.14,
+  "timestamp": "2026-05-31T06:42:06.201417"
+}
