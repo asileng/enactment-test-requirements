@@ -1,0 +1,14 @@
+{
+  "task_id": "task3",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+  "language": "en",
+  "expected_verb": "toss",
+  "parsed_verb": "toss",
+  "is_correct": true,
+  "is_valid": true,
+  "error_type": null,
+  "raw_response": "<think>\n</think>\n\ntoss",
+  "duration_seconds": 0.16,
+  "timestamp": "2026-05-31T06:48:55.452386"
+}

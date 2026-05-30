@@ -1,0 +1,14 @@
+{
+  "task_id": "task3",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+  "language": "zh",
+  "expected_verb": "摔",
+  "parsed_verb": null,
+  "is_correct": false,
+  "is_valid": false,
+  "error_type": "PARSE_ERROR",
+  "raw_response": "<think>\n好的，我需要根据题目中的五个维度来判断哪个动词最符合这个动作。首先，我得仔细看一下每个维度的标准和给出的平均得分，然后对应到各个动词的特点上。\n\n首先，FORCE的",
+  "duration_seconds": 0.79,
+  "timestamp": "2026-05-31T06:56:32.884155"
+}
