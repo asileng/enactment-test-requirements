@@ -1,0 +1,13 @@
+Language,Verb,FORCE_mean,FORCE_sd,HAND_mean,HAND_sd,ARM_straight_proportion,HD_forward_proportion,VD_upward_proportion
+Chinese,reng 掷,3.05,0.51,5.43,1.82,0.60,0.72,0.72
+Chinese,diu 丢,2.33,0.83,4.63,1.08,0.80,0.57,0.82
+Chinese,pao 抛,3.16,0.45,6.65,2.52,0.52,0.97,1.00
+Chinese,tou 投,3.21,0.52,9.13,0.79,0.00,1.00,0.97
+Chinese,shuai 摔,4.55,0.56,8.51,1.11,0.00,0.86,0.00
+Chinese,shuai 甩,3.74,0.68,6.27,1.49,0.28,0.31,0.48
+English,throw,3.62,0.64,8.58,1.91,0.17,1.00,0.90
+English,fling,3.44,0.70,6.41,1.62,0.39,0.86,0.93
+English,chuck,3.91,0.68,7.06,2.18,0.34,0.93,0.72
+English,cast,3.01,0.47,6.18,2.30,0.48,0.93,0.97
+English,hurl,4.39,0.74,8.00,2.07,0.28,0.97,0.83
+English,toss,3.01,0.22,4.50,1.63,0.90,1.00,1.00
