@@ -1,0 +1,257 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:38:29.770575",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:38:28.361278",
+    "end_time": "2026-05-31T02:38:29.770370",
+    "duration_seconds": 1.409092
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 3,
+  "invalid_count": 3,
+  "valid_rate": 50.0,
+  "model_statistics": {
+    "Hunyuan-1.8B-Instruct": {
+      "total": 6,
+      "valid": 3,
+      "invalid": 3,
+      "errors": {
+        "E103": 3
+      },
+      "avg_duration": 0.23,
+      "valid_rate": 50.0
+    }
+  },
+  "error_statistics": {
+    "E103": {
+      "count": 3,
+      "description": "编码值超出范围",
+      "examples": [
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "投",
+          "raw_response": "<answer>\n```json\n{\n  \"FORCE\": 0,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```\n</answer>"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "扔",
+          "raw_response": "<answer>\n{\n  \"FORCE\": 0,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</answer>"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "丢",
+          "raw_response": "<answer>\n{\"FORCE\": 0, \"ARM\": 0, \"HAND\": 0, \"VD\": 0, \"HD\": 0}\n</answer>"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Hunyuan-1.8B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.2,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 0,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": false,
+          "duration_seconds": 0.26,
+          "error_type": "E103"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 0,
+            "ARM": 1,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": false,
+          "duration_seconds": 0.25,
+          "error_type": "E103"
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 8,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.21,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 0,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": false,
+          "duration_seconds": 0.21,
+          "error_type": "E103"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "ARM": 1,
+            "HAND": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.27,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:28.570452",
+      "duration_seconds": 0.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "<answer>\n{\"FORCE\": 2, \"ARM\": 0, \"HAND\": 0, \"VD\": 0, \"HD\": 0}\n</answer>"
+    },
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:28.834854",
+      "duration_seconds": 0.26,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": 0,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": "E103",
+      "raw_response": "<answer>\n```json\n{\n  \"FORCE\": 0,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```\n</answer>"
+    },
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:29.081301",
+      "duration_seconds": 0.25,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": 0,
+        "ARM": 1,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": "E103",
+      "raw_response": "<answer>\n{\n  \"FORCE\": 0,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</answer>"
+    },
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:29.291327",
+      "duration_seconds": 0.21,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 8,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "<answer>\n{\"FORCE\": 3, \"ARM\": 1, \"HAND\": 8, \"VD\": 1, \"HD\": 1}\n</answer>"
+    },
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:29.500314",
+      "duration_seconds": 0.21,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": 0,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": "E103",
+      "raw_response": "<answer>\n{\"FORCE\": 0, \"ARM\": 0, \"HAND\": 0, \"VD\": 0, \"HD\": 0}\n</answer>"
+    },
+    {
+      "task_id": "task1",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:38:29.768467",
+      "duration_seconds": 0.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "ARM": 1,
+        "HAND": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "<answer>\n```json\n{\n  \"FORCE\": 2,\n  \"ARM\": 1,\n  \"HAND\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n</answer>"
+    }
+  ]
+}

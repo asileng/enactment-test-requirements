@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:42:37.735736",
+  "duration_seconds": 0.23,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nInitially, the hand rests near the ground at waist height. The arm is extended, with the hand moving downward and horizontally forward while applying moderate force to lift the palm-sized object.\n</answer>"
+}

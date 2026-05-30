@@ -1,0 +1,252 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T01:51:40.508719",
+  "experiment_time": {
+    "start_time": "2026-05-31T01:51:37.647396",
+    "end_time": "2026-05-31T01:51:40.508519",
+    "duration_seconds": 2.861123
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 4,
+  "invalid_count": 2,
+  "valid_rate": 66.7,
+  "model_statistics": {
+    "RoboBrain2.0-7B": {
+      "total": 6,
+      "valid": 4,
+      "invalid": 2,
+      "errors": {
+        "E104": 2
+      },
+      "avg_duration": 0.47,
+      "valid_rate": 66.7
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 2,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "RoboBrain2.0-7B",
+          "verb": "投",
+          "raw_response": "<answer>手臂伸直，从腰部高度向前投掷，力度适中，水平向前，垂直方向为向前投掷。</answer>"
+        },
+        {
+          "model": "RoboBrain2.0-7B",
+          "verb": "丢",
+          "raw_response": "<answer>手臂伸直，手腕弯曲，手掌靠近桌面，以中等力度将手掌大小的物体向前上方丢出。</answer>"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "RoboBrain2.0-7B": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.41,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": "手臂伸直",
+            "HAND": "腰部高度",
+            "VD": null,
+            "HD": "向前"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.58,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "腰部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.39,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.42,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": null,
+            "VD": null,
+            "HD": "向前"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.57,
+          "error_type": "E104"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.48,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:38.062469",
+      "duration_seconds": 0.41,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "<answer>肩部高度、手臂伸直、强、向前、向上</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:38.638977",
+      "duration_seconds": 0.58,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": "手臂伸直",
+        "HAND": "腰部高度",
+        "VD": null,
+        "HD": "向前"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>手臂伸直，从腰部高度向前投掷，力度适中，水平向前，垂直方向为向前投掷。</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:39.027248",
+      "duration_seconds": 0.39,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "腰部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "<answer>腰部高度、手臂伸直、强、向前、向上</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:39.448850",
+      "duration_seconds": 0.42,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "<answer>肩部高度、手臂伸直、非常强、向前、向下</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:40.024462",
+      "duration_seconds": 0.57,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": null,
+        "VD": null,
+        "HD": "向前"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>手臂伸直，手腕弯曲，手掌靠近桌面，以中等力度将手掌大小的物体向前上方丢出。</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:40.507095",
+      "duration_seconds": 0.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直\n非常强\n肩部高度\n向前\n向上\n手臂向前甩动，手掌大小的物体被击打。"
+    }
+  ]
+}

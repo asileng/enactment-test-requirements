@@ -1,0 +1,20 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-30T19:43:48.844856",
+  "duration_seconds": 2.72,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "thinking": "好的，我需要为抛这个动作进行编码。首先，FORCE的力量大小。抛的时候通常需要中等力量，所以选3。然后ARM的初始状态，抛的时候手臂应该是弯曲的，所以ARM是0。HAND的初始高度，假设是在桌子上，大概在腰部到胸部之间，可能选3到5之间，比如5。VD是垂直方向，抛的时候手要向上，所以VD是0。HD是水平方向，抛的时候手向前移动，所以HD是1。这样组合起来应该是FORCE=3，ARM=0，HAND=5，VD=0，HD=1。"
+}

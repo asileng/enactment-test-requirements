@@ -1,0 +1,233 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T01:52:01.453192",
+  "experiment_time": {
+    "start_time": "2026-05-31T01:51:58.407303",
+    "end_time": "2026-05-31T01:52:01.453011",
+    "duration_seconds": 3.045708
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "RoboBrain2.0-7B": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.5,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "RoboBrain2.0-7B": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.48,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.44,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.57,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "strong",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "weak",
+            "ARM": "arm extended",
+            "HAND": "shoulder height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.48,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "chest height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.45,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:58.896543",
+      "duration_seconds": 0.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>With arm extended and hand at chest height, apply moderate force for a downward and forward throw.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:59.334128",
+      "duration_seconds": 0.44,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>Arm extended, hand at shoulder height, moderate force, forward direction, downward.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:51:59.908666",
+      "duration_seconds": 0.57,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>With arm extended and hand at shoulder height, apply moderate force with a downward and forward motion to throw the palm-sized object.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:52:00.513866",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "strong",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>With arm extended and hand at shoulder height, I apply strong downward force as I move my hand forward to crush the palm-sized object.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:52:00.998764",
+      "duration_seconds": 0.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "weak",
+        "ARM": "arm extended",
+        "HAND": "shoulder height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>Arm extended, hand at shoulder height, applying weak force with downward vertical direction, moving forward.</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T01:52:01.451546",
+      "duration_seconds": 0.45,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "chest height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>Arm extended, hand at chest height, moderate force, forward motion, downward swing.</answer>"
+    }
+  ]
+}

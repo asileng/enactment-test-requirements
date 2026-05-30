@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:01:54.048007",
+  "duration_seconds": 0.19,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nInitially, the hand rests near the ground with the arm extended. The force applied is moderate, and the hand moves downward while moving forward.\n</answer>"
+}

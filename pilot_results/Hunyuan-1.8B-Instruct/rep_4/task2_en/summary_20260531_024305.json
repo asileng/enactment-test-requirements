@@ -1,0 +1,257 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:43:05.435426",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:43:03.939718",
+    "end_time": "2026-05-31T02:43:05.435193",
+    "duration_seconds": 1.495475
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 0,
+  "invalid_count": 6,
+  "valid_rate": 0.0,
+  "model_statistics": {
+    "Hunyuan-1.8B-Instruct": {
+      "total": 6,
+      "valid": 0,
+      "invalid": 6,
+      "errors": {
+        "E104": 6
+      },
+      "avg_duration": 0.25,
+      "valid_rate": 0.0
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 6,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "抛",
+          "raw_response": "<answer>\nWith a moderate force, the hand extends upwards while the arm remains straight, moving the "
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "投",
+          "raw_response": "<answer>\nWhen performing the \"投\" action, I would extend my arm, resting my hand at a waist height ne"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "扔",
+          "raw_response": "<answer>\nWith the hand near the chest, extending the arm, applying moderate force, moving the arm do"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Hunyuan-1.8B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.15,
+          "error_type": "E104"
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "waist height",
+            "VD": "downward",
+            "HD": "sideways"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.33,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.23,
+          "error_type": "E104"
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.21,
+          "error_type": "E104"
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "waist height",
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.26,
+          "error_type": "E104"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.3,
+          "error_type": "E104"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:04.096385",
+      "duration_seconds": 0.15,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWith a moderate force, the hand extends upwards while the arm remains straight, moving the object forward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:04.422423",
+      "duration_seconds": 0.33,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "waist height",
+        "VD": "downward",
+        "HD": "sideways"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWhen performing the \"投\" action, I would extend my arm, resting my hand at a waist height near the floor. I apply moderate force, moving the palm-sized object downward with a slight sideways push. The main vertical movement is downward, while the horizontal movement is sideways.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:04.655918",
+      "duration_seconds": 0.23,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWith the hand near the chest, extending the arm, applying moderate force, moving the arm downward while keeping the hand sideways, then bringing it forward to release the palm-sized object.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:04.866201",
+      "duration_seconds": 0.21,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWake up from bed, lift your arm out horizontally, reach towards the table, grip the object firmly with moderate force, slide it down onto the table.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:05.132497",
+      "duration_seconds": 0.26,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "waist height",
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nThe hand rests near the ground at about waist height, holding the object. The arm extends forward, applying moderate force to drop the object downward. The primary horizontal movement is forward, and the primary vertical movement is downward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:43:05.433492",
+      "duration_seconds": 0.3,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nIn front of me, I extend my right arm, bend it slightly, place my hand on the table, grip the palm-sized object with my right hand, pull the object backward while maintaining a moderate force, and move my arm downward and forward.\n</answer>"
+    }
+  ]
+}

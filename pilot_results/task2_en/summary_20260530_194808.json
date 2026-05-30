@@ -1,0 +1,263 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-30T19:48:08.977966",
+  "experiment_time": {
+    "start_time": "2026-05-30T19:47:21.139802",
+    "end_time": "2026-05-30T19:48:08.977753",
+    "duration_seconds": 47.837951
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 0,
+  "invalid_count": 6,
+  "valid_rate": 0.0,
+  "model_statistics": {
+    "Mimo-embodied-7B": {
+      "total": 6,
+      "valid": 0,
+      "invalid": 6,
+      "errors": {
+        "E104": 6
+      },
+      "avg_duration": 7.97,
+      "valid_rate": 0.0
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 6,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Mimo-embodied-7B",
+          "verb": "抛",
+          "raw_response": "Moderate force, arm bent, hand at waist height, upward vertical movement, forward horizontal movemen"
+        },
+        {
+          "model": "Mimo-embodied-7B",
+          "verb": "投",
+          "raw_response": "arm extended, waist height, moderate, forward, upward"
+        },
+        {
+          "model": "Mimo-embodied-7B",
+          "verb": "扔",
+          "raw_response": "Arm bent, hand at shoulder height, moderate force, upward vertical movement, forward horizontal move"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Mimo-embodied-7B": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 5.52,
+          "error_type": "E104"
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 6.46,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 6.27,
+          "error_type": "E104"
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 13.62,
+          "error_type": "E104"
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 12.29,
+          "error_type": "E104"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 3.66,
+          "error_type": "E104"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:47:26.663986",
+      "duration_seconds": 5.52,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "Moderate force, arm bent, hand at waist height, upward vertical movement, forward horizontal movement.",
+      "thinking": "Okay, let's see. The user wants me to imagine being a right-handed person in an empty room with a table and a small object. The action is to \"抛\" which I think means to throw or toss. Since it's palm-sized, maybe like tossing a ball.\n\nFirst, the force. Throwing a small object would probably be moderate, not too hard or too weak. Then the arm state. If I'm right-handed, to throw, the arm is likely extended forward, but maybe starting with the arm bent? Wait, when you throw, you usually start with the arm bent, like holding the object near your body, then extend it. So initial arm state is bent.\n\nHand height before the action. If the object is on the table, maybe the hand is at waist height initially. Because you pick it up from the table, which is waist level. But the options are near ground, knee, waist, chest, etc. So waist height makes sense.\n\nVertical direction: when throwing, the hand moves upward to propel the object. So upward.\n\nHorizontal direction: forward, since you're throwing towards something in front, like the table. But wait, the object is on the table. If it's on the table, maybe you're tossing it off the table? Then the horizontal direction would be forward, away from the table. So forward.\n\nPutting it all together: moderate force, arm bent, hand at waist height, vertical upward, horizontal forward. So the sentence would be: \"Moderate force, arm bent, hand at waist height, upward vertical movement, forward horizontal movement.\""
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:47:33.122701",
+      "duration_seconds": 6.46,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "arm extended, waist height, moderate, forward, upward",
+      "thinking": "Okay, let's break this down. The user wants me to describe the action of \"投\" (which is \"throw\" in Chinese) from the perspective of a native English speaker, assuming I'm right-handed. The scenario is an empty room with a table, and the object is palm-sized on the table.\n\nFirst, I need to figure out the most typical way a right-handed person would throw something that's on a table. Since it's palm-sized, maybe like a small ball or a cup. When throwing something from a table, the natural motion would involve picking it up and throwing it. \n\nStarting with the arm's initial state. If I'm right-handed, when I reach for something on a table in front of me, my arm would start extended towards the table. But wait, the arm's initial state before the action begins. So before throwing, maybe the arm is extended towards the table to pick up the object. Then, when throwing, the arm would start bent as it moves back. But the options for ARM are \"arm extended\" or \"arm bent\". The question says the initial state before the action begins. So if the action is throwing, the initial state would be the arm extended towards the object on the table. So ARM: arm extended.\n\nHand height before the action. The hand would be at waist height when reaching for the object on the table. So HAND: waist height.\n\nForce level: Throwing a palm-sized object. The force needed would be moderate. Not too weak, but not very strong either. Maybe moderate.\n\nVertical direction (VD): When throwing, the hand moves upward as part of the throwing motion. So VD: upward.\n\nHorizontal direction (HD): The primary horizontal direction would be forward, towards where the object needs to be thrown. So HD: forward.\n\nPutting it all together: The action is throwing. Initial arm extended, hand at waist height, moderate force, moving forward and upward."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:47:39.395741",
+      "duration_seconds": 6.27,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "Arm bent, hand at shoulder height, moderate force, upward vertical movement, forward horizontal movement.",
+      "thinking": "Okay, let's break this down. The user wants me to imagine being a right-handed native English speaker in an empty room with a table and a palm-sized object. The action is to \"扔\" which means to throw.\n\nFirst, considering typical throwing actions. For a palm-sized object, like a small ball or a toy, the natural way would be to throw it forward. Since the user is right-handed, the arm is likely extended when throwing. The initial arm position before the action—probably arm bent, because you usually bend your arm to start a throw. \n\nHand height before the action: If the object is on a table, the hand would be around chest height to grab it, but when throwing, maybe it's a bit higher. Wait, the options are near ground, knee, waist, chest, shoulder, head, above head. If the object is on the table, maybe the hand is at waist or chest height when starting. But when you throw, you might lift your hand higher. Wait, the initial state before the action begins. So when you're about to throw, the hand is probably at shoulder height. Because you bring your arm up to that level before throwing. \n\nForce level: Moderate. Throwing a small object isn't a very strong throw, but not weak either. Maybe moderate.\n\nVertical direction: Upward. Because when you throw, you push the hand up to release the object.\n\nHorizontal direction: Forward. The object is on the table, so throwing it forward across the table or into the room.\n\nPutting it all together: Hand starts at shoulder height, arm is bent (since you bring the arm up from a bent position), moderate force, upward vertical movement, forward horizontal. \n\nSo the sentence should be: Arm bent, hand at shoulder height, moderate force, upward vertical movement, forward horizontal movement."
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:47:53.017025",
+      "duration_seconds": 13.62,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "Arm extended, waist height, moderate force, forward horizontal movement, downward vertical direction.",
+      "thinking": "Okay, let's tackle this. The user wants me to describe the action \"摔\" (which I know means to drop or throw something) in a way that's typical for a native English speaker, especially a right-handed person in an empty room with a table and a small object.\n\nFirst, I need to break down the dimensions: Force, Arm, Hand height, Vertical direction (VD), and Horizontal direction (HD). \n\nStarting with FORCE. Since \"摔\" is like dropping, it's probably not a strong throw. Maybe moderate force because it's just letting the object fall. Not weak, because you're actively moving it down.\n\nARM: The user is right-handed. When you drop something, your arm is likely extended towards the table. If the arm were bent, maybe you'd hold it closer, but for a drop, extended makes sense.\n\nHAND height: The object is palm-sized on the table. To drop it, the hand would probably be at waist height or lower. Wait, the options are near ground, knee, waist, chest, shoulder, head, above head. Since the object is on the table, maybe the hand is at waist height when starting the drop. Because you might lift it slightly from the table.\n\nVD: The primary vertical direction is downward, since you're dropping it down onto the table.\n\nHD: Horizontal direction. If it's a straight drop, maybe forward? Wait, if the object is already on the table, maybe the hand moves sideways to let it fall. Or forward if pushing it off the edge. Hmm. But since the object is on the table surface, maybe the action is just letting it fall straight down. But the HD options are forward or sideways. If the hand moves forward, pushing the object off the table. Or sideways if moving it off to the side. But the most typical might be a downward motion, but HD is horizontal. Wait, the action is \"摔\", which could be a drop. If the object is on the table, maybe you just release it, so the hand moves downward, but the horizontal direction might be forward if you push it off the edge. Alternatively, if it's a simple drop, maybe the horizontal direction is not much, but the options are forward or sideways. Maybe the most typical is forward, as in pushing it off the table's edge. But I'm not sure. Alternatively, if the object is already in hand, you might just let it go, so the hand moves downward. But the HD direction here is about the primary horizontal movement. If the hand is moving downward and maybe forward to push it off, then HD would be forward. Alternatively, if it's just a release, maybe the horizontal direction isn't as important, but the options require choosing. Maybe forward is more typical for a drop from the table.\n\nPutting it all together: Hand starts at waist height, arm extended, moderate force, downward vertical, forward horizontal. So the sentence would be: \"Arm extended, waist height, moderate force, forward horizontal movement, downward vertical direction.\" Wait, but the sentence needs to combine all the dimensions into one concise sentence. Let me check the example structure. The example might be something like \"Hand at waist height, arm extended, moderate force, downward movement, forward horizontal direction.\" But I need to make sure all the options are included. Let me verify each part again.\n\nForce: Moderate, as it's a drop, not a hard throw.\n\nArm: Extended, since you're reaching towards the table.\n\nHand height: Waist height, because when you pick up something from a table, your hand is around waist level.\n\nVD: Downward, as the object is being dropped.\n\nHD: Forward, if pushing it off the edge, but maybe if it's just released, the horizontal direction isn't as pronounced. Alternatively, if the hand moves sideways, but I think forward is more typical when dropping something off a table. Alternatively, maybe the horizontal direction is not a factor, but the options require choosing. Maybe forward is the best fit here.\n\nSo the final sentence should be: \"Arm extended, waist height, moderate force, forward horizontal movement, downward vertical direction.\""
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:48:05.314743",
+      "duration_seconds": 12.29,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "Arm extended, hand at waist height, moderate force, forward horizontal direction, upward vertical direction.",
+      "thinking": "Okay, let's see. The user wants me to imagine being right-handed in an empty room with a table in front. There's a palm-sized object on the table, and the target action is \"丢,\" which I think means \"throw\" in Chinese. But the user is asking for the most natural way a native English speaker would perform this action.\n\nFirst, I need to break down the dimensions they provided: FORCE, ARM, HAND height, VD (vertical direction), and HD (horizontal direction). \n\nStarting with FORCE. Since it's a palm-sized object, probably something light like a small toy or a key. Throwing it gently, so the force would be moderate. Not too strong, but enough to make it move. \n\nARM state: Since the object is on the table and we're right-handed, the arm would be extended towards the table to reach it. But when throwing, maybe the arm starts bent? Wait, no. If you're right-handed, you'd reach out with your arm extended to grab the object, then when throwing, you might bend the arm to flick it. Hmm. Wait, the initial state before the action. The action starts with the hand in position to throw. So maybe the arm is extended forward to reach the table, then when throwing, the arm moves. But the question is about the initial state before the action begins. So before throwing, the arm is extended to reach the object on the table. Then, to throw, you might bend the arm to flick it. Wait, but the options for ARM are either extended or bent. So initial state before the action. So if the action is to throw, the initial position would be arm extended towards the table, then you bend it to throw. But the question is about the initial state before the action begins. So maybe arm extended. Because you reach out to the table with your arm extended, then when you throw, you bend it. But maybe the initial state is arm bent? No, because you need to reach the object. So arm extended. \n\nHAND height: The object is on the table. So the hand would be at table level. The options are near ground, knee, waist, chest, shoulder, head, above head. Table height is usually waist or chest height. If the table is standard, maybe waist height. So hand height would be waist height. \n\nVD (vertical direction): Throwing the object, so the hand moves upward to flick it. So primary vertical direction is upward. \n\nHD (horizontal direction): Since the object is on the table in front, throwing it would be forward. But wait, \"丢\" can sometimes mean to discard or throw down. Wait, but in Chinese, \"丢\" can be used in various contexts. But given the setup, the user is in front of a table with an object. The most natural throw would be to flick it off the table. So horizontal direction would be forward, pushing it off the table. But maybe the user is considering throwing it upwards? Hmm. Wait, if you're right-handed, you might flick your wrist to send it forward, maybe upward a bit. But the primary direction. If the object is on the table, throwing it forward would make it go off the table. So HD is forward. \n\nPutting it all together: Initial hand height waist height, arm extended, force moderate, HD forward, VD upward. \n\nWait, but when throwing, the vertical direction might be more upward. Like flicking it up. But maybe the main movement is upward. So VD is upward. HD is forward. \n\nSo the sentence would be: \"Arm extended, hand at waist height, moderate force, forward horizontal direction, upward vertical direction.\""
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:48:08.975623",
+      "duration_seconds": 3.66,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "Arm extended, waist height, moderate force, sideways, upward",
+      "thinking": "Okay, let's break this down. The user wants me to imagine being right-handed in an empty room with a table and a palm-sized object. The action is \"甩,\" which I know is like a flick or a swift movement. First, I need to figure out the most typical way a native English speaker would perform this.\n\nStarting with the arm's initial state. Since the object is on the table, probably the arm is extended to reach it. So \"arm extended\" makes sense. Next, the hand's height. When reaching for something on a table, the hand would be around waist height, maybe a bit lower. So \"waist height.\" \n\nForce level: The action is a flick, so not super strong, but enough to move the object. \"Moderate\" force seems right. Vertical direction:甩 involves a quick upward flick, so \"upward.\" Horizontal direction: The flick would be sideways, not forward. So \"sideways.\"\n\nPutting it all together: \"Arm extended, waist height, moderate force, sideways, upward.\""
+    }
+  ]
+}

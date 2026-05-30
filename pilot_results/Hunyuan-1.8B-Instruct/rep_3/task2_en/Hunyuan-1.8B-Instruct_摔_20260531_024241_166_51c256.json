@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:42:41.166448",
+  "duration_seconds": 0.16,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "sideways"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nUsing moderate force, with the hand resting near the ground, the arm extended, while moving downward and sideways.\n</answer>"
+}

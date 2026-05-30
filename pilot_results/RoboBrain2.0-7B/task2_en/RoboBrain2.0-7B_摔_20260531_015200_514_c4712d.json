@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T01:52:00.513866",
+  "duration_seconds": 0.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>With arm extended and hand at shoulder height, I apply strong downward force as I move my hand forward to crush the palm-sized object.</answer>"
+}

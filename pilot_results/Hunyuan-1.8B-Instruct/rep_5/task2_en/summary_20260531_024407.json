@@ -1,0 +1,257 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:44:07.452454",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:44:06.126502",
+    "end_time": "2026-05-31T02:44:07.452224",
+    "duration_seconds": 1.325722
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 1,
+  "invalid_count": 5,
+  "valid_rate": 16.7,
+  "model_statistics": {
+    "Hunyuan-1.8B-Instruct": {
+      "total": 6,
+      "valid": 1,
+      "invalid": 5,
+      "errors": {
+        "E104": 5
+      },
+      "avg_duration": 0.22,
+      "valid_rate": 16.7
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 5,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "投",
+          "raw_response": "<answer>\nWhen performing \"投\" (throw) with a palm-sized object in front of you on a table, your hand "
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "扔",
+          "raw_response": "<answer>\nIn the table, I extend my right arm, grip the palm-sized object with moderate force, then t"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "摔",
+          "raw_response": "<answer>\nIn a crowded room, I place my right hand near the table and lift it upward, then apply mode"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Hunyuan-1.8B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "near ground",
+            "VD": "upward",
+            "HD": "forward"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.28,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": "near ground",
+            "VD": "downward",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.28,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "downward",
+            "HD": "forward"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.19,
+          "error_type": "E104"
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": null,
+            "HAND": null,
+            "VD": "upward",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.21,
+          "error_type": "E104"
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm bent",
+            "HAND": "near ground",
+            "VD": "downward",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.13,
+          "error_type": "E104"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "moderate",
+            "ARM": "arm extended",
+            "HAND": "near ground",
+            "VD": "downward",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.21,
+          "error_type": "E104"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:06.417182",
+      "duration_seconds": 0.28,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "near ground",
+        "VD": "upward",
+        "HD": "forward"
+      },
+      "error_type": null,
+      "raw_response": "<answer>\nThe hand rests near the ground, with the arm in a bent position. A moderate amount of force is applied to forcefully lift the object, causing it to move upward. The primary vertical movement is upward, while the primary horizontal movement is forward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:06.702237",
+      "duration_seconds": 0.28,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": "near ground",
+        "VD": "downward",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nWhen performing \"投\" (throw) with a palm-sized object in front of you on a table, your hand rests near the ground, extending upward with the arm. A moderate amount of force is applied to launch the object backward horizontally downward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:06.895433",
+      "duration_seconds": 0.19,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "downward",
+        "HD": "forward"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nIn the table, I extend my right arm, grip the palm-sized object with moderate force, then throw it forward while moving my hand downward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:07.101838",
+      "duration_seconds": 0.21,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": null,
+        "HAND": null,
+        "VD": "upward",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nIn a crowded room, I place my right hand near the table and lift it upward, then apply moderate force to knock the palm-sized object off the table.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:07.235000",
+      "duration_seconds": 0.13,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm bent",
+        "HAND": "near ground",
+        "VD": "downward",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nInitial hand height near ground, arm bent, moderate force, downward, upward.\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:44:07.450721",
+      "duration_seconds": 0.21,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "moderate",
+        "ARM": "arm extended",
+        "HAND": "near ground",
+        "VD": "downward",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\nThe hand rests near the ground, the arm is extended, moderate force is applied to the object, the hand moves downward, and the primary vertical movement is upward.\n</answer>"
+    }
+  ]
+}

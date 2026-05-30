@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:42:43.479871",
+  "duration_seconds": 0.3,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWith my hand extended, I lift a small object from the table and place it on the floor. The force required is moderate, the initial hand height is near ground, the arm is extended, the horizontal direction is forward, and the vertical direction is downward.\n</answer>"
+}

@@ -1,0 +1,247 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:52:24.673955",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:52:21.045389",
+    "end_time": "2026-05-31T02:52:24.673897",
+    "duration_seconds": 3.628508
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 5,
+  "invalid_count": 1,
+  "valid_rate": 83.3,
+  "model_statistics": {
+    "Qwen2.5-7B-Instruct": {
+      "total": 6,
+      "valid": 5,
+      "invalid": 1,
+      "errors": {
+        "E103": 1
+      },
+      "avg_duration": 0.6,
+      "valid_rate": 83.3
+    }
+  },
+  "error_statistics": {
+    "E103": {
+      "count": 1,
+      "description": "编码值超出范围",
+      "examples": [
+        {
+          "model": "Qwen2.5-7B-Instruct",
+          "verb": "甩",
+          "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": -1,\n  \"HD\": 1\n}"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Qwen2.5-7B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": -1,
+            "HD": 1
+          },
+          "is_valid": false,
+          "duration_seconds": 0.6,
+          "error_type": "E103"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:21.654874",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:22.258148",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:22.860641",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:23.464025",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:24.068300",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:24.673043",
+      "duration_seconds": 0.6,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": -1,
+        "HD": 1
+      },
+      "error_type": "E103",
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": -1,\n  \"HD\": 1\n}"
+    }
+  ]
+}

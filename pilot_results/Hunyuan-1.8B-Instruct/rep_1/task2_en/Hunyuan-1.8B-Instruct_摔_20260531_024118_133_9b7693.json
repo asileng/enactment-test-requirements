@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:41:18.133319",
+  "duration_seconds": 0.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "knee height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWith a moderate force, starting with the hand near the knee height, extended, the arm extends downward while the hand moves forward, resulting in a strong impact.\n</answer>"
+}

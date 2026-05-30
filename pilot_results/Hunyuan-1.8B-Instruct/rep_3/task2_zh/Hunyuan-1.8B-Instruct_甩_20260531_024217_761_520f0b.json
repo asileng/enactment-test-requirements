@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:42:17.760960",
+  "duration_seconds": 0.3,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "膝盖高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\n甩时，手臂弯曲，力量中等，主要水平方向为向前，主要垂直方向为向下，初始手部高度接近膝盖高度，施加的力中等，主要运动阶段主要是甩的动作，整体表现为从近处的物体甩到远处的物体。\n</answer>"
+}

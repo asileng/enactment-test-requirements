@@ -1,0 +1,233 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-30T21:09:27.449085",
+  "experiment_time": {
+    "start_time": "2026-05-30T21:09:22.449967",
+    "end_time": "2026-05-30T21:09:27.448891",
+    "duration_seconds": 4.998924
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "RoboBrain2.0-7B": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.83,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "RoboBrain2.0-7B": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.5,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.7,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.7,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.68,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.7,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.7,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:23.954711",
+      "duration_seconds": 1.5,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:24.658277",
+      "duration_seconds": 0.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 10,\n    \"ARM\": 1,\n    \"VD\": 1,\n    \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:25.358118",
+      "duration_seconds": 0.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:26.043572",
+      "duration_seconds": 0.68,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:26.745120",
+      "duration_seconds": 0.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+    },
+    {
+      "task_id": "task1",
+      "model": "RoboBrain2.0-7B",
+      "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T21:09:27.446872",
+      "duration_seconds": 0.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```"
+    }
+  ]
+}

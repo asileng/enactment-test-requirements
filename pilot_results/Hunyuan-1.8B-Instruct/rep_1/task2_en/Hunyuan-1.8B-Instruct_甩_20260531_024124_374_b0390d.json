@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:41:24.373704",
+  "duration_seconds": 0.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "knee height",
+    "VD": "upward",
+    "HD": "sideways"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWhen performing the action \"甩\" (wipe or shake), the hand initially rests near the ground at about knee height. The arm remains in a bent state, and a moderate amount of force is applied to the palm-sized object, causing it to move mostly upward and sideways.\n</answer>"
+}

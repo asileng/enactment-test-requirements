@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:41:59.952722",
+  "duration_seconds": 0.3,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWhen performing the action, the hand rests at waist height. The arm remains extended. A moderate amount of force is applied to the object, causing it to be thrown downward. The primary horizontal movement is forward, and the primary vertical movement is downward.\n</answer>"
+}

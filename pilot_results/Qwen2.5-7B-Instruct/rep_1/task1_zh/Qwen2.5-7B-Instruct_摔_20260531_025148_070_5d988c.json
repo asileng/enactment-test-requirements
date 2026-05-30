@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:51:48.069976",
+  "duration_seconds": 0.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}"
+}

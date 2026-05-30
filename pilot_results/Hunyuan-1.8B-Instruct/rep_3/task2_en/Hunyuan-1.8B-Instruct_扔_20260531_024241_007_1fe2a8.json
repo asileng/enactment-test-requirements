@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "扔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:42:41.007795",
+  "duration_seconds": 0.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nThe arm is extended, the hand rests near the ground, a moderate force is applied downward, the hand moves forward, and the arm extends.\n</answer>"
+}

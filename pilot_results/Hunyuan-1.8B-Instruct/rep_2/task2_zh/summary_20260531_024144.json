@@ -1,0 +1,257 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:41:44.029011",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:41:43.129902",
+    "end_time": "2026-05-31T02:41:44.028851",
+    "duration_seconds": 0.898949
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 2,
+  "invalid_count": 4,
+  "valid_rate": 33.3,
+  "model_statistics": {
+    "Hunyuan-1.8B-Instruct": {
+      "total": 6,
+      "valid": 2,
+      "invalid": 4,
+      "errors": {
+        "E104": 4
+      },
+      "avg_duration": 0.15,
+      "valid_rate": 33.3
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 4,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "抛",
+          "raw_response": "<answer>\n用右手将物体向后上方抛出。\n</answer>"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "投",
+          "raw_response": "<answer>\n右手向前投掷物体，初始手部高度接近腰部，手臂弯曲，施加中等大小的力量，水平方向向前，垂直方向向下。\n</answer>"
+        },
+        {
+          "model": "Hunyuan-1.8B-Instruct",
+          "verb": "摔",
+          "raw_response": "<answer>\n用右手腕用力将物体从桌上摔下。\n</answer>"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Hunyuan-1.8B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.1,
+          "error_type": "E104"
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": null,
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.18,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.19,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": null,
+            "ARM": null,
+            "HAND": null,
+            "VD": null,
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.11,
+          "error_type": "E104"
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": null,
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.14,
+          "error_type": "E104"
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向侧方"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.16,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:43.233049",
+      "duration_seconds": 0.1,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\n用右手将物体向后上方抛出。\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:43.417047",
+      "duration_seconds": 0.18,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": null,
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\n右手向前投掷物体，初始手部高度接近腰部，手臂弯曲，施加中等大小的力量，水平方向向前，垂直方向向下。\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:43.612362",
+      "duration_seconds": 0.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "<answer>\n右利手扔手掌大小物体在桌上的动作，初始手部高度接近地面，手臂弯曲，用力中等，水平向前，垂直向下。\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:43.724587",
+      "duration_seconds": 0.11,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": null,
+        "ARM": null,
+        "HAND": null,
+        "VD": null,
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\n用右手腕用力将物体从桌上摔下。\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:43.864718",
+      "duration_seconds": 0.14,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": null,
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "<answer>\n右手举高，向外侧向下甩，力度中等，手部接近地面高度。\n</answer>"
+    },
+    {
+      "task_id": "task2",
+      "model": "Hunyuan-1.8B-Instruct",
+      "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:41:44.027701",
+      "duration_seconds": 0.16,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向侧方"
+      },
+      "error_type": null,
+      "raw_response": "<answer>\n初始手部高度接近地面，手臂弯曲，力度中等，水平向侧方运动，垂直向下运动。\n</answer>"
+    }
+  ]
+}

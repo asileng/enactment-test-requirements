@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/root/autodl-fs/model/RoboBrain2.0-7B",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T01:51:56.082332",
+  "duration_seconds": 0.59,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "<answer>手臂伸直，从腰部高度开始，以中等力量向上抛出，手部向上移动，物体向前抛出。</answer>"
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/root/autodl-fs/model/Mimo-VL-7B-SFT-2508",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T01:34:17.763754",
+  "duration_seconds": 0.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 9,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```"
+}

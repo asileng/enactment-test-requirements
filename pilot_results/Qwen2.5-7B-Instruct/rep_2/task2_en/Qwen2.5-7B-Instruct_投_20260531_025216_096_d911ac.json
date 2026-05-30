@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:52:16.096005",
+  "duration_seconds": 0.29,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "Arm extended, hand at waist height, force moderate, HD forward, VD downward"
+}

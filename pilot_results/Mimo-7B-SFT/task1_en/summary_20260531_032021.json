@@ -1,0 +1,239 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T03:20:21.333077",
+  "experiment_time": {
+    "start_time": "2026-05-31T03:19:09.720748",
+    "end_time": "2026-05-31T03:20:21.332892",
+    "duration_seconds": 71.612144
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-7B-SFT": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 11.93,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-7B-SFT": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 7.38,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 8.57,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 7.09,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 29.15,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 11.93,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 7.48,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:19:17.101977",
+      "duration_seconds": 7.38,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants a simple judgment based on a native English speaker's understanding of the action \"抛\" (throw), assuming I'm a right-handed native. The scenario is in an empty room with a palm-sized object on a table.\n\nFirst, I need to figure out the force. When throwing something, you usually use moderate force. So maybe 3 for moderate. But wait, if it's a palm-sized object, maybe not super strong. So 3 seems right.\n\nNext, the arm. Before throwing, the arm is bent. So ARM would be 0 (arm bent). \n\nHAND initial height. The hand starts at the object's level. Since the object is on the table, which is ground level. So HAND is 0 (ground level). \n\nVD is the vertical direction. Throwing usually involves moving the hand downward to throw, but wait, when you throw, you lift the object up and then throw it downward. Wait, no. If the object is on the table, to throw it, you might lift it up first. Wait, but the initial position is on the table. So maybe the movement is downward. Or maybe upward. Hmm. Let me think. If you pick up the object, you lift your hand from the table (upward), then throw it. So the primary vertical direction during the action would be downward because you're releasing it. Or maybe the main movement is upward when lifting and then downward when throwing. The problem says to consider the most dominant phase. The throwing phase would be the dominant. So maybe VD is 1 (downward). \n\nHD is horizontal direction. Throwing forward, so HD is 1 (forward).\n\nWait, let me double-check. When you throw something, you typically move your hand in an arc. The main horizontal direction is forward. So HD is 1. \n\nSo putting it all together: FORCE 3, ARM 0 (since arm is bent before throwing), HAND 0 (starts at ground level), VD 1 (downward during throw), HD 1 (forward)."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:19:25.675069",
+      "duration_seconds": 8.57,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Alright, let's tackle this problem step by step. The user wants a JSON encoding of the action \"投\" (toss) based on the given dimensions. First, I need to understand what each dimension represents.\n\n FORCE: The amount of force applied. Since it's a palm-sized object, probably a moderate force. But maybe \"投\" could be a gentle throw or a stronger one. However, the most typical might be moderate, so 3.\n\n ARM: Initial arm state. If I'm about to toss something, my arm is probably bent (0) before moving. But if I'm extending it (1) to throw, maybe. Wait, the arm's initial state. If the action is starting, the arm might be extended. Hmm, conflicting. Wait, when you're about to throw, your arm is usually bent (like cocked), so maybe 0 (arm bent).\n\n HAND: Initial hand height. The hand is on the table, which is ground level (0). So HAND should be 0.\n\n VD: Primary vertical direction. When tossing, the hand moves upward (0) to throw, then downward (1) to release. But the dominant phase is upward. Wait, the action is投, which is throwing. So during the action, the hand moves upward (0) to throw. Wait, but when you throw, you lift the object up and then throw it forward, so the vertical movement is upward. So VD is 0.\n\n HD: Horizontal direction. The throw is forward, so HD is 1.\n\n Wait, but let me confirm. The action is投, which is a throw. When you throw something, you typically lift it upward (VD=0) and then propel it forward (HD=1). The force would depend on how hard you throw. Since it's a palm-sized object, maybe a moderate force (3). Arm starts bent (0) because you cock your arm before throwing. Hand starts at ground level (0). Vertical direction is upward (0) during the movement. Horizontal is forward (1). So the JSON would be FORCE:3, ARM:0, HAND:0, VD:0, HD:1. But wait, when you throw, the arm starts bent (like cocked), so ARM is 0. Then extends during the action. But the initial state before the action begins is ARM:0 (bent). So yes. Therefore, the encoding should be those values."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:19:32.771399",
+      "duration_seconds": 7.09,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to encode the action of \"扔\" (throwing) based on the given dimensions. Let's break it down step by step.\n\nFirst, FORCE. When throwing a palm-sized object, you probably use moderate force. Not very strong, but enough to throw it some distance. So maybe 3 for moderate.\n\nNext, ARM. The initial state of the arm. Before throwing, the arm is usually bent, right? Like starting with the arm at the side, so ARM would be 0 (arm bent).\n\nHAND. The initial height where the hand rests. If I'm standing, the hand is at ground level when starting. So HAND is 0.\n\nVD is the vertical direction during the action. Throwing involves moving the hand downward and then upward. But the primary direction? Maybe downward first, then upward. But the most dominant phase might be downward. Wait, no, when you throw, you lift the object up and then throw it downward. Wait, no. Let me think. When you pick up something and throw it, you move your hand up to lift it, then down to throw. So the primary vertical direction during the action might be downward because the actual throwing motion is downward. But I'm a bit confused. Alternatively, maybe the main movement is upward to lift and then downward to throw. Which phase is dominant? The actual throwing is the downward part. So VD would be 1 (downward).\n\nHD is the horizontal direction. Throwing forward makes sense. So HD is 1 (forward).\n\nPutting it all together: FORCE 3, ARM 0, HAND 0, VD 1, HD 1. Let me check the encoding standard again to make sure. Yes, those values fit. No units beyond integers. So the JSON should be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:20:01.918623",
+      "duration_seconds": 29.15,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "thinking": "Okay, let's see. The user wants me to describe the action of \"摔\" (which I think means \"to throw\" or \"to drop\") based on a native English speaker's understanding, assuming I'm right-handed. The scenario is in an empty room with a table and a palm-sized object. I need to encode the action into the specified JSON format with FORCE, ARM, HAND, VD, and HD.\n\nFirst, I need to figure out what \"摔\" typically involves. If it's throwing, maybe the force is moderate to strong. But if it's just dropping, maybe less force. But the user said \"摔\" as the target action. In Chinese, \"摔\" can mean to drop or to throw, depending on context. Since the object is on the table, maybe it's being dropped off the table. So the person might lift their hand to drop it.\n\nLet's break down each dimension:\n\nFORCE: When dropping something, you might not use strong force. Maybe moderate, so 3. But if it's a deliberate throw, maybe 4. Hmm. If the object is just falling, maybe the force applied is moderate. Or maybe when you drop it, you control the fall, so force could be 3.\n\nARM: The arm starts in a bent position because you're lifting the object from the table. So ARM would be 0 (arm bent).\n\nHAND: The initial height before the action. The hand is on the table, which is at ground level. So HAND is 0.\n\nVD: The primary vertical direction during movement. Since it's a drop, the hand moves downward. So VD is 1.\n\nHD: The horizontal direction. If you're just dropping it, the movement is downward, so maybe horizontal isn't dominant. But when lifting, the hand moves upward (if bending the arm), but when dropping, it's moving down. Wait, HD is horizontal direction. If the object is on the table, and you drop it, the hand might move downward (VD 1) and the horizontal direction could be forward if you're throwing it. Wait, but the scenario just says \"摔\" without specifying. If it's a drop, maybe the hand moves straight down. But if it's thrown, then forward. But the user said \"palm-sized object on the table surface\". So maybe the action is lifting the object and then dropping it. So the hand starts at the table (HAND 0), arm bent (ARM 0). Then, lifting the object would extend the arm, but when dropping, the arm might remain in a bent position as the hand moves downward. Wait, but the encoding is based on the initial state before the action. So ARM is the initial state. So before the action, the arm is bent (ARM 0). The hand is at ground level (HAND 0). Then, during the action, the hand moves downward (VD 1). The horizontal direction: if you're just dropping it, the hand doesn't move much horizontally. So HD might be 0 (sideways) or 1 (forward). But if you're not moving it forward, maybe 0. However, when you lift the object off the table, you might move it upward, but the primary vertical direction during the action is downward when releasing. Hmm. Alternatively, if you're throwing it, HD would be 1. But \"摔\" could be either. The user says \"most natural and typical\". If the object is on the table, the typical way to \"摔\" might be to pick it up and then drop it, which would involve moving the hand downward. But if it's more like throwing it, then forward. But the problem states \"palm-sized object on the table surface\". Maybe the action is lifting it and then letting it go, so the hand moves down. So HD would be 0 because there's no strong horizontal movement. Wait, but when you drop something, you might not have much horizontal movement. So HD could be 0. Alternatively, if you're throwing it, HD is 1. But the user didn't specify, so maybe the default is a drop. So HD 0. \n\nPutting it all together: FORCE 3 (moderate, as in a gentle drop), ARM 0 (arm bent initially), HAND 0 (ground level), VD 1 (downward), HD 0 (sideways, but actually, when dropping, maybe the hand moves straight down, which is vertical, so HD 0). So the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\nWait, but maybe when you pick up the object, you extend your arm. Wait, the initial state before the action begins. The user is in the room, in front of a table with the object. Before the action, the arm is extended or bent? If the hand is on the table, then the arm is extended (because the hand is on the table, so the arm is extended). Wait, no. If you're standing, holding the object on the table, your arm is extended. But if you're about to perform the action, maybe the arm is bent. Wait, the initial state is before the action begins. So if the action is \"摔\" (drop), then before the action, the person is holding the object. So the arm is extended (because the hand is holding the object above the table). Wait, no. If the object is on the table, the hand is on the table, so the arm is bent (since the hand is at the same level as the table, which is ground level). So the initial state is arm bent (ARM 0). Then, during the action, you lift the object (extending the arm), but the problem says to base it on the initial state. Wait, the ARM dimension is the initial state before the action begins. So if the person is about to drop the object, their arm would be in a bent position (since the object is on the table). So ARM is 0. Then, when they lift the object, the arm extends, but that's part of the action. But the encoding is based on the initial state. So ARM is 0. \n\nSo the initial hand position is on the table (HAND 0). The arm is bent (ARM 0). Then, when performing the action (dropping), the hand moves downward (VD 1). The horizontal direction would be 0 because there's no significant horizontal movement. So HD is 0. The force is moderate (3) because it's a gentle drop. \n\nTherefore, the JSON should be as above. But maybe if the force is stronger, like if throwing it, then 4. But the problem says \"most natural and typical\". If the object is on the table, the typical way to \"摔\" might be to drop it, not throw. So force 3. But maybe in Chinese, \"摔\" can be a throw. Hmm. I'm a bit confused. Let me think again. The action is \"摔\", which can mean to throw down or to drop. If the object is on the table, maybe the action is lifting it and then dropping it, which would involve a moderate force. Alternatively, if it's a throw, maybe stronger. But the problem says \"palm-sized object on the table surface\". If you're in a room and want to drop it, you just let go. So force might be very weak (1), but that doesn't make sense. Wait, the force is the amount applied to the object. When you pick it up, you apply force to hold it. When you let go, the force stops. But the action is \"摔\", which is the act of causing it to fall. So the force during the action would be the force applied just before release. Hmm. Maybe the force is moderate. \n\nAlternatively, if the action is more like slapping it down, then force would be strong (4). But I'm not sure. Maybe I should consider the most typical way a native English speaker would interpret \"摔\". Since the user is a right-handed native English speaker, maybe \"摔\" is analogous to \"drop\" or \"throw\". If it's a drop, force is 3. If it's a throw, force is 4. But the problem says \"most natural and typical\". If the object is on the table, the natural way to \"摔\" it would be to pick it up and drop it, which is a gentle action. So force 3. \n\nSo the final encoding would be FORCE 3, ARM 0, HAND 0, VD 1, HD 0."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:20:13.846858",
+      "duration_seconds": 11.93,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Alright, let's tackle this problem step by step. The user wants me to imagine a scenario where I'm a right-handed native English speaker in an empty room, with a table in front and a palm-sized object on it. The action to perform is \"丢,\" which translates to throwing or tossing something. I need to encode this action into a JSON based on the five dimensions provided: FORCE, ARM, HAND, VD, and HD.\n\nFirst, understanding each dimension is crucial. Let's break them down one by one.\n\nStarting with FORCE. The options are from very strong (5) to very weak (1). Since the object is palm-sized, a typical throw wouldn't require extremely strong force. Maybe a moderate force (3) or slightly stronger if throwing it across the room. But since the room is empty and the table is in front, perhaps a moderate force is sufficient. I'll lean towards 3 here.\n\nNext, ARM. The initial state of the arm before the action begins. The options are 1 (arm extended) or 0 (arm bent). When you're about to throw something, your arm is usually bent, cocked back, which is the starting position. So ARM should be 0.\n\nHAND refers to the initial height where the hand rests. The options go from ground level (0) up to above the performer's height (11). Since the object is on the table, which is at ground level, the hand would start at the table level. So HAND would be 0.\n\nVD is the primary vertical direction during the action. Throwing usually involves moving the hand downward to throw, but wait, when you throw, you lift the object and then throw it downward. Wait, actually, when you pick up an object from the table, your hand moves upward, then you throw it downward or forward. The primary vertical direction during the throwing motion would be downward (1). But let me think again. If you're throwing it up into the air, then it's upward, but if you're tossing it to someone else, it's more downward. Hmm, maybe the primary direction here is downward. But sometimes, the initial movement is upward to pick up, then downward to throw. The problem says to focus on the most dominant phase. The dominant phase in a throw is the release, which is downward. So VD should be 1 (downward).\n\nHD is the horizontal direction. The table is in front of me, so throwing forward (1) makes sense. If I throw it straight forward, that's the primary horizontal direction. So HD is 1.\n\nWait, but let me double-check. If the object is on the table in front of me, and I'm in an empty room, the most typical way to throw it would be forward, towards someone or something. Since there's no one mentioned, maybe just throwing it across the room. So forward is correct. Therefore, HD is 1.\n\nPutting it all together:\n\nFORCE: 3 (moderate)\nARM: 0 (arm bent)\nHAND: 0 (ground level)\nVD: 1 (downward)\nHD: 1 (forward)\n\nBut wait, another thought: when you bend your arm before throwing, is that the initial state? Yes, because before throwing, your arm is bent. So ARM is 0. The hand starts at the table level (HAND 0). The vertical movement is downward (VD 1), and horizontal is forward (HD 1). Force is moderate. That seems right."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-7B-SFT",
+      "model_path": "/root/autodl-fs/model/Mimo-7B-SFT",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T03:20:21.331225",
+      "duration_seconds": 7.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to describe the action of \"甩\" which I think means \"swinging\" or \"flinging\" something. The scenario is in an empty room with a table and a palm-sized object. I need to figure out how a right-handed native English speaker would perform this action and then encode it according to the given dimensions.\n\nFirst, FORCE. When you swing something, how much force do you apply? If it's a palm-sized object, maybe not extremely strong. Probably moderate, so 3.\n\nARM state before the action. If the arm is bent or extended. When you're about to swing, your arm is probably bent, like a cocked position, so ARM would be 0 (arm bent).\n\nHAND initial height. The hand starts on the table, so ground level is 0. That makes sense.\n\nVD is the vertical direction. Swinging down would be downward, so VD 1.\n\nHD is horizontal direction. If you're swinging the object forward, like throwing it, then HD 1. But if it's more of a sideways motion, maybe 0. But the most dominant phase is probably downward and forward. Wait, when you swing, you might start by pulling back (which could be upward, but the main movement is downward and forward. Hmm. Maybe VD is 1 (downward) and HD 1 (forward). \n\nWait, the action is \"甩\", which can be like a flick or a swing. Let me think. If you pick up the object from the table and then swing it down, maybe in an arc. The main vertical direction would be downward. The horizontal direction could be forward, like tossing it. So HD 1. \n\nSo putting it all together: FORCE 3, ARM 0 (since arm is bent initially), HAND 0 (starting at ground), VD 1 (downward), HD 1 (forward). \n\nWait, but maybe the force could be a bit stronger if you're flicking it. But the object is palm-sized, so moderate makes sense. Yeah, I think that's right."
+    }
+  ]
+}

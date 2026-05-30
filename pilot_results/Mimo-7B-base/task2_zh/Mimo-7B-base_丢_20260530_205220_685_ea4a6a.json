@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-base",
+  "model_path": "/root/autodl-fs/model/Mimo-7B-base",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-05-30T20:52:20.685586",
+  "duration_seconds": 0.3,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "手臂伸直，胸部高度，非常弱，向前，向下。丢。"
+}

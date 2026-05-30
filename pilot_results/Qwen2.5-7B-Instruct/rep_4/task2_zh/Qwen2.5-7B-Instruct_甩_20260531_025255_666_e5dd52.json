@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:52:55.666716",
+  "duration_seconds": 0.23,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度，手臂伸直，强，向前，向上"
+}

@@ -1,0 +1,233 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:52:13.801894",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:52:10.163313",
+    "end_time": "2026-05-31T02:52:13.801760",
+    "duration_seconds": 3.638447
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Qwen2.5-7B-Instruct": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 0.6,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Qwen2.5-7B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.61,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:10.773864",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 8,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:11.377069",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:11.980007",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:12.587321",
+      "duration_seconds": 0.61,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:13.193165",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:13.800149",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}"
+    }
+  ]
+}

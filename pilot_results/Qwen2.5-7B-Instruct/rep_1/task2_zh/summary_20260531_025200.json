@@ -1,0 +1,252 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-05-31T02:52:00.840612",
+  "experiment_time": {
+    "start_time": "2026-05-31T02:51:59.187659",
+    "end_time": "2026-05-31T02:52:00.840364",
+    "duration_seconds": 1.652705
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 4,
+  "invalid_count": 2,
+  "valid_rate": 66.7,
+  "model_statistics": {
+    "Qwen2.5-7B-Instruct": {
+      "total": 6,
+      "valid": 4,
+      "invalid": 2,
+      "errors": {
+        "E104": 2
+      },
+      "avg_duration": 0.27,
+      "valid_rate": 66.7
+    }
+  },
+  "error_statistics": {
+    "E104": {
+      "count": 2,
+      "description": "任务2描述值无效",
+      "examples": [
+        {
+          "model": "Qwen2.5-7B-Instruct",
+          "verb": "投",
+          "raw_response": "肩部高度 手臂伸直 中等 力量 前方 向前"
+        },
+        {
+          "model": "Qwen2.5-7B-Instruct",
+          "verb": "甩",
+          "raw_response": "肩部高度 手臂伸直 中等 力量 前方 向下"
+        }
+      ]
+    }
+  },
+  "results_by_model_verb": {
+    "Qwen2.5-7B-Instruct": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.23,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": null,
+            "HD": "向前"
+          },
+          "is_valid": false,
+          "duration_seconds": 0.34,
+          "error_type": "E104"
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.25,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.23,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.25,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": null
+          },
+          "is_valid": false,
+          "duration_seconds": 0.34,
+          "error_type": "E104"
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:51:59.423918",
+      "duration_seconds": 0.23,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "肩部高度、手臂伸直、强、向前、向上"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:51:59.765040",
+      "duration_seconds": 0.34,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": null,
+        "HD": "向前"
+      },
+      "error_type": "E104",
+      "raw_response": "肩部高度 手臂伸直 中等 力量 前方 向前"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:00.012708",
+      "duration_seconds": 0.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "肩部高度，手臂伸直，中等，向前，向下"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:00.246086",
+      "duration_seconds": 0.23,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "肩部高度，手臂伸直，强，向前，向下"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:00.495239",
+      "duration_seconds": 0.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "肩部高度，手臂伸直，中等，向前，向下"
+    },
+    {
+      "task_id": "task2",
+      "model": "Qwen2.5-7B-Instruct",
+      "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-31T02:52:00.838855",
+      "duration_seconds": 0.34,
+      "is_valid": false,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": null
+      },
+      "error_type": "E104",
+      "raw_response": "肩部高度 手臂伸直 中等 力量 前方 向下"
+    }
+  ]
+}

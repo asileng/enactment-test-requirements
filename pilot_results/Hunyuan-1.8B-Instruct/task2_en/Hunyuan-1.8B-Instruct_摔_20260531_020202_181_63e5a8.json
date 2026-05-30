@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:02:02.181696",
+  "duration_seconds": 0.23,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nThe hand rests near the ground, with the arm initially bent. A moderate force is applied to knock the palm-sized object off the table, moving it downward while the hand moves forward.\n</answer>"
+}

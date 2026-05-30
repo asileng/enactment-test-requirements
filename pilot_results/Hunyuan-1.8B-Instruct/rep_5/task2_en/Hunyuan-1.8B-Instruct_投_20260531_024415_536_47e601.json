@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:44:15.536023",
+  "duration_seconds": 0.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWith a moderate force, holding the arm extended, the hand resting near the ground, moving the arm downward while facing forward.\n</answer>"
+}

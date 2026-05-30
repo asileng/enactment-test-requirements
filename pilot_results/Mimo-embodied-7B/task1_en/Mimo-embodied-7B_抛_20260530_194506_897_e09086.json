@@ -1,0 +1,20 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-30T19:45:06.897365",
+  "duration_seconds": 2.87,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 9,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "thinking": "Okay, let's break down the action of \"抛\" (throw) for a right-handed native English speaker in an empty room. The object is palm-sized on a table. First, I need to consider the force applied. A typical throw would use moderate force, so maybe 3. The arm would start bent since the person is standing, so ARM is 0. The hand's initial height would be around the performer's height, say 9. The vertical direction (VD) for throwing is upward, so 0. The horizontal direction (HD) would be forward, so 1. Let me double-check each part to make sure it aligns with typical throwing motions."
+}

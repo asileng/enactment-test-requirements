@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:41:53.366369",
+  "duration_seconds": 0.13,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\n摔，手臂弯曲，手部接近地面，力量中等，向下，向前。\n</answer>"
+}

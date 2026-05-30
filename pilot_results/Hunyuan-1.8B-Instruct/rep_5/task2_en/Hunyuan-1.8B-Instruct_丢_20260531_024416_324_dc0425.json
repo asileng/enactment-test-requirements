@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:44:16.324250",
+  "duration_seconds": 0.29,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\nWhen performing the \"丢\" action, I would extend my arm, apply moderate force, move my hand downward while keeping the horizontal movement forward. The initial hand height is near chest, the arm is bent, and the primary vertical direction is downward.\n</answer>"
+}

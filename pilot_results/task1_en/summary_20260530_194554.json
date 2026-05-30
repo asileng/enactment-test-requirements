@@ -1,0 +1,239 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-05-30T19:45:54.291764",
+  "experiment_time": {
+    "start_time": "2026-05-30T19:45:04.023866",
+    "end_time": "2026-05-30T19:45:54.291571",
+    "duration_seconds": 50.267705
+  },
+  "participant_id": 5,
+  "use_latin_square": true,
+  "total_experiments": 6,
+  "valid_count": 6,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-embodied-7B": {
+      "total": 6,
+      "valid": 6,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 8.38,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-embodied-7B": {
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 0,
+            "HAND": 9,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 2.87,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "ARM": 0,
+            "HAND": 3,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 10.55,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 8.71,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 9.05,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 9.08,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 6,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 9.99,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:06.897365",
+      "duration_seconds": 2.87,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 0,
+        "HAND": 9,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's break down the action of \"抛\" (throw) for a right-handed native English speaker in an empty room. The object is palm-sized on a table. First, I need to consider the force applied. A typical throw would use moderate force, so maybe 3. The arm would start bent since the person is standing, so ARM is 0. The hand's initial height would be around the performer's height, say 9. The vertical direction (VD) for throwing is upward, so 0. The horizontal direction (HD) would be forward, so 1. Let me double-check each part to make sure it aligns with typical throwing motions."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:17.446999",
+      "duration_seconds": 10.55,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "ARM": 0,
+        "HAND": 3,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's tackle this. The user wants me to encode the action of throwing a palm-sized object in an empty room, assuming I'm a right-handed native English speaker. The action is labeled as \"投\" which is the Japanese kanji for \"throw.\" \n\nFirst, I need to think about how a typical right-handed person would throw something. Throwing usually involves a forceful movement. So for the FORCE dimension, since it's a throw, it's probably a strong force. Let's say 4 or 5. But maybe 4 is more moderate. Hmm.\n\nARM: The initial state. When you start to throw, your arm is probably extended backward before swinging forward. So initial state might be bent, but maybe when you grab the object, the arm is already extended. Wait, the initial state before the action begins. If the object is on the table, maybe the arm is bent when reaching for it. But the action is throwing, so maybe the initial position is bent. Let's go with ARM: 1 (extended) if the arm is already outstretched, but maybe when you pick up the object, you bend the arm. Not sure. Alternatively, when you start the throw, the arm is bent. Maybe ARM: 0 (bent).\n\nHAND: The initial height. The hand is resting at some height. Since the object is on the table, the hand would be at table level. Assuming the table is standard height, maybe around 3 units (since 1-9 are relative to height). So HAND: 3.\n\nVD: Vertical direction. Throwing usually involves an upward motion to propel the object. So VD: 0 (upward). Wait, the VD options are 1=downward, 0=upward. So if the hand moves up, VD is 0.\n\nHD: Horizontal direction. Throwing forward would be HD: 1 (forward). So the hand moves forward horizontally.\n\nPutting it all together: FORCE 4 (strong), ARM 1 (extended) if the arm is already out, but maybe when starting the throw, the arm is bent. Wait, maybe the initial state before the action is bent. Let me think again. When you pick up the object, your arm is bent. Then you extend it to throw. So initial state before the action (picking up) is bent. But the action is throwing. The problem says the action is \"投\" which is throwing. So the initial state of the arm before the action begins. If the action is throwing, maybe the initial state is bent. So ARM: 0. Then, when you throw, you extend the arm. But the initial state before the action is bent. So ARM: 0.\n\nHAND: The hand is at table level. Assuming the table is around waist height, maybe 3 or 4. Let's say 3.\n\nSo FORCE: 4 (strong), ARM: 0 (bent), HAND:3, VD:0 (upward), HD:1 (forward)."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:26.154382",
+      "duration_seconds": 8.71,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's see. The user wants me to encode the action of throwing a palm-sized object from a table in an empty room, assuming I'm a right-handed native English speaker. The action coding standard has five dimensions: FORCE, ARM, HAND, VD, HD. I need to determine each based on the typical way someone would throw an object.\n\nFirst, FORCE. Throwing something palm-sized, like a small ball or a toy. If it's a casual throw, maybe moderate force. If it's a strong throw, like a baseball, but since it's palm-sized, maybe 3 or 4. But the problem says \"most natural and typical\". For a typical throw from a table, maybe moderate, so 3 or 4. Let's say 4, strong, because you want it to go far. But maybe 3. Hmm. Maybe 4 is strong enough for a typical throw.\n\nNext, ARM. The initial state of the arm before the action. Throwing usually starts with the arm bent, like when you bring the hand back to throw. So ARM would be 0 (bent). Unless the throw is a quick flick, but I think the initial state is bent. So ARM: 0.\n\nHAND. The initial height of the hand before the action. If the object is on the table, which is at table height. Assuming the performer's height, the table is probably around waist level. So the hand would be at a height of 3-5, maybe. But the options are 0 to 12. Let's say 3 or 4. Maybe 3. So HAND: 3.\n\nVD: primary vertical direction during the action. Throwing involves an upward motion to get the object in the air. So VD would be 0 (upward). Wait, the options are 1 for downward, 0 for upward. So VD: 0.\n\nHD: primary horizontal direction. Throwing forward, so HD: 1.\n\nPutting it all together: FORCE 4 (strong), ARM 0 (bent), HAND 3 (table height), VD 0 (upward), HD 1 (forward). That seems right. Let me check again. Throwing a small object from a table, right-handed. The initial arm is bent (like a wind-up), hand at table height (maybe around 3), force is strong enough to propel it, movement is upward and forward. Yep, that makes sense."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:35.211051",
+      "duration_seconds": 9.05,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "thinking": "Okay, let's see. The user wants me to encode the action of \"摔\" (which I think means to drop or throw down) based on a right-handed native English speaker's perspective. The action is done in an empty room with a table and a palm-sized object on it.\n\nFirst, I need to figure out each of the five dimensions: FORCE, ARM, HAND, VD, HD.\n\nStarting with FORCE. The action is dropping the object. If it's a natural way to drop something, the force would probably be moderate. Maybe 3? Because you don't want to use very strong force, just enough to let it fall. If it were throwing, that might be higher, but \"摔\" here might be more like letting it drop. So maybe moderate force, 3.\n\nARM initial state: Before the action, the arm is likely extended towards the table. Since the object is on the table, the arm would be extended to reach it. So ARM: 1.\n\nHAND initial height: The hand is probably at a height where it can grasp the object. If the object is palm-sized, maybe the hand is at around waist level or a bit higher. The options are 0 to 12. Since the performer's height is 10, and the hand is maybe around the chest level. If the performer is, say, 1.7 meters tall, chest height is around 1.2 meters. If the ground is 0, then 1.2 meters would be around 7 (since 10 units = 1.7m, so 1.2 is about 7). But maybe it's a bit higher. Alternatively, if the hand is resting near the table, which is at waist height. Wait, the table is in front of the person. If the person is standing, the table might be at waist level. So the hand would be at, say, 5-7 units. Let's go with 7 as a middle ground. So HAND: 7.\n\nVD: Vertical direction of hand movement. When dropping, the hand moves downward. So VD: 1.\n\nHD: Horizontal direction. If the action is just dropping straight down, then HD would be 0 (sideways isn't the main direction). So HD: 0.\n\nPutting it all together: FORCE 3, ARM 1, HAND 7, VD 1, HD 0. That seems to fit a natural drop of a palm-sized object from the hand, using moderate force, arm extended, hand at chest level, moving down and straight."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:44.298564",
+      "duration_seconds": 9.08,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's break this down. The user wants me to imagine being a right-handed native English speaker in an empty room with a table and a palm-sized object. The action is \"丢,\" which I know translates to \"to throw\" or \"to discard.\" So, I need to figure out the most natural way to perform this action.\n\nFirst, FORCE. Since it's a palm-sized object, throwing it probably doesn't require a lot of force. Maybe a moderate or weak force. But wait, \"丢\" can sometimes mean just dropping it. But the standard might expect a throw. Hmm. For a typical throw, maybe moderate force. Let's say 3.\n\nARM. The initial state. If the arm is bent before the action, like holding the object. But when throwing, the arm is usually extended to get more force. Wait, the ARM dimension is the initial state before the action. So if the action is throwing, the arm would start bent, holding the object, then extend. So initial state is bent. So ARM would be 0.\n\nHAND. The initial height. If the object is on the table, and I'm a right-handed person, the hand would be at table level. The table is in front, so the hand would be around waist level maybe. Let's say height 1-9. Maybe around 3, but the exact number isn't crucial as long as it's between 1-9. Let's pick 3.\n\nVD. Vertical direction. When throwing, the hand moves upward to gain momentum. So VD would be 0 (upward) because the primary direction is upward during the throw.\n\nHD. Horizontal direction. Throwing forward towards the table? Wait, the object is already on the table. Wait, the action is \"丢\" which is to discard. If the object is on the table, maybe the action is to pick it up and throw it off the table. So the horizontal direction would be forward (away from the table) to get it off. So HD is 1 (forward).\n\nWait, but if the object is on the table, and the action is to throw it, the horizontal direction would be forward (towards the table's front edge) to make it fall off. So HD is 1. But if the person is standing in front of the table, then forward would be towards the table's front edge. So yes, forward direction.\n\nPutting it all together: FORCE 3 (moderate), ARM 0 (bent), HAND 3 (table level), VD 0 (upward), HD 1 (forward)."
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/root/autodl-fs/model/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-05-30T19:45:54.289400",
+      "duration_seconds": 9.99,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 6,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 6,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "thinking": "Okay, let's tackle this. The user wants me to encode the action of \"甩\" (which means to swing or flick) based on a right-handed native English speaker's perspective in an empty room with a table and a palm-sized object. \n\nFirst, I need to break down each component of the action coding standard. Let's start with FORCE. Since \"甩\" is a flicking motion, it's probably not a strong force. Maybe moderate? Like 3. But wait, if it's a quick flick, maybe weaker? Hmm. Maybe moderate is safer.\n\nNext, ARM. The action starts with the arm extended or bent. If you're flicking something on a table, the arm is likely extended over the table. So ARM would be 1.\n\nHAND height. The hand starts at some height. Since the object is on the table, the hand is probably at waist level or higher. Let's say 5, which is a common resting height. But maybe a bit higher. Let's go with 6 or 7. Wait, the options are 0-12. If the performer's height is, say, 6 feet, waist level is around 3.5 units. But maybe the hand is higher when starting to flick. Maybe 8? Hmm. Alternatively, maybe the initial position is over the table, so maybe 6. Let's pick 6.\n\nVD (vertical direction). The primary movement is downward? If you're flicking, maybe you push down. Or maybe it's more sideways. Wait, \"甩\" can be a downward flick. For example, flicking a bottle cap off. So VD would be 1 (downward).\n\nHD (horizontal direction). Forward or sideways. If you're flicking something off the table, maybe sideways. But in a typical flick, like flicking a card, it's more forward. Wait, if the object is on the table and you're flicking it off, maybe the hand moves forward (HD=1) to push it off. Or maybe sideways. Hmm. For example, in a game of table tennis, a flick is forward. But here, the object is stationary. If you're flicking it off the table, maybe the direction is sideways. But maybe the most typical is forward. Let me think. If the arm is extended over the table, a flick could be forward to push the object off. So HD=1.\n\nPutting it all together: FORCE 3, ARM 1, HAND 6, VD 1, HD 1. Let me check each again. \n\nFORCE: moderate (3) makes sense for a flick. ARM extended (1) because the arm is reaching over the table. HAND height around 6 (waist level). VD downward because the flick is a quick downward motion. HD forward to push the object off the table. That seems plausible."
+    }
+  ]
+}

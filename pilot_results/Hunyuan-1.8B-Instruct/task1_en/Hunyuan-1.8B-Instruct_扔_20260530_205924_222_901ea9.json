@@ -1,0 +1,20 @@
+{
+  "task_id": "task1",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "扔",
+  "repeat_index": 0,
+  "timestamp": "2026-05-30T20:59:24.222335",
+  "duration_seconds": 1.18,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "<answer>\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</answer>",
+  "thinking": "Okay, let's try to figure out how to encode this action. First, the user is in an empty room, facing a table with a palm-sized object. The action is to throw the object.\n\nStarting with FORCE. When throwing, you apply a significant force to overcome gravity. So I think FORCE would be 3 (moderate). \n\nARM: The arm starts at ground level. The initial state here is just the arm extended, so ARM is 1. \n\nHAND: The hand is on the table, which is the same height as the performer's (assuming the performer is sitting or standing at ground level). So HAND is 0 because it's on the ground.\n\nVD: The main movement during throwing is downward to lift the object. So VD is 1.\n\nHD: The primary direction is forward, pushing the object away. So HD is 1.\n\nPutting it all together, that should be the JSON."
+}

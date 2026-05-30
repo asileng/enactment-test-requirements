@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/root/autodl-fs/model/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:52:57.903542",
+  "duration_seconds": 0.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 2,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}"
+}

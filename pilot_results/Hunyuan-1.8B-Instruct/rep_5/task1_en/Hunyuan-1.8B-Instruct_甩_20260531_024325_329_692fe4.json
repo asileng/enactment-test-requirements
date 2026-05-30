@@ -1,0 +1,19 @@
+{
+  "task_id": "task1",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:43:25.329248",
+  "duration_seconds": 0.28,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "<answer>\n{  \n  \"FORCE\": 2,  \n  \"ARM\": 0,  \n  \"HAND\": 0,  \n  \"VD\": 1,  \n  \"HD\": 1  \n}\n</answer>"
+}

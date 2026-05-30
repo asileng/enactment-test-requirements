@@ -1,0 +1,309 @@
+{
+  "model": "Hunyuan-1.8B-Instruct",
+  "retry_details": {
+    "rep_1": {
+      "task2_zh": {
+        "抛": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "投": {
+          "attempts": 3,
+          "failures": 2
+        },
+        "扔": {
+          "attempts": 4,
+          "failures": 3
+        },
+        "丢": {
+          "attempts": 7,
+          "failures": 6
+        }
+      },
+      "task2_en": {
+        "抛": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "投": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "扔": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "摔": {
+          "attempts": 8,
+          "failures": 7
+        },
+        "丢": {
+          "attempts": 7,
+          "failures": 6
+        },
+        "甩": {
+          "attempts": 3,
+          "failures": 2
+        }
+      }
+    },
+    "rep_2": {
+      "task1_en": {
+        "投": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "扔": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "丢": {
+          "attempts": 2,
+          "failures": 1
+        }
+      },
+      "task2_zh": {
+        "投": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "扔": {
+          "attempts": 8,
+          "failures": 7
+        },
+        "丢": {
+          "attempts": 10,
+          "failures": 9
+        },
+        "甩": {
+          "attempts": 1,
+          "failures": 0
+        }
+      },
+      "task2_en": {
+        "抛": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "摔": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "丢": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "甩": {
+          "attempts": 4,
+          "failures": 3
+        }
+      }
+    },
+    "rep_3": {
+      "task1_en": {
+        "摔": {
+          "attempts": 1,
+          "failures": 0
+        }
+      },
+      "task2_zh": {
+        "抛": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "丢": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "甩": {
+          "attempts": 2,
+          "failures": 1
+        }
+      },
+      "task2_en": {
+        "抛": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "投": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "扔": {
+          "attempts": 5,
+          "failures": 4
+        },
+        "摔": {
+          "attempts": 9,
+          "failures": 8
+        },
+        "丢": {
+          "attempts": 2,
+          "failures": 1
+        }
+      }
+    },
+    "rep_4": {
+      "task1_zh": {
+        "摔": {
+          "attempts": 1,
+          "failures": 0
+        }
+      },
+      "task1_en": {
+        "投": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "摔": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "丢": {
+          "attempts": 1,
+          "failures": 0
+        }
+      },
+      "task2_zh": {
+        "抛": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "投": {
+          "attempts": 4,
+          "failures": 3
+        },
+        "扔": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "丢": {
+          "attempts": 2,
+          "failures": 1
+        }
+      },
+      "task2_en": {
+        "抛": {
+          "attempts": 4,
+          "failures": 3
+        },
+        "扔": {
+          "attempts": 3,
+          "failures": 2
+        },
+        "摔": {
+          "attempts": 5,
+          "failures": 4
+        },
+        "甩": {
+          "attempts": 2,
+          "failures": 1
+        }
+      }
+    },
+    "rep_5": {
+      "task1_en": {
+        "甩": {
+          "attempts": 1,
+          "failures": 0
+        }
+      },
+      "task2_zh": {
+        "抛": {
+          "attempts": 5,
+          "failures": 4
+        },
+        "投": {
+          "attempts": 5,
+          "failures": 4
+        },
+        "扔": {
+          "attempts": 8,
+          "failures": 7
+        },
+        "摔": {
+          "attempts": 4,
+          "failures": 3
+        },
+        "丢": {
+          "attempts": 2,
+          "failures": 1
+        },
+        "甩": {
+          "attempts": 2,
+          "failures": 1
+        }
+      },
+      "task2_en": {
+        "抛": {
+          "attempts": 1,
+          "failures": 0
+        },
+        "投": {
+          "attempts": 8,
+          "failures": 7
+        },
+        "摔": {
+          "attempts": 4,
+          "failures": 3
+        }
+      }
+    }
+  },
+  "summary": {
+    "by_task": {
+      "task1_zh": {
+        "total_attempts": 0,
+        "total_failures": 0,
+        "failure_rate": 0
+      },
+      "task1_en": {
+        "total_attempts": 0,
+        "total_failures": 0,
+        "failure_rate": 0
+      },
+      "task2_zh": {
+        "total_attempts": 0,
+        "total_failures": 0,
+        "failure_rate": 0
+      },
+      "task2_en": {
+        "total_attempts": 0,
+        "total_failures": 0,
+        "failure_rate": 0
+      }
+    },
+    "by_verb": {
+      "抛": {
+        "total_attempts": 19,
+        "total_failures": 10,
+        "failure_rate": 52.6
+      },
+      "投": {
+        "total_attempts": 25,
+        "total_failures": 16,
+        "failure_rate": 64.0
+      },
+      "扔": {
+        "total_attempts": 33,
+        "total_failures": 25,
+        "failure_rate": 75.8
+      },
+      "摔": {
+        "total_attempts": 35,
+        "total_failures": 26,
+        "failure_rate": 74.3
+      },
+      "丢": {
+        "total_attempts": 36,
+        "total_failures": 26,
+        "failure_rate": 72.2
+      },
+      "甩": {
+        "total_attempts": 15,
+        "total_failures": 8,
+        "failure_rate": 53.3
+      }
+    }
+  }
+}

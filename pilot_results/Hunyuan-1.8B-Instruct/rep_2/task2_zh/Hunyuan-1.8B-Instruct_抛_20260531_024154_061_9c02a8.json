@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/root/autodl-fs/model/Hunyuan-1.8B-Instruct",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-05-31T02:41:54.061312",
+  "duration_seconds": 0.18,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "膝盖高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "<answer>\n抛，力量中等，手臂弯曲，手部接近膝盖高度，主要垂直运动方向向上，主要水平运动方向向前。\n</answer>"
+}
