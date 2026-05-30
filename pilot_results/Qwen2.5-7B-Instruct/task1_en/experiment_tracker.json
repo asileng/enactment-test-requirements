@@ -1,11 +1,17 @@
 {
   "completed": [
-    "Qwen2.5-7B-Instruct_投_0",
-    "Qwen2.5-7B-Instruct_丢_0",
-    "Qwen2.5-7B-Instruct_扔_0",
-    "Qwen2.5-7B-Instruct_甩_0",
     "Qwen2.5-7B-Instruct_摔_0",
-    "Qwen2.5-7B-Instruct_抛_0"
+    "Qwen2.5-7B-Instruct_扔_0",
+    "Qwen2.5-7B-Instruct_抛_0",
+    "Qwen2.5-7B-Instruct_fling_0",
+    "Qwen2.5-7B-Instruct_甩_0",
+    "Qwen2.5-7B-Instruct_丢_0",
+    "Qwen2.5-7B-Instruct_toss_0",
+    "Qwen2.5-7B-Instruct_throw_0",
+    "Qwen2.5-7B-Instruct_cast_0",
+    "Qwen2.5-7B-Instruct_chuck_0",
+    "Qwen2.5-7B-Instruct_hurl_0",
+    "Qwen2.5-7B-Instruct_投_0"
   ],
-  "last_updated": "2026-05-30T21:21:43.677896"
+  "last_updated": "2026-05-31T06:23:39.449086"
 }
