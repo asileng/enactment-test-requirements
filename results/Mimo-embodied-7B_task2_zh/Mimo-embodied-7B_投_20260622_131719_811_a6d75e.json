@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T13:17:19.810479",
+  "duration_seconds": 11.83,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "桌面放置着一个手掌大小的物体，目标动作为投。假设你是右利手，想象你处于一个空旷房间中，你的面前有一张桌子。目标动作是投，你需要按照中文母语者的典型理解进行判断。请根据以下维度，描述该动作：\nFORCE：力量大小\nARM：手臂状态\nHAND：初始手部高度\nVD：垂直运动方向\nHD：FORCE：强\nARM：手臂伸直\nHAND：胸部高度\nVD：上\nHD：向前\n\n请根据以上维度，描述该投动作。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下维度：\n- �强\n- 扱\n\n请使用一句简洁中文描述该动作。\n必须体现“强”和“拨”两个维度。\n必须直接使用上述可选描述中的词语，不得自行创造新的描述。\n</think>\n\n胸部高度，手臂伸直，强，向前，向上，拨，投出。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:17:19.811069"
+    }
+  ]
+}

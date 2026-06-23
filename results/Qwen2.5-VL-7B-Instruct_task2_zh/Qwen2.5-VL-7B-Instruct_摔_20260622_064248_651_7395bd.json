@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T06:42:48.651089",
+  "duration_seconds": 9.01,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/ 非常强；手臂伸直；肩部高度；向下；向前；向下、向前。\n/no_think/ 非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。\n\n非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。\n\n非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。\n/no_think/ 非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸\n/no_think/ 非常强；手臂伸直；肩部高度；向下；向前。\n\n非常强；手臂伸直；肩部高度；向下；向前。 非常强；手臂伸直；肩部高度；向下；向前。\n/no_th\n\nAssistant: 肩部高度，手臂伸直，非常强，向下，向前。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:42:48.651256"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "hurl",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T13:34:34.823453",
+  "duration_seconds": 9.58,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "---\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n\nThe solution considers the typical way a right-handed native English speaker would throw an object (hurl). The force is moderate (3) as it's a common strength for such an action. The arm is extended (1) before the action, and the hand is at a medium height (1) relative to the ground. The primary vertical direction is downward (1) as the object is thrown downward, and the horizontal direction is forward (1).\n</think>\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:34:34.823720"
+    }
+  ]
+}

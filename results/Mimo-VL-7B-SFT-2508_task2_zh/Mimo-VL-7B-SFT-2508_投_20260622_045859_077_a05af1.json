@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "投",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T04:58:59.077552",
+  "duration_seconds": 3.79,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "初始手部高度为胸部高度，手臂状态为手臂伸直，力度为中等，水平方向为向前，垂直方向为向上。\n因此，答案是：从胸部高度伸直手臂，以中等力度向前并向上投掷。\n</think>\n\n初始手部高度为胸部高度，手臂状态为手臂伸直，力度为中等，水平方向为向前，垂直方向为向上。\n因此，答案是：从胸部高度伸直手臂，以中等力度向前并向上投掷。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:58:59.077762"
+    }
+  ]
+}

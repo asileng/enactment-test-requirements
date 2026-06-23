@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T13:15:20.951908",
+  "duration_seconds": 5.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "胸部高度，手臂弯曲，中等，向前，向上\n```json\n{\n  \"action\": \"抛\",\n  \"description\": \"胸部高度，手臂弯曲，中等，向前，向上\",\n  \"force\": \"中等\",\n  \"arm\": \"手臂弯曲\",\n  \"hand\": \"胸部高度\",\n  \"vd\": \"向上\",\n  \"hd\": \"向前\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:15:20.952449"
+    }
+  ]
+}

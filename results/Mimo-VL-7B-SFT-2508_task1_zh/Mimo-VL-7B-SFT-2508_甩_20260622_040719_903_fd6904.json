@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "甩",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:07:19.902753",
+  "duration_seconds": 6.57,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 5,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "根据动作描述，甩的动作中，力量大小通常为中等，所以FORCE是3；手臂初始状态为弯曲，所以ARM是0；手部初始高度大概在腰部附近，属于相对高度的中间值，即HAND是5；垂直运动方向为向下，所以VD是1；水平运动方向为向前，所以HD是1。因此编码为：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:07:19.902976"
+    }
+  ]
+}

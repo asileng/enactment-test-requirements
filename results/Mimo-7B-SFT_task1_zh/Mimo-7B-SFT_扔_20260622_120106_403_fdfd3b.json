@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T12:01:06.402950",
+  "duration_seconds": 9.02,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要将物体扔到桌子上，作为右利手的中文母语者，我会弯曲手臂，手部初始停留在腰部高度（HAND=1），然后向下（VD=1）向前（HD=1）挥动手臂，施加中等力量（FORCE=4）。手臂弯曲（ARM=0）以节省能量并调整轨迹。这一动作符合自然运动习惯。/no_think\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T12:00:57.379136"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:01:06.403116"
+    }
+  ]
+}

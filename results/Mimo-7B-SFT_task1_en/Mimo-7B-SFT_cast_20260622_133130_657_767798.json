@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "cast",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T13:31:30.657202",
+  "duration_seconds": 22.87,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 2,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}\n\n---\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 0,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:31:30.657644"
+    }
+  ]
+}

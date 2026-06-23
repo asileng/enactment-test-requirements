@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T05:32:21.886847",
+  "duration_seconds": 5.9,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，当你尝试将手掌大小的物体“抛”出去时，通常会使用一种典型的投掷动作。这种动作涉及一定的力量和技巧，但不是非常强烈的投掷。假设这是一个典型的轻度或中等强度的投掷，所以“FORCE”应该设置为3（中等）而不是4（强）。手部通常从接近个人身高的位置开始，以便在抛出时有更多的动力。由于物体是在面前的桌子上，所以手臂通常是伸直的，以便在投掷时最大化动能。手部主要的垂直运动是向上，以将物体抛出。水平运动方向在这个情况下不太重要，因为我们关注的是垂直方向上的投掷。因此，基于这些考虑，以下是编码的结果：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:32:21.887031"
+    }
+  ]
+}

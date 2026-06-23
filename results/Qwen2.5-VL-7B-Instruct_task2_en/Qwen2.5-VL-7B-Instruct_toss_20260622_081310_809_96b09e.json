@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "toss",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T08:13:10.809208",
+  "duration_seconds": 3.42,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm bent",
+    "HAND": "knee height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/arm_bent;hand_height_knee_height;force_level_strong;hd_forward;vd_upward\nArm bent; hand height knee height; force level strong; HD forward; VD upward. Toss the palm-sized object forward with strong upward motion.\n/no_think/force_level_strong;arm_bent;hand_height_knee_height;vd_upward;hd_forward\nArm bent; hand height knee height; force level strong; HD forward; VD upward. Toss the palm-sized object forward with strong upward motion.",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:12:06.110361"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:13:07.392371"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:13:10.809414"
+    }
+  ]
+}

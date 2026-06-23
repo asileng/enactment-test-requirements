@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T06:00:49.658994",
+  "duration_seconds": 8.81,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n} 根据描述的情景和要求，执行“丢”这个动作，最自然且典型的执行方式应该是使用右手向身体前方丢出手掌大小的物体。因此，我们来分析每个维度的具体编码：\n\n- **FORCE**：我们假设用力不大，因为“丢”的力度通常不是非常强烈，所以选择“3”。\n- **ARM**：动作开始时手臂是伸直的，以便更好地控制和投掷，因此选择“1”。\n- **HAND**：手位于接近身体的位置，即大约位于地面到执行者身高之间的中间位置，可以选择“6”（这个数值代表大约位于地面到执行者身高之间）。\n- **VD**：动作的垂直运动方向是向下，即把物体从手中丢出去，所以选择“1”。\n- **HD**：动作的水平运动方向是向前，即将物体向前方扔出，因此选择“1”。\n\n综上所述，将这些编码放入JSON对象中，得到最终结果：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:00:49.659155"
+    }
+  ]
+}

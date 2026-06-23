@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "toss",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T14:54:07.252695",
+  "duration_seconds": 23.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "weak",
+    "ARM": "arm bent",
+    "HAND": "shoulder height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nshoulder height arm bent weak sideways forward upward",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:54:07.253074"
+    }
+  ]
+}

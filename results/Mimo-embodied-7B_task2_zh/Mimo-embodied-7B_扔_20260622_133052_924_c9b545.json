@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T13:30:52.923772",
+  "duration_seconds": 2.58,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂伸直",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "近侧手,右利手,近侧手,右利手,近侧手,右利手,近\n</think>\n\n接近地面,手臂伸直,弱,向前,向下",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:30:50.346203"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:30:52.924365"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "投",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T11:51:52.551938",
+  "duration_seconds": 8.93,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，让我们一步一步分析：\n\n1. **FORCE（力）**：投掷动作通常需要较强的力来让物体飞出去，但因为是手掌大小的物体，所以力度中等偏强，选4（强）。\n\n2. **ARM（手臂状态）**：投掷前手臂一般是弯曲的，准备发力，所以选0（弯曲）。\n\n3. **HAND（手部高度）**：开始时手部可能在桌面上方，接近地面高度但略高于地面，选1（离地约1/7身高）。\n\n4. **VD（垂直方向）**：投掷时手部主要向下运动，带动物体抛出，选1（向下）。\n\n5. **HD（水平方向）**：投掷时手部向前运动，将物体抛向远处，选1（向前）。\n\n最终编码为：{\"FORCE\":4,\"ARM\":0,\"HAND\":1,\"VD\":1,\"HD\":1}。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:52.552100"
+    }
+  ]
+}

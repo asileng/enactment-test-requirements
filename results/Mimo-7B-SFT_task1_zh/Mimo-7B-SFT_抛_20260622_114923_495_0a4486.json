@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T11:49:23.495302",
+  "duration_seconds": 17.56,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n抛的动作通常属于中等力量（FORCE=3）。手臂开始时弯曲（ARM=0），手部位于地面高度（HAND=0）。主要垂直运动方向是向下（VD=1），而水平方向则是向前（HD=1）。这符合中文母语者对抛动作的典型理解。/no_think\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n抛动作的典型编码如下：\n\n- **FORCE=3**：抛物时力量通常为中等，既非非常强也非非常弱。\n- **ARM=0**：抛动作用手前，手臂自然弯曲（非伸直）。\n- **HAND=0**：手部初始位置在地面高度。\n- **VD=1**：抛动主要垂直运动为向下发力，再借惯性向前。\n- **HD=1**：抛物时手部水平方向运动以向前为主。\n\n此编码符合中文母语者对“抛”的典型动作理解。/no_think\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n抛动作的典型编码如下：\n\n- **FORCE=3**：抛动作通常施加中等力量，既不非常强也不弱。\n- **ARM=0**：抛前手臂自然弯曲，非伸直状态。\n- **HAND=0**：手部初始位置在地面高度。\n- **VD=1**：垂直运动以向下发力为主，后通过惯性向前。\n- **HD=1**：水平方向运动以向前为主。\n\n此编码符合中文母语者对“抛”的典型理解。/no_think\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:49:23.495470"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "chuck",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T05:24:15.772175",
+  "duration_seconds": 0.74,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "Arm extended, chest height, moderate force, forward, upward.",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T05:24:15.031948"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:24:15.772336"
+    }
+  ]
+}

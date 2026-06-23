@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T05:55:59.354781",
+  "duration_seconds": 7.89,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，您正在想象一个场景，并被要求描述一种最自然的摔的动作。这个动作应该从您的手臂弯曲的位置，以中等力量，手臂伸直的方式，从地面高度开始，主要的垂直运动方向向下，而主要的水平运动方向则是向前。因此，基于这些描述，以下是为您生成的动作标准编码的JSON对象：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n解释：\n- `FORCE`: 3 - 因为这是一个自然的摔的动作，所以使用中等的力量。\n- `HAND`: 0 - 动作是从地面高度开始的。\n- `ARM`: 1 - 动作开始前手臂是伸直的。\n- `VD`: 1 - 动作的主要垂直运动方向是向下的。\n- `HD`: 1 - 动作的主要水平运动方向是向前的。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T05:55:51.461609"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:55:59.354950"
+    }
+  ]
+}

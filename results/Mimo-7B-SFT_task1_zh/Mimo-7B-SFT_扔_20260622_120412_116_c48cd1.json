@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T12:04:12.116466",
+  "duration_seconds": 6.9,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 2,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 2,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要将物品扔到桌子上，手臂需要弯曲到一定高度，然后伸直用手发力。施加的力较大，属于“强”（4）。手部在执行前处于腰部高度（2）。手臂弯曲（1）。主要垂直运动方向是向下（1），水平方向是向前（1）。因此，编码为FORCE:4，HAND:2，ARM:1，VD:1，HD:1。\nerdem\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要将手掌大小的物体扔到桌子上，作为右利手，我会先弯曲手臂，将手部提升到腰部高度（HAND:2），然后迅速伸直手臂（ARM:1），用手掌施加较大的力量（FORCE:4）向前（HD:1）并向下（VD:1）扔出。因此，编码为FORCE:4，ARM:1，HAND:2，VD:1，HD:1。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T12:04:05.211996"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:04:12.116656"
+    }
+  ]
+}

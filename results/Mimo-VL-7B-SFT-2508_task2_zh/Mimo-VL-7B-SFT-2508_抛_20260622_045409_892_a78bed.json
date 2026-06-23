@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:54:09.892606",
+  "duration_seconds": 7.18,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "**思考过程**\n\n首先，我需要明确目标动作是“抛”，并考虑右利手在空旷房间中抛桌面上手掌大小物体的典型方式。\n\n**FORCE**：抛的动作需要足够的力量使物体离开桌面，因此力度应该是**强**。\n\n**ARM**：抛之前手臂通常是弯曲的，以便储存弹性势能，所以手臂状态是**手臂弯曲**。\n\n**HAND**：手部在抛之前通常位于胸部高度附近，这是自然的准备姿势，所以初始手部高度是**胸部高度**。\n\n**VD**：抛的动作中，手部需要向上运动来给予物体向上的初速度，所以垂直方向是**向上**。\n\n**HD**：抛的动作中，手部需要向前运动以将物体从桌面上方送出去，所以水平方向是**向前**。\n\n**综合描述**：手臂弯曲，胸部高度，强，向前，向上抛。\n</think>\n\n手臂弯曲，胸部高度，强，向前，向上抛。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:54:09.892813"
+    }
+  ]
+}

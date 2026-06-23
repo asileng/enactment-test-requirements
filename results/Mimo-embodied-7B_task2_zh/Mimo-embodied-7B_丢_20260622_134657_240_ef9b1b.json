@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "丢",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T13:46:57.239611",
+  "duration_seconds": 2.09,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "1\n胸部高度、手臂弯曲、弱、向前、向下\n右利手丢手掌大小物体，从胸部高度、手臂弯曲状态，以弱的力向前并向下抛出物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:46:57.239945"
+    }
+  ]
+}

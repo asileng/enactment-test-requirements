@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "chuck",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T13:26:58.740218",
+  "duration_seconds": 9.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 9,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\n\nThe action is \"chuck\". A chuck typically involves a moderate amount of force (FORCE=3), with the arm extended (ARM=1) and the hand positioned at a height just below the performer's waist (HAND=9). The primary vertical direction is upward (VD=0) as the hand moves to throw or chuck the object. The horizontal direction is forward (HD=1) as the object is thrown towards the target.\n</think>\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:26:58.740645"
+    }
+  ]
+}

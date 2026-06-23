@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "甩",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T13:54:01.479696",
+  "duration_seconds": 93.9,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "面前有一张桌子，桌面上放置着一个手掌大小的描述动作：甩\n肩部高度、手臂弯曲、强、向侧方、向下\n手臂弯曲，手部在肩部高度，以强的力度，向侧方甩动，同时手部向下运动\n```\n\n\n请按照上述格式进行：FORCE、ARM、HAND、VD、HD，依次排列，可选描述中选择合适的描述词。\n\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 吳侧方\n\n请按照上述格式进行：FORCE、ARM、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照上述格式进行：FORCE、ARM、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照上述格式进行：FORCE、ARM、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部“甩”这个动作通常会用手臂弯曲的状态，从肩部高度开始，施加强的力，手部向侧方移动，同时手部向下运动。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照上述格式进行：FORCE、ARM、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照上述格式进行： FORCE、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照上述格式进行：FORCE、ARM、ARM、HAND、VD、HD，依次排列，可使力、手臂弯曲、肩部高度、向下、向侧方\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最合适的可选描述词，不要重复使用已选的描述词。\n\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行“甩”这个动作，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可用描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 強\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部弯曲\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE: 强\nARM: 手臂弯曲\nHAND: 肩部高度\nVD: 向下\nHD: 向侧方\n```\n\n\n请按照正确的格式进行输出，依次排列FORCE、ARM、HAND、VD、HD，每个维度选择最典型的可选描述词，不要重复使用已选的描述字。\nFORCE:",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:54:01.480174"
+    }
+  ]
+}

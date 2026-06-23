@@ -1,0 +1,2927 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-06-22T06:02:45.712139",
+  "experiment_time": {
+    "start_time": "2026-06-22T06:01:16.008712",
+    "end_time": "2026-06-22T06:02:45.711958",
+    "duration_seconds": 89.703246
+  },
+  "participant_id": null,
+  "use_latin_square": true,
+  "total_experiments": 72,
+  "valid_count": 72,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "total": 72,
+      "valid": 72,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 1.15,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Qwen2.5-VL-7B-Instruct": {
+      "hurl": [
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 2.38,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 5,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.37,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.19,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.29,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.25,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.23,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.05,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.99,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.29,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.31,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.96,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.27,
+          "error_type": null
+        }
+      ],
+      "toss": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.06,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.01,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.25,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.24,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.99,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.21,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.05,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.21,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 12,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.96,
+          "error_type": null
+        }
+      ],
+      "fling": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.05,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.94,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.05,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.3,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.16,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.25,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.06,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.29,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.23,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.13,
+          "error_type": null
+        }
+      ],
+      "chuck": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 11,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.06,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.27,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.29,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.28,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.07,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.22,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.18,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.31,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.08,
+          "error_type": null
+        }
+      ],
+      "cast": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.99,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 7,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.27,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 5,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.27,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 0.96,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 3,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.3,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.2,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 8,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 0.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.04,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.25,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.01,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.04,
+          "error_type": null
+        }
+      ],
+      "throw": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.22,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.27,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.15,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.07,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.19,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.24,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 12,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 0,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.02,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 0,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.0,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 6,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.25,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:01:25.333927",
+      "duration_seconds": 2.38,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:25.334289"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:01:26.708501",
+      "duration_seconds": 1.37,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 5,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:26.708778"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:01:27.900556",
+      "duration_seconds": 1.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:27.900738"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:01:29.196561",
+      "duration_seconds": 1.29,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:29.196737"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:01:30.442696",
+      "duration_seconds": 1.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 8,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:30.442931"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:01:31.672756",
+      "duration_seconds": 1.23,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:31.673074"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:01:32.725653",
+      "duration_seconds": 1.05,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 8, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:32.725832"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:01:33.712262",
+      "duration_seconds": 0.99,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:33.712448"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:01:35.006097",
+      "duration_seconds": 1.29,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:35.006406"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:01:36.314114",
+      "duration_seconds": 1.31,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:36.314290"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:01:37.279579",
+      "duration_seconds": 0.96,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 6, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:37.279746"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "hurl",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:01:38.546075",
+      "duration_seconds": 1.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:38.546302"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:01:39.611846",
+      "duration_seconds": 1.06,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:39.612145"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:01:40.625701",
+      "duration_seconds": 1.01,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 7, \"ARM\": 1, \"VD\": 0, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:40.625867"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:01:41.878627",
+      "duration_seconds": 1.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:41.878796"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:01:42.882921",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:42.883088"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:01:43.906068",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 10, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:43.906301"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:01:45.151720",
+      "duration_seconds": 1.24,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:45.152013"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:01:46.143733",
+      "duration_seconds": 0.99,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 6, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:46.143901"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:01:47.148406",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 8, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:47.148571"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:01:48.354953",
+      "duration_seconds": 1.21,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:48.355122"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:01:49.403404",
+      "duration_seconds": 1.05,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 9, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:49.403597"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:01:50.616341",
+      "duration_seconds": 1.21,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:50.616645"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "toss",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:01:51.580883",
+      "duration_seconds": 0.96,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 12,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 12, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:51.581098"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:01:52.628545",
+      "duration_seconds": 1.05,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 8, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:52.628718"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:01:53.651432",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:53.651600"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:01:54.592399",
+      "duration_seconds": 0.94,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 0, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:54.592574"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:01:55.647646",
+      "duration_seconds": 1.05,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:55.647816"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:01:56.949368",
+      "duration_seconds": 1.3,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:56.949588"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:01:57.967452",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 4, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:57.967662"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:01:59.124586",
+      "duration_seconds": 1.16,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:01:59.124873"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:02:00.377410",
+      "duration_seconds": 1.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:00.377573"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:02:01.434605",
+      "duration_seconds": 1.06,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 0, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:01.434784"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:02:02.723548",
+      "duration_seconds": 1.29,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:02.723722"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:02:03.958749",
+      "duration_seconds": 1.23,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:03.958935"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "fling",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:02:05.091045",
+      "duration_seconds": 1.13,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:05.091238"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:02:06.154086",
+      "duration_seconds": 1.06,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 11,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 11, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:06.154304"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:02:07.421066",
+      "duration_seconds": 1.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:07.421340"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:02:08.712756",
+      "duration_seconds": 1.29,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:08.712967"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:02:09.991424",
+      "duration_seconds": 1.28,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:09.991603"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:02:11.063961",
+      "duration_seconds": 1.07,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 7, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:11.064133"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:02:12.289181",
+      "duration_seconds": 1.22,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:12.289341"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:02:13.311303",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 0, \"VD\": 0, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:13.311473"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:02:14.488333",
+      "duration_seconds": 1.18,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:14.488507"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:02:15.799691",
+      "duration_seconds": 1.31,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:15.799857"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:02:16.800692",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 0, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:16.800911"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:02:17.781054",
+      "duration_seconds": 0.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 0, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:17.781235"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "chuck",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:02:18.866761",
+      "duration_seconds": 1.08,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 6, \"ARM\": 1, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:18.867043"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:02:19.855175",
+      "duration_seconds": 0.99,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:19.855385"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:02:21.127869",
+      "duration_seconds": 1.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 7,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:21.128041"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:02:22.399083",
+      "duration_seconds": 1.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 5,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{}\n{\n  \"FORCE\": 2,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:22.399244"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:02:23.362598",
+      "duration_seconds": 0.96,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 0, \"VD\": 0, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:23.362773"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:02:24.659589",
+      "duration_seconds": 1.3,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 3,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:24.659772"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:02:25.863360",
+      "duration_seconds": 1.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:25.863515"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:02:26.842634",
+      "duration_seconds": 0.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 8,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 8, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:26.842816"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:02:27.841959",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 3, \"ARM\": 0, \"VD\": 1, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:27.842123"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:02:28.880677",
+      "duration_seconds": 1.04,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 3, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:28.880883"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:02:30.134505",
+      "duration_seconds": 1.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:30.134698"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:02:31.149650",
+      "duration_seconds": 1.01,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 2, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:31.149815"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "cast",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:02:32.193736",
+      "duration_seconds": 1.04,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 3, \"ARM\": 0, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:32.194019"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T06:02:33.417949",
+      "duration_seconds": 1.22,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:33.418158"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T06:02:34.687044",
+      "duration_seconds": 1.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "({\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n})",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:34.687207"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T06:02:35.842704",
+      "duration_seconds": 1.15,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:35.842872"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T06:02:36.909688",
+      "duration_seconds": 1.07,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 3, \"ARM\": 1, \"VD\": 0, \"HD\": 0}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:36.909847"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T06:02:38.098841",
+      "duration_seconds": 1.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:38.099017"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T06:02:39.335547",
+      "duration_seconds": 1.24,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:39.335716"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T06:02:40.338918",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 6, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:40.339085"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T06:02:41.356652",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:41.356817"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T06:02:42.375689",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 12,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 12, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:42.375855"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T06:02:43.399826",
+      "duration_seconds": 1.02,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 0,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:43.399996"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T06:02:44.405278",
+      "duration_seconds": 1.0,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 0,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\"FORCE\": 4, \"HAND\": 0, \"ARM\": 1, \"VD\": 0, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:44.405469"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Qwen2.5-VL-7B-Instruct",
+      "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+      "verb": "throw",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T06:02:45.652037",
+      "duration_seconds": 1.25,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 6,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T06:02:45.652239"
+        }
+      ]
+    }
+  ]
+}

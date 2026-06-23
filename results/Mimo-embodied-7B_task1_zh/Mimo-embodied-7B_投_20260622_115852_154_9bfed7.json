@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "投",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T11:58:52.154066",
+  "duration_seconds": 75.38,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n/noof\n\n{\n  \"FORCE\": 3,\n  \"H\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"手掌高度\": 1,\n  \"手臂\": 0,\n  \"垂直方向\": 1,\n  \"水平方向\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\":",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:58:52.154413"
+    }
+  ]
+}

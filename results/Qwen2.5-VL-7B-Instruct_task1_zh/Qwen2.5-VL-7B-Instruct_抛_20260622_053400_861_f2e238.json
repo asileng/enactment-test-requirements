@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:34:00.861154",
+  "duration_seconds": 62.95,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n} 确定\n{\n  \"FORCE\": 3,\n  \"HAND\": 8,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n} 不确定\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  确定\n\n确定{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n} 确定\n{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\n  \"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\n  \"FORCE\": 确定{\"FORCE\": 3,\n\nAssistant: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n} 确定 {\"FORCE\": 3,\n  \"HAND\": 确定{\n  \"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\n  \"FORCE\": 确定{\"FORCE\": 3,\n\nAssistant: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0} 确定{\"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0} 确定{\"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0} 确定{\"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0} 确定{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE}: {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\"}{\n  \"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3{\"FORCE}: {\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 0,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\"FORCE}: {\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\"FORCE}: {\"FORCE\": 3{\"FORCE\": 3确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\"}{\n  \"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3{\"FORCE}: {\"FORCE\": 3{\"FORCE\": 3确定{\"FORCE\": 3,\n\nAssistant:{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\":{\"FORCE}: {\"FORCE\": 3{\"FORCE}: {\"FORCE}: {\"FORCE\": 3确定{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3确定{\n  \"FORCE\": 3,\n  \"HAND\": 确定{\"FORCE\": 3{\"FORCE}: {\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\": 3{\"FORCE\":",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T05:32:57.913507"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:34:00.861489"
+    }
+  ]
+}

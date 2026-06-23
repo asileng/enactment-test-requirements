@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T05:54:47.996316",
+  "duration_seconds": 4.02,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 1,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 1,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述的场景和动作需求，将手掌大小的物体摔在桌上，对于右利手的中文母语者来说，最典型的执行方式应该是使用右手将物体向下摔在桌子上。因此，按照动作编码标准，可以得出以下编码：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:54:47.996536"
+    }
+  ]
+}

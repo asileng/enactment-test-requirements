@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "toss",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:33:14.281719",
+  "duration_seconds": 6.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\nThis is a good example. Given the action \"toss\", the encoding is:\nFORCE: moderate (3) because a typical toss uses moderate force.\nHAND: 10 (performer's height) because the hand starts at head height.\nARM: 1 (arm extended) because the arm is extended to reach the object.\nVD: 0 (upward) because the hand moves upward during the toss.\nHD: 1 (forward) because the hand moves forward during the toss.\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:33:14.282012"
+    }
+  ]
+}

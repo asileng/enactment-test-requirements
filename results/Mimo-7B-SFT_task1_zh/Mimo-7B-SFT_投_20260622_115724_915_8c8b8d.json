@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "投",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T11:57:24.915494",
+  "duration_seconds": 11.15,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，首先考虑“投”的动作。 FORCE设为3（中等），因为通常投掷物体时需要中等力量，既不过于轻松也不需要爆发力。 ARM设为0（弯曲），因为投掷前手臂通常会弯曲以蓄力。 HAND设为1，表示手部在开始时停留在与执行者身高相当的高度（约腰部）。 VD设为1（向下），因为投掷时手部会向下运动以释放物体。 HD设为1（向前），因为目标是将物体向前投出。 这个编码反映了中文母语者对“投”的典型动作理解。/no_think\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:57:24.915659"
+    }
+  ]
+}

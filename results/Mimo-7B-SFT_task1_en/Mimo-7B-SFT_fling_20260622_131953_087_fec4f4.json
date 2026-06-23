@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "fling",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T13:19:53.086867",
+  "duration_seconds": 4.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "---\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:19:53.087328"
+    }
+  ]
+}

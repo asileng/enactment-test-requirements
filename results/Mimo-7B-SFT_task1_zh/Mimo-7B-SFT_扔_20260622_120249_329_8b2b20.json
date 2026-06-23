@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T12:02:49.329105",
+  "duration_seconds": 10.56,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，我们可以分步骤分析：\n\n1. **FORCE（力量）**：选择4（强）。典型的手部抛掷动作通常需要中等偏上的力量，但排除了过重物体（如编码5），因此判定为\"强\"。\n\n2. **ARM（手臂状态）**：选择0（弯曲）。中文使用者在准备抛掷时，通常会先将手臂弯曲蓄力，而非保持伸直状态。\n\n3. **HAND（手部初始高度）**：选择1（约1/3身高）。日常经验中，人们通常将物体放置在手部自然高度（约腰部位置），对应编码1。\n\n4. **VD（垂直方向）**：选择1（向下）。抛掷动作的核心是将物体抛出，因此手部需要向下运动产生向前的动力。\n\n5. **HD（水平方向）**：选择1（向前）。这是最典型的手部运动方向，与抛掷的最终目标方向一致。\n\n这个编码反映了中文母语者在空旷房间中，面对桌面物体时最自然的抛掷动作特征。所有维度均基于日常动作经验而非机械实验数据，符合直觉性判断标准。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:02:49.329299"
+    }
+  ]
+}

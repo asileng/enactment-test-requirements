@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "hurl",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T14:39:27.330308",
+  "duration_seconds": 42.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm bent",
+    "HAND": "waist height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "small\n\nTo hurl something, you would typically start with your arm bent and your hand at chest height, applying a strong force to launch the object forward and upward.\n\nTo hurl something, you typical\n\nTo hurl something, you would typically start with your arm bent and your\n</think>\n\narm bent, waist height, strong, forward, upward\nTo hurl something, you would typically start with your arm bent and your hand at waist height, applying a strong force to launch the object forward and upward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:39:27.330683"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:18:26.976610",
+  "duration_seconds": 9.27,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "作为右利手的中文母语者，在空旷房间里，面对一张桌子，桌面上有一个手掌大小的物体，要自然地执行抛的动作。\n\n首先，考虑力量大小。抛物体通常需要一定的力量，但不需要非常强，所以选3（中等）。\n\n手臂初始状态，抛的时候手臂是弯曲的，因为需要蓄力，所以ARM选0（弯曲）。\n\n手部初始高度，一般抛东西时手不会放得很低，大概在腰部或更低？但题目中物体在桌面上，所以手可能从桌面附近开始，假设手部初始高度在桌面，也就是地面高度与身高比例的较低位置，所以HAND选1（地面附近）。\n\n垂直运动方向，抛的时候手部是向上运动的，所以VD选0（向上）。\n\n水平运动方向，抛出去后物体向前，所以HD选1（向前）。\n\n现在检查是否符合标准：\n\nFORCE：中等，3。\n\nARM：弯曲，0。\n\nHAND：地面附近，1。\n\nVD：向上，0。\n\nHD：向前，1。\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:18:26.976824"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T13:15:36.400815",
+  "duration_seconds": 5.83,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "物体大小：手掌大小的物体\n\n手臂从肩部高度开始，将手掌大小的物体向前向上抛出。\n\n初始手部高度：肩部高度\n\n手臂状态：手臂伸直\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向上\n\n最终描述：\n从肩部高度伸出伸直的手臂，强力度向前向上抛出物体。\n</think>\n\n从肩部高度伸出伸直的手臂，强力度向前向上抛出物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:15:36.401228"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:30:14.956327",
+  "duration_seconds": 4.96,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n/no_think{\n  \"FORCE\": 4,\n 手掌大小的物体需要被甩的动作需要较强的力度，因此选择\"FORCE\"为4。手臂伸直以便更有效地挥动，因此选择\"ARM\"为1。手部在接近身体的高度处，因此选择\"HAND\"为6。动作主要向下甩，因此选择\"VD\"为1。甩的动作通常向前进行，因此选择\"HD\"为1。\n}{\"FORCE\": 4, \"HAND\": 6, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:30:14.956668"
+    }
+  ]
+}

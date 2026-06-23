@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "摔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T13:39:46.796730",
+  "duration_seconds": 118.87,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [典型动作开始前的相对高度]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有维度的句子]\n\n**示例**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 君前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: HAND: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有描述的句子]\n\n**修正后的示例**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 吞前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有描述的句子]\n\n**示例**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\n可选描述为：\nFORCE: 非常强、强、中等、弱、非常弱\n\nARM: 手臂伸直、手臂弯曲\n\nHAND: 接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD: 向下、向上\n\nHD: 向前、向侧方\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [向]\n\n动作描述: [包含所有描述的句子]\n\n**示例**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肠部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有描述的句子]\n\n**示例**\n\nFORCE: 张强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nFORCE: 非常强、强、中等、弱、非常弱\n\nARM: 手臂伸直、手臂弯曲\n\nHAND: 接近地面、膝盖高度、腰部高度、胸部高度、肩部动作开始前的相对高度\n\nVD: 向下、向上\n\nHD: 向前、向侧方\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有描述的句子]\n\n**示例**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: [描述]\n\nARM: [描述]\n\nHAND: [描述]\n\nVD: [描述]\n\nHD: [描述]\n\n动作描述: [包含所有描述的]\n\n**示例**\n\nFORCE: 强\n\nARM: 手臂弯曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肪部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部高度\n\nVD: 向下\n\nHD: 向前\n\n动作描述: 肩部高度，手臂弯曲，强，向前，向下的力\n\n---\n\n**输出格式**\n\nFORCE: 强\n\nARM: 执曲\n\nHAND: 肩部",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:39:46.797215"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "created": "2026-06-22",
+    "last_updated": "2026-06-22",
+    "description": "动态任务跟踪与监督系统",
+    "experiment_config": {
+      "repeat_count": 12,
+      "verbs_per_task": 6,
+      "tasks_per_model": 4,
+      "experiments_per_model": 288
+    },
+    "code_modifications": [
+      {
+        "date": "2026-06-22",
+        "file": "run_experiment.py",
+        "change": "修改断点续传逻辑：只在is_valid=True时标记完成，无效数据自动补采",
+        "details": "添加retry_count、retry_history字段，max_auto_retries=50"
+      }
+    ]
+  },
+  "model_installation": {
+    "Hunyuan-1.8B-Instruct": {"status": "installed", "source": "huggingface", "repo_id": "tencent/Hunyuan-1.8B-Instruct", "path": "/home/xitongzhang/models/Hunyuan-1.8B-Instruct"},
+    "Mimo-7B-SFT": {"status": "installed", "source": "huggingface", "repo_id": "XiaomiMiMo/MiMo-7B-SFT", "path": "/home/xitongzhang/models/Mimo-7B-SFT"},
+    "Mimo-embodied-7B": {"status": "installed", "source": "huggingface", "repo_id": "XiaomiMiMo/MiMo-Embodied-7B", "path": "/home/xitongzhang/models/Mimo-embodied-7B"},
+    "Mimo-VL-7B-SFT-2508": {"status": "installed", "source": "huggingface", "repo_id": "XiaomiMiMo/MiMo-VL-7B-SFT", "path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508", "notes": "2508为本地命名，HF repo无此后缀"},
+    "Qwen2.5-7B-Instruct": {"status": "installed", "source": "unknown", "path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct"},
+    "Qwen2.5-VL-7B-Instruct": {"status": "installed", "source": "unknown", "path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct"},
+    "RoboBrain2.0-7B": {"status": "installed", "source": "unknown", "path": "/home/xitongzhang/models/RoboBrain2.0-7B"},
+    "HY-Embodied-0.5": {"status": "installed", "source": "huggingface", "repo_id": "tencent/HY-Embodied-0.5", "path": "/home/xitongzhang/models/HY-Embodied-0.5"}
+  },
+  "decisions": [
+    {
+      "date": "2026-06-22",
+      "decision": "Task2中如果模型遗漏任何一个维度，视为跟随指令失败，标记为无效并重新尝试",
+      "reason": "提示词明确要求描述所有5个维度，遗漏说明模型未遵循指令"
+    },
+    {
+      "date": "2026-06-22",
+      "decision": "无效数据必须自动补采，无上限重复直到成功",
+      "reason": "确保每个模型每个任务收集到足够有效数据",
+      "doc": "experiment_strategy_0622.md"
+    },
+    {
+      "date": "2026-06-23",
+      "decision": "暂时不采集HY-Embodied-0.5的数据",
+      "reason": "模型依赖flash_attn库，当前环境nvcc版本(11.5)不满足要求(>=11.7)，无法编译安装",
+      "status": "deferred",
+      "existing_data": "保留已有的HY-Embodied-0.5实验结果目录，不要删除"
+    },
+    {
+      "date": "2026-06-23",
+      "decision": "排除Hunyuan-1.8B-Instruct",
+      "reason": "task2_en连续E104错误（模型输出不符合预定义选项），task1_zh/task2_zh数据极少",
+      "status": "excluded",
+      "existing_data": "保留已有的Hunyuan-1.8B-Instruct实验结果目录，不要删除"
+    },
+    {
+      "date": "2026-06-23",
+      "decision": "【高优先级】只能停止自己启动的进程，不能关闭别的进程",
+      "reason": "避免影响其他用户的实验",
+      "priority": "critical",
+      "rule": "关闭别的进程需要征求用户同意"
+    }
+  ],
+  "models": [
+    "Mimo-7B-SFT",
+    "Mimo-embodied-7B",
+    "Mimo-VL-7B-SFT-2508",
+    "Qwen2.5-7B-Instruct",
+    "Qwen2.5-VL-7B-Instruct",
+    "RoboBrain2.0-7B"
+  ],
+  "excluded_models": [
+    "HY-Embodied-0.5",
+    "Hunyuan-1.8B-Instruct"
+  ],
+  "tasks": ["task1_zh", "task1_en", "task2_zh", "task2_en"],
+  "verbs": {
+    "zh": ["投", "扔", "摔", "丢", "甩", "抛"],
+    "en": ["fling", "chuck", "cast", "throw", "hurl", "toss"]
+  },
+  "data_status": {
+    "Hunyuan-1.8B-Instruct": {
+      "task1_zh": {"status": "excluded", "valid": 1, "total": 1, "repeat_done": 1, "repeat_target": 12, "need_collect": 0},
+      "task1_en": {"status": "excluded", "valid": 19, "total": 19, "repeat_done": 1, "repeat_target": 12, "need_collect": 0},
+      "task2_zh": {"status": "excluded", "valid": 0, "total": 0, "repeat_done": 0, "repeat_target": 12, "need_collect": 0},
+      "task2_en": {"status": "excluded", "valid": 1, "total": 1, "repeat_done": 1, "repeat_target": 12, "need_collect": 0},
+      "notes": "已排除，task2_en连续E104错误，数据保留不删除"
+    },
+    "Mimo-7B-SFT": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "Mimo-embodied-7B": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "Mimo-VL-7B-SFT-2508": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "Qwen2.5-7B-Instruct": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "Qwen2.5-VL-7B-Instruct": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "RoboBrain2.0-7B": {
+      "task1_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task1_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_zh": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66},
+      "task2_en": {"status": "completed", "valid": 6, "total": 6, "repeat_done": 1, "repeat_target": 12, "need_collect": 66}
+    },
+    "HY-Embodied-0.5": {
+      "task1_zh": {"status": "excluded", "valid": 0, "total": 0, "repeat_done": 0, "repeat_target": 12, "need_collect": 0},
+      "task1_en": {"status": "excluded", "valid": 0, "total": 0, "repeat_done": 0, "repeat_target": 12, "need_collect": 0},
+      "task2_zh": {"status": "excluded", "valid": 0, "total": 0, "repeat_done": 0, "repeat_target": 12, "need_collect": 0},
+      "task2_en": {"status": "excluded", "valid": 0, "total": 0, "repeat_done": 0, "repeat_target": 12, "need_collect": 0},
+      "notes": "暂时不采集，原因：flash_attn依赖不满足"
+    }
+  },
+  "pending_tasks": [],
+  "summary": {
+    "total_models": 6,
+    "excluded_models": 2,
+    "installed_models": 6,
+    "pending_installation": 0,
+    "repeat_target": 12,
+    "experiments_per_model": 288,
+    "total_experiments": 1728,
+    "completed_valid": 144,
+    "need_collect": 1584,
+    "completion_rate": "8.3%",
+    "model_breakdown": {
+      "Mimo-7B-SFT": {"completed": 24, "need": 264},
+      "Mimo-embodied-7B": {"completed": 24, "need": 264},
+      "Mimo-VL-7B-SFT-2508": {"completed": 24, "need": 264},
+      "Qwen2.5-7B-Instruct": {"completed": 24, "need": 264},
+      "Qwen2.5-VL-7B-Instruct": {"completed": 24, "need": 264},
+      "RoboBrain2.0-7B": {"completed": 24, "need": 264}
+    },
+    "excluded": {
+      "HY-Embodied-0.5": {"reason": "flash_attn依赖不满足", "status": "deferred"},
+      "Hunyuan-1.8B-Instruct": {"reason": "task2_en连续E104错误", "status": "excluded"}
+    }
+  }
+}

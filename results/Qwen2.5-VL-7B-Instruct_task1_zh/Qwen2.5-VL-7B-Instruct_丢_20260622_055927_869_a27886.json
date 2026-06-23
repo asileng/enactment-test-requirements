@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:59:27.869221",
+  "duration_seconds": 62.74,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n 作为右利手的中文母语者，您通常会将物品放在哪个位置？\n}{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": {\n  \"FORCE\": 2,\n  \"HAND\":{\"FORCE\": 2,\n  \"HAND\":{\n{\n  \"FORCE\": /no_think{\n  \"FORCE\": /no_think{\n  \"FORCE\": {\n  \"FORCE\":{\"FORCE\":{\"FORCE\":{\"FORCE\":{\"FORCE\":\"{\"FORCE\":{\"FORCE\":{\"FORCE\":{\n  \"FORCE\":{\"FORCE\":{\"FORCE\":\"{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\":\"{\"FORCE\"}}{\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}}\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}}{\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}}\n{\n  \"FORCE\":{\"FORCE\":{\"FORCE\"}}\n{\n  \"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\"}{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  \"FORCE\":{\"FORCE\"}}\n{\n{\n  作为右利手的中文母语者，您通常会将物品放在哪个位置？/no_think{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":要执行丢的动作，我需要首先将手抬起到一个高度，以便有足够的力量来扔出去。在这个例子中，手的位置是地面高度与执行者的身高之间的相对高度（编码为6），这通常是进行此类动作的最佳高度。然后，我将手臂伸直（编码为1），准备施加力量。接下来，我会向下（编码为1）并向前（编码为1）将物体扔出。根据这些标准，以下是最典型的执行方式：\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":根据您的描述，我需要将手抬起到一个高度，以便有足够的力量来扔出去。在这种情况下，手的位置是地面高度与执行者的身高之间的相对高度（编码为6）。然后，我会将手臂伸直（编码为1），以便施加足够的力量。接下来，我会向下（编码为1）并向前（编码为1）将物体扔出。根据这些标准，以下是最典型的执行方式：\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":根据我的理解，我需要将手抬起到一个高度，以便有足够的力量来扔出去。在这种情况下，手的位置是地面高度与执行者的身高之间的相对高度（编码为6）。然后，我会将手臂伸直（编码为1），以便施加足够的力量。接下来，我会向下（编码为1）并向前（编码为1）将物体扔出。根据这些标准，以下是最典型的执行方式：\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}``````json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}``````json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}``````json\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}```{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  }{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 12,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}`{\n  \"FORCE\": 2,\n  \"HAND\": 6,",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:59:27.869555"
+    }
+  ]
+}

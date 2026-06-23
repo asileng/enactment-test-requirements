@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T05:59:35.651083",
+  "duration_seconds": 7.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 在想象的场景中，作为右利手的中文母语者，在面对一个手掌大小的物体并希望执行“丢”这个动作时，通常会选择一种自然且典型的丢掷方式。这种动作通常包括使用右手（对于右利手）来实施，手臂从身体前侧向前方伸出，手的位置大约在眼睛的高度，然后通过手腕或手指的力量将物体抛出。\n\n基于此，我们可以编码为：\n- 力量（FORCE）：2 - 中等\n- 起始手臂位置（ARM）：1 - 手臂伸直\n- 起始手部高度（HAND）：9 - 接近身高\n- 主要垂直运动方向（VD）：1 - 向下\n- 主要水平运动方向（HD）：1 - 向前\n\n对应的JSON编码如下：\n{\n  \"FORCE\": 2,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:59:35.651246"
+    }
+  ]
+}

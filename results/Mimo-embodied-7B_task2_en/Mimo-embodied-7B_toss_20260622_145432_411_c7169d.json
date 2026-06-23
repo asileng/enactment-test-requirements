@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "toss",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T14:54:32.411344",
+  "duration_seconds": 25.16,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "weak",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "sideways"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nWith arm extended at chest height, apply weak force, moving sideways and upward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:54:32.411779"
+    }
+  ]
+}

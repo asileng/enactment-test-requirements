@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T04:26:06.482927",
+  "duration_seconds": 7.1,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 2,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nAlright, let's break down the action of hurling a palm-sized object. First, as a right-handed native English speaker, the most natural way to hurl something would be with a moderate force, not too weak but not super strong. So FORCE is probably 3. \n\nNext, the arm starts bent because you'd typically hold the object close to your body before throwing. So ARM is 0.\n\nFor HAND, the object is on the table, so the hand would be at a height slightly above the ground, maybe around 1-2 units. Let's go with 2.\n\nThe primary vertical direction when hurling is upward, so VD is 0.\n\nFinally, the horizontal direction is forward, so HD is 1.\n\nPutting it all together, the encoding should reflect these choices.\n</think>\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:26:06.483092"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "投",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T13:17:24.081003",
+  "duration_seconds": 4.27,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "面前有一个手掌大小的物体，目标动作是投掷。\nFORCE: 弱\nARM: 手臂伸直\nHAND: 薪部高度\nVD: 向上\nHD: 向前\n\n胸部高度、手臂伸直、弱、向前、向上\n</think>\n\n胸部高度、手臂伸直、弱、向前、向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:17:24.081321"
+    }
+  ]
+}

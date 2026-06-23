@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T06:41:35.621928",
+  "duration_seconds": 63.26,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "ARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 同时向侧方和向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度同时向侧方和向下用力摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始手部高度: 胸部高度\n描述: 手臂伸直，从胸部高度向下用力向侧方摔物体。/no_think\nARM: 手臂伸直\nFORCE: 强\nHD: 向侧方\nVD: 向下\n初始",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:39:28.936842"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:40:32.361537"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:41:35.622286"
+    }
+  ]
+}

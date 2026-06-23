@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "摔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T12:11:03.325576",
+  "duration_seconds": 6.72,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n要解释这个编码，我们首先分析“摔”这个动作。对于右利手的中文母语者来说，摔物体通常涉及中等力量（对应FORCE=3），但考虑到物体较小且桌面稳固，实际施加的力量可能更弱（对应FORCE=2）。然而，根据常见行为观察，人们摔物体时往往故意施加较大冲击力以确保物体掉落，因此选择更强的力量编码（FORCE=4）。\n\n手臂初始状态方面，摔动作开始时手部通常已靠近物体，因此手臂处于弯曲状态（ARM=0）。手部初始高度多在视线水平附近，即低于身高一个单位（HAND=1）。主要垂直运动方向是向下（VD=1），而水平方向可能略有向前或侧移，但以侧向为主（HD=0）。因此，综合判断编码为上述结果。\n'gc\n\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:11:03.325857"
+    }
+  ]
+}

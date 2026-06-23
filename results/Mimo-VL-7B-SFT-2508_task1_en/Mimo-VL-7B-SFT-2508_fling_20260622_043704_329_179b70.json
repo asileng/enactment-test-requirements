@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "fling",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T04:37:04.328839",
+  "duration_seconds": 5.65,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 7,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\nWhen you fling something, you typically use moderate to strong force. Since the object is palm-sized, a strong force (4) is typical. The arm is bent initially (0) because you don't start with it extended. The hand is around shoulder height (7). The vertical direction is upward (0), and the horizontal direction is forward (1). This makes sense for a typical fling action.\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:37:04.329015"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "投",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:58:59.874300",
+  "duration_seconds": 0.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n中等力，手臂伸直，水平向前，垂直向上，胸部高度。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:58:59.874476"
+    }
+  ]
+}

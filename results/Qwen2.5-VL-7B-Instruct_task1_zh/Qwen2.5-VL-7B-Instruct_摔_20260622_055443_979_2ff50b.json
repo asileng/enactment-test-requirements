@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T05:54:43.979579",
+  "duration_seconds": 7.38,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，您希望以一种典型的右利手方式来执行这个动作。在这种情况下，您会使用右手向下用力将物体摔落在桌子上。这是一个非常典型的执行方式，因为对于大多数右利手的人而言，他们通常是用右手来进行日常的抓握和操作，例如拿起东西并将其扔向地面。 \n\n因此，基于上述分析，以下是为您生成的动作编码：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n``` \n\n其中，\n- **FORCE**: 3表示力量适中。\n- **HAND**: 0表示从桌面高度起始。\n- **ARM**: 0表示手臂弯曲（即由近至远移动）。\n- **VD**: 1表示手部主要向下运动。\n- **HD**: 0表示手部主要向前移动，而非侧向。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:54:43.979829"
+    }
+  ]
+}

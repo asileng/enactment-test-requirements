@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "fling",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:35:40.146137",
+  "duration_seconds": 5.91,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is \"fling.\" For a right-handed person, flinging an object typically involves a moderate force, so I'd say FORCE is 3. The arm starts bent (ARM=0) because you pull back to throw. The hand is at a medium height, maybe around 5 (HAND=5) since it's palm-sized and you'd hold it up to throw. The vertical direction (VD) is upward (0) because you throw it up. The horizontal direction (HD) is forward (1) to propel the object away. So putting it all together.\n</think>\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:35:40.146312"
+    }
+  ]
+}

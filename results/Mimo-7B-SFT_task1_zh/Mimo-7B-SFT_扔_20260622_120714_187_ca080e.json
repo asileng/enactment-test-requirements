@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T12:07:14.187721",
+  "duration_seconds": 7.98,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} \n\n当执行“扔”这个动作时，中文母语者右利手通常会采取以下步骤：首先弯曲手臂（ARM=0），手部提起至大约腰高（HAND=1），然后手臂自然下落并挥动手臂，使力量集中在手掌（FORCE=4）。手部主要垂直向下运动（VD=1），同时水平向前抛出（HD=1）。此编码反映了典型抛掷动作的特征。/no_think\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} \n\n当执行“扔”这个动作时，中文母语者右利手通常会采取以下步骤：首先弯曲手臂（ARM=0），手部提起至大约腰高（HAND=1），然后手臂自然下落并挥动手臂，使力量集中在手掌（FORCE=4）。手部主要垂直向下运动（VD=1），同时水平向前抛出（HD=1）。此编码反映了典型抛掷动作的特征。/no_think\n```json\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:07:14.187935"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "摔",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T04:02:32.356055",
+  "duration_seconds": 8.86,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 5,
+    "ARM": 0,
+    "HAND": 3,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "作为右利手的中文母语者，在空旷房间中面对桌子，桌面上有手掌大小的物体，执行“摔”动作时，最典型的编码应为：\n\nFORCE：摔的动作需要有力，所以选5（非常强）\n\nARM：通常摔东西时手臂是弯曲的，准备发力，所以选0（弯曲）\n\nHAND：手部初始高度可能在桌面附近，大约是执行者身高的1/3左右，选3（相对高度3）\n\nVD：摔东西时手部主要向下运动，选1（向下）\n\nHD：摔东西时手部主要向前运动，选1（向前）\n\n所以最终编码为：\n\n{\n  \"FORCE\": 5,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 5,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:02:32.356382"
+    }
+  ]
+}

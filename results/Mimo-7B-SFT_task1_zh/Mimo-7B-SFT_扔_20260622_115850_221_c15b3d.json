@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T11:58:50.220953",
+  "duration_seconds": 10.26,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "请按照上述要求执行动作，并输出动作编码。\n\n请确保输出的编码符合标准，并且所有变量都必须输出整数编码值。\n\n现在开始执行动作：\n\n---\n\n想象你是一个右利手的中文母语者，处于一个空旷房间中，面前有一张桌子，桌面上放置着一个手掌大小的物体。目标动作是“扔”。\n\n根据右利手的习惯，扔的动作通常是从地面拿起物体然后向上抛出。在开始动作前，手臂应该是弯曲的（ARM=0），因为需要从低处拿起物体。手部初始高度相对于地面，所以HAND=0。执行动作时，施加的力量是中等（FORCE=3），因为物体较小。垂直运动方向是向上（VD=0），水平方向是向前（HD=1）。因此，编码为：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\n在这个例子中，手臂弯曲以便拿起物体，力量中等，垂直方向向上，水平方向向前，符合典型的手部动作编码标准。\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:58:50.221138"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "chuck",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:41:36.444691",
+  "duration_seconds": 11.29,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 5,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "So, let's break this down. For a right-handed person chucking a palm-sized object, the force would likely be moderate (3), since chucking isn't extremely strong but not weak either. The arm would start bent (0) because you need to pull back to throw. The hand starts at a medium height, maybe around 5-7 (let's say 5). The vertical direction is upward (0) because you throw up. The horizontal direction is forward (1) to throw it away. Wait, but VD is downward or upward. When you throw, the hand moves upward first, then forward. So VD is 0 (upward). HD is forward (1). So putting it all together:\n\nFORCE: 3, ARM: 0, HAND:5, VD:0, HD:1.\n\nWait, but the HAND's initial height. If you're holding the object, maybe your hand is at chest level, which is around 5-6. Let's go with 5. So yes, HAND:5. ARM:0 (bent). VD:0 (upward). HD:1 (forward). FORCE:3. So the JSON would be:\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:41:36.444958"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T04:25:59.385656",
+  "duration_seconds": 7.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nAlright, let's break this down. The action is \"hurl,\" which means to throw something forcefully. \n\nFirst, FORCE: Hurling implies a strong force, so I'd go with 4 (strong).\n\nNext, ARM: Before throwing, the arm is typically bent to prepare, so ARM is 0.\n\nHAND: The hand's initial height would be above the ground, maybe around waist level, so let's say 5.\n\nVD (Vertical Direction): When hurling, the hand moves upward to propel the object, so VD is 0.\n\nHD (Horizontal Direction): The primary movement is forward to release the object, so HD is 1.\n\nPutting it all together: \nFORCE: 4, HAND: 5, ARM: 0, VD: 0, HD: 1.\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:25:59.385820"
+    }
+  ]
+}

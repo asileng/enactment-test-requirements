@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T07:31:35.436788",
+  "duration_seconds": 63.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/force\nforce=强\n/arm\narm=手臂弯曲\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 抛\n\n肩膀高度的手臂弯曲用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=胸部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 胸部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂弯曲\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂弯曲用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂弯曲\n/hand\nhand=胸部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 胸部高度的手臂弯曲用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n胸部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂弯曲用力向前向上抛出。/\n/no_think/\n/肩膀高度的手臂伸直用力向前向上抛出。/ 根据中文母语者的理解，最典型的抛的动作是：肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n\n肩膀高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上\n/hd\nhd=向前\n/抛\n/ 肩部高度的手臂伸直用力向前向上抛出。/\n/no_think/\n/force\nforce=强\n/arm\narm=手臂伸直\n/hand\nhand=肩部高度\n/vd\nvd=向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:31:35.437111"
+    }
+  ]
+}

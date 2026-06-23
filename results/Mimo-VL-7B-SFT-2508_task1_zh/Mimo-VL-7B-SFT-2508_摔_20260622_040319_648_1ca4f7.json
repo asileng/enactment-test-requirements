@@ -1,0 +1,29 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "摔",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T04:03:19.647901",
+  "duration_seconds": 14.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HARM": 1,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "假设你是一个右利手的中文母语者，在空旷房间中，面对一张桌子，桌上有一个手掌大小的物体。目标动作是“摔”。请按照FORCE,ARM,HARM,HAND,VD,HD五个维度进行编码。\n\nFORCE：摔的动作需要施加较大的力量，所以编码为4（强）。\n\nARM：通常摔的时候手臂是弯曲的，便于发力，所以编码为0（手臂弯曲）。\n\nHAND：手部初始高度，假设物体在桌面上，手部可能在桌面高度，即地面高度与身高之间较低的位置，编码为1（地面高度与执行者身高之间的相对高度较低）。\n\nVD：摔的动作是向下运动，所以编码为1（向下）。\n\nHD：摔的动作是向前，所以编码为1（向前）。\n\n最终输出：\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HARM\": 1,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n注意：HARM应该是HAND，之前可能是一个打字错误。\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:03:19.648321"
+    }
+  ]
+}

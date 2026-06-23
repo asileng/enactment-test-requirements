@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "甩",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T04:06:43.239880",
+  "duration_seconds": 7.95,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 3,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "经过仔细思考，我认为对于甩这个动作，在空旷房间的桌子上的手掌大小物体，最典型的执行方式是：\n\n首先，手臂在开始前是弯曲的，所以ARM是0。\n\n手部初始高度大约在腰部附近，也就是相对身高的1/3，所以HAND是3。\n\n施加的力量是中等，所以FORCE是3。\n\n主要垂直方向是向下，因为甩的时候通常会有一个向下的惯性，所以VD是1。\n\n主要水平方向是向前，因为甩的时候手会向前甩出去，所以HD是1。\n\n最终编码：\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:06:43.240332"
+    }
+  ]
+}

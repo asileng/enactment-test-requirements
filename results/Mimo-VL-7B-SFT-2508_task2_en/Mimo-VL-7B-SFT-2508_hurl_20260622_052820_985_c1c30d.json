@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T05:28:20.985651",
+  "duration_seconds": 0.69,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "Arm bent, chest height, moderate force, forward, upward",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:28:20.985813"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T05:49:37.816794",
+  "duration_seconds": 8.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据您的描述和编码标准，我将按照典型的右利手母语者方式来编码这一动作。\n\n### 动作编码：\n- **FORCE**: 3（中等） - 抛掷手掌大小物体需要一定力量但不需非常大的力。\n- **HAND**: 10（高于执行者身高一个单位） - 手臂通常会在抛掷时向上举起并稍微高于头部。\n- **ARM**: 1（手臂伸直） - 在准备抛掷时，手臂会伸直以便更好地控制力度和方向。\n- **VD**: 1（向下） - 物体从手部向地面抛出，是典型的抛掷动作。\n- **HD**: 0（向侧方） - 这里可以理解为向前抛出，因为这是最常见的抛掷方向。\n\n### 输出JSON对象：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:49:37.816961"
+    }
+  ]
+}

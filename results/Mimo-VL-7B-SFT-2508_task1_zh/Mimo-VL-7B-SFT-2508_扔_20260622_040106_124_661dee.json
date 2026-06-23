@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T04:01:06.123786",
+  "duration_seconds": 8.71,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 5,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "根据动作编码标准，对“扔”这个动作进行编码：\n\n首先确定FORCE。扔的动作通常需要施加一定的力量，但不一定是最大的，所以选择3 - 中等。\n\n接着看ARM，扔东西时手臂通常不是伸直的，而是弯曲的，所以ARM为0。\n\nHAND，扔东西前手的位置一般在腰部或胸部高度，大约是身高的一半，所以HAND选择1 - 9中的一个，假设是5（地面高度与身高的一半，即5）。\n\nVD，扔东西时手部是向上的，所以VD为0。\n\nHD，扔东西是向前的，所以HD为1。\n\n最终编码：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:01:06.124090"
+    }
+  ]
+}

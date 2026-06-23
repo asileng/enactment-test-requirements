@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T05:52:12.134900",
+  "duration_seconds": 5.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "根据您的描述，您是右利手并且需要对一个手掌大小的物体进行“摔”这个动作。为了实现这一目标，我将首先将手臂伸直（手臂初始状态为1），然后用手抓住物体（手部初始高度约为10，即高于执行者身高一个单位）。接着，我会将手部从高于身高的位置向下移动并向前扔出（主要垂直运动方向为1，水平运动方向也为1）。在执行动作过程中，力量大小会被设置为中等（3）。因此，这个动作的标准编码为：\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\"FORCE\": 3, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:52:12.135071"
+    }
+  ]
+}

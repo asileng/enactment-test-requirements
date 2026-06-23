@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T04:27:13.681346",
+  "duration_seconds": 7.64,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break down the action of hurling a palm-sized object. First, the force: hurling implies a strong action, so probably a 4 or 5. Since it's a palm-sized object, maybe 4. Next, the arm's initial state. Hurling would start with the arm bent, so ARM is 0. HAND height: before the action, the hand is likely holding the object, so maybe around the chest level, which would be like 3 or 4. But maybe the hand is a bit higher, like 5. VD (vertical direction) is downward because you throw it away from yourself, so 1. HD (horizontal direction) is forward, so 1. Putting it all together: FORCE 4, ARM 0, HAND 5, VD 1, HD 1.\n</think>\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:27:13.681512"
+    }
+  ]
+}

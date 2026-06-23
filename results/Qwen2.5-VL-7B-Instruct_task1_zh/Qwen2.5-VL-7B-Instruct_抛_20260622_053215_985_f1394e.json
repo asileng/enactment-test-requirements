@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T05:32:15.985134",
+  "duration_seconds": 2.68,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}/\n/no_think{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}/{\"FORCE\": 3, \"HAND\": 1, \"ARM\": 0, \"VD\": 1, \"HD\": 0}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:32:15.985305"
+    }
+  ]
+}

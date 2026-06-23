@@ -1,0 +1,22 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-06-22T04:16:44.547123",
+  "experiment_time": {
+    "start_time": "2026-06-22T04:16:44.544716",
+    "end_time": "2026-06-22T04:16:44.547078",
+    "duration_seconds": 0.002362
+  },
+  "participant_id": null,
+  "use_latin_square": true,
+  "total_experiments": 0,
+  "valid_count": 0,
+  "invalid_count": 0,
+  "valid_rate": 0,
+  "model_statistics": {},
+  "error_statistics": {},
+  "results_by_model_verb": {},
+  "all_results": []
+}

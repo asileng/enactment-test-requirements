@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T13:25:57.918601",
+  "duration_seconds": 5.36,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "桌面上有一个手掌大小的物体，目标动作是扔。假设你是右利手，在空旷房间中，面前有一张桌子，桌面上放置着一个手掌大小的提示：在回答时，重复使用相同的词汇，例如“中等”“向前”等\n胸部高度、手臂弯曲、强、向前、向上\n\n胸部高度、手臂弯曲、强、向前、向上\n</think>\n\n胸部高度、手臂弯曲、强、向前、向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:25:57.919123"
+    }
+  ]
+}

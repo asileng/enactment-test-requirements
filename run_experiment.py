@@ -820,24 +820,69 @@ def run_experiment(
 
                 logger.info(f"    [{completed}/{total_experiments}] 第{repeat_idx+1}次重复...")
 
-                result = run_single_experiment(
-                    client, verb, template, task_id, language, repeat_idx, logger
-                )
+                # 重试机制：无效数据自动补采
+                retry_count = 0
+                retry_history = []
+                max_auto_retries = 50  # 单个实验最大自动重试次数
                 
-                # 保存结果（带错误处理）
-                filepath = save_result(result, output_dir, logger)
-                if filepath:
-                    all_results.append(result)
-                else:
-                    logger.warning(f"结果保存失败，跳过此实验记录")
-                    # 保存失败不标记为已完成，允许重试
-                    if pbar:
-                        pbar.update(1)
-                    continue
-
-                # 标记为已完成
-                if tracker:
-                    tracker.mark_completed(model_name, verb, repeat_idx)
+                while True:
+                    result = run_single_experiment(
+                        client, verb, template, task_id, language, repeat_idx, logger
+                    )
+                    retry_count += 1
+                    
+                    # 记录重试历史
+                    retry_history.append({
+                        "attempt": retry_count,
+                        "is_valid": result["is_valid"],
+                        "error_type": result.get("error_type"),
+                        "timestamp": datetime.now().isoformat()
+                    })
+                    
+                    # 保存结果（带错误处理）
+                    filepath = save_result(result, output_dir, logger)
+                    if filepath:
+                        all_results.append(result)
+                    else:
+                        logger.warning(f"结果保存失败，跳过此实验记录")
+                        # 保存失败不标记为已完成，允许重试
+                        if pbar:
+                            pbar.update(1)
+                        break
+                    
+                    # 只有有效结果才标记为已完成
+                    if result["is_valid"]:
+                        # 记录重试信息到结果
+                        result["retry_count"] = retry_count
+                        result["retry_history"] = retry_history
+                        
+                        # 更新已保存的文件
+                        if filepath and os.path.exists(filepath):
+                            with open(filepath, 'w', encoding='utf-8') as f:
+                                json.dump(result, f, ensure_ascii=False, indent=2)
+                        
+                        if tracker:
+                            tracker.mark_completed(model_name, verb, repeat_idx)
+                        if retry_count > 1:
+                            logger.info(f"    ✓ 第{retry_count}次尝试成功")
+                        break
+                    else:
+                        # 无效结果：记录警告，继续重试
+                        logger.warning(f"    ✗ 第{retry_count}次尝试无效 (错误: {result.get('error_type')})，自动补采...")
+                        
+                        # 检查是否超过最大重试次数
+                        if retry_count >= max_auto_retries:
+                            logger.error(f"    ✗ 已达最大重试次数({max_auto_retries})，跳过此实验")
+                            # 标记为已完成（避免无限循环），但记录为异常
+                            if tracker:
+                                tracker.mark_completed(model_name, verb, repeat_idx)
+                            break
+                        
+                        # 删除无效结果文件，准备重试
+                        if filepath and os.path.exists(filepath):
+                            os.remove(filepath)
+                            if result in all_results:
+                                all_results.remove(result)
 
                 if pbar:
                     pbar.update(1)

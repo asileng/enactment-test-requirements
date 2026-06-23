@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "甩",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T13:52:14.048427",
+  "duration_seconds": 13.01,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "桌面\n/noinput\n甩\n\n手臂伸直，胸部高度，中等，向侧方，向上\n\n手臂伸直，胸部高度，强，向侧方，向上\n\n手臂伸直，胸部高度，弱，向侧字，向上\n\n手臂弯曲，胸部高度，中等，向侧方，向上\n\n手臂弯曲，胸部高度，强，向侧方，向上\n\n手臂弯曲，胸部高度，弱，向侧方，向上\n\n手臂伸直，胸部高度，中等，向侧方，向下\n\n手臂伸直，胸部高度，强，向侧方，向下\n\n手臂伸直，胸部高度，弱，向侧方，向下\n\n手臂弯曲，胸部高度，中等，向侧方，向下\n\n手臂弯曲，胸部高度，强，向侧方，向下\n\n手臂弯曲，胸部高度，弱，向侧方，向下行\n\n手臂伸直，胸部高度，中等，向侧方，向下\n\n手臂伸直，底部高度，中等，向侧方，向上\n\n手臂伸直，胸部高度，中等，向侧方，向下\n\n手臂伸直，腰部高度，中等，向侧方，向上\n\n手臂伸直，腰部高度，中等，</think>\n\n手臂伸直，胸部高度，中等，向侧方，向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:52:14.048865"
+    }
+  ]
+}

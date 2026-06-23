@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "fling",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T04:35:47.970375",
+  "duration_seconds": 7.82,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 7,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break down the action \"fling\" for a right-handed native English speaker in an empty room with a table and a small object. First, the force: flinging usually requires a moderate to strong force, so I'll go with 4. Next, the arm's initial state. When flinging, the arm is typically extended to throw the object, so ARM is 1. For HAND's initial height, since it's palm-sized, the hand would be at a higher position, maybe around 7 (mid-upper body). VD (vertical direction) is downward because you move your hand down to fling the object forward. HD (horizontal direction) is forward since the object is thrown in that direction. Let me double-check: force 4, arm extended 1, hand height 7, VD 1, HD 1. That seems right.\n</think>\n{\n  \"FORCE\": 4,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:35:47.970587"
+    }
+  ]
+}

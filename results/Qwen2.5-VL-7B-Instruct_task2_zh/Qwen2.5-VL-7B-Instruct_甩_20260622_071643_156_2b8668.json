@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T07:16:43.155945",
+  "duration_seconds": 63.87,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force\n\nFORCE\n\nAssistant: 强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/\n\n向前臂伸直，从胸部高度向下甩。/非常强\n\nAssistant: /force\n/force\n非常强\n\nAssistant: 胳膊伸直，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直\n/HAND\n胸部高度\n/VD\n向下\n/HD\n向前\n/非常强\n\nAssistant: 向前伸直手臂，从胸部高度向下甩。/非常强\n\nAssistant: 确认\n/force\n非常强\n/ARM\n手臂伸直",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:16:43.156335"
+    }
+  ]
+}

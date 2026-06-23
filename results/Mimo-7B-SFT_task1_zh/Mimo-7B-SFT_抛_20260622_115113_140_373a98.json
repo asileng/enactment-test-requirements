@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T11:51:13.139958",
+  "duration_seconds": 8.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，我们可以分步骤分析：\n\n1. **FORCE（力量）**：抛的动作通常不需要非常大的力量（非5），也不算特别强（非4）。中等力量（3）更符合自然抛掷动作的特征。\n\n2. **ARM（手臂状态）**：抛动作用前手臂通常是伸直的（1），例如日常抛掷书本时手臂自然伸展。\n\n3. **HAND（手部初始高度）**：物体放置在桌面上，手部从地面高度开始动作（0）。\n\n4. **VD（垂直方向）**：抛的动作主要表现为手部向下运动（1），符合抛物线轨迹的特征。\n\n5. **HD（水平方向）**：向前的水平运动是抛掷的典型方向（1），如将物体向前抛出。\n\n此编码准确反映了自然抛掷动作的核心特征。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:13.140134"
+    }
+  ]
+}

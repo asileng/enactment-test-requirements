@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "fling",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T15:41:55.679774",
+  "duration_seconds": 27.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nWith arm extended from shoulder height, applying moderate force, you fling the object forward and downward.",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T15:40:58.056411"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T15:41:28.467282"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T15:41:55.680231"
+    }
+  ]
+}

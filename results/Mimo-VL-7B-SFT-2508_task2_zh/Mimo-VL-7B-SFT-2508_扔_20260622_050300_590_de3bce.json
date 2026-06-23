@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "扔",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T05:03:00.590438",
+  "duration_seconds": 5.97,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂弯曲",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "```\n\n用户现在需要描述扔物体的动作，要涵盖初始手部高度、手臂状态、力度、水平方向、垂直方向这几个维度。首先，右利手扔东西，通常手部初始高度大概在肩部高度左右，手臂开始可能是弯曲的，因为扔之前需要蓄力。力度的话，扔东西一般是中等力度，不是非常强也不是弱。水平方向是向前，垂直方向是向上，因为扔的时候手会向上然后向前释放。所以组合起来应该是：“手部在肩部高度，手臂弯曲，施加中等力量，手部主要水平向前，垂直向上。” 这样每个维度都对应了可选的词汇，符合要求。\n</think>手部在肩部高度，手臂弯曲，施加中等力量，手部主要水平向前，垂直向上。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:03:00.590696"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "throw",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T06:02:43.399826",
+  "duration_seconds": 1.02,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\"FORCE\": 3, \"HAND\": 0, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:02:43.399996"
+    }
+  ]
+}

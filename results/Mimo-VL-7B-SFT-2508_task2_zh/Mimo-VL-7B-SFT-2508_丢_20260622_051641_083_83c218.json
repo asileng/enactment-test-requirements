@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "丢",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:16:41.083593",
+  "duration_seconds": 6.51,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "现在请根据上述要求，描述“丢”这个动作。\n\n描述必须包含以下所有维度：\n初始手部高度、手臂状态、力度、水平方向、垂直方向\n\n必须使用上述可选描述中的词语，不得自行创造新的描述方式。\n```\n\n根据题目要求，需要按照右利手的典型动作来描述“丢”这个动作。首先，确定初始手部高度，丢东西通常是在胸部高度开始；手臂状态一般是弯曲，因为丢东西前需要蓄力；力度方面，丢东西通常用“中等”；水平方向是向前，因为要把东西往前扔；垂直方向是向下，因为丢东西时手部会先下压再释放。所以综合这些因素，最终的描述应该是：胸部高度、手臂弯曲、中等力度、向前、向下。\n</think>胸部高度、手臂弯曲、中等力度、向前、向下。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T05:16:34.568293"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:16:41.083756"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T04:27:19.902322",
+  "duration_seconds": 6.22,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 5,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "So, thinking through this:\n\nA right-handed native English speaker would typically hurl a small palm-sized object by extending their arm (arm extended, so ARM: 1). The force would be strong (since \"hurl\" implies a forceful action, so FORCE: 4). The hand would be at a moderate height, maybe around shoulder level (HAND: 5). The movement is upward to throw it (VD: 0) and forward (HD: 1). \n\nSo the final encoding is:\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:27:19.902514"
+    }
+  ]
+}

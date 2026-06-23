@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "摔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:03:45.915437",
+  "duration_seconds": 2.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "想象你处于一个空旷房间中。\n\n你的面前有一张桌子。\n\n桌面上放置着一个手掌大小的assistant\n\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:03:45.915622"
+    }
+  ]
+}

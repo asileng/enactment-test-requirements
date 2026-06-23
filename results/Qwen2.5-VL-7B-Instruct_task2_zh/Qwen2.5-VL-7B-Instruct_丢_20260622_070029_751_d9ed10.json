@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T07:00:29.750962",
+  "duration_seconds": 63.87,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND胸部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND胸部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND胸部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND胸部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸多\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think\n/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/HAND肩膀高度/VD向下/HD向前/向下扔出手掌大小的物体。/no_think/force弱/ARM手臂伸直/H",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:00:29.751305"
+    }
+  ]
+}

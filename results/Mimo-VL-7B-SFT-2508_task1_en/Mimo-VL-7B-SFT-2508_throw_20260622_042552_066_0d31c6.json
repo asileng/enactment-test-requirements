@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "throw",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T04:25:52.065854",
+  "duration_seconds": 9.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The target action is \"throw\" a palm-sized object from a table in an empty room. I need to consider how a right-handed native English speaker would typically perform this.\n\nFirst, FORCE: Throwing a small object like a ball or a stone would likely be moderate force, not too strong but enough to get it moving. So I'd go with 3.\n\nNext, ARM: Before throwing, the arm is probably bent at the elbow, ready to propel the object. So ARM would be 0 (bent).\n\nHAND: The hand holding the object before throwing would be at waist level or a bit higher. Let's say around 5, which is mid-height.\n\nVD: When throwing, the primary vertical movement is upward to launch the object. So VD is 0 (upward).\n\nHD: The main horizontal direction when throwing is forward towards the target. So HD is 1 (forward).\n\nPutting it all together, the encoding should be:\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:25:52.066171"
+    }
+  ]
+}

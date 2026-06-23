@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T04:27:57.171596",
+  "duration_seconds": 8.14,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is \"hurl,\" which means throwing something with force. Since the object is palm-sized, it's probably a small item like a ball or a stone.\n\nStarting with FORCE: Hurling implies a strong throw, so I'd rate that as 4 (strong).\n\nFor ARM: Before throwing, the arm is likely bent to hold the object, so ARM is 0 (bent).\n\nHAND: The hand holding the object would be at some height. Let's say around chest level, which is maybe 5 units above ground (assuming 1 is feet level, up to 10 being head level). So HAND is 5.\n\nVD: Throwing involves moving the hand upward to get the object airborne, so VD is 0 (upward).\n\nHD: The primary direction is forward to throw the object away from the body, so HD is 1 (forward).\n\nPutting it all together.\n</think>\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:27:57.171758"
+    }
+  ]
+}

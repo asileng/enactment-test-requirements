@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "throw",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:25:01.535291",
+  "duration_seconds": 7.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 4,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is \"throw\" a palm-sized object. As a right-handed native English speaker, the typical way to throw something is with moderate force, so FORCE is 3. The arm starts bent, not extended, so ARM is 0. The hand would be at a moderate height, maybe around the chest level, which is around 4 (since 0 is ground, 10 is height). For VD, when throwing, the hand moves upward to release the object, so VD is 0. HD is forward because you throw the object towards the target. So putting it all together:\n\nFORCE: 3 (moderate)\nHAND: 4 (chest level)\nARM: 0 (bent)\nVD: 0 (upward)\nHD: 1 (forward)\n</think>\n{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:25:01.535502"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T05:29:58.431392",
+  "duration_seconds": 4.71,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 7,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}为了完成这个甩的动作，我将从地面高度（HAND=0）开始，手臂伸直（ARM=1），然后用中等力量（FORCE=3）进行向下甩的手势。因此，根据您的编码标准，以下是针对这个动作的编码：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:29:58.431732"
+    }
+  ]
+}

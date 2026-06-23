@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T06:37:21.575677",
+  "duration_seconds": 63.84,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "/\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 腰部高度\n\nVD: 向下\n\nHD: 向侧方\n\n扔\n\nAssistant:\n非常强\n\nARM: 手臂伸直\n\nHAND: 胸部高度\n\nVD: 向下\n\nHD: 向侧",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:37:21.575906"
+    }
+  ]
+}

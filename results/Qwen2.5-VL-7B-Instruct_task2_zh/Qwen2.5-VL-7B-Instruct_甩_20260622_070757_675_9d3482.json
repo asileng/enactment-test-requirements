@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T07:07:57.675231",
+  "duration_seconds": 63.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "Assistant: 答案是：手臂伸直，中等力量，肩部高度，向下，向前。 肩部高度，手臂伸直，中等力量，向前，向下。 答案是：手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。 \n甩\n答案是：手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant: 手臂伸直，中等力量，肩部高度，向下，向前。Assistant",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:06:53.878841"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:07:57.675573"
+    }
+  ]
+}

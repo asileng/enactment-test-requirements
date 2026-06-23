@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T11:44:15.006762",
+  "duration_seconds": 15.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 5,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "根据标准编码，当执行抛的动作时，通常需要施加中等力量（因此FORCE为3）。手臂在抛的动作开始前通常是弯曲的（ARM为0），因为这样更容易蓄力。手部在开始时可能停留在腰部高度，即相对于地面到执行者身高的中间位置（HAND为5）。主要垂直运动方向是向下（VD为1），因为抛的动作通常将物体抛向地面。主要水平运动方向是向前（HD为1），因为抛的动作通常将物体向前扔出。因此，最终的编码应为：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n根据标准编码，当执行抛的动作时，通常需要施加中等力量（因此FORCE为3）。手臂在抛的动作开始前通常是弯曲的（ARM为0），因为这样更容易蓄力。手部在开始时可能停留在腰部高度，即相对于地面到执行者身高的中间位置（HAND为5）。主要垂直运动方向是向下（VD为1），因为抛的动作通常将物体抛向地面。主要水平运动方向是向前（HD为1），因为抛的动作通常将物体向前扔出。因此，最终的编码应为：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:44:15.007057"
+    }
+  ]
+}

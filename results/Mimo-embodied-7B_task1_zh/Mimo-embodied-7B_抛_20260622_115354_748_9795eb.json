@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T11:53:54.748460",
+  "duration_seconds": 2.98,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:53:54.748621"
+    }
+  ]
+}

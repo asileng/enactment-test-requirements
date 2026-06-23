@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "丢",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T12:14:31.889855",
+  "duration_seconds": 4.52,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，首先看FORCE（力）。丢的动作通常需要较强的力，但考虑到是手掌大小的物体，可能不需要非常强的力，所以选4（强）。ARM（手臂状态）开始时手臂是伸直的，所以选1。HAND（手部高度）在地面上，所以选0。VD（垂直方向）是向下丢，所以选1。HD（水平方向）是向前丢，所以选1。因此，最终编码为FORCE:4，ARM:1，HAND:0，VD:1，HD:1。/no_think",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:14:31.890017"
+    }
+  ]
+}

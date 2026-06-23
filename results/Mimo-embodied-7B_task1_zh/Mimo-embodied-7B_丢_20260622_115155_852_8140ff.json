@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T11:51:55.851974",
+  "duration_seconds": 15.1,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"H\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n $$\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:55.852249"
+    }
+  ]
+}

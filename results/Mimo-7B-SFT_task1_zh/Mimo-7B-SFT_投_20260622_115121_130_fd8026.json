@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T11:51:21.130800",
+  "duration_seconds": 7.99,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "请按照上述要求完成编码。\n\n思考过程：\n\n首先，我需要理解“投”的动作。在中文语境中，“投”通常指将物体抛出。作为右利手，我会先考虑右手的动作。\n\n接下来，我需要确定施加的力的大小。因为物体是手掌大小的，所以力度应该属于中等，不需要非常强。因此，FORCE设为3。\n\n然后看ARM，即手臂的初始状态。通常，投的动作开始时手臂是弯曲的，所以ARM设为0。\n\nHAND是手部的初始高度。因为物体在桌面上，手部应该从桌面高度开始，所以HAND设为0。\n\nVD是垂直运动方向。投的动作主要是向下运动，因此VD设为1。\n\n最后，HD是水平方向。向前是主要方向，所以HD设为1。\n\n综上，编码为：\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:21.130963"
+    }
+  ]
+}

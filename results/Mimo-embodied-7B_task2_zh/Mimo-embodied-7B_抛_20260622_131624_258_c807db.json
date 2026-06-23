@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T13:16:24.258143",
+  "duration_seconds": 13.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "物体被抛起。/no\n/no/以胸部高度的初始手部高度，弯曲手臂，用强的力，水平方向向前，垂直方向向上地抛出手掌大小的物体。/no\n/no/以肩部高度的初始手部高度，手臂伸直，用强的力，水平方向向前，垂直方向向上地抛出手掌大小的物体。/no\n/no/以头部高度的初始手部部高度，手臂伸直，用强的力，水平方向向前，手部主要垂直方向向下地抛出手掌大小的物体。/no\n/no/以肩部高度的初始手部高度，手臂伸直，用强的力，水平方向向前，垂直方向向上地抛出手掌大小的物体。/no\n/no/以肩部高度的初始手部高度，手臂伸直，用强的力，水平方向向前，垂直方向向上地抛出手掌大小的物体。/no\n\n</think>\n\n以肩部高度的初始手部高度，手臂伸直，用强的力，水平方向向前，垂直方向向上地抛出手掌大小的物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:16:24.258641"
+    }
+  ]
+}

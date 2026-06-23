@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T13:35:44.022159",
+  "duration_seconds": 3.89,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n初始手部高度：胸部高度，手臂状态：手臂伸直，力度：中等，水平方向：向前，垂直方向：向上，扔\n</think>\n\n初始手部高度：胸部高度，手臂状态：手臂伸直，力度：中等，水平方向：向前，垂直方向：向上，扔",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:35:40.129909"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:35:44.022429"
+    }
+  ]
+}

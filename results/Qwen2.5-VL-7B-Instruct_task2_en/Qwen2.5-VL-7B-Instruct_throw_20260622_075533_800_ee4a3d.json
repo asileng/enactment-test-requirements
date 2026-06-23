@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "throw",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T07:55:33.800239",
+  "duration_seconds": 1.57,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\nTo throw a palm-sized object, extend your arm with it held at shoulder height, apply moderate force, move the hand forward, and the primary vertical direction will be downward. /no_think/\narm extended, moderate, forward, downward",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:54:29.706513"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:55:32.233908"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:55:33.800396"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T05:48:24.117937",
+  "duration_seconds": 3.36,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 10,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n} 根据描述，最自然和典型的执行方式是用右手从桌子的高度向前扔掉手掌大小的物体。因此，编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:48:24.118104"
+    }
+  ]
+}

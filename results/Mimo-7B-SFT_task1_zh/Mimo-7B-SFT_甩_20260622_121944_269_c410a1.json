@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T12:19:44.268831",
+  "duration_seconds": 3.26,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n解释：作为一个右利手的中文母语者，执行“甩”这个动作时，通常会先弯曲手臂（ARM=0），然后手部从较高的位置（HAND=1，假设为腰部高度）向 downward 的方向移动（VD=1），同时水平方向向前（HD=1）。力量中等（FORCE=3），符合日常甩动小物体的常见方式。/no_think",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:19:44.268984"
+    }
+  ]
+}

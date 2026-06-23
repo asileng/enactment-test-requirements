@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "fling",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T15:43:21.074420",
+  "duration_seconds": 27.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm bent",
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nAt chest height with arm bent, a strong force is applied forward and downward to fling the object.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T15:43:21.074805"
+    }
+  ]
+}

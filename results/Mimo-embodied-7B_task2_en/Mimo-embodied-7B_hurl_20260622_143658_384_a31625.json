@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "hurl",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T14:36:58.384296",
+  "duration_seconds": 38.39,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "above head",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "target action: hurl\n\nFORCE: strong\nARM: extended\nHAND: above head\nVD: downward\nHD: forward\n\nThe action is performed with a strong force, with the arm extended, the hand above head, the hand moving downward and forward.\n</think>\n\nThe action is performed with a strong force, with the arm extended, the hand above head, the hand moving downward and forward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:36:58.384671"
+    }
+  ]
+}

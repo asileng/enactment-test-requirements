@@ -1,0 +1,46 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T06:19:03.477168",
+  "duration_seconds": 7.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n\n\n/force/强\n\n\n/arm/手臂伸直\n\n\n/hand/胸部高度\n\n\n/vd/向上\n\n\n/hd/向前/手臂伸直、手臂弯曲\n\n\n/hand/肩部高度\n\n\n/vd/向上/强\n\n/force/强\n\n/arm/手臂伸直\n\n\n/hand/肩部高度\n/force/强\n/arm/手臂伸直\n\n\n/hd/向前/手臂伸直、手臂弯曲\n\n\n/hand/肩部高度/force/强\n\n/force//arm//hand/hd/vd\n\n\n/force//arm//hd/vd/no_think//force//arm//hd/vd\n/no_think/\n/no_think/\n\n/no_think/\n/no_think//force/强\n\n\n/arm/手臂伸直\n\n\n/hand/肩部高度\n/force/强\n\n/force//arm//hand/hd/vd/no_think//force//arm//hd/vd/no_th\n\nAssistant: 肩部高度、手臂伸直、强、向前、向上",
+  "retry_count": 4,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:16:48.359078"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:17:52.558534"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:18:56.439983"
+    },
+    {
+      "attempt": 4,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:19:03.477341"
+    }
+  ]
+}

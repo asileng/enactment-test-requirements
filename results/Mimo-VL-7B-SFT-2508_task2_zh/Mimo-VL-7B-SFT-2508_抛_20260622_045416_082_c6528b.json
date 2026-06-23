@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T04:54:16.081991",
+  "duration_seconds": 6.19,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "根据给定的抛的动作进行判断：\n\n手臂状态：手臂弯曲\n\n初始手部高度：胸部高度\n\n力量：中等\n\n水平方向：向前\n\n垂直方向：手臂弯曲状态下，手部从胸部高度向上运动至物体上方，然后施加中等力量向前水平运动，使物体被抛出\n\n请将此描述按照要求进行格式化，使其符合规范。\n\n手臂弯曲状态下，胸部高度的手部施加中等力量向前水平运动，同时向上垂直运动\n\n检查是否符合所有要求：\n\n符合所有要求，因为描述中明确体现了所有要求的维度，并且使用了指定的可选描述词语，没有自行创造新的描述方式。\n\n最终输出：\n\n手臂弯曲，胸部高度，中等力量，向前水平，向上垂直\n</think>\n\n手臂弯曲，胸部高度，中等力量，向前水平，向上垂直",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:54:16.082149"
+    }
+  ]
+}

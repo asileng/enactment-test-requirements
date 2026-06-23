@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T11:42:07.466718",
+  "duration_seconds": 5.06,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，首先考虑抛的动作。施加的力属于强（4），因为抛的动作需要一定的力量。手臂开始时弯曲（0），符合自然姿势。手部初始高度在地面与身高之间（1）。主要垂直运动是向下（1），因为抛动手臂会先下降再上升。水平运动主要向前（1），符合抛的动作方向。因此，编码为FORCE:4，ARM:0，HAND:1，VD:1，HD:1。/no_think",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:42:07.467048"
+    }
+  ]
+}

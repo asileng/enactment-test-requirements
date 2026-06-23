@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "投",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T11:51:43.624217",
+  "duration_seconds": 9.15,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要将物体投掷到桌面上，作为右利手的中文母语者，我会先弯曲手臂（ARM=1）以蓄力，然后向下（VD=1）挥动手臂，并向前（HD=1）抛出物体。施加的力较大但非极限（FORCE=4）。手部初始在地面高度（HAND=0）。这一编码准确反映了自然投掷动作的特点。/no_think\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:43.624374"
+    }
+  ]
+}

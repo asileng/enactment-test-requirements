@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T11:50:56.132293",
+  "duration_seconds": 12.0,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，我们首先分析抛的动作。在中文母语者中，通常抛的动作会涉及中等力量（FORCE=4，因为不需要非常强的力量）。手臂在抛的动作开始前通常是弯曲的（ARM=1），以便于蓄力。手部初始停留在地面高度（HAND=0）。主要垂直运动方向是向下（VD=1），因为抛的动作需要将物体抛起，所以手部需要向下运动。水平方向主要是向前（HD=1），符合抛的动作常见的投掷方向。因此，最终编码为上述结果。/no_think\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:50:56.132452"
+    }
+  ]
+}

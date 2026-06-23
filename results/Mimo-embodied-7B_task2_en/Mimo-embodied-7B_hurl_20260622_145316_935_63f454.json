@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "hurl",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T14:53:16.934747",
+  "duration_seconds": 93.56,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "very strong",
+    "ARM": "arm extended",
+    "HAND": "near ground",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "target_action\n\nThe final answer must be very concise, very short, and must only contain one sentence.\n\nexample 1:\narm extended, waist height, very strong, forward, upward\n\nexample 2:\narm bent, chest height, moderate, forward, downward\n\nexample 3:\narm extended, shoulder height, moderate, forward, upward\n\nexample 4:\nhurl is not possible to perform in the target environment\n\nexample 5:\narm bent, head height, weak, sideways, upward\n\nFor the options, use theassistant\nOptions:\nvery strong, strong, moderate, weak, very weak\n\nARM\nDescribe the typical initial arm state before performing the\n\nOptions:\narm extended, arm bent\n\nHAND\nDescribe the typical initial hand height before performing the\n\nOptions:\nnear ground, knee height, waist height, chest height, shoulder height, head height, above head\n\nVD\nDescribe the\n\nOptions:\ndownward, upward\n\nHD\nDescribe the\n\nOptions:\nFORCE\nDescribe the\n\nOptions:\nvery strong, strong, moderate, weak, very weak\n\nHD\nDescribe the\n\nOptions:\nforward, sideways\n\nThe final answer must be very concise, very short, and must only contain one sentence.\n\nexample 1:\narm extended, waist height, very strong, forward, upward\n\nexample 2:\narm bent, chest height, moderate, forward, downward\n\nexample 3:\narm\n```json\n{\n  \"action\": \"hurl\",\n  \"force\": \"very strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"upward\",\n  \"hd\": \"forward\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:53:16.935121"
+    }
+  ]
+}

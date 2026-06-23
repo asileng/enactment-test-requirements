@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "toss",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T08:12:05.482418",
+  "duration_seconds": 1.79,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm bent",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\nArm bent, force level: strong, HD: forward, VD: downward\nArm bent, force level: strong, HD: forward, VD: downwardTo toss the palm-sized object, extend your arm forward at shoulder height, apply strong force, and move it downward.",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:11:59.319034"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:12:03.696199"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:12:05.482579"
+    }
+  ]
+}

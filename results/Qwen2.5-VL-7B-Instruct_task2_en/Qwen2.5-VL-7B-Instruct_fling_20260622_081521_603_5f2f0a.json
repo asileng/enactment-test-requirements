@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "fling",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T08:15:21.603009",
+  "duration_seconds": 6.54,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/Arm extended, arm bent, arm extended, strong, downward, forward, above head, shoulder height, arm bent, arm extended, moderate, sideways, arm extended, above head, force, below head, downward, strong, above head, forward, arm extended, above head, above head, downward, sideways, above head, forward, above head, strong, above head, strong, above head, above head, forward, above head, above head, above head, forward, above head, above head, above head, forwardTo evaluate the typical native English speaker's understanding of flinging a palm-sized object off a table, we need to analyze the most natural and common way to perform such an action. Typically, this would involve an extended arm with a moderate force, moving the hand downward and slightly forward from a position at chest height or slightly higher. The primary vertical direction would be downward, and the horizontal direction would also be forward, as the object is being flung away from the table.\n\nChest height, arm extended, moderate, forward, downward",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:15:13.556387"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:15:15.061928"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:15:21.603204"
+    }
+  ]
+}

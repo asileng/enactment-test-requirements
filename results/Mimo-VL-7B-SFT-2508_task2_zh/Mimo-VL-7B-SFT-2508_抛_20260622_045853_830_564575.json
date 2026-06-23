@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T04:58:53.829930",
+  "duration_seconds": 4.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "描述：\n\n动作：抛\n\n手臂初始状态：手臂弯曲\n\n初始手部高度：胸部高度\n\n水平方向：向前\n\n垂直方向：手臂弯曲状态下，从胸部高度的手部位置向前抛，手部主要垂直运动方向是向上，所以垂直方向是向上\n\n力度：中等\n\n综上，描述：\n\n手臂弯曲，胸部高度，中等力量向前抛，垂直方向向上。\n\n但这不符合格式要求，需要调整为：\n\n手臂弯曲，胸部高度，中等力量向前，垂直方向向上。\n\n这样就符合要求了。\n</think>\n\n手臂弯曲，胸部高度，中等力量向前，垂直方向向上。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:58:53.830093"
+    }
+  ]
+}

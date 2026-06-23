@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "toss",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T14:58:55.210903",
+  "duration_seconds": 40.65,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "in a room with a table and an object on it. I want to toss the object./\n\nThe object is at waist height. So, the initial hand height is waist height. The arm is extended because you are reaching for the object. The force level is moderate. The primary horizontal direction is forward. The primary vertical direction is upward.\n\nwaist height, arm extended, moderate, forward, upward\n</think>\n\nwaist height, arm extended, moderate, forward, upward",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:58:55.211303"
+    }
+  ]
+}

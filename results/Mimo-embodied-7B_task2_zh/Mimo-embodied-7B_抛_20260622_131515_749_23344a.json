@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T13:15:15.748588",
+  "duration_seconds": 7.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "物体大小较小，因此需要较弱的力量进行抛掷，所以选择“弱”作为FORCE。\n\n物体大小为手掌大小，因此初始手臂状态为“手臂弯曲”。\n\n手掌高度对应“胸部高度”。\n\n垂直方向为“向上”。\n\n水平方向为“物体较小”，因此水平方向为“向前”。\n\n综合以上信息，生成最终描述。\n\n胸部高度，手臂弯曲，弱，向前，向上\n</think>\n\n胸部高度，手臂弯曲，弱，向前，向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:15:15.749105"
+    }
+  ]
+}

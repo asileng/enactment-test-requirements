@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:41:58.755284",
+  "duration_seconds": 5.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 10,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n/no_think{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 0,\n 作为中文母语者，我通常会用右手将手掌大小的物体向上抛向空中。在这种情况下，我的手臂通常是伸直的，且手部位于高于我身高的位置，因此我会使用中等力量来完成这个动作。这样描述的动作最符合中文母语者的习惯。}{\n  \"FORCE\": 2,\n  \"HAND\": 11,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:41:58.755465"
+    }
+  ]
+}

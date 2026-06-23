@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "甩",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:48:26.635609",
+  "duration_seconds": 2.48,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：强\n水平方向：向前\n垂直方向：手臂弯曲：胸部高度，手臂弯曲，强，向前，向上\n\n手臂弯曲：胸部高度，手臂弯曲，强，向前，向上\n</think>\n\n胸部高度，手臂弯曲，强，向前，向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:48:26.635911"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T05:30:40.677036",
+  "duration_seconds": 21.11,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 0,\n 作为右利手的中文母语者，我通常会使用右手进行甩的动作。这个动作通常需要将手放在身体一侧，手臂伸直，然后快速地甩动手臂。在这种情况下，我选择了最自然、最典型的方式执行这个动作。在描述动作时，我的左手可以用来稳定桌面，确保物体不会移动或滑动。因此，我选择了这种执行方式。{\"FORCE\": 3, \"HAND\": 7, \"ARM\": 1, \"VD\": 1, \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  {\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:30:40.677383"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T05:44:43.219838",
+  "duration_seconds": 8.61,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 7,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据您的描述和动作标准编码要求，投掷一个手掌大小的物体通常会使用一种典型的动作模式。以下是基于您提供的信息及标准编码得出的判断结果：\n\n1. 力量（FORCE）：这个动作不是非常用力的，所以选择中等力量。\n2. 手臂状态（ARM）：手臂通常在投掷时是伸直的。\n3. 手的高度（HAND）：手部通常在距离地面约一半的位置。\n4. 垂直方向（VD）：投掷时手部主要向上运动。\n5. 水平方向（HD）：投掷时手部主要是向前运动。\n\n因此，根据这些因素，我们可以得到以下编码：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n``` \n\n这里，“FORCE”为3表示中等力量，“HAND”为5表示接近于执行者身高的一半位置，“ARM”为1表示手臂伸直，“VD”为1表示向上移动，“HD”为1表示向前移动。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T05:44:34.605955"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:44:43.220127"
+    }
+  ]
+}

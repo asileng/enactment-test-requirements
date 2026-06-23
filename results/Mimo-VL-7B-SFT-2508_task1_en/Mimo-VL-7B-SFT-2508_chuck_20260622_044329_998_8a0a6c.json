@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "chuck",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:43:29.997703",
+  "duration_seconds": 11.22,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "Now, what is the most typical way to chuck a palm-sized object?\n\nTo chuck, a right-handed person would typically use their right hand. The arm would likely be extended forward to reach the object. The hand would be at a moderate height, maybe around shoulder level or slightly higher. The force applied would be moderate to strong, as chucking implies a quick, forceful motion. The vertical direction (VD) would be upward since the object is being thrown upward, and the horizontal direction (HD) would be forward, as the object is propelled towards the front.\n\nSo, let's break it down:\n\n- FORCE: Chucking typically requires moderate to strong force. Since it's a quick, forceful motion, we'll go with 4 (strong).\n- HAND: The hand starts at a height around shoulder level or slightly higher, which is around 6 (since shoulder is about halfway up a person's height, which would be around 6-7 units).\n- ARM: The arm is extended forward to reach the object, so 1 (arm extended).\n- VD: The object is thrown upward, so 0 (upward).\n- HD: The object is propelled forward, so 1 (forward).\n\nFinal encoding:\n{\n  \"FORCE\": 4,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:43:29.997962"
+    }
+  ]
+}

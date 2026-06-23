@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "摔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T05:09:27.848129",
+  "duration_seconds": 0.98,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "```\n\n</think>\n\n手臂弯曲，手部接近地面，中等力度，水平向前，垂直向下摔物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:09:27.848284"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "投",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T11:55:33.544834",
+  "duration_seconds": 8.33,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 4,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\n\n根据题目要求，我们需要对“投”这个动作进行编码。作为右利手的中文母语者，我想象自己在空旷房间中，面对一张桌子，桌面上有一个手掌大小的物体。执行“投”的动作时，首先手臂可能弯曲，然后手部在开始时停留在腰部高度（相对于执行者身高）。投掷过程中，手部的主要垂直运动方向是向下，而主要水平运动方向是向前。施加的力量属于中等，因为需要控制力度以确保物体平稳投掷。因此，各维度的编码为：FORCE=3，ARM=0，HAND=4，VD=1，HD=1。\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 4,\n  \"VD\": 1,\n  \"HD\": 1\n}\navaş\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 4,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:55:33.545033"
+    }
+  ]
+}

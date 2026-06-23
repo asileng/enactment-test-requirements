@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T12:20:54.116674",
+  "duration_seconds": 7.57,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，我们首先考虑“甩”这个动作。对于力量（FORCE），通常需要中等偏上的力度来完成这一动作，因此选择4（强）。手部初始高度（HAND）在桌面上，所以选1（地面高度与身高相对）。手臂初始状态（ARM）是弯曲的，因此选0。垂直方向（VD）是向下，因为甩动时手部会下降。水平方向（HD）是向前，符合甩动时手部向前的典型运动轨迹。因此，最终编码为FORCE=4，HAND=1，ARM=0，VD=1，HD=1。/no_think\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E103",
+      "timestamp": "2026-06-22T12:20:46.542479"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:20:54.116829"
+    }
+  ]
+}

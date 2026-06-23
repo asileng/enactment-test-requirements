@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T12:19:17.939105",
+  "duration_seconds": 6.75,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n>\n\n在中文母语者的文化背景下，右利手的人执行“丢”这个动作时，通常会采用自然且省力的方式。根据动作编码标准：\n\n- **FORCE（力）**：中等力量（3），因为“丢”一般不需要非常大的力量，只需足够让物体飞出去即可。\n- **ARM（手臂状态）**：手臂弯曲（0），丢动作时手臂会自然弯曲，而非完全伸直。\n- **HAND（手部高度）**：地面高度（0），动作开始前手部通常已放在物体上方或贴近桌面。\n- **VD（垂直方向）**：向下（1），丢动作用力方向是让物体离开桌面，手部会向下运动。\n- **HD（水平方向）**：向前（1），中文语境中“丢”多指向前方（如抛出物体），而非侧方。\n\n综上，典型编码为：  \n`{\"FORCE\":3,\"ARM\":0,\"HAND\":0,\"VD\":1,\"HD\":1}`",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:19:17.939259"
+    }
+  ]
+}

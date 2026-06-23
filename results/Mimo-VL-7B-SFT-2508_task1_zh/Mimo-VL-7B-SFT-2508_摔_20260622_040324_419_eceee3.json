@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "摔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T04:03:24.419268",
+  "duration_seconds": 4.77,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 3,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} \n\n解释：在进行摔的动作时，通常需要施加较强的力（4），手臂开始时伸直（1），手部在桌面上方一定高度（3，假设为腰部高度），手部垂直向下运动（1），并且向前移动（1）。这些编码值反映了在空旷房间中摔桌子上的手掌大小物体的典型动作特征。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:03:24.419644"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T12:05:28.447902",
+  "duration_seconds": 7.16,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，让我们分解一下动作：\n\n1. **FORCE (4)**：施加力量时，通常用中等偏上的力度（4）来扔小物体，确保其飞出合理距离，同时避免过度用力。\n\n2. **ARM (1)**：开始时手臂是伸直的。典型扔的动作会从伸直状态收拢手臂（弯曲），但编码标准要求记录初始状态，因此为1。\n\n3. **HAND (0)**：手部初始高度贴近地面。扔小物体时，手通常从低处提起。\n\n4. **VD (1)**：主要垂直运动是向下。扔的动作通常伴随手部下放，释放物体后依靠惯性飞行。\n\n5. **HD (1)**：主要水平运动是向前。扔物体时，手部会向前挥动，驱动物体飞行。\n\n这个编码符合中文母语者对“扔”的典型动作理解。\nerdemc\n\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:05:28.448082"
+    }
+  ]
+}

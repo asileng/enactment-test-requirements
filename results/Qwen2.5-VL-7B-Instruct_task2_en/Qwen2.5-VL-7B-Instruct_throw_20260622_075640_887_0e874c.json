@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "throw",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T07:56:40.887394",
+  "duration_seconds": 1.66,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\n\nTo throw a palm-sized object, arm extended, moderate force, forward HD, downward VD, at shoulder height HAND. To throw a palm-sized object, arm extended, moderate force, forward HD, downward VD, at shoulder height HAND.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:56:40.887551"
+    }
+  ]
+}

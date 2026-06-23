@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T13:15:50.619617",
+  "duration_seconds": 6.47,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "物体在胸部高度\n\n因此，物体的初始高度为胸部高度，但根据指令，手部初始高度应为胸部高度。因此，手部的初始高度为胸部高度。手臂状态为手臂弯曲，力度为强，水平方向为向前，垂直方向为向上。综合这些信息，最终描述为：\n\n从胸部高度用手臂弯曲的方式向前并向上抛出物体，力度为强。\n\n请确认该描述是否符合所有要求。\n</think>\n\n从胸部高度用手臂弯曲的方式向前并向上抛出物体，力度为强。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:15:50.620130"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "投",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T04:21:29.596598",
+  "duration_seconds": 2.43,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "ARM": 1,
+    "HAND": 4,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "想象你处于一个空旷房间中。\n\n你的面前有一张桌子。\n\n桌面上放置着一个手掌大小的assistant\n\n\n{\n  \"FORCE\": 2,\n  \"ARM\": 1,\n  \"HAND\": 4,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:21:29.596769"
+    }
+  ]
+}

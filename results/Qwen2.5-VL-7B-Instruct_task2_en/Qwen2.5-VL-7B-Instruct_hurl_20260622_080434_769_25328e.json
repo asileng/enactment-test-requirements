@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "hurl",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T08:04:34.769006",
+  "duration_seconds": 5.06,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "very strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/shoulder height, arm extended, very strong, forward, downward\n/cough/\n/cough/\n\nThe hand starts at shoulder height with the arm extended, applies very strong force, moves forward, and then downward. The hand ends up near the ground./no_think/shoulder height, arm extended, very strong, forward, downward\n/cough/\n/cough/\n\nThe hand starts at shoulder height with the arm extended, applies very strong force, moves forward, and then downward. The hand ends up near the ground./no_think/shoulder height, arm extended, very strong, forward, downward\n/cough/\n/cough/\n\nThe hand starts at shoulder height with the arm extended, applies very strong force, moves forward, and then downward. The hand ends up near the ground.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:04:34.769173"
+    }
+  ]
+}

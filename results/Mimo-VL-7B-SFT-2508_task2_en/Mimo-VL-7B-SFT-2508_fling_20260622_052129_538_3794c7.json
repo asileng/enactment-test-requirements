@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "fling",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T05:21:29.538472",
+  "duration_seconds": 18.42,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```\n\n```json\n{\n  \"action\": \"fling\",\n  \"force\": \"strong\",\n  \"arm\": \"arm extended\",\n  \"hand\": \"shoulder height\",\n  \"vd\": \"downward\",\n  \"hd\": \"forward\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:21:29.538820"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "fling",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T15:42:53.873454",
+  "duration_seconds": 30.92,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "sideways"
+  },
+  "error_type": null,
+  "raw_response": "target action\n</think>\n\nmoderate force, arm bent, waist height, sideways, downward\nfling\nA moderate force is applied with a bent arm starting at waist height, moving sideways and downward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T15:42:53.873834"
+    }
+  ]
+}

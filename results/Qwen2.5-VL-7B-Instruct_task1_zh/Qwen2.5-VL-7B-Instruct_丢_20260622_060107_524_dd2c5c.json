@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T06:01:07.524641",
+  "duration_seconds": 17.86,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  您好，请提供完整的动作描述。您好，请提供完整的动作描述。你好，根据您的指示，我将按照中文母语者的理解来对“丢”这个动作进行编码。在想象中的空旷房间里，您面前的桌子上有一个手掌大小的物体。您的任务是用您最自然、最典型的方式执行“丢”这个动作。\n\n在这种情况下，“丢”通常是指用手用力将物体从手中掷出的动作。这可以理解为一种快速的、有力的抛出动作，因此我们首先考虑力量大小（FORCE）。对于一般的物体，如您所描述的那样，我们通常会使用中等力量（FORCE=3）来执行这个动作。\n\n然后，考虑到手臂的初始状态（ARM），如果想确保能够顺利地将物体抛出，手臂应该是伸直的（ARM=1），以便有更大的推力作用在物体上。\n\n对于手部的初始高度（HAND），由于这是一种常见的地面附近进行的动作，我们可以假设手部初始停留在地面高度（HAND=0）。\n\n接下来，对于手部的主要垂直运动方向（VD），由于这是“丢”的基本动作，我们应该向下的方向移动（VD=1），因为这代表了将物体抛出的行为。\n\n最后，对于手部的主要水平运动方向（HD），如果我们假设“丢”是从一个面向桌面的方向执行的，那么主要的运动方向应该向前（HD=1）。\n\n基于以上分析，以下是按照您的要求编码的动作描述：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:01:07.524820"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T06:50:10.338280",
+  "duration_seconds": 63.94,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "Assistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n\nAssistant: 靠近地面、手臂弯曲、中等、向前、向下\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下\n\nAssistant: 跪在地上、手臂伸直、非常强、向前、向下\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下\n/no_think\n\nAssistant: 腰部高度、手臂伸直、非常强、向前、向下\n\nAssistant: 腰部高度、手臂伸直、非常强、向前、向下\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常强、向前、向下\n/yes_think\n\nAssistant: 靠近地面、手臂伸直、非常强、向前、向下  靠近地面、手臂伸直、非常",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:50:10.338610"
+    }
+  ]
+}

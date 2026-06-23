@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T05:42:26.991157",
+  "duration_seconds": 10.14,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 6,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} 根据您的描述，您是一个右利手的中文母语者，在一个空旷房间中面对一张桌子，桌面上有一个手掌大小的物体。目标动作是“投”，即向目标物施加力量并将其投掷出去。\n\n对于投掷这种典型的动作，以下是对各个维度的编码：\n\n- **FORCE**（执行动作时施加于物体的力量大小）：为了有效地将物体投掷出去，通常需要使用中等力量，因此编码为3。\n  \n- **ARM**（动作开始前手臂的初始状态）：在准备投掷时，手臂通常是伸直的，以便于投掷，因此编码为1。\n  \n- **HAND**（动作开始前手部停留的初始高度）：手部通常会位于身体的前方，高于地面但低于身高的位置，所以编码为6。\n  \n- **VD**（执行动作时手部的主要垂直运动方向）：投掷时手部会向下用力，因此编码为1。\n  \n- **HD**（执行动作时手部的主要水平运动方向）：投掷时手部通常向前用力，因此编码为1。\n\n综上所述，编码结果如下：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:42:26.991438"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "throw",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T14:22:02.312871",
+  "duration_seconds": 26.7,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "weak",
+    "ARM": "arm bent",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nAt chest height with arm bent, weak force forward sideways and upward movement.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:22:02.313257"
+    }
+  ]
+}

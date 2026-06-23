@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T12:00:22.070795",
+  "duration_seconds": 75.01,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"BD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"assistant\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:00:22.071115"
+    }
+  ]
+}

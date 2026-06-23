@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "丢",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T04:05:00.090810",
+  "duration_seconds": 8.05,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 5,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "经过思考，我得出以下结果：\n\nFORCE: 执行“丢”这个动作时，通常不会施加非常强的力量，也不是非常弱，一般中等力量，所以FORCE是3。\n\nARM: 之前手臂是弯曲的，所以ARM是0。\n\nHAND: 手拿物体时，手的高度大概在腰部，属于1–9范围，所以HAND是5（假设腰部高度大约是执行者身高的50%左右）。\n\nVD: 打丢的时候手部主要向下运动，所以VD是1。\n\nHD: 向前运动，所以HD是1。\n\n最终编码：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 5,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:05:00.091022"
+    }
+  ]
+}

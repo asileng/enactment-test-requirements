@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "摔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T11:48:26.563166",
+  "duration_seconds": 1.43,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 5,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "5/5\n</think>\n\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:48:26.563315"
+    }
+  ]
+}

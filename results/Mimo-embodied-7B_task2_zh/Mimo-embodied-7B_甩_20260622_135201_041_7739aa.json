@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "甩",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T13:52:01.041534",
+  "duration_seconds": 1.68,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n胸部高度，手臂弯曲，中等力度，向侧方，向下\n</think>\n\n胸部高度，手臂弯曲，中等力度，向侧方，向下",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:52:01.041774"
+    }
+  ]
+}

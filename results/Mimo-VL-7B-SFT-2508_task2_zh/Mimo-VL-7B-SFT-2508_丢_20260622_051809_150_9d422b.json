@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T05:18:09.150707",
+  "duration_seconds": 1.06,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "高于头部",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n手臂伸直，手部高于头部，中等力量，向前，向下，丢一个手掌大小的物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:18:09.150883"
+    }
+  ]
+}

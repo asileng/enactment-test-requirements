@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T05:30:19.567358",
+  "duration_seconds": 4.61,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "ARM": 1,
+    "HAND": 9,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 1,\n  \"HD\": 0\n} 解析如下：\n- 力度适中（FORCE: 2）\n- 手臂伸直（ARM: 1）\n- 手在接近头顶的位置（HAND: 9）\n- 手部向下甩动（VD: 1）\n- 没有向前或向侧方的水平运动（HD: 0） {\n  \"FORCE\": 2,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:30:19.567668"
+    }
+  ]
+}

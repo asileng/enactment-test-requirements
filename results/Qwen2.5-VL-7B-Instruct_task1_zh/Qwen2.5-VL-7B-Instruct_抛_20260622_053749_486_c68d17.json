@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T05:37:49.485897",
+  "duration_seconds": 62.74,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"/no_think{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 3\n} {\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n 你面前的桌子上放着一个手掌大小的物体。请想象一下你如何用右手将其抛出去。\n首先，你需要将手放在物体上，确保手部高度适中（大约是你的胸部高度），然后将手臂伸直，以便有足够的力量来推动物体。接下来，将手臂向上抬起，同时向侧方移动，以产生足够的旋转和力量。最后，释放手臂，让物体飞出。在这个过程中，你会感受到一种向上和向前的力，因为你要将物体抛出并让它飞出桌子。{\"FORCE\": 3, \"HAND\": 1, \"ARM\": 1, \"VD\": 1, \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0{\n  \"FORCE\": 3,\n  {\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 3,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  {\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  {\"FORCE\": 1,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": {\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": {\"{\n  \"FORCE\": 3,\n  {\"FORCE\": 3,\n  \"HAND\":{\"{\"FORCE\": 3,\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```文本```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1，\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{\"FORCE\": 3,\n  \"HAND\":{\"{\"FORCE\": 3,\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":{\"FORCE\": 3,\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{\"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": {\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}````json\n{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\":{\"{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\":{\"{\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}```{\"FORCE\": 3,\n  \"HAND\":{\"{\"FORCE\": 3,\n```{\"FORCE\": 3,\n```{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":{\"{\"FORCE\": 3,\n```{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  ```{\"FORCE\": 3,\n```{\"FORCE`:```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\":```{\n```{\"FORCE`:{\"{\"FORCE\":```{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE`:{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE`:```{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":{\"{\"FORCE\":```{\"{\"FORCE\":{\"{\"FORCE\":```{\"{\"FORCE\":```{\"{\"FORCE\":{\"{\"FORCE\":{\"{\"FORCE\":```{\"{\"FORCE\":{\"",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:37:49.486228"
+    }
+  ]
+}

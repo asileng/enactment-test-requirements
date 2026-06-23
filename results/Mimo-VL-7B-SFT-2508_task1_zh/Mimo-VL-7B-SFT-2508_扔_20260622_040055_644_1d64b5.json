@@ -1,0 +1,29 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "扔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T04:00:55.643929",
+  "duration_seconds": 7.65,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "想象你处于一个空旷房间中。你的面前有一张桌子。桌面上放置着一个手掌大小的后空翻的人偶。\n\n目标动作：扔\n\n请采用你认为最自然、assistant\n\n\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "thinking": "好的，我需要分析用户扔手掌大小的人偶这个动作的各个维度编码。首先，FORCE，扔的动作通常需要中等力量，所以应该是3。手臂初始状态，扔东西的时候手臂通常是弯曲的，所以ARM是0。手的初始高度，放在桌面上，所以HAND是1到9中的某个值，比如桌子的高度可能在腰部附近，假设是5。垂直方向，扔的时候手会向上，所以VD是0。水平方向是向前，所以HD是1。综合这些，得到各个维度的编码。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:00:55.644300"
+    }
+  ]
+}

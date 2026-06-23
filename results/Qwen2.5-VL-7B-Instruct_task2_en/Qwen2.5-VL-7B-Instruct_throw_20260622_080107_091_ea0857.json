@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "throw",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T08:01:07.091358",
+  "duration_seconds": 3.27,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "above head",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/arm extended, arm bent, arm bent, downward, forward, strong, above head, force, below, above, down, forward, forward, strong, strong, forward, forward, above head, arm extended, arm bent, force, below, above, down, above, strong, forward, above head, above, down, forwardThrow the object with a strong force by extending your arm fully and moving it forward from a high position, resulting in a strong downward motion. /no_think/",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:01:02.779806"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T08:01:03.820987"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:01:07.091511"
+    }
+  ]
+}

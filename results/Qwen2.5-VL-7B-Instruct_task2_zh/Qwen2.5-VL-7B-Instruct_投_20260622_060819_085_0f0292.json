@@ -1,0 +1,52 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T06:08:19.085177",
+  "duration_seconds": 64.03,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force\n/ARM\n/HAND\n/V\n/H\n/FORCE\n\n请参考\n\nAssistant: 强/手臂伸直/胸部高度/向上/向前\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCE\n\n请参考Assistant 的答案\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂弯曲/胸部高度/向下/向前\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/腰部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V\n/H\n/FORCEAssistant: 强/手臂伸直/胸部高度/向上/向前投\n/FORCE\n/ARM\n/HAND\n/V",
+  "retry_count": 5,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:04:03.078415"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:05:06.788263"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:06:11.099805"
+    },
+    {
+      "attempt": 4,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:07:15.052419"
+    },
+    {
+      "attempt": 5,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:08:19.085549"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T05:39:22.119996",
+  "duration_seconds": 7.64,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 0,\n 作为中文母语者，我通常会用一只手来投掷物体。在这种情况下，我会将手抬到大约胸部的高度，然后向前投掷。由于这是一个手掌大小的物体，我认为力量应为中等（3），手臂应伸直（0），手部应抬到大约胸部的高度（7），主要的垂直运动方向是向上（1），主要的水平运动方向也是向前（1）。因此，我选择了这个编码。 {\"FORCE\": 3, \"HAND\": 7, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n{\"FORCE\": 3, \"HAND\": 7, \"ARM\": 0, \"VD\": 1, \"HD\": 1}{\"FORCE\": 3, \"HAND\": 7, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T05:39:14.477684"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:39:22.120161"
+    }
+  ]
+}

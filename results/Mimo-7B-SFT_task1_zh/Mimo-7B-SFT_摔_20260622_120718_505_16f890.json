@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "摔",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T12:07:18.505087",
+  "duration_seconds": 4.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，首先考虑“摔”这个动作的典型执行方式。根据标准，力量（FORCE）定为3（中等），因为摔通常不需要非常强的力量，但也不弱。手臂初始状态（ARM）弯曲（0），因为摔之前手臂通常是弯曲的。手部初始高度（HAND）为1（约与身高齐平），因为通常会将手放在胸前或腰部的高度。垂直方向（VD）是向下，因为摔的动作主要是向下用力。水平方向（HD）是向前，因为摔的动作通常伴随向前的水平移动。这些编码综合考虑了动作的自然执行方式。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:07:18.505245"
+    }
+  ]
+}

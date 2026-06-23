@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "hurl",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T08:04:36.008685",
+  "duration_seconds": 1.24,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\nWaist height, arm extended, moderate, forward, downward\nWaist height, arm extended, moderate, forward, downward\nWaist height, arm extended, moderate, forward, downward",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T08:04:36.008837"
+    }
+  ]
+}

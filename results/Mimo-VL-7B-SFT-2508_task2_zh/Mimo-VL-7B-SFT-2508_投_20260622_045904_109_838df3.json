@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "投",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T04:59:04.109411",
+  "duration_seconds": 1.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "手臂弯曲，手掌接近地面，手部向前，垂直方向向下，施加非常强的力，将手掌大小的物体投出。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T04:59:02.756319"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:59:04.109577"
+    }
+  ]
+}

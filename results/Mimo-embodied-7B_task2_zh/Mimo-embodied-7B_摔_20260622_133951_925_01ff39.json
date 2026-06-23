@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "摔",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T13:39:51.925097",
+  "duration_seconds": 3.24,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "think\n初始手部高度为胸部高度，手臂弯曲，施加非常强的力量，手部主要垂直运动方向向下，主要水平运动方向向前。以胸部高度、手臂弯曲、非常强的力度、向下、向前的方式摔手掌大小的物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:39:51.925406"
+    }
+  ]
+}

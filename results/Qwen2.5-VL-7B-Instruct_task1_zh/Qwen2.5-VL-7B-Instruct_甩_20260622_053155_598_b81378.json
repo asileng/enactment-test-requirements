@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T05:31:55.598716",
+  "duration_seconds": 5.42,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 这个JSON对象描述了当您执行“甩”这个动作时的典型方式。在这个场景中，您的手臂是伸直的（ARM=1），手位于身体高度（HAND=10），主要的垂直运动方向向下（VD=1），而主要的水平运动方向是向前的（HD=1）。由于这是一个典型的甩的动作，我们可以认为它需要中等力量（FORCE=3）来完成。因此，我们得到的动作标准编码如下：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:31:55.598887"
+    }
+  ]
+}

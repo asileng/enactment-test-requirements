@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T12:02:38.764640",
+  "duration_seconds": 8.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "请按照上述要求，对“扔”这个动作进行编码。\n\n扔的动作通常需要中等力度，因为要控制物体的飞行距离和旋转。手臂在开始时可能是弯曲的，以便于抓取物体。手部在开始时可能位于桌面上方，即相对地面上方某个高度。主要的垂直运动方向是向下，因为需要将物体抛出。水平方向则是向前，确保物体被抛向目标。因此， FORCE应该是3，ARM是0，HAND是1，VD是1，HD是1。\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:02:38.764800"
+    }
+  ]
+}

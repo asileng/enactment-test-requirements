@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T12:02:01.353883",
+  "duration_seconds": 7.15,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n考虑物体的大小（手掌大小），扔的动作在典型情况下会施加中等力量，即3。\n\n手臂在扔之前通常是弯曲的，因此ARM为0。\n\n手部在扔之前通常在腰部左右高度，假设身高1.7米，对应高度大约在0.85米，即HAND为9。\n\n扔的动作主要是手臂向上然后向前的运动，垂直方向上主要是向上，因此VD为0（向上）。\n\n水平方向上主要是向前，因此HD为1（向前）。\n\n综合以上判断，编码结果为：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:02:01.354053"
+    }
+  ]
+}

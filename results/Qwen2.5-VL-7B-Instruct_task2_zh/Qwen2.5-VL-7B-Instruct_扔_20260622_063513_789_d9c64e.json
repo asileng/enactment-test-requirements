@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T06:35:13.789062",
+  "duration_seconds": 64.05,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force/force/ARM/force/HAND/force/VD/force/HD/force扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂弯曲、中等、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂弯曲、中等、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、中等、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: 肩部高度、手臂伸直、强、向前、向下\n\n扔\n\nAssistant: �",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:35:13.789383"
+    }
+  ]
+}

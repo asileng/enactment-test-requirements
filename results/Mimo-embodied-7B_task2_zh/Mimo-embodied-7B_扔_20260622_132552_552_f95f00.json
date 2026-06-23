@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "扔",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T13:25:52.551554",
+  "duration_seconds": 7.58,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "桌面高度约70cm，物体放在桌面，桌面与手臂自然下垂时手部位置一致\n\n因为桌面与手臂自然下垂时手部位置一致，所以初始手部高度应为腰部高度。初始手部高度是腰部高度。\n手臂自然下垂时手臂伸直，所以手臂状态是手臂伸直。\n扔的动作力度是强。\n扔的动作过程中手部主要水平运动方向是向前。\n扔的动作过程中手部主要垂直运动方向是向上。\n综上，从腰部高度伸直手臂，以强的力度向前上方扔。\n</think>\n\n从腰部高度伸直手臂，以强的力度向前上方扔。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:25:52.552175"
+    }
+  ]
+}

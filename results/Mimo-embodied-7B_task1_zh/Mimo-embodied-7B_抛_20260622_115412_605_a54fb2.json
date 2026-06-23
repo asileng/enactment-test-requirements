@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T11:54:12.604921",
+  "duration_seconds": 11.26,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 10,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n首先，我需要理解动作“抛”的定义。抛是一个将物体从手中释放，使其在空中移动的动作。通常，我们会用手臂和手施加力量，将物体向前或向侧方投出。考虑到这是一个手掌大小的物体，我们可能不需要非常强的力量，但需要足够的力量使其离开手掌并保持在空中一段时间。\n\n接下来，我需要分析每个维度的编码：\n\n1. FORCE：抛的动作需要一定的力量，但不需要非常强，因此选择3（中等）。\n\n2. ARM：在抛之前，手臂通常是弯曲的，准备发力，因此选择0（弯曲）。\n\n3. HAND：手在抛之前通常位于物体的上方，大约在身高的水平，因此选择10（执行者身高）。\n\n4. VD：抛的动作主要是将物体向上抛出，因此手部的主要垂直运动方向是向上，选择0（向上）。\n\n5. HD：抛的动作通常是向前投出，因此手部的主要水平运动方向是向前，选择1（向前）。\n\n综合以上分析，编码结果如下：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:54:12.605217"
+    }
+  ]
+}

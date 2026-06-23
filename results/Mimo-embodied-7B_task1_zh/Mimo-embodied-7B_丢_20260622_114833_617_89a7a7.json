@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "丢",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T11:48:33.616938",
+  "duration_seconds": 1.76,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 1,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 1,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:48:33.617094"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "抛",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T13:15:27.672351",
+  "duration_seconds": 5.09,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "在胸部高度的手，手臂弯曲，以中等力度，向前，向上抛\n\n/no/在肩部高度的手，手臂弯曲，以中等力度，向前，向上抛\n\n/no/在头部高度的手，assistant\n在胸部高度的手，手臂弯曲，以中等力度，向前，向上抛\n</think>\n\n在胸部高度的手，手臂弯曲，以中等力度，向前，向上抛",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:15:27.673000"
+    }
+  ]
+}

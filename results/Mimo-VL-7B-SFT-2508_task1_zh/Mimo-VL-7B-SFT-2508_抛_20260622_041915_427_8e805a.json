@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T04:19:15.427115",
+  "duration_seconds": 11.05,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 4,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "现在需要执行的动作为“抛”，在空旷房间中，桌子前，手掌大小物体。\n\n首先，FORCE：抛的动作通常需要一定的力量，但不是非常强，因为物体很小，所以中等力量，选3。\n\nARM：抛的动作开始前，手臂通常是弯曲的，以便蓄力，所以ARM是0。\n\nHAND：手部初始高度，假设手放在桌子上，桌子高度一般在腰部附近，假设身高170cm，桌子高度约70cm，地面到身高170，所以70cm对应相对高度大约是70/170≈0.41，但编码是1-9对应地面到身高的相对高度，所以可能需要取整，假设是4左右，所以HAND是4。\n\nVD：抛的动作手部向上运动，所以VD是0。\n\nHD：抛的时候手部向前运动，所以HD是1。\n\n现在检查是否正确：\n\nFORCE：中等，3。正确。\n\nARM：弯曲，0。正确。\n\nHAND：手在桌面上，假设桌子高度为地面到身高的约1/3，所以HAND=4（假设1对应0.1，9对应0.9，70/170≈0.41，所以4）。\n\nVD：向上，0。正确。\n\nHD：向前，1。正确。\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E101",
+      "timestamp": "2026-06-22T04:19:04.378117"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:19:15.427424"
+    }
+  ]
+}

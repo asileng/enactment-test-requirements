@@ -1,0 +1,19 @@
+{
+  "task_id": "task2",
+  "model": "Hunyuan-1.8B-Instruct",
+  "model_path": "/home/xitongzhang/models/Hunyuan-1.8B-Instruct",
+  "verb": "chuck",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T11:39:44.976552",
+  "duration_seconds": 55.08,
+  "is_valid": false,
+  "parsed_result": {
+    "FORCE": null,
+    "ARM": null,
+    "HAND": null,
+    "VD": null,
+    "HD": null
+  },
+  "error_type": "E104",
+  "raw_response": "**\n\n\n\n\n\n\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n**\n\n\n\n```\n\n\n\n```\n\n\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n```\n\n\n\n\n\n```"
+}

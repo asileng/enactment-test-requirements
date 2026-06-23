@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T05:32:29.141816",
+  "duration_seconds": 7.25,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据您的描述和您作为右利手的中文母语者的理解，我为您编码的动作标准如下：\n\n{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n解释：\n- FORCE: 力量大小设定为“弱”（2），因为这通常会是抛掷手掌大小物体的力度。\n- HAND: 手部初始位置在“地面高度与执行者身高之间”的中间位置（6），这样可以确保手臂自然摆动，达到最佳力量。\n- ARM: 手臂初始状态下是伸直的（0），这为抛掷动作提供了最大的动力。\n- VD: 主要垂直运动方向向下（1），因为这是扔出手掌大小物体时的标准动作。\n- HD: 主要水平运动方向向前（0），因为这个方向最符合直接向前抛掷的描述。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:32:29.142144"
+    }
+  ]
+}

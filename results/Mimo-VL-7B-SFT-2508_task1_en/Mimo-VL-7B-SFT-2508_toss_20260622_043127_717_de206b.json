@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "toss",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T04:31:27.717709",
+  "duration_seconds": 4.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is to toss a palm-sized object. As a right-handed native English speaker, tossing usually involves a moderate force. So FORCE would be 3. The arm starts bent, so ARM is 0. The hand's initial height is probably around chest level, maybe 5. The vertical direction is upward, so VD is 0. The horizontal direction is forward, so HD is 1.\n</think>\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:31:27.717876"
+    }
+  ]
+}

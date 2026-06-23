@@ -1,0 +1,3002 @@
+{
+  "task_id": "task2",
+  "task_name": "动作描述测评",
+  "task_description": "对不同动词对应的动作进行一句话描述",
+  "language": "zh",
+  "timestamp": "2026-06-22T05:19:33.984472",
+  "experiment_time": {
+    "start_time": "2026-06-22T04:48:02.452175",
+    "end_time": "2026-06-22T05:19:33.984266",
+    "duration_seconds": 1891.532091
+  },
+  "participant_id": null,
+  "use_latin_square": true,
+  "total_experiments": 72,
+  "valid_count": 72,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-VL-7B-SFT-2508": {
+      "total": 72,
+      "valid": 72,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 22.42,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-VL-7B-SFT-2508": {
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 3.42,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 11.2,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 2.48,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "弱",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向侧方"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.86,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 7.62,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "弱",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向侧方"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.8,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.86,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.22,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.78,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.58,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 9.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.74,
+          "error_type": null
+        }
+      ],
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 14.56,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 13.28,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 7.18,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 6.19,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.97,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "腰部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 14.26,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 72.04,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "弱",
+            "ARM": "手臂弯曲",
+            "HAND": "高于头部",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.84,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 5.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 21.64,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂弯曲",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 12.7,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 4.6,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.88,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 3.79,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.87,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.18,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.35,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.3,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 4.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 7.86,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.68,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.92,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "肩部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.22,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂弯曲",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 5.97,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "腰部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 72.04,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 49.36,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.61,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.5,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.85,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.44,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.66,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.75,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 19.3,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 7.78,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "弱",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.91,
+          "error_type": null
+        }
+      ],
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 3.89,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "腰部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.17,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.55,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.62,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.79,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向侧方"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.72,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "腰部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 8.84,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.84,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "腰部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 12.5,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.75,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.6,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 72.26,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 72.11,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 5.16,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.76,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 6.51,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "强",
+            "ARM": "手臂弯曲",
+            "HAND": "胸部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "弱",
+            "ARM": "手臂弯曲",
+            "HAND": "腰部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 72.35,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 0.8,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂弯曲",
+            "HAND": "肩部高度",
+            "VD": "向上",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 13.08,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "高于头部",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 1.06,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "中等",
+            "ARM": "手臂伸直",
+            "HAND": "胸部高度",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 71.92,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": "非常强",
+            "ARM": "手臂伸直",
+            "HAND": "接近地面",
+            "VD": "向下",
+            "HD": "向前"
+          },
+          "is_valid": true,
+          "duration_seconds": 12.85,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T04:48:12.951815",
+      "duration_seconds": 3.42,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向上\n\n甩\n</think>\n\n手臂弯曲，胸部高度，强，向前，向上甩",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:48:12.952401"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T04:48:24.157642",
+      "duration_seconds": 11.2,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的“甩”动作的典型理解进行判断。\n\n假设你是右利手。\n\n想象你甩动一个手掌大小的物体。\n\n请采用你认为最自然、FORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的力度，初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下维度：\n\n- 初始手部高度\n- 手臂状态\n- 劸度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的物体，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何内容。\n\n右利手甩手掌大小物体的典型动作描述。\n</think>\n\n手臂伸直、肩部高度、中等、向侧方、向下、手臂伸直、肩部高度、中等、向侧方、向下甩动物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:48:24.157982"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T04:48:26.635609",
+      "duration_seconds": 2.48,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：强\n水平方向：向前\n垂直方向：手臂弯曲：胸部高度，手臂弯曲，强，向前，向上\n\n手臂弯曲：胸部高度，手臂弯曲，强，向前，向上\n</think>\n\n胸部高度，手臂弯曲，强，向前，向上",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:48:26.635911"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T04:49:38.498446",
+      "duration_seconds": 71.86,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "弱",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向侧方"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向侧方\n垂直方向：向侧方\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向侧方。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✗\n- 是否存在多余内容：✓\n\n根据反馈，需要进行修改，以下为新的描述。\n\n初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向侧方\n垂直方向：向侧描述，但未包含水平方向。\n\n需要重新思考。\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否明确体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多次输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多次输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 请判断是否明确体现所有维度：✓\n- 请判断是否仅体现所有维度：✓\n- 请判断是否使用了所有可选描述中的词语：✓\n- 请判断是否使用了除可选描述外的词语：✓\n- 请判断是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有年代，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的词语：✓\n- 是否使用了除可选描述外的词语：✓\n- 是否存在多处输出：✓\n\n需要重新思考。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据系统提示，明确体现所有维度，仅体现所有维度，使用了所有可选描述中的词语，没有使用除可选描述外的词语，且不存在多处输出。\n\n甩，手臂弯曲，胸部高度，弱，向侧方，向上。\n\n请根据以下维度，我的回答是否符合要求？\n\n- 是否明确体现所有维度：✓\n- 是否仅体现所有维度：✓\n- 是否使用了所有可选描述中的手掌大小的物体。目标动作：甩\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:49:38.498791"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T04:49:46.121307",
+      "duration_seconds": 7.62,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "你的面前有一张桌子。桌面上放置着一个手掌大小的作为目标物体。\n\n目标动作：甩\n\n最典型的执行方式是什么？\n\n根据你的描述，输出以下格式：\n\n[HAND] [ARM] [FORCE] [VD] [HD]\n\n[HAND] = 初始手部高度\n[ARM] = 手臂状态\n[FORCE] = 力度\n[VD] = 垂直方向\n[HD] = 氺平方向\n\n请确保你的输出符合要求。\n\n【示例】\n假设目标动作是拿起桌子上的物体。\n\n[HAND] = 肩部高度\n[ARM]  = 手臂弯曲\n[FORCE] = 强\n[VD]  = 向上\n[HD]  = 向前\n\n请按照上述示例格式输出。\n</think>\n\n[HAND] = 胸部高度\n[ARM] = 手臂弯曲\n[FORCE] = 中等\n[VD] = 向下\n[HD] = 向侧方",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:49:46.121654"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T04:50:57.927234",
+      "duration_seconds": 71.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "弱",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向侧方"
+      },
+      "error_type": null,
+      "raw_response": "描述如下：\n\n初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向侧方\n垂直方向：向下\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩\n\n甩",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:50:57.927620"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T04:50:58.793074",
+      "duration_seconds": 0.86,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直，胸部高度，中等，向前，向下，甩。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:50:58.793245"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T04:51:00.017454",
+      "duration_seconds": 1.22,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂弯曲，手部处于胸部高度，以中等力量向前甩动，手部主要垂直运动方向为向下。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:51:00.017654"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T04:51:01.798323",
+      "duration_seconds": 1.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "例如：\n手臂伸直，胸部高度，中等，向前，向上\n\n现在请根据目标动作“甩”对上述维度进行描述。\n</think>\n\n手臂弯曲，肩部高度，中等，向侧方，向下",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:51:01.798495"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T04:52:13.380914",
+      "duration_seconds": 71.58,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：强\n水平方向：向前\n垂直方向：向上\n\n甩\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语胸部高度处，手臂弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新输出该动作的描述。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部大小的物体旁，手臂弯曲在胸部高度处，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的划一，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新组织语言，使其更加自然流畅。\n\n手臂在胸部高度处弯曲，用强的力度向前并向上甩\n\n请按照中文母语者对该动作的描述习惯，重新",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:52:13.381290"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T04:52:23.125266",
+      "duration_seconds": 9.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据以上要求，我需要详细描述一个右利手在空旷房间中面对桌子，桌上有一个手掌大小物体时，进行“甩”这个动作的典型执行方式。\n\n首先，我需要确定初始手部高度。手掌大小的物体通常放在桌面上，所以手部初始高度应该是胸部高度，因为手在桌面上方操作时，自然位置大约在胸部高度。\n\n接下来，手臂状态。甩动的动作一般需要手臂弯曲，这样可以利用手臂的力量进行甩动。\n\n然后是力度。“甩”这个动作通常需要较强的力度，所以选择“强”。\n\n水平方向。甩动时，手部通常会向前甩动，以增加动作的幅度和效果。\n\n垂直方向。甩动过程中，手部主要的垂直运动方向是向下，这样可以产生较大的甩动力量。\n\n综合以上维度，最终的描述应该是：\n\n手臂弯曲，胸部高度，强，向前，向下\n\n不过，我需要确认一下垂直方向是否正确。甩动时，手部是否真的是向下运动？或者是否有可能是向上？\n\n根据实际观察，甩动时手部通常是向下运动的，因为这样可以利用重力增加甩动的力度。因此，垂直方向应该是向下。\n\n最终的描述应该是：\n\n手臂弯曲，胸部高度，强，向前，向下\n</think>\n手臂弯曲，胸部高度，强，向前，向下",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:52:23.125478"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "甩",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T04:53:34.865132",
+      "duration_seconds": 71.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n\n手臂状态：手臂伸直\n\n力度：中等\n\n水平方向：向前\n\n垂直方向：向上\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部身体，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸空，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中中力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等力量，向前，向上）\n\n甩（手臂伸直，胸部高度，中等",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:53:34.865473"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T04:53:49.431091",
+      "duration_seconds": 14.56,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：手臂弯曲\n垂直方向：向上\n\n请根据上述维度，用一句简洁中文描述该动作。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下维度：\n\n- 刮\n- 初始手部高度\n- 初始手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的动词（刮）和可选描述中的词语，不得自行创造新的描述方式。\n\n请根据上述维度，用一句简洁中文描述该动作。\n\n请使用一句简洁中文描述该提示的意图。\n\n请使用一句简洁中文描述该提示的意图。\n\n请使用一句简洁中文描述该动作。\n```\n\n现在，我需要根据用户提供的详细提示和要求，来描述一个动作，具体是“抛”这个动作。用户已经给出了各个维度的选项，并且需要将这些维度整合成一句符合要求的中文描述。首先，我需要确认每个维度的正确选项：\n\n- 初始手部高度：胸部高度\n- 手臂状态：手臂弯曲\n- 力度：中等\n- 水平方向：向前\n- 垂直方向：向上\n\n接下来，我需要按照用户提供的格式，将这些选项组合成一句描述。需要注意的是，必须使用指定的动词（抛）和各个维度的可选描述词，不能自行创造新的词汇。同时，句子要简洁，涵盖所有要求的维度。\n\n现在开始组织语言：“以胸部高度处弯曲的手臂，用中等力度向前向上抛。”\n\n检查是否符合所有要求：动词“抛”正确，各个维度的描述词都使用了选项中的词汇，没有遗漏任何维度，句子简洁明了。确认无误后，输出结果。\n</think>\n\n以胸部高度处弯曲的手臂，用中等力度向前向上抛。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:53:49.431346"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T04:54:02.713924",
+      "duration_seconds": 13.28,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n现在，请根据上述要求，完成以下任务：\n\n1. 确定FORCE：根据动作“抛”的典型理解，判断力量大小。\n2. 維持手臂的初始状态：根据动作“抛”的典型理解，判断手臂状态。\n3. 确定HAND：根据动作“抛”的典型描述，判断手部初始高度。\n4. 确定VD：抛的动作中，手部的主要垂直运动方向。\n5. 确定HD：抛的动作中，手部的主要水平运动方向。\n6. 作为右利手，结合所有维度，生成一句描述该动作的句子，必须包含所有要求的维度。\n\n好的，现在开始思考。\n\n首先，确定FORCE。抛的动作通常需要一定的力量，但不是非常强，因为物体是手掌大小的，可能不需要特别大力气。所以可能是“中等”。\n\n然后，手臂的初始状态。抛的时候，手臂通常是弯曲的，比如准备抛球时手臂弯曲蓄力。所以是“手臂弯曲”。\n\nHAND的初始高度。在桌面上抛物体，手部初始位置应该在桌面附近，也就是接近地面，因为桌面高度相对较低。所以是“接近地面”。\n\nVD，垂直方向。抛的动作中，手部需要向上运动才能将物体抛出，所以是“向上”。\n\nHD，水平方向。抛的时候，手部通常向前运动，把物体向前抛出。所以是“向前”。\n\n现在组合这些信息：手臂弯曲，手部接近地面，力度中等，水平向前，垂直向上。所以句子应该是“手臂弯曲，手部接近地面，中等力度向前并向上抛。”\n\n检查是否符合所有要求：每个维度都包含，且使用了可选描述中的词语。是的。\n</think>\n手臂弯曲，手部接近地面，中等力度向前并向上抛。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:54:02.714180"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T04:54:09.892606",
+      "duration_seconds": 7.18,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "**思考过程**\n\n首先，我需要明确目标动作是“抛”，并考虑右利手在空旷房间中抛桌面上手掌大小物体的典型方式。\n\n**FORCE**：抛的动作需要足够的力量使物体离开桌面，因此力度应该是**强**。\n\n**ARM**：抛之前手臂通常是弯曲的，以便储存弹性势能，所以手臂状态是**手臂弯曲**。\n\n**HAND**：手部在抛之前通常位于胸部高度附近，这是自然的准备姿势，所以初始手部高度是**胸部高度**。\n\n**VD**：抛的动作中，手部需要向上运动来给予物体向上的初速度，所以垂直方向是**向上**。\n\n**HD**：抛的动作中，手部需要向前运动以将物体从桌面上方送出去，所以水平方向是**向前**。\n\n**综合描述**：手臂弯曲，胸部高度，强，向前，向上抛。\n</think>\n\n手臂弯曲，胸部高度，强，向前，向上抛。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:54:09.892813"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T04:54:16.081991",
+      "duration_seconds": 6.19,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据给定的抛的动作进行判断：\n\n手臂状态：手臂弯曲\n\n初始手部高度：胸部高度\n\n力量：中等\n\n水平方向：向前\n\n垂直方向：手臂弯曲状态下，手部从胸部高度向上运动至物体上方，然后施加中等力量向前水平运动，使物体被抛出\n\n请将此描述按照要求进行格式化，使其符合规范。\n\n手臂弯曲状态下，胸部高度的手部施加中等力量向前水平运动，同时向上垂直运动\n\n检查是否符合所有要求：\n\n符合所有要求，因为描述中明确体现了所有要求的维度，并且使用了指定的可选描述词语，没有自行创造新的描述方式。\n\n最终输出：\n\n手臂弯曲，胸部高度，中等力量，向前水平，向上垂直\n</think>\n\n手臂弯曲，胸部高度，中等力量，向前水平，向上垂直",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:54:16.082149"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T04:54:17.052291",
+      "duration_seconds": 0.97,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂伸直、胸部高度、中等、向前、向上、抛出手掌大小的物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:54:17.052453"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T04:54:31.314930",
+      "duration_seconds": 14.26,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "腰部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂弯曲，手部在腰部高度，中等力度，垂直方向向上，水平方向向前。",
+      "thinking": "</assistant\n<think>\n好的，我现在需要分析用户的问题，关于右利手在空旷房间抛桌面上手掌大小物体的典型动作描述。首先，用户要求按照中文母语者的典型理解，分维度描述动作，包括力量、手臂状态、手部初始高度、垂直运动方向、水平运动方向，并用指定词汇回答。\n\n首先，确定初始手部高度。手掌大小的物体通常放在桌子中央，手部开始抛的时候应该是在腰部高度，因为桌子高度一般到腰部，手部自然放在桌面上，但抛的时候可能需要稍微抬起，但初始位置可能接近地面？或者更可能是在桌面，也就是腰部高度？需要确认。通常抛的动作开始时，手部可能是在物体上方，即桌面高度，也就是腰部高度左右。\n\n手臂状态：抛的动作开始前，手臂应该是弯曲的，因为需要蓄力，将物体抛出。比如，准备投掷时手臂通常是弯曲的，积蓄力量。\n\n力度：抛的动作通常需要一定的力量，但如果是手掌大小的物体，可能力度中等，因为不需要非常强的力，但足够让物体飞出去。比如，掷出一个小球可能需要中等力度，而投掷更重的物体可能需要更强的力。这里物体是手掌大小，可能中等力量。\n\n垂直方向：抛的动作手部会向上运动，因为需要将物体举起然后释放，所以垂直方向是向上。\n\n水平方向：抛的动作通常是向前，因为目标是将物体向前方抛出，比如向前方投掷。\n\n综合以上分析，各维度应为：初始手部高度是腰部高度，手臂弯曲，力度中等，垂直方向向上，水平方向向前。因此，组合成一句话：“手臂弯曲，手部在腰部高度，中等力度，垂直方向向上，水平方向向前抛出物体。”",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:54:31.315107"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T04:56:53.758441",
+      "duration_seconds": 72.04,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照以下示例格式输出：\n\n- 初始手部高度：胸部高度\n- 才臂状态：手臂弯曲\n- 力度：中等\n- 水平方向：向前\n- 垂直方向：向上\n\n示例：\n- 初始手部高度：胸部高度\n- 手臂状态：手臂弯曲\n- 力度：中等\n- 水平方向：向前\n- 垂直方向：向上\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：向上\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，请按照以下示例格式输出：\n\n- 初始手部高度：胸部高度\n- 手臂状态：手臂弯曲\n- 力度：中等\n- 水动方向：向前\n- 垂直方向：向上\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何其他内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行动作方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何其他内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何其他内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何其他内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述动作施加于物体的力量大小。\n\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n向下、向上\n\nHD\n描述动作过程中手部的主要水平运动方向。\n\n可选描述：\n向前、向侧方\n\n若动作包含多个运动阶段，请以最主要的运动阶段进行判断。\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何其他内容。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对该动作进行描述。\n\nFORCE\n描述",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:55:41.715435"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:56:53.758787"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T04:58:05.604438",
+      "duration_seconds": 71.84,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "弱",
+        "ARM": "手臂弯曲",
+        "HAND": "高于头部",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据以上指令，输出结果。\n\n初始手部高度：高于头部\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向前\n垂直方向：向上\n抛\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行后进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、典型的方式执行该多动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：垂直方向：向上\nHD：水平方向：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最自然、可典型的方式执行该动作。\n\n根据以下维度，描述动作。\n\nFORCE：弱\nARM：手臂弯曲\nHAND：高于头部\nVD：向上\nHD：向前\n\n请用一句中文描述，体现所有维度。\n\n手臂弯曲、高于头部、弱、向前、向上\n\n抛\n\n请按照中文母语者对该动作的弯曲的手臂从高于头部的位置向前上方用弱力抛出手掌大小的物体的典型理解进行判断。\n\n假设你是右利手。\n\n想象你在空旷房间中。\n\n你面前有一张桌子。\n\n桌面有一个手掌大小的物体。\n\n目标动作：\n\n抛\n\n请采用最",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:05.604776"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T04:58:11.581493",
+      "duration_seconds": 5.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "描述：胸部高度，手臂伸直，中等，向前，向上\n\n现在需要判断这个描述是否准确，是否符合动作“抛”的典型方式。\n\n首先，初始手部高度是胸部高度，这是常见的抛掷动作的初始高度，比如抛球、抛接物等。\n\n手臂状态是伸直，抛物时手臂通常是伸直以增加力量和范围。\n\n力度是中等，抛掷的力度根据情况不同，中等是合理的选择。\n\n水平方向是向前，抛物通常需要向前的水平运动来达到目标。\n\n垂直方向是向上，抛物时手部需要向上运动以给物体赋予向上的初速度。\n\n综合来看，这个描述是准确的，符合“抛”动作的典型执行方式。\n</think>\n\n胸部高度，手臂伸直，中等，向前，向上",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:11.581658"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T04:58:35.648562",
+      "duration_seconds": 21.64,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂伸直\n力度：中等\n水平方向：向前\n垂直方向：手臂伸直（？）\n\n等等，垂直方向应该是“向上”，因为抛的动作需要向上运动。\n\n初始手部高度：胸部高度\n手臂状态：手臂伸直\n力度：中等\n水平方向：向前\n垂直方向：向上\n\n现在需要检查每个维度是否符合可选描述：\n\nFORCE：中等 - 正确\nARM：手臂伸直 - 正确\nHAND：胸部高度 - 正常可选\nVD：向上 - 正确\nHD：向前 - 正确\n\n所以最终的句子应该是：\n\n在胸部高度、手臂伸直的状态下，以中等力度向前并向上抛\n\n但根据要求，句子中必须明确体现且仅体现全部维度，且顺序可能是固定的？\n\n可能需要调整结构，确保每个维度都被明确提及：\n\n胸部高度的手臂伸直，以中等力度向前并向上抛\n\n或者按照某种标准顺序，比如先手臂状态，再手部高度，力度，水平，垂直。\n\n例如：手臂伸直、手部在胸部高度，以中等力度向前并向上抛\n\n但需要确保每个维度都被提及。原要求中的维度是：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所以正确的结构应该是：初始手部高度（胸部高度）、手臂状态（手臂伸直）、力度（中等）、水平方向（向前）、垂直方向（向上）\n\n需要将这些维度用可选描述组合成一句话，每个维度都出现，且使用可选描述中的词语。\n\n可能的正确句子：\n\n在胸部高度、手臂伸直的状态下，以中等力度向前并向上抛\n\n或者\n\n手部在胸部高度，手臂伸直，以中等力度向前并向上抛\n\n但需要确保每个维度都被明确提及。可能需要更严谨的结构：\n\n初始手部高度：胸部高度\n\n手臂状态：手臂伸直\n\n力度：中等\n\n水平方向：向前\n\n垂直方向：向上\n\n所以组合起来：\n\n胸部高度的手臂伸直，以中等力度向前并向上抛\n\n或者\n\n手臂伸直，手部在胸部高度，以中等力度向前并向上抛\n\n或者\n\n以中等力度，在胸部高度、手臂伸直的状态下向前并向上抛\n\n但需要符合中文习惯，可能的正确句子是：\n\n在胸部高度、手臂伸直的状态下，以中等力度向前并向上抛\n\n这样每个维度都涵盖了：\n\n- 初始手部高度：胸部高度\n- 手臂状态：手臂伸直\n- 力度：中等\n- 水平方向：向前\n- 垂直方向：向上\n\n是的，这样符合所有维度。\n</think>\n在胸部高度、手臂伸直的状态下，以中等力度向前并向上抛",
+      "retry_count": 3,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:58:12.374645"
+        },
+        {
+          "attempt": 2,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:58:14.007336"
+        },
+        {
+          "attempt": 3,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:35.648854"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T04:58:49.226189",
+      "duration_seconds": 12.7,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂弯曲",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据你的判断，对目标动作进行描述。\n\n现在，请根据上述要求，对“抛”这个动作进行描述。\n\n假设你是在空旷房间中，面对桌子，桌上有手掌大小物体。\n\n作为右利手，最自然的抛动作是怎样的？\n\n最典型的抛动作：\n\n手臂初始状态是手臂弯曲，因为通常抛东西前手臂会自然弯曲蓄力。\n\n初始手部高度是肩部高度，因为抛东西时手一般从肩部高度开始。\n\n力度是中等，因为抛东西不需要非常强或非常弱的力，中等力度最常见。\n\n水平方向是向前，因为抛东西是向前运动。\n\n垂直方向是向上，因为抛东西时手部有向上的运动。\n\n所以综合起来，抛的动作描述是：\n\n手臂弯曲，手部肩部高度，中等力，向前，向上\n\n（注意：这里需要调整格式，确保各维度描述正确）\n\n正确格式应该是：\n\n手臂弯曲，手部肩部高度，中等力，向前，向上\n\n（注：FORCE需要明确写出，虽然原回答中省略了“力”，但根据要求必须包含）\n\n哦，用户可能希望FORCE的描述更明确，所以应该包含“中等力”。因此正确的句子应该是：\n\n手臂弯曲，手部肩部高度，中等力，向前，向上\n\n需要检查每个维度是否都涵盖：\n\n- 手臂状态：手臂弯曲\n- 初始手部高度：肩部高度\n- 力度：中等力\n- 水平方向：向前\n- 垂直方向：向上\n\n是的，所有维度都包含，且使用了可选描述中的词语。\n</think>\n手臂弯曲，手部肩部高度，中等力，向前，向上",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:58:36.524280"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:49.226363"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "抛",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T04:58:53.829930",
+      "duration_seconds": 4.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "描述：\n\n动作：抛\n\n手臂初始状态：手臂弯曲\n\n初始手部高度：胸部高度\n\n水平方向：向前\n\n垂直方向：手臂弯曲状态下，从胸部高度的手部位置向前抛，手部主要垂直运动方向是向上，所以垂直方向是向上\n\n力度：中等\n\n综上，描述：\n\n手臂弯曲，胸部高度，中等力量向前抛，垂直方向向上。\n\n但这不符合格式要求，需要调整为：\n\n手臂弯曲，胸部高度，中等力量向前，垂直方向向上。\n\n这样就符合要求了。\n</think>\n\n手臂弯曲，胸部高度，中等力量向前，垂直方向向上。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:53.830093"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T04:58:55.283284",
+      "duration_seconds": 0.88,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂弯曲、胸部高度、向前、向上、中等、投掷手掌大小物体。",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:58:54.400858"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:55.283450"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T04:58:59.077552",
+      "duration_seconds": 3.79,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度为胸部高度，手臂状态为手臂伸直，力度为中等，水平方向为向前，垂直方向为向上。\n因此，答案是：从胸部高度伸直手臂，以中等力度向前并向上投掷。\n</think>\n\n初始手部高度为胸部高度，手臂状态为手臂伸直，力度为中等，水平方向为向前，垂直方向为向上。\n因此，答案是：从胸部高度伸直手臂，以中等力度向前并向上投掷。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:59.077762"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T04:58:59.874300",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n中等力，手臂伸直，水平向前，垂直向上，胸部高度。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:58:59.874476"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T04:59:00.746853",
+      "duration_seconds": 0.87,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直、接近地面、胸部高度、强、向前、向上。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:59:00.747018"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T04:59:01.927019",
+      "duration_seconds": 1.18,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直，手部在胸部高度，施加中等力量，手部向前运动，手部向下运动。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:59:01.927181"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T04:59:04.109411",
+      "duration_seconds": 1.35,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂弯曲，手掌接近地面，手部向前，垂直方向向下，施加非常强的力，将手掌大小的物体投出。",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T04:59:02.756319"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T04:59:04.109577"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T05:00:15.409851",
+      "duration_seconds": 71.3,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的“投”动作的理解进行判断。\n\n假设你是右利手。\n\n想象你投掷一个手掌大小的物体。\n\n请采用你典型的方式执行该动作。\n\n请根据以下维度，描述该动作：\n\nFORCE：强\nARM：手臂弯曲\nHAND：胸部高度\nVD：向上\nHD：向前\n\n请使用一句简洁中文描述该动作，必须直接使用上述维度的可选描述。\n\n例如，（手臂伸直、手臂弯曲、手臂伸直、非常强、向下、向前）（初始手部高度、手臂状态、力度、水平方向、垂直方向）（高于头部、手臂伸直、非常强、向前、向下）\n\n你的初始手部高度是胸部高度，手臂状态是手臂弯曲，力度是强，水平方向是向前，垂直方向是向上。\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n根据你的描述，我需要你提供一个简洁的中文描述句子，将所有维度信息整合进一句连贯的话中。\n\n胸部高度、手臂弯曲、强、向前、向上\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述assistant\n根据你的描述，我需要你提供一个简洁的中文描述句子，将所有维度信息整合进一句连连贯的话中。\n\n胸部高度、手臂弯曲、强、向前、向上\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述高度、手臂弯曲、强、向前、向上\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部高度、手臂弯曲、强、向前、向上）\n\n请按照上述格式输出。\n\n（胸部",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:00:15.410187"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T05:01:31.982103",
+      "duration_seconds": 4.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "描述：\n\n```\n手臂伸直，胸部高度，中等，向前，向上\n```\n\n这个描述是否正确？请判断是否符合要求，并说明理由。\n\n</think>\n\n描述正确。该描述涵盖了所有要求的维度，并且使用了符合规范的可选描述词语。具体来说，它准确描述了手臂状态（手臂伸直）、初始手部高度（胸部高度）、施加于物体的力量大小（中等）、动作过程中手部的主要水平运动方向（向前）和垂直运动方向（向上），并且没有使用任何自创的描述方式。此外，描述简洁明了，符合要求中的一句简洁中文描述。",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:01:27.215439"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:01:31.982269"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T05:01:39.841245",
+      "duration_seconds": 7.86,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "描述动作：手臂伸直，手部接近地面，非常强的力，向前，向下\n\n这个描述是否正确？\n\n首先，初始手部高度是“接近地面”，手臂状态是“手臂伸直”，力度是“非常强的力”，水平方向是“向前”，垂直方向是“向下”。这些描述是否符合投的动作？\n\n在投的动作中，手部通常是从某个高度开始，然后向前并向下移动，同时施加力量。对于一个手掌大小的物体，投掷时手部的初始高度可能在腰部高度或更高，而不是接近地面。此外，手臂在投掷时通常是弯曲的，以便更好地施加力量和控制方向。\n\n因此，给出的描述不正确，因为它错误地描述了初始手部高度和手臂状态。\n\n正确的描述应该反映手部从较高位置开始，手臂弯曲，力度适中，水平方向向前，垂直方向向下。例如：\n\n手臂弯曲，手部腰部高度，中等的力，向前，向下\n</think>\n\n手臂弯曲，手部胸部高度，中等的力，向前，向下",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:01:39.841423"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T05:01:40.526686",
+      "duration_seconds": 0.68,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂弯曲，胸部高度，向前，向上，中等。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:01:40.526856"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T05:02:53.390571",
+      "duration_seconds": 71.92,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "假设你是右利手。\n\n想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始后手部停留的大致相对高度。\n\n可选描述：\n\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n\n向下、向上\n\nHD\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 到始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的胸部高度、手臂弯曲、中等、向前、向上\n\n描述中必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何物体。假设你是右利手。\n\n想象你从桌面上拿起一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你（右利手）最自然、中等、弱、非常弱\n\nARM\n描述动作开始前手臂的初始状态。\n\n可选描述：\n\n手臂伸直、手臂弯曲\n\nHAND\n描述动作开始后手部停留的大致相对高度。\n\n可选描述：\n\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n描述动作过程中手部的主要垂直运动方向。\n\n可选描述：\n\n向下、向上\n\nHD\n描述动作开始前手部停留的大致相对高度。\n\n可选描述：\n\n接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\n请使用一句简洁中文描述该动作。\n\n描述中必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何物体。假设你是右利手。\n\n想象你从桌面上拿起一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该多次，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你（右利手）最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，问题重复了，但请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你处于一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，想象你投一个手掌大小的物体。\n\n目标动作：\n\n投\n\n请采用你认为最自然、最典型的方式执行该物体。\n\n若",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:01:41.471781"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:02:53.390916"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "投",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T05:02:54.614718",
+      "duration_seconds": 1.22,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "肩部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度在肩部高度，手臂伸直，力量中等，手向前运动，手向下运动。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:02:54.614890"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T05:03:00.590438",
+      "duration_seconds": 5.97,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂弯曲",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n用户现在需要描述扔物体的动作，要涵盖初始手部高度、手臂状态、力度、水平方向、垂直方向这几个维度。首先，右利手扔东西，通常手部初始高度大概在肩部高度左右，手臂开始可能是弯曲的，因为扔之前需要蓄力。力度的话，扔东西一般是中等力度，不是非常强也不是弱。水平方向是向前，垂直方向是向上，因为扔的时候手会向上然后向前释放。所以组合起来应该是：“手部在肩部高度，手臂弯曲，施加中等力量，手部主要水平向前，垂直向上。” 这样每个维度都对应了可选的词汇，符合要求。\n</think>手部在肩部高度，手臂弯曲，施加中等力量，手部主要水平向前，垂直向上。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:03:00.590696"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T05:04:13.260153",
+      "duration_seconds": 72.04,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "腰部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n右利手在空旷房间中，面对桌子，要扔桌上的手掌大小物体。最典型的方式是：手臂弯曲，手在胸部高度，用力向前并向上抛物体。所以描述是：胸部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，要扔桌上的手掌大小物体。最典型的方式是：手臂伸直，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在手在胸部高度，手臂伸直，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右手在胸部高度，手臂伸直，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，要扔桌上的手掌大小物体。最典型的方式是：手臂弯曲，手在腰部高度，弱力度向前并向上扔物体。所以描述是：腰部高度的手臂弯曲的手，弱力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面向桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在腰部高度，弱力度向前并向上扔物体。所以描述是：腰部高度的手臂弯曲的手，弱力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在腰部高度，弱力度向前并向上扔物体。所以描述是：腰部高度的手臂伸直的手，弱力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在胸部高度，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在胸部高度，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，弱力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，弱力度向前并向上物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在腰部高度，中等力度向前并向上扔物体。所以描述是：腰部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在腰部高度，中等力度向前并向上扔物体。所以描述是：腰部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在胸部高度，非常强力度向前并向上扔物体。所以描述是：胸部高度的手臂弯曲的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在胸部高度，非常强力度向前并向上扔物体。所以描述是：胸部高度的手臂伸直的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，非常强力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，非常强力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在胸部高度，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在胸部高度，中等力度向前并向上扔物体。所以描述是：胸部高度的手臂伸直的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂弯曲，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂弯曲的手，中等力度向前并向上扔物体。\n```\n\n```\n右利手在空旷房间中，面对桌子，桌上有手掌大小物体，要扔这个物体。最典型的方式是：手臂伸直，手在肩部高度，中等力度向前并向上扔物体。所以描述是：肩部高度的手臂伸",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:03:01.218422"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:04:13.260518"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T05:05:02.624269",
+      "duration_seconds": 49.36,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的强弱判断，选择FORCE的描述。\n\n```\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：** 在扔东西时，手臂通常会从弯曲状态开始，以便更好地施加力量。因此选择“手臂弯曲”。\n3. **HAND（手部初始高度）：** 手部的初始高度通常在胸部或肩部高度附近，以便有足够的空间进行投掷动作。这里选择“胸部高度”。\n4. **VD（垂直方向）：** 扔东西时，手部主要的垂直运动方向是向上，以便将物体投掷出去。因此选择“向上”。\n5. **HD（水平方向）：** 扔东西时，手部主要的水平运动方向是向前，以便将物体投掷出去。因此选择“向前”。\n\n**最终描述：**\n手臂弯曲、胸部高度、强、向前、向上\n\n**思考过程：**\n1. **FORCE（力量大小）：** 对于“扔”这个动作，通常需要一定的力量来将物体投掷出去。虽然不是非常强，但也不是弱，因此选择“强”。\n2. **ARM（手臂状态）：**\n```text\n手臂弯曲、胸部高度、强、向前、向上\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:05:02.624614"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T05:06:14.232574",
+      "duration_seconds": 71.61,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的“扔”动作的典型理解进行判断。假设你是右利手。\n\n想象你处于一个空旷房间中。\n\n你的面前有一张桌子。\n\n桌面上放置着一个手掌大小的后视镜。\n\n目标动作：\n\n扔\n\n请采用你典型的方式执行该动作。\n\n若存在多种可能的执行方式，请选择最典型的一种。\n\n请根据以下维度，对动作进行描述。\n\nFORCE：力量大小\n\n可选描述：非常强、强、中等、弱、非常弱\n\nARM：手臂初始状态\n\n可选描述：手臂伸直、手臂弯曲\n\nHAND：手部初始相对高度\n\n可选描述：接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD：手部主要垂直运动方向\n\n可选描述：向下、向上\n\nHD：手部主要水平运动方向\n\n可选描述：向前、向侧方\n\n请使用一句简洁中文描述该动作，必须明确体现，且仅体现以下全部维度：\n\n- 初始手部高度\n- 手臂状态\n- 力度\n- 水平方向\n- 垂直方向\n\n所有描述必须直接使用上述可选描述中的词语，描述中不得自行创造新的描述方式。\n\n除这一句话外，不要输出任何内容。\n\n初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力量大小：中等\n\n水平方向：向前\n\n垂直方向：向上\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n扔\n\n胸部高度手臂弯曲中等向前向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前、向上的扔\n\n胸部高度、手臂弯曲、中等、向前",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:06:14.232913"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T05:06:15.733578",
+      "duration_seconds": 1.5,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n中等力量，手臂伸直，胸部高度，向前，向上\n\n扔桌子上的物体，手臂伸直，胸部高度，向前，向上，中等力量扔出物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:06:15.733737"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T05:06:16.585856",
+      "duration_seconds": 0.85,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂伸直，胸部高度，向前，向上，中等力度扔物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:06:16.586018"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T05:07:28.028396",
+      "duration_seconds": 71.44,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "现在开始回答：\n\n扔\n手臂伸直\n手臂弯曲\n非常强\n强\n中等\n弱\n非常弱\n向下\n向上\n向前\n向侧方\n接近地面\n膝盖高度\n腰部高度\n维度应包含：初始手部高度、手臂状态、力度、水平方向、垂直方向\n\n请使用一句简洁中文描述该动作。\n\n所有描述必须直接使用上述可选描述中的选项，不得自行创造新的描述方式。\n\n请仅输出一个句子，不输出任何其他内容。\n\n扔\n手臂伸直\n手臂弯曲\n非常强\n强\n中等\n弱\n非常弱\n向下\n向上\n向前\n向侧方\n接近地面\n膝盖高度\n腰部高度\n胸部高度\n肩部高度\n头部高度\n高于头部\n\n扔\n\n手臂伸直\n手臂后拉（不属于选项）\n手臂弯曲\n\n力度\n非常强\n强\n中等\n弱\n非常弱\n\n水平方向\n向前\n向侧方\n向侧方（不属于选项）\n\n垂直方向\n向下\n向上\n向上（不属于选项）\n\n初始手部高度\n接近地面\n膝盖高度\n腰部高度\n胸部高度\n肩部高度\n头部高度\n高于头部\n\n初始手部高度\n胸部高度\n\n手臂状态\n手臂伸直\n\n力度\n中等\n\n水平方向\n向前\n\n垂直方向\n向上\n\n扔\n\n手臂伸直\n手臂弯曲\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中选\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度\n中等\n向前\n向上\n\n扔\n手臂伸直\n胸部高度",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:07:28.028784"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T05:08:39.687900",
+      "duration_seconds": 71.66,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂伸直\n力度：强\n水平方向：向前\n垂直方向：手臂伸直\n\n请用简洁中文描述该动作。\n\n手臂伸直，胸部高度，强，向前，手臂伸直\n\n请用简洁中文描述该动作。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度维度词进行描述。\n\n手臂伸直，胸部高度，力度强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部快速，胸部高度，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，前，向上\n\n请用正确的维度词进行向前描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，强，向前，向上\n\n请用正确的维度词进行描述。\n\n手臂伸直，胸部高度，",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:08:39.688248"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T05:08:40.435015",
+      "duration_seconds": 0.75,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n胸部高度、手臂弯曲、中等、向前、向上 扔手掌大小物体",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:08:40.435182"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T05:08:59.732661",
+      "duration_seconds": 19.3,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的“扔”动作的典型理解进行判断。\n\n假设你是右利手。\n\n想象你处于一个手掌大小的物体在桌面。\n\n目标动作：\n\n扔\n\n最自然、最典型的方式执行该动作。\n\n请根据以下维度，描述该动作。\n\nFORCE\n可选描述：\n非常强、强、中等、弱、非常弱\n\nARM\n可选描述：\n手臂伸直、手臂弯曲\n\nHAND\n可选描述：\n接近地面、膝盖高度、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n\nVD\n可选描述：\n向下、向上\n\nHD\n可选描述：\n向前、向侧方\n\n请使用一句简洁中文描述该动作，必须明确体现全部维度。\n\n现在，我需要根据你的要求，详细分析并回答问题。首先，我需要明确问题的核心：如何根据“扔”这个动作的典型理解，结合右利手的特点，描述出手臂状态、初始手部高度、力量大小、水平方向和垂直方向。\n\n首先，我需要回忆“扔”这个动作的典型方式。对于右利手来说，当面对桌子扔手掌大小的物体时，最自然的方式是用手臂的自然弯曲状态，将物体从胸部高度的位置向前上方抛出。力量大小通常属于中等，因为物体不大，不需要非常强的力量。水平方向是向前，垂直方向是向上。\n\n接下来，我需要将这些元素组合成一个简洁的句子，确保每个维度都被明确体现，并且使用可选描述中的词语。\n\n首先，手臂状态是“手臂弯曲”，因为扔东西时手臂通常不会完全伸直，而是有一定的弯曲。初始手部高度是“胸部高度”，因为当站在桌子前时，手自然下垂的位置大约在胸部高度。力量大小是“中等”，因为物体不大，不需要非常强的力量。水平方向是“向前”，垂直方向是“向上”。\n\n现在，我需要将这些信息整合成一句简洁的中文句子，确保每个维度都被准确描述，并且没有使用新的描述方式。\n\n最终的描述应该是：“手臂弯曲，手部位于胸部高度，中等力量向前上方扔。” 这样既包含了所有必要的维度，又符合中文母语者的典型理解。\n\n总结一下，我的思考过程是：首先明确“扔”动作的典型方式，然后根据右利手的特点，确定各个维度的具体描述，最后将这些描述整合成一句简洁的句子。整个过程需要确保每个维度都被准确体现，并且使用可选描述中的词语，不自行创造新的描述方式。\n</think>\n手臂弯曲，手部位于胸部高度，中等力量向前上方扔。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:08:59.732867"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T05:09:18.927201",
+      "duration_seconds": 7.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照以下示例格式输出：\n\n动作：扔\n\n描述：手臂伸直、接近地面、强、向前、向上\n\n示例中的维度信息与示例中的动作描述是匹配的。\n\n现在，请根据上述要求输出描述。\n\n动作：扔\n\n描述：手臂伸直、肩部高度、强、向前、向上\n\n假设你是右利手，处于空旷房间，面前有一张桌子，桌面上有手掌大小的物体。目标动作是扔。\n\n分析各个维度：\n\nFORCE：扔手掌大小物体通常需要较强的力量，所以选“强”。\n\nARM：扔东西时手臂一般先伸直，所以选“手臂伸直”。\n\nHAND：手部初始高度通常在肩部高度左右，所以选“肩部高度”。\n\nVD：扔的动作手部垂直方向是向上，所以选“向上”。\n\nHD：水平方向是向前，所以选“向前”。\n\n组合起来：手臂伸直、肩部高度、强、向前、向上\n</think>\n\n动作：扔\n\n描述：手臂伸直、肩部高度、强、向前、向上",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:09:11.144571"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:18.927419"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "扔",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T05:09:19.841944",
+      "duration_seconds": 0.91,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "弱",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂弯曲、手部接近地面、弱、向前、向下、扔。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:19.842102"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T05:09:23.731737",
+      "duration_seconds": 3.89,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "请按照中文母语者对该动作的“摔”动作的典型理解进行判断。假设你是右利手。想象你摔一个手掌大小的物体。最典型的方式是？\n\n手臂状态：手臂伸直\n\n初始手部高度：接近地面\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向下\n\n所以描述为：手臂伸直，初始手部高度接近地面，强，向前，向下。\n\n</think>\n\n手臂伸直，初始手部高度接近地面，强，向前，向下。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:23.731938"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T05:09:24.901747",
+      "duration_seconds": 1.17,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "腰部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直，手部在腰部高度，中等力度向前水平方向，手部主要向下垂直运动。摔。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:24.901911"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T05:09:25.451812",
+      "duration_seconds": 0.55,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n胸部高度手臂弯曲中等向前向下摔物体",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:25.451991"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T05:09:26.070457",
+      "duration_seconds": 0.62,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂弯曲胸部高度向前向下中等摔",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:26.070619"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T05:09:26.864663",
+      "duration_seconds": 0.79,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直，胸部高度，强，向前，向下摔。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:26.864823"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T05:09:27.848129",
+      "duration_seconds": 0.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n</think>\n\n手臂弯曲，手部接近地面，中等力度，水平向前，垂直向下摔物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:27.848284"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T05:09:28.569823",
+      "duration_seconds": 0.72,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向侧方"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂弯曲，胸部高度，中等，向侧方，向下摔。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:28.569983"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T05:09:37.409779",
+      "duration_seconds": 8.84,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "腰部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "assistant\n\n\n\n手臂弯曲，腰部高度，强，向前，向下摔。",
+      "thinking": "好的，我现在需要分析用户提供的动作描述，并按照要求生成正确的描述。首先，用户的目标动作是“摔”一个手掌大小的物体，假设是右利手，处于空旷房间，面前有桌子。我需要考虑各个维度：FORCE、ARM、HAND、VD、HD。\n\n首先，摔的动作通常需要一定的力量，但可能不会用非常强，因为物体较小，所以可能选“强”。手臂的初始状态，摔东西时通常是弯曲的，这样更容易发力，所以ARM是“手臂弯曲”。手部初始高度，桌子上的物体应该是在腰部高度，因为手掌大小，通常放在桌面上，所以HAND是“腰部高度”。垂直方向是向下，因为摔的时候手会用力下压，VD是“向下”。水平方向，摔的时候手可能向前或向侧方，但通常向前更常见，所以HD是“向前”。\n\n然后组合这些信息，按照格式要求，确保所有维度都包含，并且使用指定的词汇。需要检查是否有遗漏或错误，比如力量是否合适，手臂状态是否正确。最后生成句子，确保符合所有条件。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:09:37.410093"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T05:10:49.255244",
+      "duration_seconds": 71.84,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，前，向下\n\n描述：手臂弯曲，胸部高度，中等，前，向下\n\n描述：手臂作为基础，手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：用户，你有空吗？想和你聊天。\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：用户，你有空吗？想和你聊天。\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，中间高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中列，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下\n\n描述：手臂弯曲，胸部高度，中等，向前，向下",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:10:49.255614"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T05:11:01.761670",
+      "duration_seconds": 12.5,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "腰部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据上述要求，我需要分析“摔”这个动作，并按照给定的维度进行描述。首先，我需要理解“摔”在中文母语者中的典型含义。摔通常意味着用力使物体落下或碰撞到地面或其他表面。因此，我需要确定动作的各个维度：\n\n1. FORCE: 摔通常需要较强的力度，因此选择“强”。\n\n2. ARM: 手臂在摔动作开始前通常是弯曲的，以便于发力，因此选择“手臂弯曲”。\n\n3. HAND: 手部在摔动作开始前通常处于较高的位置，比如腰部高度，以便于将物体摔下，因此选择“腰部高度”。\n\n4. VD: 扑动作过程中手部的主要垂直运动方向是向下，因此选择“向下”。\n\n5. HD: 扑动作过程中手部的主要水平运动方向是向前，以便于将物体向前摔出，因此选择“向前”。\n\n综合以上维度，最终的动作描述为：\n\n手臂弯曲，腰部高度，强，向前，向下\n\n这个描述准确地反映了摔动作的典型执行方式，并符合所有给定的维度要求。\n</think>\n\n手臂弯曲，胸部高度，强，向前，向下\n\n注：在摔动物体时，手臂通常处于弯曲状态以积蓄力量，手部初始高度接近胸部高度便于发力，动作中水平方向多向前推动物体，垂直方向则需向下施加力量使物体脱离手掌。考虑到手掌大小的物体，胸部高度的初始位置比肩部高度更符合自然发力习惯。选择\"强\"的力度描述，因为摔动小物体通常需要较明显的力量变化。水平方向的\"向前\"和垂直方向的\"向下\"共同构成了摔动的基本运动轨迹。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:11:01.761842"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T05:12:13.508893",
+      "duration_seconds": 71.75,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n</think>\n\n手臂伸直、手臂弯曲、初始手部高度接近地面、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、非常强、强、中等、弱、非常弱、胸部高度、手臂伸直、手臂弯曲、初始手部高度膝盖高度、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度腰部高度、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度肩部高度、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度头部高度、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度高于头部、水平方向向前、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度接近地面、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度膝盖高度、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度腰部高度、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度肩部高度、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度头部高度、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度高于头部、水平方向向前、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度接近地面、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度膝盖高度、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度腰部高度、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度肩部高度、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度头部高度、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度高于头部、水平方向向侧方、垂直方向向下、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度接近地面、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度膝盖高度、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度腰部高度、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度肩部高度、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度头部高度、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度高于头部、水平方向向侧方、垂直方向向上、非常强、强、中等、弱、非常弱、手臂伸直、手臂弯曲、初始手部高度接近地面、水平方向向前、垂直方向向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前、向下、强、手臂伸直、肩部高度、向前、向下、强、手臂弯曲、肩部高度、向前、向下、强、手臂伸直、头部高度、向前、向下、强、手臂弯曲、头部高度、向前、向下、强、手臂伸直、高于头部、向前、向下、强、手臂弯曲、高于头部、向前、向下、强、手臂伸直、接近地面、向前、向下、强、手臂弯曲、接近地面、向前、向下、强、手臂伸直、膝盖高度、向前、向下、强、手臂弯曲、膝盖高度、向前、向下、强、手臂伸直、腰部高度、向前、向下、强、手臂弯曲、腰部高度、向前",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:12:13.509265"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "摔",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T05:12:14.114416",
+      "duration_seconds": 0.6,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n胸部高度手臂伸直强向前向下摔物体",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:12:14.114590"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T05:13:26.372334",
+      "duration_seconds": 72.26,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "初始手部高度：胸部高度\n手臂状态：手臂伸直\n力度：强\n水平方向：向前\n垂直方向：手臂伸直\n\n现在，请输出一句话，将上述维度信息整合为一个句子：\n\n手臂伸直，胸部高度，强，向前，向上\n\n现在，请输出一句话，将上述维度信息整合为一个，且包含所有维度：\n\n手臂伸直，胸部高度，强，向前，向上\n\n现在，请以中文写出动作名称，并在其后添加冒号，然后输出上述整合后的句子。\n\n动作名称：丢\n\n动作描述：手臂伸直，胸部高度，强，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后输出上述整合后的句子。\n\n动作名称：右利手丢\n\n动作描述：手臂伸直，胸部高度，强，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸利手伸直，胸部高度，强，面向右侧，向前，向上\n\n这里有个错误，手臂伸直应该写成手臂伸直，而不是手臂伸利手伸直。所以正确的应该是：\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利手执行动作时，添加冒号，然后明确说明该动作是面向右侧还是左侧执行的。\n\n动作名称：右利手丢（面向右侧）\n\n动作描述：手臂伸直，胸部高度，强，面向右侧，向前，向上\n\n现在，请以中文写出动作名称，并在其为右利",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:13:26.372687"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T05:14:38.485285",
+      "duration_seconds": 72.11,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直、手臂弯曲、接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部、非常强、强、中等、弱、非常弱、向前、向侧方、向下、向上\n\n</think>\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、肩部高度、强、向前、向上\n\n手臂伸直、",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:14:38.485618"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T05:15:55.725608",
+      "duration_seconds": 5.16,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据你提供的场景和目标动作，我需要生成符合要求的描述。首先，确定初始手部高度，根据桌面放置物体的情况，手部应处于胸部高度。然后，手臂状态，丢动作通常手臂是伸直的。力度方面，丢动作通常需要中等或强的力度，但考虑到手掌大小物体，可能选择中等。水平方向，丢通常向前。垂直方向，向下。综合这些信息，生成描述句子。\n\n手臂伸直，胸部高度，中等，向前，向下。\n\n现在，请按照要求描述动作：\n\n手臂伸直，胸部高度，中等，向前，向下。\n</think>\n\n手臂伸直，胸部高度，中等，向前，向下。",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:15:50.567923"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:15:55.725801"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T05:15:56.484098",
+      "duration_seconds": 0.76,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂弯曲，胸部高度，中等，向前，向下，丢出物体",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:15:56.484264"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T05:16:41.083593",
+      "duration_seconds": 6.51,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "现在请根据上述要求，描述“丢”这个动作。\n\n描述必须包含以下所有维度：\n初始手部高度、手臂状态、力度、水平方向、垂直方向\n\n必须使用上述可选描述中的词语，不得自行创造新的描述方式。\n```\n\n根据题目要求，需要按照右利手的典型动作来描述“丢”这个动作。首先，确定初始手部高度，丢东西通常是在胸部高度开始；手臂状态一般是弯曲，因为丢东西前需要蓄力；力度方面，丢东西通常用“中等”；水平方向是向前，因为要把东西往前扔；垂直方向是向下，因为丢东西时手部会先下压再释放。所以综合这些因素，最终的描述应该是：胸部高度、手臂弯曲、中等力度、向前、向下。\n</think>胸部高度、手臂弯曲、中等力度、向前、向下。",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E104",
+          "timestamp": "2026-06-22T05:16:34.568293"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:16:41.083756"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T05:16:41.852906",
+      "duration_seconds": 0.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "强",
+        "ARM": "手臂弯曲",
+        "HAND": "胸部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n</think>\n\n手臂弯曲、胸部高度、向前、向上、强。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:16:41.853071"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T05:17:54.202249",
+      "duration_seconds": 72.35,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "弱",
+        "ARM": "手臂弯曲",
+        "HAND": "腰部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢向前方，手臂弯曲，手部初始高度在腰部高度，力度为弱，垂直方向为向下，水平方向为向前。\n```\n\n```\n右利手在空旷房间的桌子前，将手掌大小的物体丢",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:17:54.202598"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T05:17:55.006515",
+      "duration_seconds": 0.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "手臂伸直，胸部高度，中等力度，向前，向下。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:17:55.006670"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T05:18:08.092299",
+      "duration_seconds": 13.08,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂弯曲",
+        "HAND": "肩部高度",
+        "VD": "向上",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "assistant\n\n\n\n手臂弯曲，手部肩部高度，中等力量，向前水平，向上垂直，丢出手掌大小物体。",
+      "thinking": "好的，我现在需要分析用户的问题，他让我描述一个右利手在空旷房间中将手掌大小的物体从桌子上丢出去的动作，按照特定的维度来描述。首先，我需要明确每个维度的要求。\n\n首先，FORCE：丢的动作通常需要一定的力量，但可能不是非常强，因为物体较小。可能选“中等”或者“强”。但考虑到是手掌大小的物体，可能不需要太大力气，所以可能“中等”更合适。\n\nARM：手臂的初始状态，丢的时候通常是弯曲的，因为需要蓄力，所以应该是“手臂弯曲”。\n\nHAND：初始手部的高度，物体在桌子上，所以手在丢之前应该在腰部高度或者肩部高度？如果是站在桌子前，可能手部在腰部高度，但如果是俯身的话可能更低。不过通常丢东西时手部可能在肩部高度，所以选“肩部高度”。\n\nVD：垂直方向，丢的时候手部是向上运动，然后释放物体，所以是“向上”。\n\nHD：水平方向，丢的时候手是向前移动，所以“向前”。\n\n现在组合起来，需要确保每个维度都用给定的可选描述，不能自己创造。所以句子应该是：“手臂弯曲，手部肩部高度，中等力量，向前水平，向上垂直，丢出手掌大小物体。”不过需要更简洁，可能调整顺序。\n\n用户给的例子是：“手臂弯曲，手部肩部高度，中等力量，向前水平，向上垂直，丢出手掌大小物体。”这样每个维度都涵盖了，而且符合要求。需要检查是否所有维度都被正确使用，并且没有遗漏。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:18:08.092601"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T05:18:09.150707",
+      "duration_seconds": 1.06,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "高于头部",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "</think>\n\n手臂伸直，手部高于头部，中等力量，向前，向下，丢一个手掌大小的物体。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:18:09.150883"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T05:19:21.075183",
+      "duration_seconds": 71.92,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "中等",
+        "ARM": "手臂伸直",
+        "HAND": "胸部高度",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "根据你的想象，进行回答。\n\n假设你是右利手，在空旷房间里，面前有桌子，桌上有个手掌大小的物体，要丢这个物体，最自然的丢的动作是：\n\n手臂状态：手臂伸直\n\n初始手部高度：胸部高度\n\n水平方向：向前\n\n垂直方向：向下\n\n力度：中等\n\n所以答案是：手臂伸直、胸部高度、中等力度、向前、向下\n\n根据你的想象，进行描述。请确保所有维度都被涵盖，并且使用指定的可选描述。\n\n手臂伸直、胸部高度、中等、向前、向下\n</think>\n\n手臂伸直、胸部高度、中等力度、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下\n\n手臂伸直、胸部高度、中等、向前、向下",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:19:21.075518"
+        }
+      ]
+    },
+    {
+      "task_id": "task2",
+      "model": "Mimo-VL-7B-SFT-2508",
+      "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+      "verb": "丢",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T05:19:33.923222",
+      "duration_seconds": 12.85,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": "非常强",
+        "ARM": "手臂伸直",
+        "HAND": "接近地面",
+        "VD": "向下",
+        "HD": "向前"
+      },
+      "error_type": null,
+      "raw_response": "```\n\n现在需要根据用户提供的指令，完成对动作“丢”的描述。首先，我需要明确每个维度的定义和可选描述：\n\n- **FORCE（力度）**：非常强、强、中等、弱、非常弱\n- **ARM（手臂状态）**：手臂伸直、手臂弯曲\n- **HAND（初始手部高度）**：接近地面、膝盖高度、腰部高度、胸部高度、肩部高度、头部高度、高于头部\n- **VD（垂直方向）**：向下、向上\n- **HD（水平方向）**：向前、向侧方\n\n接下来，分析“丢”这个动作。丢通常是指将物体抛出，所以垂直方向应该是向上（因为要让物体离开手部并向上运动）。水平方向通常是向前，因为丢的时候会将物体向前方投掷。力度方面，丢一般不需要非常强，但也不弱，可能属于中等。手臂状态方面，丢的时候手臂通常是伸直的，这样能更有力地抛出物体。初始手部高度，通常在丢东西时，手部可能在胸部高度左右，这样比较自然。\n\n现在需要将这些维度整合成一句描述，必须使用指定的词汇，并且每个维度都要涵盖。因此，组合起来应该是：\n\n“手臂伸直，胸部高度，中等，向前，向上丢”\n\n检查每个维度是否都符合：\n- **ARM**：手臂伸直\n- **HAND**：胸部高度\n- **FORCE**：中等\n- **HD**：向前\n- **VD**：向上\n\n确认所有维度都已正确使用指定词汇，并且描述自然符合右利手丢东西的动作。\n</think>\n手臂伸直，胸部高度，中等，向前，向上丢",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T05:19:33.923404"
+        }
+      ]
+    }
+  ]
+}

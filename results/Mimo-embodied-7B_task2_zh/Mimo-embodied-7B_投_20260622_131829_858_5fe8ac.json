@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "投",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T13:18:29.858343",
+  "duration_seconds": 4.73,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "物体位于胸部高度，你以肩部高度的手部初始位置、手臂弯曲的状态，用中等的力量，将物体向前投掷出去，同时手部垂直方向运动方向为向上。\n物体位于胸部高度，你以肩部高度的手部初始位置、手臂弯曲的状态，用中等的力量，将物体向前投掷出去，同时手部垂直方向运动方向为向上。",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:18:16.064976"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:18:25.128015"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:18:29.858614"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T05:54:36.599021",
+  "duration_seconds": 4.24,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据您提供的描述，执行“摔”这个动作时，我会使用右手从空中向下用中等力量将手掌大小的物体摔在桌子上。因此，根据我作为右利手的母语者的理解，以下是最典型且自然的动作编码：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:54:36.599187"
+    }
+  ]
+}

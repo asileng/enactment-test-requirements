@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "扔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T05:09:18.927201",
+  "duration_seconds": 7.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "接近地面",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "请按照以下示例格式输出：\n\n动作：扔\n\n描述：手臂伸直、接近地面、强、向前、向上\n\n示例中的维度信息与示例中的动作描述是匹配的。\n\n现在，请根据上述要求输出描述。\n\n动作：扔\n\n描述：手臂伸直、肩部高度、强、向前、向上\n\n假设你是右利手，处于空旷房间，面前有一张桌子，桌面上有手掌大小的物体。目标动作是扔。\n\n分析各个维度：\n\nFORCE：扔手掌大小物体通常需要较强的力量，所以选“强”。\n\nARM：扔东西时手臂一般先伸直，所以选“手臂伸直”。\n\nHAND：手部初始高度通常在肩部高度左右，所以选“肩部高度”。\n\nVD：扔的动作手部垂直方向是向上，所以选“向上”。\n\nHD：水平方向是向前，所以选“向前”。\n\n组合起来：手臂伸直、肩部高度、强、向前、向上\n</think>\n\n动作：扔\n\n描述：手臂伸直、肩部高度、强、向前、向上",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T05:09:11.144571"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:09:18.927419"
+    }
+  ]
+}

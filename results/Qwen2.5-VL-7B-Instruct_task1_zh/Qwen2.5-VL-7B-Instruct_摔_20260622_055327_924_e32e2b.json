@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T05:53:27.924320",
+  "duration_seconds": 8.59,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 1,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 1,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，执行者是一个右利手的中文母语者，在一个空旷房间内面对一张桌子上的手掌大小物体。以下是按照中文母语者的自然理解和典型行为方式分析后给出的动作编码：\n\n- **FORCE**：这个动作是“摔”，通常会施加较大的力来完成，所以编码为 **4**（强）。\n- **ARM**：执行动作时手臂通常是伸直的，所以编码为 **1**（手臂伸直）。\n- **HAND**：在执行“摔”的动作时，手部通常从一个较高位置落下，因此编码为 **10**（执行者身高）。\n- **VD**：摔的动作主要是向下进行的，因此编码为 **1**（向下）。\n- **HD**：对于右利手的人来说，“摔”通常是从前面执行，所以编码为 **1**（向前）。\n\n基于以上分析，最终的编码结果如下：\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:53:27.924534"
+    }
+  ]
+}

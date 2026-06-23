@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T11:51:04.790136",
+  "duration_seconds": 8.66,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 10,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "最终的JSON对象：\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n现在，假设现在桌面上放置着一个手掌大小的物体，而目标动作是“抛”，请按照动作编码标准进行编码。\n\n根据中文母语者右利手的典型动作模式，执行“抛”这一动作时，施加于物体的力量通常属于“强”（4），手臂在动作开始前通常是弯曲的（0），手部初始高度大约等于执行者的身高（10），手部的主要垂直运动方向是向下（1），主要水平运动方向是向前（1）。因此，编码应为：\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:51:04.790325"
+    }
+  ]
+}

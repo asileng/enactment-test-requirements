@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:06:15.733578",
+  "duration_seconds": 1.5,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n中等力量，手臂伸直，胸部高度，向前，向上\n\n扔桌子上的物体，手臂伸直，胸部高度，向前，向上，中等力量扔出物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:06:15.733737"
+    }
+  ]
+}

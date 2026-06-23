@@ -1,0 +1,58 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "chuck",
+  "repeat_index": 7,
+  "timestamp": "2026-06-22T07:39:28.595224",
+  "duration_seconds": 1.79,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/To chuck the object, arm extended, hand at shoulder height, using moderate force, with a downward vertical direction and forward horizontal direction. To chuck the object, arm extended, hand at shoulder height, using moderate force, with a downward vertical direction and forward horizontal direction.",
+  "retry_count": 6,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:38:16.294770"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:38:17.233801"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:38:18.585574"
+    },
+    {
+      "attempt": 4,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:39:20.921017"
+    },
+    {
+      "attempt": 5,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T07:39:26.800252"
+    },
+    {
+      "attempt": 6,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:39:28.595415"
+    }
+  ]
+}

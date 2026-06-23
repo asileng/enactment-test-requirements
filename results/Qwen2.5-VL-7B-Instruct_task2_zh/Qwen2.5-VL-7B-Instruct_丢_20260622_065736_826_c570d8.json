@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T06:57:36.826263",
+  "duration_seconds": 63.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_th右利手解\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，右利手解正确\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸右利手解正确\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸右利手解正确\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力右利手解正确\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force强/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用强力量将物体向前下方扔出去。/丢\n/no_think\n/force中等/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用中等力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force右利手解\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用右利手解正确\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂伸右利手解正确\n/no_think\n/force弱/ARM手臂伸直/HAND肩部高度/VD向下/HD向前/首先手臂伸直，接着将手部置于肩膀高度，然后用弱力量将物体向前下方扔出去。/丢\n/no_think\n/force弱/ARM手臂解\n/no_th_right利手解正确\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂解\n/no_think\n/force弱/ARM手臂解\n/no_think",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T06:56:33.028477"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:57:36.826652"
+    }
+  ]
+}

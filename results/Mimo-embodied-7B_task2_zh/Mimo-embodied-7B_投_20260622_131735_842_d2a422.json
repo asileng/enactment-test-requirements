@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "投",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T13:17:35.841539",
+  "duration_seconds": 3.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "面前有一张桌子，我面前的桌子上有手掌大小的物体，目标动作是投。\n\n根据你的分析，投掷一个手掌大小的物体的典型动作是什么？\n\n投掷一个手掌大小的手\n</think>\n\n胸部高度、手臂弯曲、中等、向前、向上",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:17:29.337275"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:17:32.516305"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:17:35.841997"
+    }
+  ]
+}

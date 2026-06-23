@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "甩",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T13:54:06.603927",
+  "duration_seconds": 3.93,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "面前有一个手掌大小的“球”在桌面上，我要用右手甩这个球。\n\n动作描述：\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n甩球：胸部高度、手臂弯曲、中等力度、向前、向上\n</think>\n\n胸部高度、手臂弯曲、中等、向前、向上\n\n甩球：胸部高度、手臂弯曲、中等力度、向前、向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:54:06.604181"
+    }
+  ]
+}

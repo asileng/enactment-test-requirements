@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "fling",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T13:19:48.306937",
+  "duration_seconds": 8.44,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 9,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\n\nThe action of flinging an object typically involves using moderate force (3), with the arm extended (1) and the hand at a height close to the performer's chest (9). The primary vertical direction is upward (0) as the hand moves upward to throw, and the horizontal direction is forward (1) to send the object across the room.\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:19:48.307486"
+    }
+  ]
+}

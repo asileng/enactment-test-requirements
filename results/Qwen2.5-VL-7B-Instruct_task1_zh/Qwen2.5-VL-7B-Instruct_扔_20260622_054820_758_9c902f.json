@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:48:20.757950",
+  "duration_seconds": 4.39,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n} 根据描述的情况，我作为右利手的中文母语者，会倾向于用右手将手掌大小的物体向前投掷。这种情况下，手臂通常是伸直的，初始高度在地面以上，主要的手部垂直运动方向是向下，水平运动方向也是向前。\n\n因此，我给出的动作编码为：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:48:20.758110"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T05:57:02.493666",
+  "duration_seconds": 63.14,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  将答案复制粘贴{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 丢{\"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": {\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\"}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": {\"{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\"}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\"}{\n  \"FORCE\": {\n  \"FORCE\":根据描述，丢的动作应该是在一个空旷房间里，面对一张桌子，在桌上有一个手掌大小的物体的情况下进行。对于这样一个小型物件，自然且典型的丢的动作可能是轻柔地用手指或手掌将物体抛向空中，然后让其自然落回地面。这符合典型的“丢”动作，不需要太大的力量，也不需要特别用力地投掷，所以可以认为是中等力量的举动。在执行这个动作时，手臂应该是伸直的，手在身体的高度范围内，即大约是地面高度到人的胸部之间。手部的主要垂直运动方向是向下，因为物体是从手中被抛出并向上飞去，最终落回到地面。在这个情况下，手部的主要水平运动方向是向前，因为物体是朝着观众的前方被抛出去的，而不是侧向或后方。因此，根据这些描述，我选择了：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}来编码这个动作。这是基于右利手的中文母语者执行这个动作时最自然、最典型的方式。所以最终的答案是：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 1}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{\"FORCE\": 3,\n\"HAND\": 0,\n\"ARM\": 1,\n\"VD\": 1,\n\"HD\": 0}{{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0}{\"FORCE\": 3",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:57:02.494002"
+    }
+  ]
+}

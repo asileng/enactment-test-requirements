@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "throw",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T13:32:00.589983",
+  "duration_seconds": 12.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "---\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n\nThe JSON provided represents a typical action of throwing an object. Here's the breakdown:\n\n- **FORCE**: 3 (moderate) because a typical throw doesn't require very strong force.\n- **ARM**: 1 (extended) as the arm is usually extended back before throwing.\n- **HAND**: 0 (ground level) because the hand starts at ground level.\n- **VD**: 1 (downward) as the primary vertical movement is downward to throw the object.\n- **HD**: 1 (forward) as the primary horizontal movement is forward to throw the object.\n\nThis encoding captures the natural and typical way a right-handed native English speaker would perform the throw action in the described scenario.\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:32:00.590609"
+    }
+  ]
+}

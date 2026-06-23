@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "丢",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T05:15:55.725608",
+  "duration_seconds": 5.16,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "根据你提供的场景和目标动作，我需要生成符合要求的描述。首先，确定初始手部高度，根据桌面放置物体的情况，手部应处于胸部高度。然后，手臂状态，丢动作通常手臂是伸直的。力度方面，丢动作通常需要中等或强的力度，但考虑到手掌大小物体，可能选择中等。水平方向，丢通常向前。垂直方向，向下。综合这些信息，生成描述句子。\n\n手臂伸直，胸部高度，中等，向前，向下。\n\n现在，请按照要求描述动作：\n\n手臂伸直，胸部高度，中等，向前，向下。\n</think>\n\n手臂伸直，胸部高度，中等，向前，向下。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T05:15:50.567923"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:15:55.725801"
+    }
+  ]
+}

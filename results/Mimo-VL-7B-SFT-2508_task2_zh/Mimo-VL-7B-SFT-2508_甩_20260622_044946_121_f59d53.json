@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "甩",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T04:49:46.121307",
+  "duration_seconds": 7.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "你的面前有一张桌子。桌面上放置着一个手掌大小的作为目标物体。\n\n目标动作：甩\n\n最典型的执行方式是什么？\n\n根据你的描述，输出以下格式：\n\n[HAND] [ARM] [FORCE] [VD] [HD]\n\n[HAND] = 初始手部高度\n[ARM] = 手臂状态\n[FORCE] = 力度\n[VD] = 垂直方向\n[HD] = 氺平方向\n\n请确保你的输出符合要求。\n\n【示例】\n假设目标动作是拿起桌子上的物体。\n\n[HAND] = 肩部高度\n[ARM]  = 手臂弯曲\n[FORCE] = 强\n[VD]  = 向上\n[HD]  = 向前\n\n请按照上述示例格式输出。\n</think>\n\n[HAND] = 胸部高度\n[ARM] = 手臂弯曲\n[FORCE] = 中等\n[VD] = 向下\n[HD] = 向侧方",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:49:46.121654"
+    }
+  ]
+}

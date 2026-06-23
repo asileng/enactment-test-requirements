@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-22T04:18:17.705201",
+  "duration_seconds": 8.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "根据你的想象，你是一个右利手的中文母语者，在空旷房间中，面前有桌子，桌面有手掌大小物体，执行抛的动作。\n\n首先，FORCE：抛的动作需要施加力量，一般来说，抛东西如果是短距离比如抛到桌子上，可能属于中等力量，所以3。\n\nARM：手臂初始状态，抛之前手臂可能是弯曲的，因为要蓄力，所以ARM是0。\n\nHAND：手部初始高度，假设物体在桌面上，所以手部初始高度是地面高度，即0。\n\nVD：垂直运动方向，抛的动作手部是向上运动，所以VD是0。\n\nHD：水平运动方向，抛的时候手部是向前运动，所以HD是1。\n\n所以最终编码是：\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:18:17.705537"
+    }
+  ]
+}

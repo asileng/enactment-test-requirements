@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "chuck",
+  "repeat_index": 9,
+  "timestamp": "2026-06-22T04:43:38.593081",
+  "duration_seconds": 8.59,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 4,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is \"chuck\" a palm-sized object. Chucking usually involves throwing with some force but not as strong as a full throw. Since it's a palm-sized object, the force would be moderate. \n\nFor ARM, before chucking, the arm is probably bent, not extended, so ARM is 0. \n\nHAND height before the action: the hand would be at a moderate height, maybe around the waist or chest, so let's say HAND is 4 (since 1-9 are relative, 4 is about halfway up the body). \n\nVD (vertical direction) during chucking: you move your hand upward to throw, so VD is 0 (upward). \n\nHD (horizontal direction): when chucking, you typically throw forward, so HD is 1 (forward). \n\nPutting it all together, the encodings would be FORCE:3, ARM:0, HAND:4, VD:0, HD:1.\n</think>\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 4,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:43:38.593297"
+    }
+  ]
+}

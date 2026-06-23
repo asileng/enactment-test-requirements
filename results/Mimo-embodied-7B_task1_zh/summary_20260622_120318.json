@@ -1,0 +1,2770 @@
+{
+  "task_id": "task1",
+  "task_name": "动作编码测评",
+  "task_description": "对不同动词对应的动作进行五维度编码（JSON输出）",
+  "language": "zh",
+  "timestamp": "2026-06-22T12:03:18.065047",
+  "experiment_time": {
+    "start_time": "2026-06-22T11:41:58.249382",
+    "end_time": "2026-06-22T12:03:18.064874",
+    "duration_seconds": 1279.815492
+  },
+  "participant_id": null,
+  "use_latin_square": true,
+  "total_experiments": 67,
+  "valid_count": 67,
+  "invalid_count": 0,
+  "valid_rate": 100.0,
+  "model_statistics": {
+    "Mimo-embodied-7B": {
+      "total": 67,
+      "valid": 67,
+      "invalid": 0,
+      "errors": {},
+      "avg_duration": 14.77,
+      "valid_rate": 100.0
+    }
+  },
+  "error_statistics": {},
+  "results_by_model_verb": {
+    "Mimo-embodied-7B": {
+      "摔": [
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 74.91,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 74.91,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.76,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 2,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 3.32,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.38,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.78,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.82,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 29.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 76.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.43,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 5,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.75,
+          "error_type": null
+        }
+      ],
+      "丢": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.75,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 10,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.78,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 1,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.76,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 3,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 14.09,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 2,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 74.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 75.17,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.73,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 3.34,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 2,
+            "ARM": 0,
+            "HD": 1,
+            "VD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 8.76,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 15.1,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.73,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        }
+      ],
+      "甩": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 6,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 75.14,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 14.33,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.8,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.8,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.62,
+          "error_type": null
+        }
+      ],
+      "抛": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.79,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 2.98,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 2.99,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.79,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.81,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 11.26,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.59,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.73,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        }
+      ],
+      "投": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 9.45,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 2,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.75,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.79,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 2,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 75.36,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 5,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 2,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 21.31,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.78,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 75.37,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.73,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 10,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.77,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 75.38,
+          "error_type": null
+        }
+      ],
+      "扔": [
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 6.43,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "ARM": 1,
+            "HAND": 2,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.63,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 5,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 4,
+            "HAND": 3,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 0
+          },
+          "is_valid": true,
+          "duration_seconds": 1.74,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.63,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 1,
+            "VD": 1,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 75.01,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 3,
+            "ARM": 1,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 2.95,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 7,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.76,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 5,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 12.27,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 9,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 7.15,
+          "error_type": null
+        },
+        {
+          "parsed_result": {
+            "FORCE": 3,
+            "HAND": 1,
+            "ARM": 0,
+            "VD": 0,
+            "HD": 1
+          },
+          "is_valid": true,
+          "duration_seconds": 1.73,
+          "error_type": null
+        }
+      ]
+    }
+  },
+  "all_results": [
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T11:43:46.654831",
+      "duration_seconds": 74.91,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "555\n``json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAN\n\n```\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"0\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\": 1, \"HD\": 1}\n```json\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 0, \"VD\":",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T11:42:31.739699"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:43:46.655189"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T11:45:01.566934",
+      "duration_seconds": 74.91,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5\n```\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"H\\u0041ND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"4\": 0,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"H\\u0041ND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"AR\"\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:01.567256"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T11:45:03.325622",
+      "duration_seconds": 1.76,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "5\n</think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:03.325780"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T11:45:05.091889",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 2,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:05.092105"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T11:45:08.414034",
+      "duration_seconds": 3.32,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5/5/5/5/5\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:08.414204"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:45:19.901667",
+      "duration_seconds": 1.38,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5\n</think>\n\n{\"FORCE\": 4, \"HAND\": 9, \"ARM\": 0, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T11:45:18.523340"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:19.901828"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T11:45:21.679985",
+      "duration_seconds": 1.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "5\n</think>\n\n```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:21.680147"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T11:45:23.499736",
+      "duration_seconds": 1.82,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5d/\n</think>\n\n```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:45:23.499894"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T11:47:08.361114",
+      "duration_seconds": 29.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5/force\n/no5/hand\n/no5/arm\n/no5/vd\n/no5/had\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"force\": 5,\n  \"hand\": 9,\n  \"arm\": 0,\n  \"vd\": 1,\n  \"hd\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAD\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HAD\": 10\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"手掌\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": \n}\n</think>\n\n{\n  \"FORCE\": 5,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T11:46:38.381646"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:47:08.361329"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T11:48:25.134916",
+      "duration_seconds": 76.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5/END\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```/END\n```json\n{\n  \"FORCE\": 4,\n  \" HAND\": 9,\n  \" ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 成功执行了摔的动作，但编码过程中出现了错误，例如： \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": \"4\",\n  \"HAND\": \"9\",\n  \"ARM\": \"1\",\n  \"VD\": \"1\",\n  \"HD\": \"1\"\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \" ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\":",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:25.135243"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T11:48:26.563166",
+      "duration_seconds": 1.43,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5/5\n</think>\n\n{\"FORCE\": 5, \"HAND\": 10, \"ARM\": 1, \"VD\": 1, \"HD\": 1}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:26.563315"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "摔",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T11:48:28.318212",
+      "duration_seconds": 1.75,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 5,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "5d\n</think>\n\n```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:28.318358"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T11:48:30.074106",
+      "duration_seconds": 1.75,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:30.074262"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T11:48:31.857712",
+      "duration_seconds": 1.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 10,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 10,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:31.857869"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T11:48:33.616938",
+      "duration_seconds": 1.76,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 1,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 1,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:33.617094"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T11:48:47.706841",
+      "duration_seconds": 14.09,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 3,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n首先，我们需要理解“丢”这个动作的含义。丢通常意味着将物体从手中释放，使其在重力作用下自由落体。\n\n根据动作编码标准：\n\nFORCE：丢的动作不需要施加很大的力量，通常只需要轻微的力量来释放物体，因此编码为2（弱）。\n\nARM：在丢之前，手臂通常处于伸直状态，以便更好地控制物体，因此编码为1（手臂伸直）。\n\nHAND：手部在丢之前的高度通常在桌面附近，大约是执行者身高的1/3到1/2，因此编码为3（地面高度与执行者身高之间的相对高度，具体数值根据常见情况取3）。\n\nVD：丢的动作中，手部的主要垂直运动方向是向下，因为物体是在重力作用下下落，因此编码为1（向下）。\n\nHD：丢的动作中，手部的主要水平运动方向是向前，因为通常会将物体向前方释放，因此编码为1（向前）。\n\n因此，最终的编码为：\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n</think>\n\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:48:47.707146"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T11:50:02.691515",
+      "duration_seconds": 74.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 2,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"H\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"A\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"Force\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"H\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"H\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"Force\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"Force\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n\n{\n  \"FORCE\": 3,\n  \"Hand\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:50:02.691869"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:51:17.867585",
+      "duration_seconds": 75.17,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n假设你是一个右利手的中文母语者。现在需要执行“丢”这个动作，目标物体是一个手掌大小的物体，放置在桌面的中央。你处于一个空旷的房间中，面前有一张桌子，桌面上放置着一个手掌大小的物体。执行“丢”这个动作时，我需要如何操作？\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}{\"FORCE\":3,\"HAND\":1,\"assistant\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM\":1,\"VD\":0,\"HD\":1}\n\n{\"FORCE\":3,\"HAND\":1,\"ARM",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:17.867940"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T11:51:28.645510",
+      "duration_seconds": 1.73,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T11:51:26.912602"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:28.645660"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T11:51:31.984722",
+      "duration_seconds": 3.34,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/noassistant\n```json\n{\n  \"FORCE\": 3,\n  \"手掌大小\": 1,\n  \"手臂\": 0,\n  \"垂直方向\": 0,\n  \"水平方向\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:31.984881"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T11:51:40.749264",
+      "duration_seconds": 8.76,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 2,
+        "ARM": 0,
+        "HD": 1,
+        "VD": 1
+      },
+      "error_type": null,
+      "raw_response": "3d\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"HD\": 1,\n  \"VD\": 1,\n  \"FORCE\": 3\n}\n```\n\n```\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:40.749485"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T11:51:55.851974",
+      "duration_seconds": 15.1,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"H\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n $$\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:55.852249"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T11:51:57.582672",
+      "duration_seconds": 1.73,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:57.582881"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "丢",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T11:51:59.350633",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:51:59.350811"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:52:13.538064",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T11:52:11.795441"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:52:13.538231"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T11:52:15.282313",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 6,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 6,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:52:15.282473"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T11:53:30.418552",
+      "duration_seconds": 75.14,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n```\n{\n  \"FORCE\": 3,\n  \"HAN\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 手臂伸直（1），手掌高度（9），力量中等（3），向下（1），侧向（0）\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"think\" => \"甩\"\n    \"description\" => \"右手伸直，手掌高度约在9的位置，力量中等，手部主要向下运动，水平方向主要向侧方运动\"\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\":",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:30.418890"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T11:53:44.751656",
+      "duration_seconds": 14.33,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n\n思考过程：\n首先，我需要理解“甩”这个动作在中文母语者中的典型表现。假设我是一个右利手的人，面对桌子上的一个小物体，我需要决定如何用最自然、最典型的方式执行“甩”这个动作。\n\n1. **FORCE**：甩的动作通常需要一定的力量来让物体飞出去或产生明显的运动效果。考虑到手掌大小的物体，不需要非常强的力量，但也不弱，因此选择中等力量，即3。\n2. **ARM**：甩的动作通常需要手臂的配合。手臂在开始前一般是伸直的，以便更好地发力和控制方向，所以选择1。\n3. **HAND**：手部的初始高度。对于甩一个小物体，手部高度通常不会太高，接近地面高度但稍高一些，考虑到手掌大小的物体，可能在1左右（地面高度与身高之间的相对高度）。\n4. **VD**：垂直运动方向。甩的动作通常是从高处向低处甩，因此手部的主要垂直运动方向是向下，即1。\n5. **HD**：水平运动方向。甩的动作通常是从侧面甩开，而不是直接向前，因此手部的主要水平运动方向是侧方，即0。\n\n综合以上分析，最终的编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:44.751888"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T11:53:46.553847",
+      "duration_seconds": 1.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:46.554006"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T11:53:48.355990",
+      "duration_seconds": 1.8,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:48.356154"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "甩",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T11:53:49.979098",
+      "duration_seconds": 1.62,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:49.979260"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T11:53:51.769059",
+      "duration_seconds": 1.79,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:51.769221"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T11:53:54.748460",
+      "duration_seconds": 2.98,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:54.748621"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T11:53:57.736501",
+      "duration_seconds": 2.99,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:57.736667"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T11:53:59.530907",
+      "duration_seconds": 1.79,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:53:59.531069"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T11:54:01.345839",
+      "duration_seconds": 1.81,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:01.346000"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:54:12.604921",
+      "duration_seconds": 11.26,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n首先，我需要理解动作“抛”的定义。抛是一个将物体从手中释放，使其在空中移动的动作。通常，我们会用手臂和手施加力量，将物体向前或向侧方投出。考虑到这是一个手掌大小的物体，我们可能不需要非常强的力量，但需要足够的力量使其离开手掌并保持在空中一段时间。\n\n接下来，我需要分析每个维度的编码：\n\n1. FORCE：抛的动作需要一定的力量，但不需要非常强，因此选择3（中等）。\n\n2. ARM：在抛之前，手臂通常是弯曲的，准备发力，因此选择0（弯曲）。\n\n3. HAND：手在抛之前通常位于物体的上方，大约在身高的水平，因此选择10（执行者身高）。\n\n4. VD：抛的动作主要是将物体向上抛出，因此手部的主要垂直运动方向是向上，选择0（向上）。\n\n5. HD：抛的动作通常是向前投出，因此手部的主要水平运动方向是向前，选择1（向前）。\n\n综合以上分析，编码结果如下：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:12.605217"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T11:54:14.374508",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:14.374668"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T11:54:16.146550",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:16.146714"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T11:54:17.737487",
+      "duration_seconds": 1.59,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:17.737637"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T11:54:19.470651",
+      "duration_seconds": 1.73,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:19.470810"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T11:54:21.237255",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:21.237411"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "抛",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T11:54:22.973630",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:22.973782"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T11:54:32.427003",
+      "duration_seconds": 9.45,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}(/noassistant\n\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "thinking": "好的，我需要根据用户提供的动作标准编码来判断“投”这个动作的各个维度。首先，我得回忆一下作为右利手的中文母语者，在空旷房间里面对桌子投掷手掌大小物体时的典型动作。\n\nFORCE方面，投掷需要一定的力量，但手掌大小的物体可能不需要非常强的力，所以中等（3）比较合理。ARM初始状态，投掷时手臂通常是伸直的，所以ARM应该是1。HAND的初始高度，假设桌子高度大约到腰部，那么可能在7左右。VD是垂直方向，投掷时手臂会向上运动，所以VD为0。HD是水平方向，投掷时手向前，所以HD为1。综合这些因素，最终的编码应该是FORCE3，ARM1，HAND7，VD0，HD1。",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:32.427168"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T11:54:34.174776",
+      "duration_seconds": 1.75,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 2,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:34.174937"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T11:54:35.961288",
+      "duration_seconds": 1.79,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:54:35.961438"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T11:55:51.325648",
+      "duration_seconds": 75.36,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 2,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n``` \n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n``` \n\n```json\n{\n  \"FORCE\": 3,\n  \"手掌高度\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 1,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"BD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FH\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"手掌高度\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:55:51.325992"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T11:55:53.063385",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 5,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:55:53.063605"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:55:54.804067",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 2,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:55:54.804229"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T11:56:16.114785",
+      "duration_seconds": 21.31,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"A\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"H\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:56:16.115107"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T11:56:17.894332",
+      "duration_seconds": 1.78,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:56:17.894486"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T11:57:33.264495",
+      "duration_seconds": 75.37,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"Hand\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"think: 对于“投”的动作，右利手的中文母语者最自然、最典型的方式是将物体轻轻向前推出，力量适中（ FORCE=3），手臂初始状态为弯曲（ARM=0），手部初始高度与身高相当（HAND=10），主要垂直运动方向为向上（VD=0），主要水平运动方向为向前（HD=1）。因此，编码结果为：{\"FORCE\": 3, \"HAND\": 10, \"ARM\": 0, \"VD\": 0, \"HD\": 1}\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"AR\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FC\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:57:33.264843"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T11:57:34.998203",
+      "duration_seconds": 1.73,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:57:34.998368"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T11:57:36.770687",
+      "duration_seconds": 1.77,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 10,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:57:36.770857"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "投",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T11:58:52.154066",
+      "duration_seconds": 75.38,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n/noof\n\n{\n  \"FORCE\": 3,\n  \"H\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"手掌高度\": 1,\n  \"手臂\": 0,\n  \"垂直方向\": 1,\n  \"水平方向\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\":",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:58:52.154413"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 0,
+      "timestamp": "2026-06-22T11:58:58.589632",
+      "duration_seconds": 6.43,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n/no4\n\n```json\n{\n  \"FORCE\": 3,\n  \" HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n/no5\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n``\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:58:58.589798"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 1,
+      "timestamp": "2026-06-22T11:59:00.218000",
+      "duration_seconds": 1.63,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "ARM": 1,
+        "HAND": 2,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:59:00.218154"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 2,
+      "timestamp": "2026-06-22T11:59:01.955509",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 5,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:59:01.955669"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 3,
+      "timestamp": "2026-06-22T11:59:03.692676",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "4\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:59:03.692839"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 4,
+      "timestamp": "2026-06-22T11:59:05.430584",
+      "duration_seconds": 1.74,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 4,
+        "HAND": 3,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 0
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:59:05.430749"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 5,
+      "timestamp": "2026-06-22T11:59:07.064088",
+      "duration_seconds": 1.63,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T11:59:07.064311"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 6,
+      "timestamp": "2026-06-22T12:00:22.070795",
+      "duration_seconds": 75.01,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 1,
+        "VD": 1,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"BD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"assistant\n```\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```\n\n``json\n{\n  \"FORCE\": 3,\n  \"手掌大小的物体\": 1,\n  \"ARM\": 1,\n  \"",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:00:22.071115"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 7,
+      "timestamp": "2026-06-22T12:00:25.025800",
+      "duration_seconds": 2.95,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 3,
+        "ARM": 1,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 3,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:00:25.025957"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 8,
+      "timestamp": "2026-06-22T12:01:41.931499",
+      "duration_seconds": 1.76,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 7,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 7,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T12:01:40.174596"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:01:41.931660"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 9,
+      "timestamp": "2026-06-22T12:01:54.207521",
+      "duration_seconds": 12.27,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 5,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n考虑右利手、中文母语者的典型行为模式，一个空旷房间中的右利手中文母语者面对桌子，桌面上有一个手掌大小的物体，执行“扔”这个动作时，各维度的编码值应为多少？\n\n首先，我们来分析各个维度的编码值。\n\nFORCE（力量大小）：\n扔的动作通常需要施加一定的力量，但具体力量大小取决于扔的远近和力度。一般来说，扔一个手掌大小的物体不需要非常强的力量，但也不是非常弱。因此，我们可以将力量大小编码为3（中等）。\n\nARM（手臂初始状态）：\n扔的动作开始前，手臂通常处于弯曲状态，以便于快速发力。因此，手臂初始状态编码为0（弯曲）。\n\nHAND（手部初始高度）：\n手部初始高度通常在腰部或胸部附近，属于地面高度与执行者身高之间的相对高度。我们可以将其编码为5（地面高度与执行者身高之间的相对高度）。\n\nVD（垂直运动方向）：\n扔的动作中，手部的主要垂直运动方向通常是向上，以便将物体抛向空中。因此，垂直运动方向编码为0（向上）。\n\nHD（水平运动方向）：\n扔的动作中，手部的主要水平运动方向通常是向前，以便将物体向前抛出。因此，水平运动方向编码为1（向前）。\n\n综上所述，各个维度的编码值如下：\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:01:54.207694"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 10,
+      "timestamp": "2026-06-22T12:02:01.353883",
+      "duration_seconds": 7.15,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 9,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n\n考虑物体的大小（手掌大小），扔的动作在典型情况下会施加中等力量，即3。\n\n手臂在扔之前通常是弯曲的，因此ARM为0。\n\n手部在扔之前通常在腰部左右高度，假设身高1.7米，对应高度大约在0.85米，即HAND为9。\n\n扔的动作主要是手臂向上然后向前的运动，垂直方向上主要是向上，因此VD为0（向上）。\n\n水平方向上主要是向前，因此HD为1（向前）。\n\n综合以上判断，编码结果为：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+      "retry_count": 1,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:02:01.354053"
+        }
+      ]
+    },
+    {
+      "task_id": "task1",
+      "model": "Mimo-embodied-7B",
+      "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+      "verb": "扔",
+      "repeat_index": 11,
+      "timestamp": "2026-06-22T12:03:18.000882",
+      "duration_seconds": 1.73,
+      "is_valid": true,
+      "parsed_result": {
+        "FORCE": 3,
+        "HAND": 1,
+        "ARM": 0,
+        "VD": 0,
+        "HD": 1
+      },
+      "error_type": null,
+      "raw_response": "3\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+      "retry_count": 2,
+      "retry_history": [
+        {
+          "attempt": 1,
+          "is_valid": false,
+          "error_type": "E101",
+          "timestamp": "2026-06-22T12:03:16.267840"
+        },
+        {
+          "attempt": 2,
+          "is_valid": true,
+          "error_type": null,
+          "timestamp": "2026-06-22T12:03:18.001041"
+        }
+      ]
+    }
+  ]
+}

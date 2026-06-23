@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T05:53:19.328620",
+  "duration_seconds": 4.45,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据您的描述，执行“摔”这个动作时，通常会使用中等力量（FORCE = 3），手臂伸直（ARM = 1），手部位于地面高度（HAND = 0），并且是向下的垂直运动（VD = 1）。因此，对于这种动作，最典型的编码应该是：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:53:19.328774"
+    }
+  ]
+}

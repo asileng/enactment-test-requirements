@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T05:50:50.568117",
+  "duration_seconds": 62.64,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 4,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n 作为中文母语者，我通常会使用右手进行扔的动作。在这种情况下，我会将手掌大小的物体拿起并向前上方扔出去。在这个动作中，我首先会伸直手臂以便有足够的力量来扔这个物体，接着我会从大约与地面相同的高度拿起物体并将其向前上方扔出。因此，最典型的执行方式应该是：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n``` {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 2,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 2,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 2,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n} {\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 1,",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:50:50.568474"
+    }
+  ]
+}

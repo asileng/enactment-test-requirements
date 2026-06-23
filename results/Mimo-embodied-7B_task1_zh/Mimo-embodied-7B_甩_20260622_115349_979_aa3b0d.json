@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "甩",
+  "repeat_index": 11,
+  "timestamp": "2026-06-22T11:53:49.979098",
+  "duration_seconds": 1.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "3\n\n```\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T11:53:49.979260"
+    }
+  ]
+}

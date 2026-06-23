@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-22T05:48:15.414828",
+  "duration_seconds": 10.13,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n} {\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n} {\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n} {\n  \"FORCE\": 2,\n  目标动作是\"扔\"，作为右利手的中文母语者，我会使用右手拿起并扔出手掌大小的物体。首先，我的手臂会伸直，以便更准确地控制物体；然后，我会将手放在物体上方，大约在地面高度的位置，这通常是我手能够轻松接触物体的位置。我将使用中等力量来投掷物体，因此力的大小为3；手部将保持在身体的高度，因为这是典型的投掷姿势。手部的主要运动方向将是向前和向下，因为这是典型的扔的动作。因此，最终的编码将是：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T05:48:15.415004"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 5,
+  "timestamp": "2026-06-22T12:21:07.813331",
+  "duration_seconds": 6.52,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n</think>\n\n</think>\n\n在中文母语者的语境下，“甩”这一动作通常指用手部快速挥动物体。根据动作编码标准：\n\n- **FORCE（力道）**：甩动物体时通常需要中等偏上的力量（4分），既非非常强也无需极轻。\n- **ARM（手臂状态）**：动作开始前手臂多为弯曲状态（0），便于快速发力。\n- **HAND（手部高度）**：物体放置在桌面上，手部从地面高度开始（1）。\n- **VD（垂直方向）**：甩动时手部主要向下运动（1），通过挥动使物体离开桌面。\n- **HD（水平方向）**：动作以向前水平挥动为主（1），符合常见的“甩出”场景。\n\n综上，典型编码为：\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:21:07.813515"
+    }
+  ]
+}

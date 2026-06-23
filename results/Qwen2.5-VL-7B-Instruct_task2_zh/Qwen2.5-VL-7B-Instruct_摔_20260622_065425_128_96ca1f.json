@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T06:54:25.128178",
+  "duration_seconds": 63.7,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂弯曲/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度弱/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度\n\n/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度\n/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂弯曲/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度弱/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度/force弱/arm手臂伸直/VD向下/HD向前/HAND\n/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部高度弱/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部弱/force弱/arm手臂\n/force弱/arm手臂伸直/VD向下/HD向前/HAND胸部\n/force弱/arm手臂\n\n/force弱/arm手臂弱/VD向下/HD向前/HAND胸部弱/force弱/arm手臂弱/arm手臂\n\n/force弱/arm手臂\n\n/force弱/arm手臂弱/VD向下/HD向前/HAND胸部弱/force弱/arm手臂弱/arm手臂弱\n/force弱/arm手臂弱/VD向下/HD向前/HAND/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm手臂弱/force弱/arm",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T06:54:25.128504"
+    }
+  ]
+}

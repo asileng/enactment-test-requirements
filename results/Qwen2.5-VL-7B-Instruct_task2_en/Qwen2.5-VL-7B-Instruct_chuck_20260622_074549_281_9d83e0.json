@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-VL-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-VL-7B-Instruct",
+  "verb": "chuck",
+  "repeat_index": 10,
+  "timestamp": "2026-06-22T07:45:49.281167",
+  "duration_seconds": 1.47,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\nchest height, arm extended, strong, forward, downward\n/chuck/ To chuck the palm-sized object, raise your right hand to chest height with your arm extended, apply strong force, and move your hand forward while moving it downward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T07:45:49.281322"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "抛",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T04:58:11.581493",
+  "duration_seconds": 5.98,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "描述：胸部高度，手臂伸直，中等，向前，向上\n\n现在需要判断这个描述是否准确，是否符合动作“抛”的典型方式。\n\n首先，初始手部高度是胸部高度，这是常见的抛掷动作的初始高度，比如抛球、抛接物等。\n\n手臂状态是伸直，抛物时手臂通常是伸直以增加力量和范围。\n\n力度是中等，抛掷的力度根据情况不同，中等是合理的选择。\n\n水平方向是向前，抛物通常需要向前的水平运动来达到目标。\n\n垂直方向是向上，抛物时手部需要向上运动以给物体赋予向上的初速度。\n\n综合来看，这个描述是准确的，符合“抛”动作的典型执行方式。\n</think>\n\n胸部高度，手臂伸直，中等，向前，向上",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:58:11.581658"
+    }
+  ]
+}

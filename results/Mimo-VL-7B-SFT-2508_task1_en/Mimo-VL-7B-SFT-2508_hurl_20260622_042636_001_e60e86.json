@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "hurl",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T04:26:36.001270",
+  "duration_seconds": 5.93,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 8,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"HAND\": 8,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n\nFor a right-handed person hurling a small object, the action is typically done with a moderate to strong force, so I'll choose 4 (strong). The hand is usually at waist height, which is around 8. The arm is extended as the person prepares to throw, so that's 1. The movement is upward to get the object airborne, so VD is 0 (upward). The direction is forward, so HD is 1.\n</think>\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 8,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:26:36.001430"
+    }
+  ]
+}

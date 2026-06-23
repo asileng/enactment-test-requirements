@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 4,
+  "timestamp": "2026-06-22T12:21:01.293272",
+  "duration_seconds": 7.18,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要解释这个编码，让我们先分析“甩”这个动作在典型情况下的表现。在空旷房间中，面对桌子并用手掌大小物体进行甩动时：\n\n1. **FORCE（4）**：力度方面，\"甩\"通常需要中等偏上的力量，但不会达到非常强的程度（5），因此选4（强）。\n\n2. **ARM（0）**：开始时手臂是弯曲状态，这是自然准备甩动的初始姿势。\n\n3. **HAND（1）**：手部初始高度接近地面，但略高于地面（如放在桌边缘），故选1。\n\n4. **VD（1）**：主要垂直运动是向下发力，通过手腕的挥动使物体下甩。\n\n5. **HD（1）**：水平方向是向前抛出，形成典型的甩动轨迹。 \n\n这个编码反映了中文母语者对\"甩\"动作的典型肌肉记忆和运动模式。/think>\n</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:21:01.293460"
+    }
+  ]
+}

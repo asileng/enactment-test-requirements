@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "摔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-22T13:39:57.784394",
+  "duration_seconds": 2.34,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "面前有一个手掌大小的典型物体\n\n手臂伸直，胸部高度，强，向前，向下\n</think>\n\n手臂伸直，胸部高度，强，向前，向下",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-22T13:39:55.444323"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T13:39:57.784880"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "投",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T04:21:22.820647",
+  "duration_seconds": 9.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 3,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "作为右利手的中文母语者，我需要想象一个空旷房间中，面前有一张桌子，桌面有一个手掌大小的物体。目标动作是“投”。\n\n首先，分析FORCE。投掷物体时，通常需要一定的力量，但手掌大小的物体不需要非常强，所以可能是中等（3）。\n\n然后，ARM的初始状态。投掷前手臂通常是弯曲的，以便更好地发力，所以ARM是0。\n\nHAND的初始高度。手部在投掷前可能放在腰部附近，属于地面与身高之间，大约是3（假设身高1.7米，腰部约0.8米，地面到腰部高度为0.8，所以HAND是3）。\n\nVD是垂直方向。投掷时手部需要向上运动，所以VD是0。\n\nHD是水平方向。投掷时手部主要向前运动，所以HD是1。\n\n最终编码：\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 0,\n  \"HD\": 1\n}\n</think>\n\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 3,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:21:22.820930"
+    }
+  ]
+}

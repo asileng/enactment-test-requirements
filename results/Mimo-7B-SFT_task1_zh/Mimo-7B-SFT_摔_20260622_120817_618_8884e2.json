@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "摔",
+  "repeat_index": 3,
+  "timestamp": "2026-06-22T12:08:17.618653",
+  "duration_seconds": 2.83,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "</think>\n\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n\n要摔一个手掌大小的物体，通常需要较大力量，因此FORCE设为4（强）。手臂初始状态弯曲以蓄力，故ARM为0。手部初始高度接近桌面，编码为1。主要垂直运动方向向下（VD=1），水平方向向前（HD=1）。典型动作符合上述编码。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T12:08:17.618818"
+    }
+  ]
+}

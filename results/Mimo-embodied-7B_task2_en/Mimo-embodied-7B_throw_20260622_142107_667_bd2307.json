@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "throw",
+  "repeat_index": 6,
+  "timestamp": "2026-06-22T14:21:07.667217",
+  "duration_seconds": 30.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm bent",
+    "HAND": "waist height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "think>\n\nThe action is performed with a moderate force, starting with an arm bent at waist height, moving the hand forward horizontally while moving it upward vertically.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T14:21:07.667618"
+    }
+  ]
+}

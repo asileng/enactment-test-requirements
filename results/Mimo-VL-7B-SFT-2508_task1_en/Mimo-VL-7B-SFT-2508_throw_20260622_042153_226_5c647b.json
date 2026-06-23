@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-VL-7B-SFT-2508",
+  "model_path": "/home/xitongzhang/models/Mimo-VL-7B-SFT-2508",
+  "verb": "throw",
+  "repeat_index": 0,
+  "timestamp": "2026-06-22T04:21:53.225786",
+  "duration_seconds": 9.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think\nOkay, let's break this down. The action is to throw a palm-sized object. For a right-handed person in an empty room, the most natural way to throw something would involve using moderate force (3) since it's not too heavy. The arm would start bent (0) as you pull back to throw. The hand's initial height would be around shoulder level, maybe 5 (since 1-9 are relative, 5 is halfway up). The vertical direction during the throw is upward (0) because you lift the arm. The horizontal direction is forward (1) as you propel the object away. So putting it all together:\n\nFORCE: 3 (moderate)\nARM: 0 (arm bent)\nHAND: 5 (shoulder level)\nVD: 0 (upward)\nHD: 1 (forward)\n</think>\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-22T04:21:53.226168"
+    }
+  ]
+}
