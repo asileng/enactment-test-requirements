@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 8,
+  "timestamp": "2026-06-23T10:44:46.517813",
+  "duration_seconds": 6.09,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n} 根据描述，最自然且最典型的抛的动作编码为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n解释：\n- **FORCE**: 中等力量，因为抛的动作通常需要一定的力量，但也不是非常强烈。\n- **HAND**: 地面高度，因为手部从地面或接近地面的位置开始准备，然后向上抛出。\n- **ARM**: 手臂弯曲，因为在准备抛的动作时，手臂通常是弯曲的。\n- **VD**: 向上，因为抛的动作是将物体向上投掷。\n- **HD**: 向前，因为最常见的抛掷方向是向前。当然，具体的方向可能会根据实际情况有所不同，但如果要选择一个最典型的方向，向前是最合理的。 如果是向侧面抛，则可以调整为 `HD: 0`。这里假设向前是最主要的运动方向。 \n\n所以，最终的答案是：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:44:46.517985"
+    }
+  ]
+}

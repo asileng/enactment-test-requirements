@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "甩",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T12:31:04.637430",
+  "duration_seconds": 2.28,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂弯曲",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>非常弱\n/arm>手臂弯曲\n/hand>腰部高度\n/vd>向上\n/hd>向前\n/answer>在腰部高度弯曲手臂，将手掌大小的物体轻轻向上向前甩出。/answer>\n```json\n{\n    \"force\": \"非常弱\",\n    \"arm\": \"手臂弯曲\",\n    \"hand\": \"腰部高度\",\n    \"vd\": \"向上\",\n    \"hd\": \"向前\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:31:04.637594"
+    }
+  ]
+}

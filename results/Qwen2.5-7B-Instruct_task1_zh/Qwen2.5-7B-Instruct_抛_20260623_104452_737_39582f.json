@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T10:44:52.736897",
+  "duration_seconds": 5.41,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": ":\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n} 对于“抛”这个动作，假设你准备以最自然、最典型的方式执行，即轻轻地将手掌大小的物体向前投掷。那么，根据标准编码，可以这样描述：\n\n- 力量（FORCE）：由于是轻轻一抛，不是很强，所以选择3。\n- 手臂的初始状态（ARM）：开始时手臂应该是弯曲的，以便更好地控制力度和方向，因此选择0。\n- 手部初始高度（HAND）：因为要从桌面上拿起并投掷，所以手部高度应该在桌面附近，即地面高度以上但不高于执行者身高，选择1。\n- 主要垂直运动方向（VD）：因为是向前抛而不是向上或向下，所以选择0。\n- 主要水平运动方向（HD）：抛的动作主要是向前，所以选择1。\n\n综上所述：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:44:52.737085"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T12:05:32.549223",
+  "duration_seconds": 48.06,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```/json\n```json\n{\n    \"FORCE\": 3,\n    \"HAND\": 1,\n    \"ARM",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:05:32.549442"
+    }
+  ]
+}

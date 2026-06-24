@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T10:42:18.542742",
+  "duration_seconds": 5.49,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n} 你描述的动作是“甩”一个小手掌大小的物体。假设这个动作是以一种自然且典型的方式进行，即以手腕或手指的摆动来完成小物体的甩动。基于此，我们可以这样编码：\n\n- 力量（FORCE）：中等，因为只是轻轻甩动小物体，不会用很大的力气。\n- 起始的手臂状态（ARM）：弯曲，因为如果是伸直手臂甩动的话，不太符合自然的摆动手势。\n- 手部起始高度（HAND）：地面高度附近，因为物体在桌面上，手可以从桌面附近的水平位置开始。\n- 垂直运动方向（VD）：向上，因为甩动通常涉及向上挥动再向下挥动的动作。\n- 水平运动方向（HD）：向前，因为一般会朝着前方甩动物体。\n\n因此，编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:42:18.542946"
+    }
+  ]
+}

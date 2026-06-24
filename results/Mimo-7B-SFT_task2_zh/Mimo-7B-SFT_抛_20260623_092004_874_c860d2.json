@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "抛",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T09:20:04.874717",
+  "duration_seconds": 5.82,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "现在请根据上述指示，给出你的答案。\n\n示例：\n\n动作描述：\n手臂弯曲，接近地面，中等，向侧方，向下\n\n描述该动作：\n\n手臂弯曲，接近地面，中等力度，向侧方，向下\n\n示例：\n\n动作描述：\n手臂伸直，高于头部，非常强，向前，向上\n\n描述该动作：\n\n手臂伸直，高于头部，非常强力度，向前，水平方向，向上垂直方向\n\n示例：\n\n动作描述：\n手臂弯曲，肩部高度，弱，向侧方，向下\n\n描述该动作：\n\n手臂弯曲，肩部高度，弱力度，向侧方，水平方向，向下垂直方向\n\n现在，给出你的答案：\n\n动作描述：\n\n</think>\n\n手臂弯曲，胸部高度，中等，向前，向下\n\n描述该动作：\n\n手臂弯曲，胸部高度，中等力度，向前，水平方向，向下垂直方向\n\n（思考过程：右手抓起物体后，自然弯曲手臂从胸前向下抛出，力度中等，水平方向前，垂直方向下降。）",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:20:04.874952"
+    }
+  ]
+}

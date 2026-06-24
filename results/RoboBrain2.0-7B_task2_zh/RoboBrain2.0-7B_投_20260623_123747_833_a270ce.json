@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "投",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T12:37:47.833063",
+  "duration_seconds": 18.19,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>投</answer>\n<force>强</force>\n<arm>手臂伸直</arm>\n<hand>肩部高度</hand>\n<vd>向上</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂弯曲</arm>\n<hand>腰部高度</hand>\n<vd>向上</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂伸直</arm>\n<hand>胸部高度</hand>\n<vd>向上</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂弯曲</arm>\n<hand>胸部高度</hand>\n<vd>向上</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂伸直</arm>\n<hand>肩部高度</hand>\n<vd>向下</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂弯曲</arm>\n<hand>腰部高度</hand>\n<vd>向下</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂伸直</arm>\n<hand>胸部高度</hand>\n<vd>向下</vd>\n<hd>向前</hd>\n/answer>投</answer>\n<force>强</force>\n<arm>手臂弯曲</arm>\n<hand>胸部高度</hand>\n<vd>向下</vd>\n<hd>向前</hd>\n```json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂伸直\",\n    \"hand\": \"肩部高度\",\n    \"vd\": \"向上\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂弯曲\",\n    \"hand\": \"腰部高度\",\n    \"vd\": \"向上\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂伸直\",\n    \"hand\": \"胸部高度\",\n    \"vd\": \"向上\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂弯曲\",\n    \"hand\": \"胸部高度\",\n    \"vd\": \"向上\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂伸直\",\n    \"hand\": \"肩部高度\",\n    \"vd\": \"向下\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂弯曲\",\n    \"hand\": \"腰部高度\",\n    \"vd\": \"向下\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂伸直\",\n    \"hand\": \"胸部高度\",\n    \"vd\": \"向下\",\n    \"hd\": \"向前\"\n}\n``````json\n{\n    \"answer\": \"投\",\n    \"force\": \"强\",\n    \"arm\": \"手臂弯曲\",\n    \"hand\": \"胸部高度\",\n    \"vd\": \"向下\",\n    \"hd\": \"向前\"\n}\n```",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:37:29.639420"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:37:47.833248"
+    }
+  ]
+}

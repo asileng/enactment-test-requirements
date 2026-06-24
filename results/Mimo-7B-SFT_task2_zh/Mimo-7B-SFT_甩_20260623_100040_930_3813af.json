@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T10:00:40.930036",
+  "duration_seconds": 7.52,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "最终描述：\n\n初始手部高度：高于头部\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：向下\n\n示例描述：\n\n初始手部高度：接近地面\n手臂状态：手臂弯曲\n力度：强\n水平方向：向前\n垂直方向：向下\n\n示例描述：\n\n初始手部高度：肩部高度\n手臂状态：手臂伸直\n力度：中等\n水平方向：向侧方\n垂直方向：向上\n\n示例描述：\n\n初始手部高度：接近地面\n手臂状态：手臂弯曲\n力度：弱\n水平方向：无\n垂直方向：无\n\n注意：示例描述中的“向侧方”与“无”是根据动作特点确定的，不可随意替换。\n\n现在请根据上述要求，给出最终描述：\n\n初始手部高度：高于头部\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：向下\n\n</think>\n\n初始手部高度：高于头部\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：向下\n\n示例描述中的“向侧方”与“无”是根据动作特点确定的，不可随意替换。\nerdemcscs\n\n</think>\n\n初始手部高度：高于头部\n手臂状态：手臂弯曲\n力度：中等\n水平方向：向前\n垂直方向：向下",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:00:40.930204"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 8,
+  "timestamp": "2026-06-23T10:36:50.386733",
+  "duration_seconds": 5.8,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 由于你面对桌子，并且桌子上有一个手掌大小的物体，最自然和典型的方式是直接用手拿起并扔掉这个物体。根据这个场景，我们可以假设你用右手进行这个动作，因为你是右利手。在执行“扔”这个动作时，你可能会用手指握住物体，然后向后移动手臂准备扔出，再向前方扔出去。基于这些假设，我们可以这样编码：\n\n- 力量（FORCE）：中等，因为要将物体扔出，但不是非常用力。\n- 臂部（ARM）：初始状态下手臂是弯曲的，准备拿取物体。\n- 手部（HAND）：物体位于桌面，所以初始高度是地面高度+1。\n- 垂直方向（VD）：向上，因为你要抬起手臂来扔物体。\n- 水平方向（HD）：向前，因为你要向前扔出物体。\n\n因此，编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:36:50.386898"
+    }
+  ]
+}

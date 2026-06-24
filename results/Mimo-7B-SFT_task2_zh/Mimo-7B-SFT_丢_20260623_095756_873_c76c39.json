@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T09:57:56.873472",
+  "duration_seconds": 4.34,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "现在请根据上述指示，给出你的答案，遵循以下格式：\n\n{\n\"force\": \"描述\",\n\"arm\": \"描述\",\n\"hand\": \"描述\",\n\"vd\": \"描述\",\n\"hd\": \"描述\"\n}\n\n例如：\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"肩部高度\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}\n\n现在请根据上述指示，给出你的答案。\n\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"肩部高度\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}\n</think>\n\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"肩部高度\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:57:56.873644"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "抛",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T12:35:28.357925",
+  "duration_seconds": 0.59,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>肩部高度、手臂弯曲、强、向前、向上</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:35:28.358081"
+    }
+  ]
+}

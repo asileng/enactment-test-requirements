@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 5,
+  "timestamp": "2026-06-23T10:33:25.724654",
+  "duration_seconds": 4.48,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 2,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 0\n} 投掷动作通常涉及将物体从较低的高度向远处抛出。对于一个手掌大小的物体，力度不需要特别大，但要确保能准确地投掷出去。\n\n- **FORCE**: 中等力度，因为不是非常重的物体，但需要一定的力量来确保能够投掷出去。\n- **ARM**: 手臂弯曲，这样可以更好地控制力度和角度。\n- **HAND**: 在腰部左右的高度，这是投掷物体时手部的典型位置。\n- **VD**: 向下，因为投掷动作是从下向上进行的。\n- **HD**: 向前，因为目标通常是向前投掷。\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:33:25.724834"
+    }
+  ]
+}

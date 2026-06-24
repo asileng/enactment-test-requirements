@@ -1,0 +1,82 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T10:51:02.913827",
+  "duration_seconds": 43.29,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "手部高度：腰部高度\n手臂状态：手臂伸直\n力度：中等\n水平方向：向前\n垂直方向：向下\n\n向上抛掷物体。 中等力量将物体从腰部高度向前下方投出。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前\n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷物体。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷物体。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷物体。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷物体。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n向前下方投掷。 中等力量，手臂伸直，从腰部高度投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等力量，手臂伸直，从腰部高度向前下方投掷。 \nFORCE: 中等\nARM: 手臂伸直\nHAND: 腰部高度\nVD: 向下\nHD: 向前 \n\n投掷。 中等",
+  "retry_count": 10,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:14.060342"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:14.859460"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:16.125384"
+    },
+    {
+      "attempt": 4,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:16.578837"
+    },
+    {
+      "attempt": 5,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:17.254247"
+    },
+    {
+      "attempt": 6,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:17.666948"
+    },
+    {
+      "attempt": 7,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:18.700334"
+    },
+    {
+      "attempt": 8,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:19.104154"
+    },
+    {
+      "attempt": 9,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:50:19.623369"
+    },
+    {
+      "attempt": 10,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:51:02.914156"
+    }
+  ]
+}

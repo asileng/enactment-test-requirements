@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "throw",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T09:19:05.095540",
+  "duration_seconds": 8.92,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 12,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 12,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```</think>\n\n**Think:** The action is to \"throw\" a palm-sized object. As a right-handed native English speaker, the most natural way to throw an object would involve using the dominant hand (right hand), with an initial arm position that is extended for maximum force. The force should be moderate to ensure the object is thrown a reasonable distance. The hand starts at a height well above the table, likely near shoulder level or higher, to allow for a full throwing motion. The vertical direction of movement would primarily be upward to generate momentum, and the horizontal direction would be forward to propel the object toward a target.\n\n**Encoding:**\n- **FORCE:** Moderate (3) - enough to propel the object but not excessively strong.\n- **HAND:** Above shoulder height (12) - starting position allows for an upward and forward motion.\n- **ARM:** Extended (1) - to maximize force application.\n- **VD:** Upward (0) - primary movement is upward to generate throwing force.\n- **HD:** Forward (1) - primary movement is forward to direct the object toward a target.\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 12,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:19:05.095901"
+    }
+  ]
+}

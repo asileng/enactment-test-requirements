@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-23T09:39:22.269987",
+  "duration_seconds": 9.5,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向下\n\n描述：弯曲手臂从胸部高度向前扔，施加强力量向下。\n\n</think>\n\n初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向下\n\n描述：弯曲手臂从胸部高度向前扔，施加强力量向下。\nüyücüktür. Bu soruları anlamaya çalışsam:\n\n1. **Right-hand dominant**: Right-handed individuals typically throw with their dominant hand, which is more precise and powerful.  \n2. **Initial hand position**: The hand starts at chest height, a common starting point for throwing objects.  \n3. **Arm state**: The arm is bent, allowing for a quicker release and better control.  \n4. **Force**: A strong force is applied to throw the object farther.  \n5. **Horizontal direction**: The hand moves *forward* to propel the object.  \n6. **Vertical direction**: The hand moves *downward* to create spin and stability.  \n\nThe action is a typical overhand throw with a strong downward motion.  \n\n**Description**: 弯曲手臂从胸部高度向前扔，施加强力量向下。  \n**Translation**: *Throwing with bent arm from chest height forward, applying strong downward force.*  \n\nThis matches the physical principles of throwing: starting at chest height, bending the arm to build momentum, and releasing with a strong downward motion for accuracy and distance.\n</think>\n\n初始手部高度：胸部高度  \n手臂状态：手臂弯曲  \n力度：强  \n水平方向：向前  \n垂直方向：向下  \n\n描述：弯曲手臂从胸部高度向前扔，施加强力量向下。",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T09:39:12.767418"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:39:22.270175"
+    }
+  ]
+}

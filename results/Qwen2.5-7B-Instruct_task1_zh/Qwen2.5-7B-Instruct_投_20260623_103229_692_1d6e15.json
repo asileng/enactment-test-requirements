@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T10:32:29.692210",
+  "duration_seconds": 4.21,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 投掷一个手掌大小的物体通常是一种较强的、快速的动作。由于物体较小，力量不需要特别大，但需要一定的力量来确保物体能够准确投出。因此，可以将力量设定为3（中等）。初始状态下，手臂应该是弯曲的，这样可以更好地控制投掷动作。手部初始高度大约在身体的高度附近（10），因为从这个高度投掷比较自然。垂直运动方向是向下，以获得向上的抛物线；水平运动方向是向前，以确保物体能够沿着预期的方向飞行。\n\n所以，最终编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 10,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:32:29.692372"
+    }
+  ]
+}

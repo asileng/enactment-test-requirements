@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "cast",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T11:40:45.244540",
+  "duration_seconds": 0.32,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "weak",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "shoulder height, arm extended, weak, forward, downward",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:40:45.244719"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "丢",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T12:23:06.731920",
+  "duration_seconds": 48.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "膝盖高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从胸部高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"腰部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从腰部高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"中等\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至胸部高度，用中等力度向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"弱\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从胸部高度将手臂伸直，用弱力度向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"非常弱\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从胸部高度将手臂伸直，用非常弱的力度向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从肩部高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从头部高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至头部高度，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"膝盖高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从膝盖高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"膝盖高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至膝盖高度，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>\n```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"腰部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"从腰部高度将手臂伸直，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"腰部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至腰部高度，用力向下向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"从胸部高度将手臂伸直，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至胸部高度，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"从肩部高度将手臂伸直，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至肩部高度，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"从头部高度将手臂伸直，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至头部高度，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"膝盖高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"从膝盖高度将手臂伸直，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"膝盖高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至膝盖高度，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"腰部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"从腰部高度将手臂伸直，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"腰部高度\",\n    \"VD\": \"向前\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至腰部高度，用力向前将手掌大小的物体丢出。\"\n}\n```/answer>\n```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"从胸部高度将手臂伸直，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"胸部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至胸部高度，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"从肩部高度将手臂伸直，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至肩部高度，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"从头部高度将手臂伸直，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂弯曲\",\n    \"HAND\": \"头部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂弯曲至头部高度，用力向上向前将手掌大小的物体丢出。\"\n}\n```/answer>```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"膝盖高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"从膝盖高度将手臂伸",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:22:18.556805"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:23:06.732313"
+    }
+  ]
+}

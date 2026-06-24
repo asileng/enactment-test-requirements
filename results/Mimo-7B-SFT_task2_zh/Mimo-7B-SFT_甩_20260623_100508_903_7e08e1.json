@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T10:05:08.902760",
+  "duration_seconds": 2.14,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "现在，开始你的回答：\n\n</think>\n\n甩\n\n手臂弯曲，肩部高度，中等，向前，向下\n\n描述：手臂弯曲，肩部高度，中等，向前，向下\n/nothink\n</think>\n\n甩\n\n手臂弯曲，肩部高度，中等，向前，向下\n\n描述：手臂弯曲，肩部高度，中等，向前，向下\n/nothink",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:05:08.903030"
+    }
+  ]
+}

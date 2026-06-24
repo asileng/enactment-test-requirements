@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T10:54:52.895087",
+  "duration_seconds": 0.9,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "WD\n中等\nAR\n手臂弯曲\nHO\n腰部高度\nVD\n向下\nHD\n向前\n\n向前腰高处用手臂弯曲中等力量将物体扔向前方。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:54:52.895318"
+    }
+  ]
+}

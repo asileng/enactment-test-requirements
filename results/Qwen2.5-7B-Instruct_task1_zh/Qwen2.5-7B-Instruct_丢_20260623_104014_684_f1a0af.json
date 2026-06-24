@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T10:40:14.684489",
+  "duration_seconds": 4.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，你将要执行的是“丢”这个动作。从自然的角度来看，你会用一只手拿起桌子上的小物体并向下扔出去。考虑到你是一个右利手的中文母语者，你会用右手来完成这个动作。在这个过程中，你不会过分用力，而会用一个适度的力量将物体扔出。因此，编码中“FORCE”为3表示中等力量；“HAND”为1表示地面高度（因为你是在桌子上拿起来准备扔）；“ARM”为0表示手臂弯曲（因为需要拿起物品）；“VD”为1表示垂直方向是向下；“HD”为0表示水平方向是向前。\n\n所以最终的答案是：\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:40:14.684653"
+    }
+  ]
+}

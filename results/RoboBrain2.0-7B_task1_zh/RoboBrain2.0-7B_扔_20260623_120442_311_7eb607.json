@@ -1,0 +1,29 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "扔",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T12:04:42.311698",
+  "duration_seconds": 6.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "/\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```/no_think/\n\n---\n\n<answer>```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```</answer>",
+  "thinking": "面对一张桌子和一个手掌大小的物体，我的目标是将这个物体扔出去。由于这个物体很小且轻盈，所以我可能会用一个相对较小的力度来投掷它。在执行动作之前，我会确保手臂处于伸直状态以获得最大范围的运动。手部的初始高度大约在地面高度之上，可以使用10这个编码。在扔的过程中，手部将向上移动以增加物体的离心力。为了获得更好的控制和准确性，我会向前扔出，这是最典型的扔的动作。整个过程需要手臂从地面高度到最高点再到地面上的一个特定点。因此，基于这些因素，我确定了以下编码：{\"FORCE\": 2,\"HAND\": 10,\"ARM\": 1,\"VD\": 1,\"HD\": 1}。这是在这种情况下执行扔的最佳方式。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:04:42.311881"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T10:41:19.990658",
+  "duration_seconds": 5.59,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 丢的动作通常涉及将物体从一个较高的位置向地面投掷。因此，这个动作编码反映了这一典型过程。\n\n- `FORCE`: 中等力量，因为丢的动作既不太需要非常大的力量，也不太可能是轻飘飘地丢。\n- `ARM`: 动作开始前手臂应该是弯曲的，准备投掷。\n- `HAND`: 手在地面高度以上，因为在投掷之前，手应该是在物体上方。\n- `VD`: 向下，因为投掷的动作是将物体向下移动。\n- `HD`: 向前，因为通常我们会向前方向投掷物体，除非有特别的原因指向侧面。 但在这个情况下，我们没有具体的上下文说明，所以默认向前是最合理的。 如果是水平方向的话，可以改为0，但考虑到常见的投掷方向通常是向前的，所以设置为1。 \n\n综上所述，给出的JSON对象如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:41:19.990836"
+    }
+  ]
+}

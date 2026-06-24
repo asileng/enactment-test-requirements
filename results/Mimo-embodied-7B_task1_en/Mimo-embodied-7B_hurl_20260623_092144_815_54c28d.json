@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "hurl",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T09:21:44.815462",
+  "duration_seconds": 10.2,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 5,
+    "HAND": 10,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```</think>\n\n**Think**: A right-handed native English speaker is in an empty room. There's a palm-sized object on a table in front of them. They need to hurl it. \n\n**FORCE**: Hurling implies a strong, forceful action. \"5 = very strong\" fits best.\n\n**ARM**: To hurl, the arm starts extended to maximize reach and force. \"1 = arm extended\" is typical.\n\n**HAND**: The hand is at a natural height when grabbing an object on a table. Around the person's height, so \"10 = performer's height.\"\n\n**VD**: Hurling involves throwing upward to get the object airborne. \"0 = upward\" makes sense.\n\n**HD**: The primary horizontal direction is forward, toward the target. \"1 = forward.\"\n\n**Final Output**:\n\n```json\n{\n  \"FORCE\": 5,\n  \"HAND\": 10,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```\n\n**Explanation**:\n- **FORCE**: 5 (very strong) to match the high-energy action of hurling.\n- **HAND**: 10 (at performer's height) as the hand starts at a natural height when grabbing an object.\n- **ARM**: 1 (extended) to prepare for a powerful throw.\n- **VD**: 0 (upward) to lift the object into the air.\n- **HD**: 1 (forward) to propel the object toward a target.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:21:44.815758"
+    }
+  ]
+}

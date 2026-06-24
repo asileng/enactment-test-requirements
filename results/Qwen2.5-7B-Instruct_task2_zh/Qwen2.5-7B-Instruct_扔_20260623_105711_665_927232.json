@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T10:57:11.665323",
+  "duration_seconds": 43.56,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "ARM:手臂弯曲\nHAND:腰部高度\nFORCE:中等\nVD:向下\nHD:向前\n\n向前腰部高度手臂弯曲中等地向下扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n/no_think\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中等地向前扔\n向前腰部高度手臂弯曲中",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:57:11.665625"
+    }
+  ]
+}

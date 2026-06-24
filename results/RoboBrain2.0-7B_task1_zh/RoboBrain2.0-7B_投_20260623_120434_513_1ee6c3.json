@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "投",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T12:04:34.513674",
+  "duration_seconds": 1.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 6,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 6,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:04:34.513831"
+    }
+  ]
+}

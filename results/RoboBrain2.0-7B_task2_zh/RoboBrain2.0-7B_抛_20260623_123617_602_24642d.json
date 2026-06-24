@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "抛",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T12:36:17.602737",
+  "duration_seconds": 0.7,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/AI_answer/手臂伸直，位于肩部高度，以中等力度向上向前抛出手掌大小的物体。/",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:36:17.602929"
+    }
+  ]
+}

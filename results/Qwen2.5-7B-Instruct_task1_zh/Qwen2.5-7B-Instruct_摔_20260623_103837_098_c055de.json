@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T10:38:37.098021",
+  "duration_seconds": 4.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": ".json\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 换句话说，你将用一只手拿起桌子上物体然后用力扔向地面。这个解释更符合“摔”的自然含义。以下是编码：\n\n{\n  \"FORCE\": 4,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} \n\n这里的解释是：用力量较大的动作（4），从稍微高于地面的高度（1）用手（1）向下扔（1）。手臂保持弯曲（0），没有明显的向前或向侧面的动作（0）。注意，这里的高度是相对于地面的高度，而不是相对于人的身高。因为物体在桌子上，所以选择1来表示稍微高于地面的高度。力量较大是因为“摔”通常意味着用力。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:38:37.098188"
+    }
+  ]
+}

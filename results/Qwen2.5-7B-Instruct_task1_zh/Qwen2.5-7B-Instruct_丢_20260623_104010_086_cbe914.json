@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T10:40:10.085998",
+  "duration_seconds": 5.73,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 2,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述的动作“丢”，最自然和典型的执行方式是将物体从手中丢出去。考虑到你是一个右利手的中文母语者，并且站在空旷房间中面对一张桌子，最自然的动作应该是用右手轻轻拿起桌上的小物件，然后向后稍微伸出胳膊，再用适当的力量将物体向前下方丢出。\n\n- **FORCE**: 由于是轻轻丢出，所以力量适中，为3。\n- **ARM**: 动作开始前手臂应该是弯曲的，准备捡起物体，因此编码为0。\n- **HAND**: 物体被拿在手中，距离地面有一定高度，大约是2（地面高度与执行者身高之间的一个单位）。\n- **VD**: 动作主要的垂直运动方向是向下，因此编码为1。\n- **HD**: 动作主要的水平运动方向是向前，因此编码为1。\n\n综上所述，编码如下：\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:40:10.086168"
+    }
+  ]
+}

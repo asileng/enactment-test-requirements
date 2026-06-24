@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T10:34:15.008555",
+  "duration_seconds": 4.89,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": ".json\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n} 根据描述，最自然和最典型的投掷动作应该是这样的：从桌面拿起物体，用一只手将物体向前下方投出。考虑到这些因素，我们可以编码为：\n\n- **FORCE**: 中等力量，因为要将物体投出去，但不需要非常大力量。\n- **ARM**: 手臂弯曲，因为需要弯曲手臂以便拿起物体。\n- **HAND**: 物体在桌面附近，所以初始高度大约是地面高度与执行者身高的中间位置（如桌面）。\n- **VD**: 主要垂直运动方向向下，因为投掷时物体是向下抛的。\n- **HD**: 主要水平运动方向向前，因为投掷时通常是向前扔。\n\n因此，编码结果如下：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:34:15.008722"
+    }
+  ]
+}

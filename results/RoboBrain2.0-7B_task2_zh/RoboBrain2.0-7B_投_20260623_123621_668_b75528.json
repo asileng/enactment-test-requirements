@@ -1,0 +1,46 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "投",
+  "repeat_index": 0,
+  "timestamp": "2026-06-23T12:36:21.668592",
+  "duration_seconds": 0.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>肩部高度、手臂伸直、强、向前、向上</answer>",
+  "retry_count": 4,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:36:19.478081"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:36:20.444323"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:36:21.068119"
+    },
+    {
+      "attempt": 4,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:36:21.668748"
+    }
+  ]
+}

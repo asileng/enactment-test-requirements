@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "甩",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T12:27:19.960341",
+  "duration_seconds": 2.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>甩\n```json\n{\n    \"FORCE\": \"强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向上\",\n    \"HD\": \"向前\",\n    \"description\": \"手臂从肩部高度伸直，手腕自然下垂，手掌朝上，利用手臂的摆动甩动手中的物体。\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:27:19.960512"
+    }
+  ]
+}

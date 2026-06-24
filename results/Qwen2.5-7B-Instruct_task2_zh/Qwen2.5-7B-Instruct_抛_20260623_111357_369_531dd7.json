@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 8,
+  "timestamp": "2026-06-23T11:13:57.369474",
+  "duration_seconds": 1.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度\n手臂伸直\n强\n向前\n向上\n将手掌大小的物体向前上方抛出。 \n\n（注：由于“非常强”未出现在可选描述中，故选用“强”。）",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:13:55.857848"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:13:56.333221"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:13:57.369635"
+    }
+  ]
+}

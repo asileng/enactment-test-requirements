@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T11:14:40.738362",
+  "duration_seconds": 43.37,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度\n手臂伸直\n强\n向前\n向上\n将手从腰部高度伸出并向前上方抛出。 \n\n（注：原模板格式要求严格，但实际操作中可能存在不完全匹配的情况，故进行了适当调整以确保描述准确。） \n\n正确的描述应为：\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/no_change\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将手从肩部高度伸出并向前上方抛出物体。 \n/force_strong\n\n肩部高度\n手臂伸直\n强\n向前\n向上\n\n将",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:14:40.738651"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "抛",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T10:43:12.315695",
+  "duration_seconds": 3.76,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 4,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n} 在这个情境中，我选择了将手掌大小的物体向前抛出的动作。由于这是一个普通的抛物动作，力量适中，所以编码为3。我的手臂在开始动作时是弯曲的，因为需要先捡起物体，因此编码为0。手部的初始高度大约是膝盖的高度，所以编码为4。动作主要是向前的水平运动，所以HD编码为1。垂直运动方向是向上的，所以VD编码为0。综上所述，我给出的编码如下：\n\n{\n  \"FORCE\": 3,\n  \"HAND\": 4,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 1\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:43:12.315856"
+    }
+  ]
+}

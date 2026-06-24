@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T10:56:23.144623",
+  "duration_seconds": 0.85,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "ARM:手臂伸直\nHAND:腰部高度\nFORCE:中等\nHD:向前\nVD:向下\n\n向前腰部高度手臂伸直中等地将物体扔出。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:56:23.144792"
+    }
+  ]
+}

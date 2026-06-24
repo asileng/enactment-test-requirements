@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 8,
+  "timestamp": "2026-06-23T10:42:40.501216",
+  "duration_seconds": 4.78,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 你站在空旷的房间中，面前有一张桌子上放着一个手掌大小的物体。要“甩”这个物体，我通常会用手指夹住或抓住物体，然后快速将手臂挥动起来，让物体在空中飞出去。\n\n- **FORCE**: 动作强度中等，不需要太大力气，但也不是很轻柔。\n- **ARM**: 手臂是弯曲的，以便更好地控制物体并迅速挥动。\n- **HAND**: 手位于桌面附近，大约是在地面和你身高的中间位置。\n- **VD**: 主要是向上挥动，将物体甩出桌面。\n- **HD**: 主要是向前挥动，让物体飞向前方。\n\n所以编码为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:42:40.501385"
+    }
+  ]
+}

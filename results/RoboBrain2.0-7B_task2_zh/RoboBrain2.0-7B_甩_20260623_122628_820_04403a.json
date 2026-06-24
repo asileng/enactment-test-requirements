@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "甩",
+  "repeat_index": 0,
+  "timestamp": "2026-06-23T12:26:28.820784",
+  "duration_seconds": 1.7,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>非常强\n>手臂伸直\n>肩部高度\n>向上\n>向前\n>\n>将手掌大小的物体从桌子上甩开。<answer>非常强\n>手臂弯曲\n>肩部高度\n>向上\n>向前\n>\n>将手掌大小的物体从桌子上甩开。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:26:28.820954"
+    }
+  ]
+}

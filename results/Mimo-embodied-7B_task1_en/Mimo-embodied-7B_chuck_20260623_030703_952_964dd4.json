@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "chuck",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T03:07:03.951127",
+  "duration_seconds": 61.62,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 5,
+    "ARM": 1,
+    "HAND": 9,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 5,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```</think>\n\n**Think** tags removed. Final JSON output provided. \n\n```json\n{\n  \"FORCE\": 5,\n  \"ARM\": 1,\n  \"HAND\": 9,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T03:07:03.952171"
+    }
+  ]
+}

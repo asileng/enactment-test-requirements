@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T10:34:19.391823",
+  "duration_seconds": 4.38,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，我将使用典型的投掷方式来编码这个动作。通常情况下，投掷一个手掌大小的物体会用较弱的力量，手臂会保持弯曲状态，手部会在腰部或腹部高度，然后向下和向前进行投掷。\n\n因此，编码如下：\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 3,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n``` \n解释：\n- `FORCE`: 2（弱）\n- `HAND`: 3（地面高度与执行者身高之间的相对高度，约三分之一身高的位置）\n- `ARM`: 0（手臂弯曲）\n- `VD`: 1（向下）\n- `HD`: 1（向前） \n\n这个编码反映了典型的投掷动作。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:34:19.391985"
+    }
+  ]
+}

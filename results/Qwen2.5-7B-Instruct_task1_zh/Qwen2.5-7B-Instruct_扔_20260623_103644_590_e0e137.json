@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T10:36:44.590481",
+  "duration_seconds": 4.73,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 0,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 这个JSON对象表示的是将手掌大小的物体扔向前方的动作。基于右利手的自然习惯，我假设这个物体是右手可以轻松抓住的小物件，比如一个小球或者一块小石头。因此，编码如下： \n\n- 力量：3（中等，符合扔一个小物件的力度）\n- 起始手臂状态：0（手臂弯曲，准备抓住物体）\n- 起始手部高度：0（地面高度，假设是从地上捡起物品）\n- 垂直运动方向：1（向下，从地面拿起物体）\n- 水平运动方向：0（向前，扔出去的方向） \n\n所以，最终答案为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:36:44.590699"
+    }
+  ]
+}

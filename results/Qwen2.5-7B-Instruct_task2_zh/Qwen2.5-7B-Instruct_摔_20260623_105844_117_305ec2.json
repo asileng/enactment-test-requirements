@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 6,
+  "timestamp": "2026-06-23T10:58:44.117336",
+  "duration_seconds": 1.1,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度\n手臂伸直\n强\n向前\n向下\n\n用力向前下方扔出手中的物体。 <FORCE: 强, ARM:手臂伸直, HAND:肩部高度, HD:向前, VD:向下>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:58:44.117498"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T10:41:14.403790",
+  "duration_seconds": 3.38,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 丢的动作通常涉及到用一只手抓住物体，然后向后挥动以获得力量，再向前抛出。在这个描述中，我们假设动作是典型的，所以力量适中，手臂不是完全伸直而是稍微弯曲以便更好地控制抓握和投掷，手从低于肩膀的位置开始，主要垂直向下运动（因为是在桌面上），水平方向是向前。因此，编码如下：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:41:14.403949"
+    }
+  ]
+}

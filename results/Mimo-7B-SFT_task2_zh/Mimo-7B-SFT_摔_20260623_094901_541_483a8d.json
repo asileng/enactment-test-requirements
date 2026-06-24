@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "摔",
+  "repeat_index": 5,
+  "timestamp": "2026-06-23T09:49:01.540994",
+  "duration_seconds": 51.91,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "最终描述：\n\n手臂弯曲，接近地面，中等，向前，向下\n\n</think>\n\n手臂弯曲，接近地面，中等，向前，向下\n\n/nothink\n</think>\n\n手臂弯曲，接近地面，中等，向前，向下\n\n/nothink\n</think>\n\n手臂弯曲，接近地面，中等，向前，向下\n\n/nothink\n</think>\n\n手臂弯曲，接近桌面，中等，向侧，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近桌面，中等，向侧，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think>\n\n手臂弯曲，接近地面，中等，向侧方，向下\n\n/nthink\n</think",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:49:01.541285"
+    }
+  ]
+}

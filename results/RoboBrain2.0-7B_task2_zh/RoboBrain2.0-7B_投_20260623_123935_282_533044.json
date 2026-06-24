@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "投",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T12:39:35.282686",
+  "duration_seconds": 1.02,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>手臂弯曲，手部位于胸部高度，用力程度为强，水平方向向前，垂直方向向上。将手掌大小的物体投向远处。</answer>",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:39:34.267121"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:39:35.282863"
+    }
+  ]
+}

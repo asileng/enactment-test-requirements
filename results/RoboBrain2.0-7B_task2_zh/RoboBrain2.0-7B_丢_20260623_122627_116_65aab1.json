@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "丢",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T12:26:27.116266",
+  "duration_seconds": 1.22,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>手臂伸直，手部位于腰部高度，用力程度为强，主要垂直运动方向为向下，主要水平运动方向为向前。将手掌大小的物体从桌子上丢出去。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:26:27.116424"
+    }
+  ]
+}

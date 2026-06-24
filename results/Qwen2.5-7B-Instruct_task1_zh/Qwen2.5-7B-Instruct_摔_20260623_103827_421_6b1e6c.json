@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T10:38:27.421022",
+  "duration_seconds": 6.13,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 想象一下你正在准备用力将桌上一个小物体摔到地上。基于这些条件，你最自然的反应可能是拿起这个物体，并将其扔向地面。下面按照标准编码进行描述：\n\n- **FORCE**: 由于要将物体摔在地上，你施加的力量会比较强，但不会是极其强大的力量，所以编码为4（强）。\n- **ARM**: 动作开始前，你可能会稍微弯曲手臂以便更自然地拿起物体，因此编码为0（手臂弯曲）。\n- **HAND**: 你从桌面拿起物体，所以手部的高度应该是在桌面附近，即地面高度与执行者身高之间的相对高度，编码为1。\n- **VD**: 你将物体向下扔向地面，所以主要的垂直运动方向是向下，编码为1。\n- **HD**: 你没有特别向某个方向移动物体，只是单纯地将它摔在地上，因此水平运动方向可以视为无特定方向，编码为0。\n\n综上所述，输出的JSON对象为：\n\n```json\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:38:27.421186"
+    }
+  ]
+}

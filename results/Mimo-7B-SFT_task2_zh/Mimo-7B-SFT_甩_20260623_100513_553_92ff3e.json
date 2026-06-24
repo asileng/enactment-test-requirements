@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "甩",
+  "repeat_index": 8,
+  "timestamp": "2026-06-23T10:05:13.553017",
+  "duration_seconds": 4.65,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "最终描述：\n<请根据上述维度进行描述>\n\n初始手部高度：接近地面\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向侧方\n垂直方向：向下\n\n最终描述：\n\n\n</think>\n\n初始手部高度：接近地面\n手臂状态：手臂弯曲\n力度：弱\n水平方向：向侧方\n垂直方向：向下\n\n最终描述：向侧方挥动靠近地面的手臂，施加弱力向下\n\n（注：根据中文母语者的典型动作理解，\"甩\"在此语境下更符合轻幅度向侧摆动的特性。初始手部接近地面时，手臂自然弯曲形成扇形运动轨迹。力度较弱符合日常轻柔甩动的直觉，水平方向侧向与垂直方向下压的结合准确描述了手腕至手指的发力层次。）",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:05:13.553185"
+    }
+  ]
+}

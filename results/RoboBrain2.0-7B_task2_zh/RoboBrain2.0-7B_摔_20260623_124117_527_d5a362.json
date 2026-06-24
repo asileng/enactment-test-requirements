@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "摔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T12:41:17.527647",
+  "duration_seconds": 4.0,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>肩部高度</answer>\n/no_think/\n<think>在房间里，我面对一张桌子，桌子上放着一个手掌大小的物体。我的任务是用右利手去“摔”，这通常意味着用力地将物体从桌子上扔出去。\n\n为了完成这个任务，我需要考虑以下几个方面：手臂的状态、手的高度以及摔的动作的具体执行。首先，手臂应该伸直，以便能够最大限度地发挥力量。其次，手的高度应该是肩部高度，这样可以使手臂在水平方向上产生更大的冲击力。最后，摔的动作要以向下为主要垂直运动方向，并向前为主要水平方向。\n\n因此，根据以上分析，我的摔的动作描述如下：肩部高度，手臂伸直，力度强，水平方向向前，垂直方向向下。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:41:17.527813"
+    }
+  ]
+}

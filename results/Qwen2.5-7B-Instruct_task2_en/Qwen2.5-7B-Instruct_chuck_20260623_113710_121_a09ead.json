@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "chuck",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T11:37:10.121047",
+  "duration_seconds": 1.07,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "waist height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "arm extended, hand at waist height, force moderate, HD forward, VD downward /no_think\n\nYou extend your arm forward with your hand at waist height, apply moderate force, and move your hand downward. /no_think",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:37:10.121217"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "toss",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T12:59:59.820704",
+  "duration_seconds": 2.11,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "chest height",
+    "VD": "upward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/answerArm extended, hand at chest height, moderate force, forward, upward. Toss the palm-sized object by extending the arm fully with the hand positioned at chest height, applying moderate force to send it forward while simultaneously lifting it upward in a smooth, coordinated motion. The arm should remain extended throughout the action as the hand propels the object upwards and outwards. This method ensures an efficient and controlled toss. \n</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:59:59.820886"
+    }
+  ]
+}

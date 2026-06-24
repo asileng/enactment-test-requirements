@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-06-23T10:40:03.545796",
+  "duration_seconds": 4.91,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 2,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 由于“丢”这个动作通常需要一定的力量，并且通常从较高的位置向下投掷，我选择了这些参数。这里的具体解释如下：\n- `FORCE`: 中等力量，因为“丢”一般不是非常用力的动作，但也不是很轻。\n- `HAND`: 地面高度到执行者身高的范围内（2），因为从一个合理的高度来投掷物体是最常见的。\n- `ARM`: 手臂弯曲（0），因为在准备投掷的时候，手臂通常是弯曲的。\n- `VD`: 向下（1），因为这是最常见的投掷方向。\n- `HD`: 向前（0），因为我们通常会将物体直接向地面或某个方向投掷，而不是横向移动后投掷。 \n\n所以最终编码为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:40:03.545962"
+    }
+  ]
+}

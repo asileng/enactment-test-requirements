@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T10:32:35.095460",
+  "duration_seconds": 5.4,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 0,
+    "HAND": 2,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 0\n} 想象一下你在一个空旷的房间里，面前有一张桌子上放着一个小物体。要完成“投”这个动作，你会用右手拿起这个小物体，然后向前上方挥动手臂，将物体投出去。以下是根据这个描述的编码：\n\n- **FORCE**: 中等力量，因为投掷的动作需要一定的力气，但不是非常强烈。\n- **ARM**: 动作开始时手臂是弯曲的，因为你需要用手指握紧物体，然后再挥动手臂。\n- **HAND**: 手部在准备投掷时会位于距离地面约膝盖的高度（即2）。\n- **VD**: 主要垂直运动方向是向下，因为当你挥动手臂向前投掷时，手部会从上向下移动。\n- **HD**: 主要水平运动方向是向前，因为投掷的方向通常是向前。\n\n所以编码为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 0,\n  \"HAND\": 2,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:32:35.095684"
+    }
+  ]
+}

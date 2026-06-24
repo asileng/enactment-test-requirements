@@ -1,0 +1,46 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T11:00:24.305921",
+  "duration_seconds": 1.05,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向上\n 握住物体，从腰部高度向前上方甩动。",
+  "retry_count": 4,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:00:22.264487"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:00:22.793837"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:00:23.251671"
+    },
+    {
+      "attempt": 4,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:00:24.306079"
+    }
+  ]
+}

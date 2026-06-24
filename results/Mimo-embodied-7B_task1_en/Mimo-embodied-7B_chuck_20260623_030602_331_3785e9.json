@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "chuck",
+  "repeat_index": 0,
+  "timestamp": "2026-06-23T03:06:02.330812",
+  "duration_seconds": 85.16,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 5,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```</think>\n\n**Note:** The assistant provided a JSON object based on the given action coding standard. The assistant considered the most typical way a right-handed native English speaker would perform the action of \"chucking\" a palm-sized object in an empty room. The encoding values were determined by analyzing the force, arm position, hand height, vertical direction of movement, and horizontal direction of movement involved in the action. The final JSON object is provided as requested.\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 5,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T03:06:02.331383"
+    }
+  ]
+}

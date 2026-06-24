@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "chuck",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T03:07:50.172996",
+  "duration_seconds": 46.22,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "ARM": 1,
+    "HAND": 10,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "4\n</think>\n\n```json\n{\n  \"FORCE\": 3,\n  \"ARM\": 1,\n  \"HAND\": 10,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T03:07:50.173549"
+    }
+  ]
+}

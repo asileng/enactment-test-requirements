@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "cast",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T11:40:48.698368",
+  "duration_seconds": 1.44,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "weak",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "shoulder height\narm extended\nweak\nforward\ndownward\nTo cast a palm-sized object in a way that is most natural and typical for a right-handed person, the action would be performed with the hand starting at shoulder height, the arm extended, using a weak force, moving forward, and in a downward direction.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:40:48.698546"
+    }
+  ]
+}

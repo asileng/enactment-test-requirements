@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "丢",
+  "repeat_index": 0,
+  "timestamp": "2026-06-23T10:58:47.757195",
+  "duration_seconds": 0.89,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "弱",
+    "ARM": "手臂弯曲",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "WD\n非常弱\nAR\n手臂弯曲\nHA\n腰部高度\nVD\n向下\nHD\n向前\n\n向前腰部高度手臂弯曲非常弱地将物体向前下方轻轻丢出。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:58:47.757372"
+    }
+  ]
+}

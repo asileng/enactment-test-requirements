@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T10:35:56.329673",
+  "duration_seconds": 5.17,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述，你站在一个空旷的房间里，面前有一张桌子上，桌上有一个手掌大小的物体。目标是“扔”这个物体。最自然和典型的方式是用手拿起物体并向前扔出去。以下是每个维度的解释：\n\n- **FORCE**: 使用中等力量来扔物体，既不过于轻柔也不过于猛烈。\n- **ARM**: 动作开始前手臂弯曲，以便更好地抓住物体并准备投掷。\n- **HAND**: 手部从桌面的高度开始，然后向上移动到高于地面的高度，准备投掷。\n- **VD**: 手部主要做垂直向下的运动，因为是从桌面扔向地面。\n- **HD**: 手部主要做向前的水平运动，因为是要向前扔出物体。\n\n所以最终编码为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:35:56.329834"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 6,
+  "timestamp": "2026-06-23T10:42:29.853705",
+  "duration_seconds": 4.85,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 0,\n  \"HD\": 0\n} 这个JSON对象描述了一个典型的甩动动作，根据右利手中文母语者的自然动作习惯进行编码。具体解释如下：\n\n- **FORCE**: 3。这个动作是将手掌大小的物体从手中甩出去，力量适中。\n- **HAND**: 1。起始高度位于地面高度，表示手是从桌面或者略低于桌面的高度开始动作。\n- **ARM**: 0。手臂在甩动前是弯曲的，准备做甩动的动作。\n- **VD**: 0。主要的垂直运动方向是向上的，因为是在向上甩动。\n- **HD**: 0。主要的水平运动方向是向前的，因为是在桌面上操作，所以是向前甩动。 \n\n由于甩动是一个综合性的动作，包含了垂直和水平方向的运动，但这里主要强调的是从桌面向上向前甩动。因此，这个编码能够准确地反映这种自然的甩动动作。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:42:29.853958"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "摔",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T12:41:11.113980",
+  "duration_seconds": 2.71,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>非常强</FORCE><ARM>手臂伸直</ARM><HAND>肩部高度</HAND><VD>向下</VD><HD>向前</HD><answer>从肩部高度伸直手臂向前甩出，以非常强的力度将手掌大小的物体摔在桌上。</answer>\n```json\n{\n    \"FORCE\": \"非常强\",\n    \"ARM\": \"手臂伸直\",\n    \"HAND\": \"肩部高度\",\n    \"VD\": \"向下\",\n    \"HD\": \"向前\"\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:41:11.114148"
+    }
+  ]
+}

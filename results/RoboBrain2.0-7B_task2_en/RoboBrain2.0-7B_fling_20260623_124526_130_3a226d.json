@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "fling",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T12:45:26.129957",
+  "duration_seconds": 0.77,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "strong",
+    "ARM": "arm bent",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/answer\n<answer>arm bent, hand at shoulder height, apply strong force downward with a forward horizontal direction.</answer>",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:45:25.358010"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:45:26.130127"
+    }
+  ]
+}

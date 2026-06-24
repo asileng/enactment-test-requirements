@@ -1,0 +1,40 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "hurl",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T12:54:30.298732",
+  "duration_seconds": 2.34,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>Arm extended, hand at shoulder height, applying moderate force with a downward and forward motion. Hurling the palm-sized object requires a swift, powerful throw using the whole arm's strength, starting from the shoulder. This action is performed in an empty room with no obstacles. The hand's initial height is near the shoulder, facilitating a smooth arc as it moves forward and downward. This typical action aligns with throwing objects like sports balls or small gadgets. \n</answer>",
+  "retry_count": 3,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:54:27.362348"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:54:27.953440"
+    },
+    {
+      "attempt": 3,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:54:30.298892"
+    }
+  ]
+}

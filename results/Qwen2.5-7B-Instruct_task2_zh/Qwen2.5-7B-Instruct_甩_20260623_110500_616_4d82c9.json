@@ -1,0 +1,76 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T11:05:00.616537",
+  "duration_seconds": 0.64,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度\n手臂伸直\n强\n向侧方\n向上\n将手掌大小的物体用力向侧面甩起。",
+  "retry_count": 9,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:03:26.080524"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:03:27.111786"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:03:30.870604"
+    },
+    {
+      "attempt": 4,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:03:31.789582"
+    },
+    {
+      "attempt": 5,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:03:32.382810"
+    },
+    {
+      "attempt": 6,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:04:15.752923"
+    },
+    {
+      "attempt": 7,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:04:59.432927"
+    },
+    {
+      "attempt": 8,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T11:04:59.980020"
+    },
+    {
+      "attempt": 9,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:05:00.616703"
+    }
+  ]
+}

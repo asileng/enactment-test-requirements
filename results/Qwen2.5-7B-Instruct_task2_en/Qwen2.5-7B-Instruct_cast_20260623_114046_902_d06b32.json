@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "cast",
+  "repeat_index": 9,
+  "timestamp": "2026-06-23T11:40:46.902400",
+  "duration_seconds": 0.91,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "arm extended, hand at shoulder height, moderate force, forward, downward\n/cast palm-sized object forward and downward with moderate force using the right hand, starting from shoulder height and extending the arm forward.",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:40:46.902567"
+    }
+  ]
+}

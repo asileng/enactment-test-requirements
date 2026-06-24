@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "chuck",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T12:46:29.140675",
+  "duration_seconds": 0.73,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "very strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/chuck\n```scss\n<answer>arm extended, shoulder height, very strong, forward, downward</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:46:29.140834"
+    }
+  ]
+}

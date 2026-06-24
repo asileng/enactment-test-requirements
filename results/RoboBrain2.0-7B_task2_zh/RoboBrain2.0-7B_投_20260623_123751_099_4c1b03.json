@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "投",
+  "repeat_index": 5,
+  "timestamp": "2026-06-23T12:37:51.099449",
+  "duration_seconds": 1.48,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>投<answer>手臂伸直</answer><answer>腰部高度</answer><answer>向上</answer><answer>向前</answer><answer>非常强</answer><answer>我将手臂伸直，将手掌大小的物体向前上方投掷出去。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:37:51.099615"
+    }
+  ]
+}

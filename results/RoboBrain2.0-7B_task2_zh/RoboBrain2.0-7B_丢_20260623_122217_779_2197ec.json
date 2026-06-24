@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "丢",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T12:22:17.779383",
+  "duration_seconds": 3.52,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向上",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/answer>在空旷房间里，我面对一张桌子，桌子上有一个手掌大小的物体。要完成“丢”这个动作，我首先会将我的手臂伸直，确保能够有力地推动物体。手部的初始高度大约是在腰部高度。当我准备丢物体时，我将其向上推出，同时保持手臂伸直。在这个过程中，我使用中等力量来确保物体能够被有效地抛出。由于这是一个手掌大小的物体，因此不需要特别大的力就能将其成功丢出。所以，总的描述是：手臂伸直、腰部高度、中等力度、向前、向上。这代表了典型的右利手在丢物时的自然动作方式。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:22:17.779552"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "throw",
+  "repeat_index": 1,
+  "timestamp": "2026-06-23T09:18:52.023460",
+  "duration_seconds": 4.66,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 9,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```</think>\n\n**thinking**: A native English speaker would typically use moderate force to throw a small object like a stone. The arm would be extended to generate momentum, and the hand would be at chest height (around 9). The vertical direction would be upward to lift the object, and the horizontal direction would be forward to propel it across the room.\n\n**output**:\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 9,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:18:52.023707"
+    }
+  ]
+}

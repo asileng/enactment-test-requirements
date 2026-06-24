@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "摔",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T10:38:41.742519",
+  "duration_seconds": 4.64,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "HAND": 0,
+    "ARM": 1,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": ".json\n{\n  \"FORCE\": 4,\n  \"HAND\": 0,\n  \"ARM\": 1,\n  \"VD\": 1,\n  \"HD\": 0\n} 要执行“摔”这个动作，最自然和典型的方式是用手拿起桌面上的对象并将其用力扔向地面。基于这种理解，可以这样编码：\n\n- **FORCE**: 力量应该比较大，但不是非常强，所以选择4。\n- **ARM**: 动作开始时手臂是弯曲的，准备拿起物体，因此选择0。\n- **HAND**: 手部初始高度在地面高度附近，即桌面高度，因此选择0。\n- **VD**: 主要垂直运动方向是向下，因此选择1。\n- **HD**: 主要水平运动方向是向前，即朝向桌子的方向，因此选择0。\n\n所以最终编码为：\n\n```json\n{\n  \"FORCE\": 4,\n  \"HAND\": 0,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:38:41.742684"
+    }
+  ]
+}

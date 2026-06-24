@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "扔",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T12:39:50.486922",
+  "duration_seconds": 0.95,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>手臂伸直，手腕放松，从腰部高度开始，向下的力量逐渐增强，最终以向前的水平方向将物体推出。</answer>",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:39:49.537445"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:39:50.487098"
+    }
+  ]
+}

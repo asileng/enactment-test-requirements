@@ -1,0 +1,34 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "throw",
+  "repeat_index": 2,
+  "timestamp": "2026-06-23T12:53:17.707796",
+  "duration_seconds": 1.24,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "moderate",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/answer Arm extended, hand at shoulder height, moderate force, forward, downward. I will extend my right arm, position my hand at shoulder height, apply a moderate amount of force, and throw the object forward with a downward motion.\n</answer>",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T12:53:16.464846"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:53:17.707962"
+    }
+  ]
+}

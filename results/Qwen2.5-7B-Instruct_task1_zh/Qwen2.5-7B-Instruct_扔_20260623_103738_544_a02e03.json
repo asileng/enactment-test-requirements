@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "扔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T10:37:38.544220",
+  "duration_seconds": 4.52,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 2,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 在这种情况下，我们会以一种典型的、自然的方式来执行“扔”这个动作。假设我们想要将手掌大小的物体扔到桌子上，我们可能会在桌面附近将物体轻轻抛出。\n\n- **FORCE**: 力量适中，因为只是轻轻一扔。\n- **ARM**: 手臂弯曲，因为在准备动作时可能会稍微弯曲手臂来获得更好的投掷角度。\n- **HAND**: 手位于桌面附近，高度大约是2（地面高度与身高的相对位置）。\n- **VD**: 垂直方向是向下的。\n- **HD**: 水平方向是向前的。\n\n因此，编码如下：\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:37:38.544377"
+    }
+  ]
+}

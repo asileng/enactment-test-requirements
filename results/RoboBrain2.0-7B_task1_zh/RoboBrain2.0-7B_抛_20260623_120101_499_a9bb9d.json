@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "抛",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T12:01:01.499277",
+  "duration_seconds": 48.04,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 1,
+    "ARM": 1,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "/reply\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/reply\n\n这是一个右利手的中文母语者在空旷房间里对手掌大小的物体执行“抛”动作的情景。在执行这个动作之前，需要确定物体的位置和自己的姿势。从描述中得知，物体位于桌子的中央，而我作为右利手的人，应该站在物体一侧，以便能够用右手来进行投掷。\n\n对于“抛”这个动作而言，使用右手是最常见的选择，因为右利手的人大多数情况下会使用右手进行投掷。在这种情况下，右手将被用来控制物体，并通过手腕和手指的力量来使物体离开发射器。\n\n在进行“抛”的过程中，手臂需要弯曲，这样可以更好地控制物体的运动。此外，手部需要停在一定的高度，这通常是根据物体的大小和重量来决定的。在这个例子中，由于物体很小，所以手部可以停在一个比较低的高度，这通常是在肩膀高度左右。\n\n至于垂直和水平的运动方向，根据物体的大小和形状，“抛”的主要垂直运动方向是向上的，而水平运动方向则是向前的。这是因为物体需要被向上提起并向前推出，以便能够获得足够的距离和速度。\n\n因此，在这种情景下，“抛”这个动作的编码为：{\"FORCE\": 2,\"HAND\": 1,\"ARM\": 1,\"VD\": 0,\"HD\": 1}。这个编码表示了使用右手进行投掷，手臂弯曲，手部停在肩膀高度，垂直运动方向向上，水平运动方向向前。这是一种典型的右利手“抛”动作。```json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 1,\n  \"ARM\": 1,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```/json\n```json\n{",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:01:01.499602"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "摔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T12:44:05.192638",
+  "duration_seconds": 48.35,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "非常强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "/\n/<answer>手臂伸直、手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```\n\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂伸直</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>  <answer>向前</answer>  <answer>用右拳将手掌大小的物体用力拍打到地上</answer>\n```<answer>手臂弯曲</answer>  <answer>非常强</answer>  <answer>肩部高度</answer>  <answer>向下</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:44:05.192942"
+    }
+  ]
+}

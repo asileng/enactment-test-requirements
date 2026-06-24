@@ -1,0 +1,52 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 7,
+  "timestamp": "2026-06-23T10:54:49.788829",
+  "duration_seconds": 43.07,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂伸直",
+    "HAND": "腰部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向下投掷腰部高度的手臂，力量适中地向前。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前提掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向下\n\n向前下方投掷腰部高度的手臂，力量适中。 /no_think\n/no_think\n HAND: 腰部高度\n ARM: 手臂伸直\n FORCE: 中等\n HD: 向前\n VD: 向",
+  "retry_count": 5,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:54:05.101241"
+    },
+    {
+      "attempt": 2,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:54:05.629601"
+    },
+    {
+      "attempt": 3,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:54:06.306850"
+    },
+    {
+      "attempt": 4,
+      "is_valid": false,
+      "error_type": "E104",
+      "timestamp": "2026-06-23T10:54:06.717705"
+    },
+    {
+      "attempt": 5,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:54:49.789015"
+    }
+  ]
+}

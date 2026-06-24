@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "投",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T10:34:24.407315",
+  "duration_seconds": 5.01,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 2,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 2,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 根据描述的情景和动作，假设这是一个典型的“投掷”动作。在这种情况下，动作应该是向前下方投掷，使用右手（因为你是右利手），力量适中，并且从高于身体高度处开始动作。\n\n- **FORCE**: 中等力度的投掷，所以编码为3。\n- **ARM**: 通常在投掷时，手臂会伸直准备投掷，所以编码为0。\n- **HAND**: 从高于身体的高度开始投掷，所以编码为11（高于执行者身高一个单位）。\n- **VD**: 投掷的动作是向下的，所以编码为1。\n- **HD**: 动作主要向前进行，所以编码为1。\n\n因此，最终输出的JSON对象为：\n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 11,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:34:24.407482"
+    }
+  ]
+}

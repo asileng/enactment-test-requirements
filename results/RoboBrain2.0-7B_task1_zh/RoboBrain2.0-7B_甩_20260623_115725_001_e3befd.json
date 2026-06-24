@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "甩",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T11:57:25.001519",
+  "duration_seconds": 2.55,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 2,
+    "HAND": 9,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "/\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```/no_think/\n\n我需要帮助吗？<answer>不用</answer>\n```json\n{\n  \"FORCE\": 2,\n  \"HAND\": 9,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 1\n}\n```<answer>明白了。</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:57:25.001687"
+    }
+  ]
+}

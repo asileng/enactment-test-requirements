@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T10:42:54.179439",
+  "duration_seconds": 6.11,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 3,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 1,
+    "HD": 0
+  },
+  "error_type": null,
+  "raw_response": "{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n} 这个 JSON 对象表示的是一个典型的甩动动作，基于一个右利手的中文母语者的自然反应。以下是每个参数的具体解释：\n\n- **FORCE: 3**：这个数值表示中等力量的甩动，既不是非常强也不是非常弱。\n- **HAND: 1**：表示手部在初始状态下位于地面高度以上约一单位的位置，即大约是腰部的高度。\n- **ARM: 0**：表示手臂在动作开始前是弯曲的状态。\n- **VD: 1**：表示主要的垂直运动方向是向下。\n- **HD: 0**：表示主要的水平运动方向是向前。\n\n这种描述符合将手掌大小的物体从腰部高度向前下方甩出的动作。在这个场景中，甩动物体时通常会用到中等力度，并且手臂是从弯曲变为伸直的过程。这样的动作可以在日常生活中频繁看到，比如甩掉衣物上的灰尘或者在体育活动中甩动某个物品。因此，该编码是合理且典型的。 \n\n```json\n{\n  \"FORCE\": 3,\n  \"HAND\": 1,\n  \"ARM\": 0,\n  \"VD\": 1,\n  \"HD\": 0\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T10:42:54.179613"
+    }
+  ]
+}

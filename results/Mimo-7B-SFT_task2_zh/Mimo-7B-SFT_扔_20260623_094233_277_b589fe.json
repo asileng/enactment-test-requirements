@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T09:42:33.277272",
+  "duration_seconds": 4.33,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：中等\n\n水平方向：向前\n\n垂直方向：向下\n\n扔的动作通常涉及将手臂弯曲，从胸部高度开始，向前并向下挥动。因此，初始手部高度是胸部高度，手臂状态是弯曲，力度是中等，水平方向是向前，垂直方向是向下。\n</think>\n\n初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：中等\n\n水平方向：向前\n\n垂直方向：向下\n\n典型情况下，右利手者执行“扔”动作时，会先弯曲手臂，从胸部高度开始，以中等力度向前并向下挥动手腕，将物体抛出。这一过程以最自然的轨迹完成，确保力量有效传递至目标物体。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:42:33.277435"
+    }
+  ]
+}

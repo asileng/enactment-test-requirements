@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Qwen2.5-7B-Instruct",
+  "model_path": "/home/xitongzhang/models/Qwen2.5-7B-Instruct",
+  "verb": "甩",
+  "repeat_index": 3,
+  "timestamp": "2026-06-23T11:01:12.509436",
+  "duration_seconds": 0.93,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂伸直",
+    "HAND": "肩部高度",
+    "VD": "向上",
+    "HD": "向侧方"
+  },
+  "error_type": null,
+  "raw_response": "肩部高度\n手臂伸直\n强\n向侧方\n向上\n\n先将手抬至肩部高度，手臂伸直，然后用力向侧方甩动，手部向上运动。",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T11:01:12.509601"
+    }
+  ]
+}

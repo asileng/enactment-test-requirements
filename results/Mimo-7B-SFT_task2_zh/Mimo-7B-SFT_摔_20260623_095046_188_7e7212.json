@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "摔",
+  "repeat_index": 10,
+  "timestamp": "2026-06-23T09:50:46.187881",
+  "duration_seconds": 4.18,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "中等",
+    "ARM": "手臂弯曲",
+    "HAND": "接近地面",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "现在请根据上述描述，将答案填写在以下模板中：\n\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"接近地面\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}\n\n注意：请在每个维度中选择最合适的选项。若不确定，应选择最可能的选项，而不是随机选择。\n\n现在请根据上述描述，将答案填写在以下模板中：\n\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"接近地面\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}\n\n</think>\n\n{\n\"force\": \"中等\",\n\"arm\": \"手臂弯曲\",\n\"hand\": \"接近地面\",\n\"vd\": \"向下\",\n\"hd\": \"向前\"\n}",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:50:46.188044"
+    }
+  ]
+}

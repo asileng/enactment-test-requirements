@@ -1,0 +1,28 @@
+{
+  "task_id": "task1",
+  "model": "Mimo-embodied-7B",
+  "model_path": "/home/xitongzhang/models/Mimo-embodied-7B",
+  "verb": "hurl",
+  "repeat_index": 5,
+  "timestamp": "2026-06-23T09:21:52.554131",
+  "duration_seconds": 7.74,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 4,
+    "ARM": 0,
+    "HAND": 10,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "think>\n\n```json\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```</think>\n\n**thinking:** The action is \"hurl,\" which implies throwing something with significant force. As a right-handed native English speaker, the most natural way to hurl a palm-sized object would involve using the dominant hand (right) with a strong force. The arm would start in a bent position (0) to allow for a quick, forceful motion. The hand would likely be at a height around the performer's shoulder level (around 8-9, but the standard only goes up to 12, so I'll choose 10 as a reasonable estimate). The vertical direction (VD) would be upward (0) to propel the object into the air, and the horizontal direction (HD) would be forward (1) to send it away from the body. The force level (FORCE) should be high to match the action of hurling.\n\n**Final Answer:**\n```json\n{\n  \"FORCE\": 4,\n  \"ARM\": 0,\n  \"HAND\": 10,\n  \"VD\": 0,\n  \"HD\": 1\n}\n```",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:21:52.554311"
+    }
+  ]
+}

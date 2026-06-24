@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "fling",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T12:45:26.867999",
+  "duration_seconds": 0.74,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "very strong",
+    "ARM": "arm extended",
+    "HAND": "shoulder height",
+    "VD": "downward",
+    "HD": "forward"
+  },
+  "error_type": null,
+  "raw_response": "/\n<answer>Arm extended, hand at shoulder height, applying very strong force with a downward and forward movement.</answer>",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:45:26.868174"
+    }
+  ]
+}

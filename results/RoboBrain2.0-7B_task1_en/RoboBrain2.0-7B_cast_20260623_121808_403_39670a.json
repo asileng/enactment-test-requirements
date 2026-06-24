@@ -1,0 +1,34 @@
+{
+  "task_id": "task1",
+  "model": "RoboBrain2.0-7B",
+  "model_path": "/home/xitongzhang/models/RoboBrain2.0-7B",
+  "verb": "cast",
+  "repeat_index": 4,
+  "timestamp": "2026-06-23T12:18:08.403560",
+  "duration_seconds": 1.05,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": 1,
+    "HAND": 1,
+    "ARM": 0,
+    "VD": 0,
+    "HD": 1
+  },
+  "error_type": null,
+  "raw_response": "```json\n{\n    \"FORCE\": 1,\n    \"HAND\": 1,\n    \"ARM\": 0,\n    \"VD\": 0,\n    \"HD\": 1\n}\n```",
+  "retry_count": 2,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": false,
+      "error_type": "E103",
+      "timestamp": "2026-06-23T12:18:07.354077"
+    },
+    {
+      "attempt": 2,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T12:18:08.403731"
+    }
+  ]
+}

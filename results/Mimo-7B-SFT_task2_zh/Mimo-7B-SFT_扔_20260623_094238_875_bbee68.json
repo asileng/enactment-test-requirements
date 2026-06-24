@@ -1,0 +1,28 @@
+{
+  "task_id": "task2",
+  "model": "Mimo-7B-SFT",
+  "model_path": "/home/xitongzhang/models/Mimo-7B-SFT",
+  "verb": "扔",
+  "repeat_index": 11,
+  "timestamp": "2026-06-23T09:42:38.874957",
+  "duration_seconds": 5.6,
+  "is_valid": true,
+  "parsed_result": {
+    "FORCE": "强",
+    "ARM": "手臂弯曲",
+    "HAND": "胸部高度",
+    "VD": "向下",
+    "HD": "向前"
+  },
+  "error_type": null,
+  "raw_response": "初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向下\n\n扔的动作通常是通过弯曲手臂，将物品从胸部高度向前挥动，同时向下释放，从而将物体抛出。\n\n</think>\n\n初始手部高度：胸部高度\n\n手臂状态：手臂弯曲\n\n力度：强\n\n水平方向：向前\n\n垂直方向：向下\n\n想象你是一个右利手的人，在空旷的房间里，你面前有一张桌子，桌面上有一个手掌大小的物体。要执行“扔”的动作，最自然的方式是将手臂弯曲，手部保持在胸部高度，然后向前并向下挥动，用较大的力度将物体抛出。这一动作的关键在于通过弯曲手臂调整力量，同时向前和向下的水平与垂直结合，确保物体准确飞向目标。所有维度均符合典型“扔”的动作特征。 \n\n初始手部高度：胸部高度\n手臂状态：手臂弯曲\n力度：强\n水平方向：向前\n垂直方向：向下",
+  "retry_count": 1,
+  "retry_history": [
+    {
+      "attempt": 1,
+      "is_valid": true,
+      "error_type": null,
+      "timestamp": "2026-06-23T09:42:38.875130"
+    }
+  ]
+}
